@@ -3,20 +3,20 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="baidu-site-verification" content="LsFfix99j9" />
-<link href="http://img.t.sinajs.cn/t5/style/css/module/base/frame.css?version=201504221220" type="text/css" rel="stylesheet" />
-<link href="http://img.t.sinajs.cn/t5/style/css/pages/register/register.css?version=201504221220" type="text/css" rel="stylesheet" />
-<link href="http://img.t.sinajs.cn/t5/style/css/patch/register/login.css?version=201504221220" type="text/css" rel="stylesheet" />
+<link href="http://img.t.sinajs.cn/t5/style/css/module/base/frame.css?version=201504230245" type="text/css" rel="stylesheet" />
+<link href="http://img.t.sinajs.cn/t5/style/css/pages/register/register.css?version=201504230245" type="text/css" rel="stylesheet" />
+<link href="http://img.t.sinajs.cn/t5/style/css/patch/register/login.css?version=201504230245" type="text/css" rel="stylesheet" />
 <title>微博-随时随地发现新鲜事</title>
 <script type="text/javascript">
 var $CONFIG = {};
 $CONFIG['islogin'] = '0';
-$CONFIG['version'] = '201504221220';
-$CONFIG['timeDiff'] = (new Date() - 1429676410000);
+$CONFIG['version'] = '201504230245';
+$CONFIG['timeDiff'] = (new Date() - 1429728321000);
 $CONFIG['lang'] = 'zh-cn';
 $CONFIG['jsPath'] = 'http://js.t.sinajs.cn/t5/';
 $CONFIG['cssPath'] = 'http://img.t.sinajs.cn/t5/';
 $CONFIG['imgPath'] = 'http://img.t.sinajs.cn/t5/';
-$CONFIG['servertime'] = 1429676410;
+$CONFIG['servertime'] = 1429728321;
 $CONFIG['mJsPath'] = ['http://js{n}.t.sinajs.cn/t5/', 1, 2];
 $CONFIG['mCssPath'] = ['http://img{n}.t.sinajs.cn/t5/', 1, 2];
 $CONFIG['redirect'] = '';
@@ -28,14 +28,14 @@ $CONFIG['redirect'] = '';
         	<div class="W_nologin_logo" suda-data="key=tblog_weibologin3&value=click_logo"></div>
         </div>
         <div class="W_nologin_main">
-			<div class="topboard" ad-data="id=ads_homelogin&url=http://wbpctips.mobile.sina.cn/adfront/loginad.php&posid=pos528d79d0cbc47&psid=PDPS000000025446&wbVersion=v5&cip=24.162.252.158">
+			<div class="topboard" ad-data="id=ads_homelogin&url=http://wbpctips.mobile.sina.cn/adfront/loginad.php&posid=pos528d79d0cbc47&psid=PDPS000000025446&wbVersion=v5&cip=152.3.43.168">
 			</div>
             <div class="W_login_info clearfix">
 				<div class="leftbox">
 					<div class="slogan">
 						还没有微博帐号？现在加入						<a class="btn_reg_red" href="http://weibo.com/signup/signup.php?lang=zh-cn" target="_blank" suda-data="key=tblog_weibologin3&value=register"><span>立即注册</span></a>
 					</div>
-					<div class="show_img" suda-uatrack="key=tblog_weibologin3&value=picture"><img src="http://u1.sinaimg.cn/uve/uveimage/550x270_img52d772680d223.png" /></div>				</div>
+					<div class="show_img" suda-uatrack="key=tblog_weibologin3&value=picture"><img src="http://u1.sinaimg.cn/uve/uveimage/550x270_img52d772b00f624.png" /></div>				</div>
 				<div class="loginbox">
 					<!-- 登录模块 -->
 					<div class="login_switch" id="pl_login_form">
@@ -144,7 +144,7 @@ $CONFIG['redirect'] = '';
 															    <p class="icon"><span class="icon_warnS"></span></p><p class="txt">用此功能扫描二维码快速登录</p>
 															</div>
 							  								<div class="qrcode_map">
-							                                	<img src="http://img.t.sinajs.cn/t5/style/images/register/qrcode_map.jpg?version=201504221220" />
+							                                	<img src="http://img.t.sinajs.cn/t5/style/images/register/qrcode_map.jpg?version=201504230245" />
 							                                </div>
 														</div>
 													</div>
@@ -162,7 +162,7 @@ $CONFIG['redirect'] = '';
 						<div style="display:none" node-type="connect_form">
 														<div class="taobao_login">
 		                        <div class="taobao_iframe">
-		                        	<iframe scrolling="no" frameborder="no" src="https://login.taobao.com/member/login.jhtml?from=wbfast&style=wbfast&goto=http%3A%2F%2Fweibo.com%2Fa%2Fbind%2Flogin%3Fentry%3Dtaobao%26sid%3D056a9951a22557943e74b202529fd25d" allowtransparency="true" style="width: 100%; height:48px; overflow: hidden;"></iframe>
+		                        	<iframe scrolling="no" frameborder="no" src="https://login.taobao.com/member/login.jhtml?from=wbfast&style=wbfast&goto=http%3A%2F%2Fweibo.com%2Fa%2Fbind%2Flogin%3Fentry%3Dtaobao%26sid%3De21799951cc4c24f6a4be445db0bbd7c" allowtransparency="true" style="width: 100%; height:48px; overflow: hidden;"></iframe>
 		                        </div>
 		                    </div>
 		                    																			

@@ -42,7 +42,7 @@
  #page {} 
 </style>  </head>
 <body><script>
-with(document)with(body)with(insertBefore(createElement("script"),firstChild))setAttribute("exparams","category=&userid=&aplus&yunid=&&asid=AABxITdVPoZgoaln4qI=",id="tb-beacon-aplus",src=(location>"https"?"//g":"//g")+".alicdn.com/alilog/mlog/aplus_v2.js")
+with(document)with(body)with(insertBefore(createElement("script"),firstChild))setAttribute("exparams","category=&userid=&aplus&yunid=&&asid=AAA87DdV+3W31f3NMIg=",id="tb-beacon-aplus",src=(location>"https"?"//g":"//g")+".alicdn.com/alilog/mlog/aplus_v2.js")
 </script>
 <!-- “˝”√»´Õ¯µı∂• -->
 <!--TMS:761882-->
@@ -2028,21 +2028,21 @@ with(document)with(body)with(insertBefore(createElement("script"),firstChild))se
                                 <img src="http://gtms02.alicdn.com/tps/i2/TB1UD08HFXXXXaIXpXXRq4iTXXX-200-150.png" width="200" height="150" alt="‘À∂Ø¿∂—¿∂˙ª˙" />
                             </a>
                             <span class="group-title">‘À∂Ø¿∂—¿∂˙ª˙</span>
-                            <div class="cd cd-large cd-slide" data-config="{'leftTime':41939,'effect':'slide'}"><span class="clock">${h}:${m}:${s}</span></div>
+                            <div class="cd cd-large cd-slide" data-config="{'leftTime':-9976,'effect':'slide'}"><span class="clock">${h}:${m}:${s}</span></div>
                         </li>
                                                 <li>
                             <a class="group-pic" href="http://detail.tmall.com/item.htm?spm=0.0.0.0.7ApCto&id=44529364239" target="_blank">
                                 <img data-ks-lazyload-custom="http://gtms04.alicdn.com/tps/i4/TB1E5ecHFXXXXb.XXXXRq4iTXXX-200-150.png" width="200" height="150" alt="Ï≈≤ ¿∂—¿“ÙœÏ" />
                             </a>
                             <span class="group-title">Ï≈≤ ¿∂—¿“ÙœÏ</span>
-                            <div class="cd cd-large cd-slide" data-config="{'leftTime':41939,'effect':'slide'}"><span class="clock">${h}:${m}:${s}</span></div>
+                            <div class="cd cd-large cd-slide" data-config="{'leftTime':-9976,'effect':'slide'}"><span class="clock">${h}:${m}:${s}</span></div>
                         </li>
                                                 <li>
                             <a class="group-pic" href="http://detail.tmall.com/item.htm?spm=0.0.0.0.7ApCto&id=44686168451" target="_blank">
                                 <img data-ks-lazyload-custom="http://gtms02.alicdn.com/tps/i2/TB1MCx3HFXXXXc5XpXXRq4iTXXX-200-150.png" width="200" height="150" alt="±„–Ø“ÙœÏµÕ“Ù≈⁄" />
                             </a>
                             <span class="group-title">±„–Ø“ÙœÏµÕ“Ù≈⁄</span>
-                            <div class="cd cd-large cd-slide" data-config="{'leftTime':41939,'effect':'slide'}"><span class="clock">${h}:${m}:${s}</span></div>
+                            <div class="cd cd-large cd-slide" data-config="{'leftTime':-9976,'effect':'slide'}"><span class="clock">${h}:${m}:${s}</span></div>
                         </li>
                                             </ul>
                     <ul class="group-slide-triggers">
