@@ -1,0 +1,1150 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> <html xmlns="http://www.w3.org/1999/xhtml" > <head> <title>Online Shopping - Shop Online for Mobile Phones, Digital Cameras, Watches, Books & More at Flipkart.com</title> <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" /> <!--<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" /> --> <meta property="fb:page_id" content="102988293558" /> <meta property="fb:admins" content="658873552,624500995,100000233612389"/> <meta name="Keywords" content="Online Shopping, India, Books, Store, Flipkart" /> <meta name="Description" content="Online Shopping in India for Mobile Phones, Televisions, Books, Digital Cameras, Laptops, Watches, Clothing and Other Products at Best Price in India. Free Shipping and Cash on Delivery Available" /> <meta name="robots" content="NOODP"> <link rel="canonical" href="http://www.flipkart.com/" /> <link rel='shortcut icon' href='http://img6a.flixcart.com/www/prod/images/favicon-b994e296.ico' /> <link type="application/opensearchdescription+xml" rel="search"
+ href="/osdd.xml?v=2"/> <link rel="alternate" href="android-app://com.flipkart.android/flipkart/hp_seg" /> <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png" /> <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png" /> <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png" /> <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png" /> <link rel="apple-touch-icon" href="/apple-touch-icon-57x57.png" /> <link href="http://img5a.flixcart.com" rel="dns-prefetch" /> <link href="http://img6a.flixcart.com" rel="dns-prefetch" /> <link href="ads.flipkart.com" rel="dns-prefetch" /> <link href="//flipkart.d1.sc.omtrdc.net" rel="dns-prefetch" /> <link href="//cdn.widgets.webengage.com" rel="dns-prefetch" /> <link href="//b.scorecardresearch.com" rel="dns-prefetch" /> <link href="//googleads.g.doubleclick.net" rel="dns-prefetch" /> <link href="//ap-sonar.sociomantic.com" rel="dns-prefetch" /> <style type="text/css"> </style> <script type="text/javascript">
+ (function() {
+ var method;
+ var emptyFun = function () {};
+ var methods = ['assert', 'clear', 'count', 'debug', 'dir', 'dirxml', 'error',
+ 'exception', 'group', 'groupCollapsed', 'groupEnd', 'info', 'log',
+ 'markTimeline', 'profile', 'profileEnd', 'table', 'time', 'timeEnd',
+ 'timeStamp', 'trace', 'warn'];
+ var length = methods.length;
+ var console = (window.console = window.console || {});
+ while (length--) {
+ method = methods[length];
+ if (!console[method]) {
+ console[method] = emptyFun;
+ }
+ }
+ }());
+ var START_TIME = (new Date()).getTime(); 
+ function noxfs() {
+ try {
+ if (window.top !== window.self) {
+ document.write = "";
+ window.top.location = window.self.location;
+ setTimeout(function() {
+ document.body.innerHTML = '';
+ }, 0);
+ window.self.onload = function() {
+ document.body.innerHTML = '';
+ };
+ }
+ } catch (err) {
+ }
+ }
+ noxfs();
+ window.onerror = function(message, file, line) {
+ try{
+ var sFormattedMessage = '[' + file + ' (' + line + ')] ' + message;
+ _gaq.push(['_trackEvent', 'Exceptions', 'JS errors', sFormattedMessage, null, true]);
+ }
+ catch(e){}
+ }; 
+ function addEvent(elm, evType, fn, useCapture) {
+ useCapture = useCapture || false;
+ if (elm.addEventListener) {
+ elm.addEventListener(evType, fn, false);
+ return true;
+ } else if (elm.attachEvent) {
+ var r = elm.attachEvent('on' + evType, fn);
+ return r;
+ } else {
+ elm['on' + evType] = fn;
+ }
+ }; 
+ function removeEvent(elm, evType, fn, useCapture) {
+ useCapture = useCapture || false;
+ if (elm.removeEventListener){
+ elm.removeEventListener(evType, fn, false);
+ } else if (elm.detachEvent) {
+ elm.detachEvent("on"+evType, fn);
+ } else {
+ delete elm["on"+evType];
+ }
+ }; 
+ function setInteractTime() {
+ window.T_INTERACT = (new Date()).getTime();
+ removeEvent(window, 'click', setInteractTime);
+ removeEvent(window, 'mousemove', setInteractTime);
+ removeEvent(window, 'scroll', setInteractTime);
+ } 
+ addEvent(window, 'click', setInteractTime);
+ addEvent(window, 'mousemove', setInteractTime);
+ addEvent(window, 'scroll', setInteractTime);
+ 
+ </script> <link rel="stylesheet" type="text/css" href="http://img5a.flixcart.com/www/prod/basic-898016d4-nogz.css" /> <script type="text/javascript"> <!--
+ var PAGE_NAME = "HomePage"; 
+ function get_detail_banner_popup(need_refresh, whichTab){
+ if (typeof get_detail_banner_pop == 'function')
+ get_detail_banner_pop(need_refresh, whichTab);
+ else
+ window.location = '/viewcart';
+ }
+ function get_cart_banner_popup(eid, need_refresh){
+ if (typeof get_cart_banner_pop == 'function'){
+ get_cart_banner_pop(eid, need_refresh);
+ }
+ else{
+ /*submit a form to viewcart.php*/
+ var form = document.createElement('form');
+ //It has to be 'GET' for slower network connections
+ form.setAttribute('method', 'GET');
+ form.setAttribute('action', '/viewcart'); 
+ var hiddenField = document.createElement('input');
+ hiddenField.setAttribute('type', 'hidden');
+ hiddenField.setAttribute('name', 'eid');
+ hiddenField.setAttribute('value', eid); 
+ form.appendChild(hiddenField);
+ document.body.appendChild(form);
+ form.submit();
+ }
+ }
+ var img_onload = function(ele) {
+ ele = ele || this;
+ }; 
+ var img_onerror = function(ele) {
+ ele = ele || this;
+ if (ele.getAttribute('data-retry') == null && ele.getAttribute('data-error-url')) {
+ ele.setAttribute('data-retry', "true");
+ var old_src = ele.src;
+ ele.src = ele.getAttribute('data-error-url');
+ ele.alt = 'error';
+ //log to server
+ var enable_logging = ele.getAttribute("data-logit");
+ if(enable_logging){
+ var params = {};
+ params.pid = ele.getAttribute("data-pid") || "";
+ params.size = ele.getAttribute("data-imagesize") || "";
+ params.page = window.PAGE_NAME || "";
+ params.url = old_src; 
+ var url = "/ajaxlog/errorImageLog";
+ var qs = [];
+ for(var k in params) {
+ qs.push(k+"="+encodeURIComponent(params[k]));
+ }
+ url = url + "?"+ qs.join("&");
+ (new Image()).src = url; 
+ }
+ }
+ };
+ //--> </script> <script type="text/javascript">
+ /*
+ lazyload.js: Image lazy loading 
+ Copyright (c) 2012 Vincent Voyer, http://fasterize.com 
+ Permission is hereby granted, free of charge, to any person obtaining
+ a copy of this software and associated documentation files (the
+ "Software"), to deal in the Software without restriction, including
+ without limitation the rights to use, copy, modify, merge, publish,
+ distribute, sublicense, and/or sell copies of the Software, and to
+ permit persons to whom the Software is furnished to do so, subject to
+ the following conditions: 
+ The above copyright notice and this permission notice shall be
+ included in all copies or substantial portions of the Software. 
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+ LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+ OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. 
+ */ 
+ if(!window.lzld){(function(m,s){var h=200,e="data-src",j="data-bgImage",y="lazy-bgImage",w=C(),q=[],r=false,a=false,z=g(u,20),D=g(d,20);m.HTMLImageElement&&o();m.lzld=n;c(t);v(m,"load",b);l();function n(E){if(A(E,q)===-1){if(a){l()}setTimeout(function(){p(E,q.push(E)-1)},4)}}function t(){var H=s.getElementsByTagName("img"),J,G;var K=B(y);for(var F=0,E=H.length;F<E;F+=1){J=H[F];if(J.getAttribute(e)&&A(J,q)===-1){q.push(J)}}for(var I=0,E=K.length;I<E;I+=1){G=K[I];if(G.getAttribute(j)&&A(G,q)===-1){q.push(G)}}d();setTimeout(D,25)}m.lzld_find=t;function b(){r=true;D();setTimeout(D,25)}function g(G,E){var F=0;return function(){var H=+new Date();if(H-F<E){return}F=H;G.apply(this,arguments)}}function v(G,F,E){if(G.attachEvent){G.attachEvent&&G.attachEvent("on"+F,E)}else{G.addEventListener(F,E,false)}}function x(G,F,E){if(G.detachEvent){G.detachEvent&&G.detachEvent("on"+F,E)}else{G.removeEventListener(F,E,false)}}function B(G){if(s.getElementsByClassName){return s.getElementsByClassName(G)}else{var E=[],H;var F=s.getElementsByTagName("*");var I=new RegExp("(^|\\s)"+G+"(\\s|$)");for(i=0,elmsLength=F.length;i<elmsLength;i++){var H=F[i];if(I.test(H.className)){E.push(H)}}}}function c(J){var E=false,G=true;function I(K){if(K.type==="readystatechange"&&s.readyState!=="complete"){return}x((K.type==="load"?m:s),K.type,I);if(!E){E=true;J()}}function H(){try{s.documentElement.doScroll("left")}catch(K){setTimeout(H,50);return}I("poll")}if(s.readyState==="complete"){J()}else{if(s.createEventObject&&s.documentElement.doScroll){try{G=!m.frameElement}catch(F){}if(G){H()}}v(s,"DOMContentLoaded",I);v(s,"readystatechange",I);v(m,"load",I)}}function p(E,F){if(k(s.documentElement,E)&&E.getBoundingClientRect().top<w+h){var H=E.getAttribute(j)?true:false;if(H){var G=E.getAttribute(j);if(G){E.style.backgroundImage="url("+G+")"}E.removeAttribute(j)}else{var G=E.getAttribute(e);E.onload=null;E.removeAttribute("onload");E.removeAttribute("height");E.removeAttribute("width");if(G){E.src=G}E.removeAttribute(e)}q[F]=null;return true}else{return false}}function C(){if(s.documentElement.clientHeight>=0){return s.documentElement.clientHeight}else{if(s.body&&s.body.clientHeight>=0){return s.body.clientHeight}else{if(m.innerHeight>=0){return m.innerHeight}else{return 0}}}}function u(){w=C()}function d(){var F=q.length,G,H=true;for(G=0;G<F;G++){var E=q[G];if(E!==null&&!p(E,G)){H=false}}if(H&&r){f()}}function f(){a=true;x(m,"resize",z);x(m,"resize",D);x(m,"scroll",D);x(m,"load",b)}function l(){a=false;v(m,"resize",z);v(m,"resize",D);v(m,"scroll",D)}function o(){var E=HTMLImageElement.prototype.getAttribute;HTMLImageElement.prototype.getAttribute=function(G){if(G==="src"){var F=E.call(this,e);return F||E.call(this,G)}else{return E.call(this,G)}}}var k=s.documentElement.compareDocumentPosition?function(F,E){return !!(F.compareDocumentPosition(E)&16)}:s.documentElement.contains?function(F,E){return F!==E&&(F.contains?F.contains(E):false)}:function(F,E){while((E=E.parentNode)){if(E===F){return true}}return false};function A(G,H,F){var E;if(H){if(Array.prototype.indexOf){return Array.prototype.indexOf.call(H,G,F)}E=H.length;F=F?F<0?Math.max(0,E+F):F:0;for(;F<E;F++){if(F in H&&H[F]===G){return F}}}return -1}}(this,document))};</script> <meta name="alexaVerifyID" content="bZ_obbgr4n0Ekihuw7N_rKoOqOw" /> <meta name="google-site-verification" content="-FvUGxx2t8G1u7_-6vEuKXOQIRdvc_r7bj9tklfdYEA" /> <style type="text/css">.diwali-banner{display: block} .diwali-banner .line1, .diwali-banner .line2{text-align:center; max-width:9999px;width:600px;} .diwali-banner:before{display:none\9} .diwali-banner .ribbon {display:none} .dotdpreview:before{display:none} .diwali-banner .line1 {font-size:20px;} .newMenu .header-topbar .header-links .link-list>li>a{overflow:visible} .header-mobile-text{margin:1px 0}</style> </head> <body class="HomePage "> <div class="" id="shortListDiv"> <a class="shortListButton btn" href="javascript:void(0);"> <div class="filler"></div> <span class="heart-icon"></span> <span class="text">Shortlist</span> <span class="counter">0</span> <span class="close" title="Close"></span> </a> <div class="mainContainer"> <div class="categoryContainer"></div> <div class="errorContainer padding10 fk-hidden"><span>Some error has occured while getting your complete shortlist.</span> </b> <a href="javascript:void(0);" onclick="FKART.shortList.retry();return false;">Retry</a> </div> <div class="infoContainer padding10">Use this space to shortlist the
+ products you like.
+ To add a product here,
+ simply click the <span class="heart-icon"></span> icon.</div> <div class="productsContainer"> <a class="compare-link" href="javascript:void(0);">Compare all</a> <div class="product-list"></div> <a class="clear-link" href="javascript:void(0);">Remove all</a> </div> </div> </div> <div class="newMenu homepg fkart fksk-body line "> <div id="fk-header" class=" "> <div id="fk-mainhead-id" class="jank-fixed "> <div class="header-topbar"> <div class="header-content"> <div class="unit size1of6 "> <a href="/" class="fk-text-center fk-font-11 logo-img-link fllt"> <img width="149px" height="38px" class="logo-img retina-img" data-retina="http://img6a.flixcart.com/www/prod/images/flipkart_india_retina-9eba8425.png" src="http://img6a.flixcart.com/www/prod/images/flipkart_india-b1a41241.png" alt="Flipkart.com: Online Shopping India" title="Online Shopping India | Flipkart.com" /> <div class="text">The Online Megastore</div> </a> </div> <div class="unitExt mainUnit"> <div class="header-links unitExt"> <ul class="link-list fk-font-12 fk-text-center required-tracking" data-tracking-id="ch_vn"> <li><a href="/flipkart-first" data-tracking-id="flipkart-first"><span class="fk-inline-block vmiddle flipkart-first rmargin5"></span><span>Flipkart First</span></a></li> <li><a href="/mobile-apps" data-tracking-id="mobile_apps"><span class="header-mobile-apps vmiddle fk-inline-block rmargin5"></span><span>Download App</span></a></li> <li><a href="https://seller.flipkart.com/?utm_source=flipkart&utm_medium=website&utm_campaign=sellbutton" data-tracking-id="seller_header">Sell</a></span></li> <li><a href="/s/contact">24x7 Customer Care</a></span></li> <li><a class="track-order-details-required"><span class="header-track-icon"></span>Track Order</a></li> <li><a href="/notifications" id="notifications-link" title="Notifications" class="notifications-link yellow-bell"><span class="notification-number notifications-count-dull" id="notifications-count-button">0</span></a></li> <script type="text/javascript+fk-window-onload">
+ FKART.notificationsAddOnload({nearElement:'#notifications-link','browseAB':''});
+ </script> <li><a class="signup-link" href="https://www.flipkart.com/account/">Signup</a></li> <li class="no-border"> <a class="no-border js-login login-required" href="https://www.flipkart.com/account/login?from=header" >Login</a> </li> </ul> <div id="track-order-details-content" class="line fk-hidden padding10"> <div class="content-header"> <h3 class="fk-font-big bpadding5">Track your Order</h3> </div> <div class="content-body line"> <div class="left-section line unit"> <h4>Track using Order ID</h4> <form name="order-details-form" onsubmit="return false;"> <div class="items-wrap tpadding5 bpadding5"> <div class="item line tpadding5 bpadding5 fk-error-all-wrap hidden"> <div class="fk-err-all"></div> </div> <div class="item line tpadding5 bpadding5"> <div class="label-wrap unit size1of4"> <span class="tpadding5 lpadding20 fk-display-block">Email</span> </div> <div class="field-wrap unitExt size3of4"> <div> <input type="email" value="" class="fk-input email-id" required="required"
+ oninvalid="setCustomValidity && setCustomValidity('Please enter a valid Email id.')"
+ onchange="setCustomValidity && setCustomValidity('')" /> </div> <span class="sub-text fk-font-small">Enter Email ID used to place the order</span> </div> </div> <div class="item line tpadding5 bpadding5"> <div class="label-wrap unit size1of4"> <span class="tpadding5 lpadding20 fk-display-block">Order ID</span> </div> <div class="field-wrap unitExt size3of4"> <div> <input type="text" value=""
+ class="fk-input order-id"
+ pattern="^[a-zA-Z0-9]{10,}$" required="required"
+ oninvalid="setCustomValidity && setCustomValidity('Please enter a valid Order id.')"
+ onchange="setCustomValidity && setCustomValidity('')" /> </div> </div> </div> <div class="item line tpadding5 bpadding5"> <input type="submit" name="submitViewOrder" value="View order status"
+ class="view-order-button btn btn-blue"/> </div> </div> </form> </div> <div class="divider-or unit"></div> <div class="right-section line unitExt"> <h4>Login and do more!</h4> <div class="items-wrap tpadding5 bpadding5"> <div class="item line tpadding5 bpadding5"> <ul class="fk-ul-disc lists"> <li class="sub-text">Track individual Orders</li> <li class="sub-text">View your entire Order history</li> <li class="sub-text">Cancel individual Orders</li> <li class="sub-text">Conveniently review products and sellers</li> </ul> </div> <div class="item line tpadding5 bpadding5"> <input type="button" name="submitViewOrder" value="Login" class="login btn btn-blue"/> </div> </div> </div> </div> </div> <script type="text/javascript+fk-onload">
+ (function() { 
+ var dialogEl = $('#track-order-details-content'),
+ emailEl = dialogEl.find(".email-id"),
+ orderEl = dialogEl.find(".order-id"),
+ errorEl = dialogEl.find(".fk-err-all"),
+ errorWrapEl = dialogEl.find(".fk-error-all-wrap"),
+ orderDetailsForm = $("form[name=order-details-form]"); 
+ $(".track-order-details-required").on("click", function() {
+ var dialog,
+ href = "/account/orders"; 
+ dialog = new FKART.ui.Dialog({
+ body: dialogEl,
+ width: 746,
+ cssClass: "track-order-details-dialog"
+ }); 
+ orderDetailsForm.on("submit", function() {
+ var emailId = emailEl.val(),
+ orderId = orderEl.val(); 
+ $.ajax({
+ url: "/xhr/getUserOrderDetails",
+ dataType: "json",
+ type: "POST",
+ data: {
+ "emailId": emailId,
+ "orderId": orderId
+ },
+ success: function(data) {
+ if(data && data.success) {
+ window.location.href = data.redirectUrl;
+ } else {
+ errorEl.text(data.error);
+ errorWrapEl.show();
+ }
+ }
+ });
+ }); 
+ dialogEl.on("click", ".login", function() {
+ dialog.hide();
+ FKART.login.showPopup(href);
+ }); 
+ dialog.show();
+ return false;
+ });
+ })();
+ </script> </div> <div class="fk-searchbar unit"> <form onsubmit="return submitSearchBarForm();" method="GET" id="fk-header-search-form" action="/search" autocomplete="off"> <div class="search-bar-wrap"> <div class="search-bar"> <div class="unit search-bar-text-wrap size5of6"> <span class="search-bar-icon"></span> <input type="text" name="q" class="search-bar-text fk-font-13 ac_input"
+ placeholder="Search for a product, category or brand"
+ value="" id="fk-top-search-box" autofocus='autofocus' x-webkit-speech/> <select id="fk-search-select" class="search-select" onchange="javascript:selectMItem(this);"> <option value="search.flipkart.com" data-storeId="search.flipkart.com" data-storeurl="/search" displaystr="All Categories">All Categories</option> <option value="2oq" data-storeId="2oq" data-storeurl="/clothing/pr" displaystr="Clothing">Clothing</option> <option value="osp" data-storeId="osp" data-storeurl="/footwear/pr" displaystr="Footwear">Footwear</option> <option value="tyy" data-storeId="tyy" data-storeurl="/mobiles-accessories/pr" displaystr="Mobiles &amp; Accessories">Mobiles &amp; Accessories</option> <option value="6bo" data-storeId="6bo" data-storeurl="/computers/pr" displaystr="Computers">Computers</option> <option value="reh" data-storeId="reh" data-storeurl="/bags-wallets-belts/pr" displaystr="Watches, Bags & Wallets">Watches, Bags & Wallets</option> <option value="jek" data-storeId="jek" data-storeurl="/cameras-accessories/pr" displaystr="Cameras &amp; Accessories">Cameras &amp; Accessories</option> <option value="bks" data-storeId="bks" data-storeurl="/books/pr" displaystr="Books, Pens & Stationery">Books, Pens & Stationery</option> <option value="j9e" data-storeId="j9e" data-storeurl="/home-kitchen/pr" displaystr="Home &amp; Kitchen">Home &amp; Kitchen</option> <option value="t06" data-storeId="t06" data-storeurl="/beauty-and-personal-care/pr" displaystr="Beauty & Personal Care">Beauty & Personal Care</option> <option value="4rr" data-storeId="4rr" data-storeurl="/gaming/pr" displaystr="Games &amp; Consoles">Games &amp; Consoles</option> <option value="ckf" data-storeId="ckf" data-storeurl="/tv-audio-video-players/pr" displaystr="TVs & Video Players">TVs & Video Players</option> <option value="6bo,ord" data-storeId="6bo,ord" data-storeurl="/computers/audio-players/pr" displaystr="Home Audio &amp; MP3 Players">Home Audio &amp; MP3 Players</option> <option value="4kt" data-storeId="4kt" data-storeurl="/music-movies-posters/pr" displaystr="Music, Movies & Posters">Music, Movies & Posters</option> <option value="kyh" data-storeId="kyh" data-storeurl="/baby-care/pr" displaystr="Baby Care & Toys">Baby Care & Toys</option> <option value="dep" data-storeId="dep" data-storeurl="/sports-fitness/pr" displaystr="Sports & Fitness">Sports & Fitness</option> <option value="ixq" data-storeId="ixq" data-storeurl="/ebooks/pr" displaystr="eBooks">eBooks</option> </select> <input type="hidden" id="as" value="off" name="as"/> <input type="hidden" id="as-show" value="off" name="as-show"/> </div> <div class="unit search-bar-submit-wrap size1of6"> <input type="submit" class="search-bar-submit fk-font-13 fk-font-bold"
+ value="Search"/> <input type='hidden' name='otracker' id="searchTracker" value='start'/> </div> </div> </div> </form> <fieldset> <input type='hidden' name='ab_buk' id='ab_buk' value="new-new"/> <input type="hidden" id="fk-vertical-auto-suggestions" value="search.flipkart.com" name="vertical" /> </fieldset> <script type="text/javascript+fk-onload"> <!--<script type="text/javascript">--> 
+ var searchOptionUrls = {"all":"\/all","clothing":"\/clothing","footwear":"\/footwear","mobiles":"\/mobiles","computers":"\/computers","leather-travel":"\/lifestyle\/bags-belts-luggage","cameras":"\/cameras","books-stationeries":"\/books-stationeries","homeappliance":"\/home-appliances","health-and-beauty":"\/health-and-beauty","games":"\/games","tv-video":"\/tv-video","audioplayers":"\/audio","movies-music":"\/movies-music","babycaretoys":"\/babycaretoies","sports-fitness":"\/sports-fitness","ebooks":"\/ebooks"};
+ function submitSearchBarForm(){
+ var sb = $(".search-bar-text"),
+ val = sb.val(); 
+ val = val.replace(/^[ ]+/g, "").replace(/[ ]+$/g, "");
+ if(val === "" || val.toLowerCase() == "Search for a product, category or brand"){
+ sb.focus();
+ return false;
+ }
+ return true;
+ }; 
+ function formatItem(row) {
+ return row;
+ }; 
+ $(".search-bar-text")
+ .keypress(function(event){
+ if(event.keyCode == 13 && $("#fk-vertical-auto-suggestions").val()!="search.flipkart.com"){
+ var vertical = $("#fk-vertical-auto-suggestions").val();
+ window.location.href = searchOptionUrls[vertical];
+ return;
+ }
+ }).autocomplete("/s", {
+ max: 12,
+ minChars: 1,
+ scroll: false,
+ selectFirst: false,
+ formatItem:formatItem,
+ delay: 100 });
+</script> </div> <div class="unitExt cartContainer"> <div id="panelsh"> <div class='container fk-height-full cart-container '> <div class="tab-contents fk-height-full"> <div id="cart-tab-content" class="tab-content fk-hidden fk-height-full"> </div> <div id="digital-cart-tab-content" class="tab-content fk-height-full fk-hidden fk-font-custom"> </div> </div> </div> </div> <div id="shopping-cart-header" class="fk-hidden"> <div class="cart-icon unit"></div> <div class="cart-tabs"> <div class="tab selected" id="cart-tab">Cart <span id="count-cart" class="fk-inline-block cart-count">(0)</span></div> <div class="tab" id="digital-cart-tab">Digital Cart <span id="count-digital-cart">(0)</span></div> </div> <div class="cls"></div> </div> <div class="cart-btn-cont" > <a class="btn btn-blue btn-cart" href="/viewcart"> <span class="cart-icon"></span><span class='cart-label'>Cart </span> <span id="item_count_in_cart_top_displayed" class="fk-inline-block cart-count">0</span> </a> </div> </div> </div> <div class="cls"></div> </div> </div> <div class="menu-header-content"> <div class="menubar newMenu slowMenu"> <div class="top-menu unit"> <ul class="menu-links required-tracking" data-tracking-id="nmenu"> <li class="menu-l0 " data-key="electronics"> <a href="javascript:;" class="menu-text fk-inline-block" data-tracking-id="electronics"><span>Electronics</span></a> <span class="menu-arrow fk-inline-block"></span> <div id="submenu_electronics" class="submenu" data-submenu-key="electronics"> <script type="text/javascript" class="menu_docwrite">
+ (function(){
+ var loader_html = "<div class='fk-loader-middle'></div>", html;
+ if(window.localStorage && (html = window.localStorage.getItem("submenu_html-electronics")) && html !="" ) {
+ document.write(html);
+ } else {
+ window.DWMM = true;
+ document.write(loader_html)
+ }
+ })();
+ </script> </div> </li> <li class="menu-l0 " data-key="home-kitchen"> <a href="/offers/home-and-kitchen?otracker=foz_menu_home-and-kitchen" class="menu-text fk-inline-block" data-tracking-id="home-kitchen"><span class="dotted">Home &amp; Kitchen</a> <span class="menu-arrow fk-inline-block"></span> <div id="submenu_home-kitchen" class="submenu" data-submenu-key="home-kitchen"> <script type="text/javascript" class="menu_docwrite">
+ (function(){
+ var loader_html = "<div class='fk-loader-middle'></div>", html;
+ if(window.localStorage && (html = window.localStorage.getItem("submenu_html-home-kitchen")) && html !="" ) {
+ document.write(html);
+ } else {
+ window.DWMM = true;
+ document.write(loader_html)
+ }
+ })();
+ </script> </div> </li> <li class="menu-l0 " data-key="men"> <a href="/men" class="menu-text fk-inline-block" data-tracking-id="men"><span class="dotted">Men</a> <span class="menu-arrow fk-inline-block"></span> <div id="submenu_men" class="submenu" data-submenu-key="men"> <script type="text/javascript" class="menu_docwrite">
+ (function(){
+ var loader_html = "<div class='fk-loader-middle'></div>", html;
+ if(window.localStorage && (html = window.localStorage.getItem("submenu_html-men")) && html !="" ) {
+ document.write(html);
+ } else {
+ window.DWMM = true;
+ document.write(loader_html)
+ }
+ })();
+ </script> </div> </li> <li class="menu-l0 " data-key="women"> <a href="/women" class="menu-text fk-inline-block" data-tracking-id="women"><span class="dotted">Women</a> <span class="menu-arrow fk-inline-block"></span> <div id="submenu_women" class="submenu" data-submenu-key="women"> <script type="text/javascript" class="menu_docwrite">
+ (function(){
+ var loader_html = "<div class='fk-loader-middle'></div>", html;
+ if(window.localStorage && (html = window.localStorage.getItem("submenu_html-women")) && html !="" ) {
+ document.write(html);
+ } else {
+ window.DWMM = true;
+ document.write(loader_html)
+ }
+ })();
+ </script> </div> </li> <li class="menu-l0 " data-key="baby-kids"> <a href="/kids-corner" class="menu-text fk-inline-block" data-tracking-id="baby-kids"><span class="dotted">Baby &amp; Kids</a> <span class="menu-arrow fk-inline-block"></span> <div id="submenu_baby-kids" class="submenu" data-submenu-key="baby-kids"> <script type="text/javascript" class="menu_docwrite">
+ (function(){
+ var loader_html = "<div class='fk-loader-middle'></div>", html;
+ if(window.localStorage && (html = window.localStorage.getItem("submenu_html-baby-kids")) && html !="" ) {
+ document.write(html);
+ } else {
+ window.DWMM = true;
+ document.write(loader_html)
+ }
+ })();
+ </script> </div> </li> <li class="menu-l0 " data-key="books-media"> <a href="javascript:;" class="menu-text fk-inline-block" data-tracking-id="books-media"><span>Books &amp; Media</span></a> <span class="menu-arrow fk-inline-block"></span> <div id="submenu_books-media" class="submenu" data-submenu-key="books-media"> <script type="text/javascript" class="menu_docwrite">
+ (function(){
+ var loader_html = "<div class='fk-loader-middle'></div>", html;
+ if(window.localStorage && (html = window.localStorage.getItem("submenu_html-books-media")) && html !="" ) {
+ document.write(html);
+ } else {
+ window.DWMM = true;
+ document.write(loader_html)
+ }
+ })();
+ </script> </div> </li> <li class="menu-l0 " data-key="more-stores"> <a href="javascript:;" class="menu-text fk-inline-block" data-tracking-id="more-stores"><span>More Stores</span></a> <span class="menu-arrow fk-inline-block"></span> <div id="submenu_more-stores" class="submenu" data-submenu-key="more-stores"> <script type="text/javascript" class="menu_docwrite">
+ (function(){
+ var loader_html = "<div class='fk-loader-middle'></div>", html;
+ if(window.localStorage && (html = window.localStorage.getItem("submenu_html-more-stores")) && html !="" ) {
+ document.write(html);
+ } else {
+ window.DWMM = true;
+ document.write(loader_html)
+ }
+ })();
+ </script> </div> </li> <li class="menu-l0 link-offer-zone " data-key="offer-zone"> <a href="/offers" class="menu-text fk-inline-block" data-tracking-id="offer-zone"><span class="dotted">Offers Zone</a> </li> </ul> </div> <div class="fclear"></div> </div> <script type="text/javascript+fk-onload">
+ var stickyMenu;
+ (function() {
+ stickyMenu = _.throttle(updateMenuPosition, 200);
+ var menuTimer = null;
+ var isMenuOpen = false;
+ $('.menu-l0','.menubar').mouseenter(function(){
+ menuTimer = setTimeout(openMenu,200);
+ });
+ $('.menubar').mouseleave(function(){
+ clearTimeout(menuTimer);
+ menuTimer = null;
+ $('.menubar').addClass('slowMenu');
+ });
+ var openMenu = function(){
+ isMenuOpen = true;
+ $('.menubar').removeClass('slowMenu');
+ }
+ $('.submenu').mouseenter(function(){
+ $('.menu-header-content').addClass('zeroTopMargin');
+ });
+ $('.submenu').mouseleave(function(){
+ $('.menu-header-content').removeClass('zeroTopMargin hide');
+ });
+ var $window = $(window);
+ var $menu = $(".menubar");
+ var $menuBar = $('.menu-header-content');
+ var $topBar = $('.header-topbar');
+ var $topBar_text = $topBar.find(".text");
+ var $headerLinks = $('.header-links');
+ var $pboBanner = $('.pbo-sticky.collapsePBO');
+ var isMenuSticking = false;
+ var lastScrollTop = 0;
+ function updateMenuPosition() {
+ requestAnimFrame(function(){
+ var st = $window.scrollTop();
+ if(st < lastScrollTop) {
+ //upscroll
+ if(st<60 && isMenuSticking) {
+ $menu.trigger("sticky-end");
+ isMenuSticking = false;
+ $menuBar.hasClass("hide") && $menuBar.removeClass('hide');
+ }
+ if(st < lastScrollTop - 300){
+ $menuBar.hasClass("hide") && $menuBar.removeClass('hide');
+ }
+ } else {
+ //downscroll
+ if(st>=70) {
+ // we have to show the menu when scrool to top is 70px
+ !$menuBar.hasClass("hide") && $menuBar.addClass('hide');
+ if(!isMenuSticking){
+ $menu.trigger("sticky-start");
+ isMenuSticking = true;
+ }
+ }
+ }
+ lastScrollTop = st;
+ });
+ } 
+ $menu.bind("sticky-start", function() {
+ $topBar.addClass('smaller');
+ $topBar_text.hide();
+ if($pboBanner && $pboBanner.length!=0){
+ $pboBanner.addClass("collapsed");
+ }
+ $("#fk-mainbody-id").addClass("headercollapsed")
+ }); 
+ $menu.bind("sticky-end", function() {
+ $topBar.removeClass('smaller');
+ if($pboBanner && $pboBanner.length!=0){
+ $pboBanner.removeClass("collapsed");
+ }
+ $("#fk-mainbody-id").removeClass("headercollapsed");
+ setTimeout(function(){$topBar_text.show();},300);
+ }); 
+ function try_persist() {
+ if(window.localStorage) {
+ var ls_success = true;
+ $(".menu-l0 .submenu").each(function(){
+ var key = "submenu_html-"+$(this).data("submenu-key");
+ try{
+ window.localStorage.setItem(key, $(this).html() );
+ } catch(e) {
+ ls_success = false;
+ return false;
+ }
+ });
+ ls_success && $.cookie("ft-ls", "1", { expires: new Date(new Date().getTime() + 10 * 60 * 1000), path:"/" });
+ }
+ } 
+ function menu_init() {
+ $(".menu_docwrite").remove();
+ !$.cookie("ft-ls") && try_persist();
+ $(".menu-l0 .submenu").each(function() {
+ moveArrowTo($(this).find('.tab.selected'));
+ var tabs = $(this).tabs().data("tabs_instance");
+ $(this).find('.tab').delayedHover(function(){
+ tabs.changeTab(this);
+ moveArrowTo(this);
+ },function(){},200);
+ });
+ $window.bind('scroll', stickyMenu);
+ $("[data-lazy-src]",'.submenu').each(function(){
+ var object = $(this).attr('data-lazy-src');
+ $(this).attr('src', object);
+ $(this).removeAttr('data-lazy-src'); 
+ });
+ }
+ function moveArrowTo(ele){
+ var arrow = $(ele).parents('.tabs').find('.arrow');
+ var left = $(ele).position().left+$(ele).outerWidth()/2-arrow.outerWidth()/2;
+ arrow.css({'left':left}); 
+ }
+ function fetchAndUpdateMenu(cb) {
+ var promise = $.getJSON("/xhr/getNewMenuHtml");
+ promise.done(function(response){
+ for(var key in response) {
+ $("#submenu_"+key).html(response[key]);
+ }
+ cb && cb();
+ });
+ } 
+ if(window.DWMM || !$.cookie("ft-ls")){
+ $.cookie("ft-ls", "1", { expires: new Date(new Date().getTime() - 100), path:"/" });
+ fetchAndUpdateMenu(menu_init)
+ } else {
+ menu_init();
+ } 
+ })();
+</script> </div> <div class="fclear"></div> </div> </div> <script type="text/javascript+fk-onload">
+ ;(function() {
+ $(".track-order-details-required").on("click", function() {
+ var omniData = {}; 
+ omniData.prop52 = "TrackOrder:" + (s.eVar4 === "logout" ? "LoggedOut" : "LoggedIn");
+ FKART.omni.customEvent("Track Order", omniData);
+ });
+ })();
+</script> <div id= "fk-mainbody-id" class="fk-mainbody fksk-mainbody "> <div class=" fk-content fksk-content enable-compare" > <!-- left side bands --> <div class="goquickly-bar required-tracking" data-tracking-id="nmenu_quicklinks"> <ul class="goquickly-list"> <li class="subheading">Go quickly to</li> <li class=""><a href="/mobiles" data-tracking-id="Mobiles">Mobiles</a></li> <li class=""><a href="/tablets" data-tracking-id="Tablets">Tablets</a></li> <li class=""><a href="/home-furnishing/bath/bath-towels/pr?p%5B%5D=sort%3Dpopularity&sid=vdm%2Cv28%2Czs1" data-tracking-id="Bath Towels">Bath Towels</a></li> <li class=""><a href="/household/led-cfl-bulbs/pr?p%5B%5D=facets.bulb_type%255B%255D%3DLED&sid=r4l%2Cnmw" data-tracking-id="LED Bulbs">LED Bulbs</a></li> <li class=""><a href="/home-kitchen/home-appliances/air-conditioners" data-tracking-id="AC">AC</a></li> <li class=""><a href="/home-kitchen/home-appliances/refrigerators" data-tracking-id="Refrigerators">Refrigerators</a></li> <li class=""><a href="/computers/laptops" data-tracking-id="Laptops">Laptops</a></li> <li class=""><a href="/headphones" data-tracking-id="Headphones">Headphones</a></li> <li class=""><a href="/home-kitchen/home-appliances/fans" data-tracking-id="Fans">Fans</a></li> <li class=""><a href="mens-clothing/t-shirts/pr?sid=2oq,s9b,j9y" data-tracking-id="Men's T-Shirts">Men's T-Shirts</a></li> <li class=""><a href="/womens-clothing/ethnic-wear/sarees/pr?sid=2oq%2Cc1r%2C3pj%2C7od" data-tracking-id="Sarees">Sarees</a></li> <li class=""><a href="/books" data-tracking-id="Books">Books</a></li> <li class="last"><a href="/buy-gift-voucher" data-tracking-id="Gift Voucher">Gift Voucher</a></li> </ul> </div> <script type="text/javascript+fk-window-onload">
+ (function(){
+ var $slideContainer = $(".pbo-sticky .slider-container"),
+ $slides = $(".pbo-sticky .slider-container .slides"),
+ count = $slides.length,
+ enabledNext = false,
+ enabledPrev = false;
+ 
+ var slideNext = function(){
+ 
+ enabledNext = true;
+ $currentSlide = $('.pbo-sticky .current-slide');
+ index = $slides.index($currentSlide);
+ if (index < count) {
+ $currentSlide.removeClass('current-slide');
+ $($slides[index + 1]).addClass('current-slide');
+ if(index === (count-2)){
+ enabledNext = false;
+ $('.pbo-sticky .right-slide').removeClass('active').addClass('inactive').off('click.next');
+ }
+ 
+ if(!enabledPrev){
+ enabledPrev = true;
+ $('.pbo-sticky .left-slide').removeClass('inactive').addClass('active').on('click.next',slidePrev);
+ }
+ }
+ };
+ 
+ var slidePrev = function(){
+ 
+ enabledPrev = true;
+ $currentSlide = $('.pbo-sticky .current-slide');
+ index = $slides.index($currentSlide);
+ if (index > 0) {
+ $currentSlide.removeClass('current-slide');
+ $($slides[index - 1]).addClass('current-slide');
+ if(index === 1){
+ enabledPrev = false;
+ $('.pbo-sticky .left-slide').removeClass('active').addClass('inactive').off('click.next');
+ }
+ if(!enabledNext){
+ enabledNext = true;
+ $('.pbo-sticky .right-slide').removeClass('inactive').addClass('active').on('click.next',slideNext);
+ }
+ }
+ }
+ 
+ var changeSlide = function(){ if(enabledNext){slideNext();}else{slidePrev();}}
+ 
+ var attachHandlers = function(autoSlide){
+ if($slides.length > 1){
+ $('.pbo-sticky .right-slide').on('click.next',slideNext);
+ if(autoSlide){
+ enabledNext = true;
+ setInterval(function(){
+ changeSlide();
+ },5000);
+ }
+ }
+ }
+ 
+ $(".pbo-sticky .ribbon").on("click",function(){
+ $(".pbo-sticky").delay(200).toggleClass("collapsed");
+ });
+ attachHandlers(true);
+ }());
+(function(){
+ var $pboText = $(".pbo-text");
+ $pboText.on("click",function(){
+ $(".offer-details").slideToggle();
+ $pboText.toggleClass("pbo-collapsed");
+ });
+ }());
+</script> <div class="fk-homepage"> <div class="gd-row fk-hp-module-seperation tpadding15 bpadding25"> <div class="gd-col gu12 hp-rdata-section "> <a class='bmargin15 fk-display-block ' href="/offers/viewall/electronic-accessories/TopOffer" title="headphones-day"> <img src="http://img5a.flixcart.com/www/promos/new/20150423-165918-announcement-strip-1-1.png" /> </a> <div class="required-tracking" data-tracking-id="widget"> <div class=" big-banner fk-position-relative newvd"> <div class="line big-banner-image"> <div class="banner-image tab-content " id="b-tab0-content"> <a href="/mi/mi4i" data-tracking-id="banner_0_image"> <img
+ 
+ alt=""
+ 
+ src="http://img6a.flixcart.com/www/promos/new/20150423_200423_730x300_clp.jpg"
+ 
+ /> </a> <div class="banner-link fk-font-15"> </div> </div> <div class="banner-image tab-content fk-hidden" id="b-tab1-content"> <a href="/home-entertainment/televisions/~latest-deals/pr?p%5B%5D=sort%3Drecency_desc&sid=ckf%2Cczl" data-tracking-id="banner_1_image"> <img
+ 
+ data-url="http://img5a.flixcart.com/www/promos/new/20150422_112254_730x300_image-730-300-1.jpg"
+ 
+ /> </a> <div class="banner-link fk-font-15"> </div> </div> <div class="banner-image tab-content fk-hidden" id="b-tab2-content"> <a href="/asus/zenfone-2" data-tracking-id="banner_2_image"> <img
+ 
+ data-url="http://img6a.flixcart.com/www/promos/new/20150423_150343_730x300_category-landing-page.jpg"
+ 
+ /> </a> <div class="banner-link fk-font-15"> </div> </div> </div> <div class="line banner-tabs"> <ul> <li class="nav-list unit size1of3"> <a href="/mi/mi4i" id="b-tab0"
+ class="banner-tab tab first-tab selected"
+ 
+ data-tracking-id="banner_tab_0"
+ 
+ > <span class="first-line fk-uppercase" title="Register Now">Register Now</span> <span class="second-line" title="Mi 4i">Mi 4i</span> </a> </li> <li class="nav-list unit size1of3"> <a href="/home-entertainment/televisions/~latest-deals/pr?p%5B%5D=sort%3Drecency_desc&sid=ckf%2Cczl" id="b-tab1"
+ class="banner-tab tab second-tab"
+ 
+ data-tracking-id="banner_tab_1"
+ 
+ > <span class="first-line fk-uppercase" title="Up To 50% Off">Up To 50% Off</span> <span class="second-line" title="Televisions">Televisions</span> </a> </li> <li class="nav-list unit size1of3"> <a href="/asus/zenfone-2" id="b-tab2"
+ class="banner-tab tab third-tab"
+ 
+ data-tracking-id="banner_tab_2"
+ 
+ > <span class="first-line fk-uppercase" title="LAUNCHING ">LAUNCHING </span> <span class="second-line" title="Asus Zenfone 2">Asus Zenfone 2</span> </a> </li> </ul> </div> </div> <script type="text/javascript+fk-onload">
+ (function() {
+ var timerId = null, timerEnabled=true, tabsArray = $(".banner-tab"), currentTab = 0, numOfTabs = tabsArray.length;
+ var tabs = $(".big-banner").tabs({clickDisabled:false, fadeDuration:400}).data("tabs_instance");
+ $(".big-banner").bind("tabChange", function(ev, tab){
+ var $img = $("#"+tab.id+"-content").find("img");
+ $img.attr("data-url") && $img.attr("src", $img.attr("data-url")).removeAttr("data-url");
+ });
+ $(".banner-tab").bind("mouseenter", function() {
+ tabs.changeTab(this);
+ timerId && clearTimeout(timerId) && (timerEnabled=false);
+ });
+ function cycleTabs() {
+ if(timerEnabled){
+ currentTab++;
+ timerId = setTimeout(function(){
+ tabs.changeTab(tabsArray[currentTab%numOfTabs]);
+ cycleTabs();
+ }, 5000);
+ }
+ }
+ function lazyfetch() {
+ $(".big-banner").find("img[data-url]").each(function(){
+ $(this).attr("src",$(this).attr("data-url")).removeAttr("data-url");
+ }).first().on("load", cycleTabs);
+ }
+ addWindowOnload(lazyfetch);
+ })();
+</script> </div> <div> <div class="catBlock"> <div class="gu12 dotd-hp-widget clearfix"> <div class="DOTDHpWidget"> <a href="/offers?otracker=hp_nmenu_offer-zone" class="dotdLink"> <div class="dotd-bar"> <div class="dotd-title"> <span class="fllt fk-position-relative">DEALS</span> <div class="ofTheWhite fllt"></div> <span class="fllt fk-position-relative">DAY</span> <span class="triangle fllt fk-position-relative"></span> </div> <div class="timer"> <div class="fk-inline-block timerText">
+ ENDS IN
+ </div> <div class="fk-inline-block timer-img"></div> <div class="dotd-timer dotd-countdown" class="fk-inline-block" data-timestamp = "1429856999000"> <div class="yearsDiv"> <span class="years"></span><br/> </div> <div class="daysDiv"> <span class="days"></span><br/> </div> <div class="hoursDiv"> <span class="hours"></span><br/> </div> <div class="tseparator">:</div> <div class="minsDiv"> <span class="mins"></span><br/> </div> <div class="tseparator">:</div> <div class="secsDiv"> <span class="secs"></span><br/> </div> </div> </div> </div> </a> <div class="DOTDHPCarousel"> <ul class="list-items list-carousel no-js"> <li class="offers-wrap ccarousel-item no-js fk-inline-block"> <a class="dealsLink" href="/promotion/pr?offer=DOTDOnMensFootwear_Apr23.&sid=osp,cil&icmpid=hp_dotd_1_DOTDOnMensFootwear_Apr23" data-tracking-id="Rs 199 & Below"> <div class="fk-text-center offerWrap"> <div class="offerTitleWrap"> <div class="offerTitle">Rs 199 & Below</div> <div class="borderRed"></div> <div class="triangle"></div> </div> <div class="fclear"></div> <div class="newPrice fix-height tmargin7">Sandals & Flip Flops</div> <div class="fk-text-center pImgContainer"> <img class="vmiddle" data-src="http://img5a.flixcart.com/image/sandal/4/e/u/black-sn142013-terravulc-8-125x125-imaey2ytfnhhqgnz.jpeg" onload="lzld(this)" src="http://img6a.flixcart.com/www/prod/images/gray_1x1-81857055.gif" height="125px" width="125px"/> </div> <div class="offerSubTitle">
+ Men's Footwear
+ </div> </div> </a> </li> <li class="offers-wrap ccarousel-item no-js fk-inline-block"> <a class="dealsLink" href="/promotion/pr?offer=s:kislegetp6rz5pf3:c:0385378a21.&sid=tyy&icmpid=hp_dotd_2_s:kislegetp6rz5pf3:c:0385378a21" data-tracking-id="Cables @ 99"> <div class="fk-text-center offerWrap"> <div class="offerTitleWrap"> <div class="offerTitle">Cables @ 99</div> <div class="borderRed"></div> <div class="triangle"></div> </div> <div class="fclear"></div> <div class="newPrice fix-height tmargin7">USB Cables</div> <div class="fk-text-center pImgContainer"> <img class="vmiddle" data-src="http://img5a.flixcart.com/image/data-cable/usb-cable/q/y/z/ape-universal-micro-usb-to-usb-data-synchronise-and-charge-125x125-imadvpgkzqdfaznv.jpeg" onload="lzld(this)" src="http://img6a.flixcart.com/www/prod/images/gray_1x1-81857055.gif" height="125px" width="125px"/> </div> <div class="offerSubTitle">
+ APE
+ </div> </div> </a> </li> <li class="offers-wrap ccarousel-item no-js fk-inline-block"> <a class="dealsLink" href="/promotion/pr?offer=s:ip42ji2g9s77alok:c:0396fbd221.&sid=tyy,4mr&icmpid=hp_dotd_3_s:ip42ji2g9s77alok:c:0396fbd221" data-tracking-id="Rs. 99 & Below"> <div class="fk-text-center offerWrap"> <div class="offerTitleWrap"> <div class="offerTitle">Rs. 99 & Below</div> <div class="borderRed"></div> <div class="triangle"></div> </div> <div class="fclear"></div> <div class="newPrice fix-height tmargin7">Screen Guard for Mobiles</div> <div class="fk-text-center pImgContainer"> <img class="vmiddle" data-src="http://img5a.flixcart.com/image/screen-guard/screen-guard/z/9/g/ncase-psp-as-zc451cg-125x125-imadkbmhpgysy8je.jpeg" onload="lzld(this)" src="http://img6a.flixcart.com/www/prod/images/gray_1x1-81857055.gif" height="125px" width="125px"/> </div> <div class="offerSubTitle">
+ From nCase
+ </div> </div> </a> </li> <li class="offers-wrap ccarousel-item no-js fk-inline-block"> <a class="dealsLink" href="/promotion/pr?offer=s:80fbwfnggi37wytx:c:030fca9d21.&sid=2oq,c1r&icmpid=hp_dotd_4_s:80fbwfnggi37wytx:c:030fca9d21" data-tracking-id="Rs 199 & Below"> <div class="fk-text-center offerWrap"> <div class="offerTitleWrap"> <div class="offerTitle">Rs 199 & Below</div> <div class="borderRed"></div> <div class="triangle"></div> </div> <div class="fclear"></div> <div class="newPrice fix-height tmargin7">Tops, Shrugs, Innerwear & More</div> <div class="fk-text-center pImgContainer"> <img class="vmiddle" data-src="http://img5a.flixcart.com/image/top/e/c/y/kf-164-karishma-xl-125x125-imadyhm5wrvm6rw2.jpeg" onload="lzld(this)" src="http://img6a.flixcart.com/www/prod/images/gray_1x1-81857055.gif" height="125px" width="125px"/> </div> <div class="offerSubTitle">
+ From Karishma & More
+ </div> </div> </a> </li> <li class="offers-wrap ccarousel-item no-js fk-inline-block"> <a class="dealsLink" href="/zebronics-zeb-s310-club-wired-laptop-speakers/p/itmdxt6pkgv9mfft?pid=ACCDXT6PF8CNFU3A&offer=DOTDOnSpeakers_Apr23.&icmpid=hp_dotd_5_DOTDOnSpeakers_Apr23" data-tracking-id="Just at Rs 199"> <div class="fk-text-center offerWrap"> <div class="offerTitleWrap"> <div class="offerTitle">Just at Rs 199</div> <div class="borderRed"></div> <div class="triangle"></div> </div> <div class="fclear"></div> <div class="price old tmargin7">Rs. 369</div> <div class="newPrice fk-font-15">Rs. 199</div> <div class="fk-text-center pImgContainer"> <img class="vmiddle" data-src="http://img5a.flixcart.com/image/speaker/desktop-speaker/u/3/a/zebronics-club-125x125-imadxtw2y5tcapnr.jpeg" onload="lzld(this)" src="http://img6a.flixcart.com/www/prod/images/gray_1x1-81857055.gif" height="125px" width="125px"/> </div> <div class="offerSubTitle">
+ Zebronics ZEB-S310 Club Wired Laptop Speakers
+ </div> </div> </a> </li> <li class="offers-wrap ccarousel-item no-js fk-inline-block"> <a class="dealsLink" href="/promotion/pr?offer=DOTDOnMensClothing_Apr23.&sid=2oq,s9b&icmpid=hp_dotd_6_DOTDOnMensClothing_Apr23" data-tracking-id="Below Rs 199"> <div class="fk-text-center offerWrap"> <div class="offerTitleWrap"> <div class="offerTitle">Below Rs 199</div> <div class="borderRed"></div> <div class="triangle"></div> </div> <div class="fclear"></div> <div class="newPrice fix-height tmargin7">T-shirts, socks and more</div> <div class="fk-text-center pImgContainer"> <img class="vmiddle" data-src="http://img5a.flixcart.com/image/sock/s/n/8/b81229-reebok-free-125x125-imadz5m8caba6zhp.jpeg" onload="lzld(this)" src="http://img6a.flixcart.com/www/prod/images/gray_1x1-81857055.gif" height="125px" width="125px"/> </div> <div class="offerSubTitle">
+ Men's Wear
+ </div> </div> </a> </li> <li class="offers-wrap ccarousel-item no-js fk-inline-block"> <a class="dealsLink" href="/primuz-ur-401-remote-controller/p/itme4ac5um2udgwf?pid=REME4AC4ENQGKWPB&offer=DOTDOnRemotecontroller_Apr23.&icmpid=hp_dotd_7_DOTDOnRemotecontroller_Apr23" data-tracking-id="Just at Rs. 199"> <div class="fk-text-center offerWrap"> <div class="offerTitleWrap"> <div class="offerTitle">Just at Rs. 199</div> <div class="borderRed"></div> <div class="triangle"></div> </div> <div class="fclear"></div> <div class="price old tmargin7">Rs. 700</div> <div class="newPrice fk-font-15">Rs. 199</div> <div class="fk-text-center pImgContainer"> <img class="vmiddle" data-src="http://img5a.flixcart.com/image/remote-controller/w/p/b/primuz-ur-401-125x125-imae4hv9whbngz9e.jpeg" onload="lzld(this)" src="http://img6a.flixcart.com/www/prod/images/gray_1x1-81857055.gif" height="125px" width="125px"/> </div> <div class="offerSubTitle">
+ Primuz UR - 401 Remote Controller
+ </div> </div> </a> </li> <li class="offers-wrap ccarousel-item no-js fk-inline-block"> <a class="dealsLink" href="/sandisk-cruzer-switch-8-gb-pen-drive/p/itmeyfq9mhtf5kqz?pid=ACCD3VYMPCYVGRVF&offer=DOTDOnPendrive_Apr23.&icmpid=hp_dotd_8_DOTDOnPendrive_Apr23" data-tracking-id="Just at Rs. 179"> <div class="fk-text-center offerWrap"> <div class="offerTitleWrap"> <div class="offerTitle">Just at Rs. 179</div> <div class="borderRed"></div> <div class="triangle"></div> </div> <div class="fclear"></div> <div class="price old tmargin7">Rs. 399</div> <div class="newPrice fk-font-15">Rs. 179</div> <div class="fk-text-center pImgContainer"> <img class="vmiddle" data-src="http://img6a.flixcart.com/image/pendrive/utility-pendrive/r/v/f/sandisk-cruzer-switch-8-gb-125x125-imads23xzgesvqmm.jpeg" onload="lzld(this)" src="http://img6a.flixcart.com/www/prod/images/gray_1x1-81857055.gif" height="125px" width="125px"/> </div> <div class="offerSubTitle">
+ SanDisk Cruzer Switch 8 GB Pen Drive
+ </div> </div> </a> </li> <li class="offers-wrap ccarousel-item no-js fk-inline-block"> <a class="dealsLink" href="/toshiba-microsd-card-8-gb-15-mb-s-class-4/p/itmdg8x6cz7cyd7z?pid=ACCDG8X5CW6VGPX2&offer=DOTDOnMemorycard_Apr23.&icmpid=hp_dotd_9_DOTDOnMemorycard_Apr23" data-tracking-id="Just at Rs. 171"> <div class="fk-text-center offerWrap"> <div class="offerTitleWrap"> <div class="offerTitle">Just at Rs. 171</div> <div class="borderRed"></div> <div class="triangle"></div> </div> <div class="fclear"></div> <div class="newPrice fix-height tmargin7"></div> <div class="fk-text-center pImgContainer"> <img class="vmiddle" data-src="http://img5a.flixcart.com/image/memory-card/microsd-card/p/x/2/toshiba-8-gb-microsdhc-125x125-imaey6dkrz9dc9kz.jpeg" onload="lzld(this)" src="http://img6a.flixcart.com/www/prod/images/gray_1x1-81857055.gif" height="125px" width="125px"/> </div> <div class="offerSubTitle">
+ Toshiba MicroSD Card 8 GB 15 MB/s Class 4
+ </div> </div> </a> </li> <li class="offers-wrap ccarousel-item no-js fk-inline-block"> <a class="dealsLink" href="/promotion/pr?offer=DOTDOnFMCG_Apr23.&sid=0hx&icmpid=hp_dotd_10_DOTDOnFMCG_Apr23" data-tracking-id="Starting at RS. 149"> <div class="fk-text-center offerWrap"> <div class="offerTitleWrap"> <div class="offerTitle">Starting at RS. 149</div> <div class="borderRed"></div> <div class="triangle"></div> </div> <div class="fclear"></div> <div class="newPrice fix-height tmargin7">Two Wheeler Covers & Arm Sleeve</div> <div class="fk-text-center pImgContainer"> <img class="vmiddle" data-src="http://img5a.flixcart.com/image/two-wheeler-cover/c/z/b/tw2-retina-125x125-imae6g3nzun5auz5.jpeg" onload="lzld(this)" src="http://img6a.flixcart.com/www/prod/images/gray_1x1-81857055.gif" height="125px" width="125px"/> </div> <div class="offerSubTitle">
+ Retina
+ </div> </div> </a> </li> </ul> </div> </div> </div> </div> <script type="text/javascript+fk-onload">
+(function() {
+ require_module.js("carousel", function () {
+ $('.list-carousel', '.DOTDHpWidget').each(function () {
+ var params = {
+ content: $(this),
+ 'columns': 4,
+ 'rows': 1,
+ 'columnsperslide': 4,
+ 'buttonsonside': true,
+ 'allowdeletion': false,
+ 'removeonerror': true,
+ 'buttonOverlap': true,
+ 'cssClass':'DOTDHomePageCarousel'
+ };
+ var DOTDCarousel = new FKART.ui.Carousel(params);
+ DOTDCarousel.init();
+ });
+ });
+ $('.dotd-countdown', '.DOTDHpWidget').countdowntimer({
+ zeroReachtext: '00 : 00 : 00',
+ zeroReachCallback: function () {
+ var $parent = $('.dotd-hp-widget');
+ $parent.find('.timerText').html('ENDED'); 
+ _.delay(function() {
+ $('.dotd-hp-widget').parent().animate({
+ "opacity": .25,
+ "height": "toggle"
+ }, 2000, "linear", function() {});
+ }, 5000);
+ }
+ });
+})();
+</script> </div> <div data-tracking-id="mod_electronics" class="required-tracking catBlock module_electronics"> <h2 class="header"> <span class="fllt fk-uppercase fk-font-16 lmargin10">Electronics</span> <span class="fk-font-13 flrt rmargin10 subText"></span> </h2> <div class="navSection"> <div class="require-nav-carousel nonLifeStyle" data-columns="5" data-buttonsonside="true"> <ul class="ccarousel nojs"> <li class="ccarousel-item "> <a data-tracking-id="vis_Television" class="fllt" href="/televisions"> <div class="fllt imageBox"> <span class = "imgContainer electronics lazy-bgImage" data-bgImage = "http://img5a.flixcart.com/www/promos/new/20150302-134414-revised-electronics-sprite.png" style='background-position:-210px -206px'></span> </div> <div class="fllt labelBox"><span class="arrow-right">Television</span></div> </a> </li> <li class="ccarousel-item "> <a data-tracking-id="vis_Air Conditioners" class="fllt" href="/home-kitchen/home-appliances/air-conditioners"> <div class="fllt imageBox"> <span class = "imgContainer electronics lazy-bgImage" data-bgImage = "http://img5a.flixcart.com/www/promos/new/20150302-134414-revised-electronics-sprite.png" style='background-position:-105px -265px'></span> </div> <div class="fllt labelBox"><span class="arrow-right">Air Conditioners</span></div> </a> </li> <li class="ccarousel-item "> <a data-tracking-id="vis_Mobile Accessories" class="fllt" href="/mobile-accessories"> <div class="fllt imageBox"> <span class = "imgContainer electronics lazy-bgImage" data-bgImage = "http://img5a.flixcart.com/www/promos/new/20150302-134414-revised-electronics-sprite.png" style='background-position:0 -132px'></span> </div> <div class="fllt labelBox"><span class="arrow-right">Mobile Accessories</span></div> </a> </li> <li class="ccarousel-item "> <a data-tracking-id="vis_Fans" class="fllt" href="/home-kitchen/home-appliances/fans/pr?sid=j9e,abm,lbz"> <div class="fllt imageBox"> <span class = "imgContainer electronics lazy-bgImage" data-bgImage = "http://img5a.flixcart.com/www/promos/new/20150302-134414-revised-electronics-sprite.png" style='background-position:-0px -411px'></span> </div> <div class="fllt labelBox"><span class="arrow-right">Fans</span></div> </a> </li> <li class="ccarousel-item "> <a data-tracking-id="vis_Laptops" class="fllt" href="/computers/laptops"> <div class="fllt imageBox"> <span class = "imgContainer electronics lazy-bgImage" data-bgImage = "http://img5a.flixcart.com/www/promos/new/20150302-134414-revised-electronics-sprite.png" style='background-position:-210px 0'></span> </div> <div class="fllt labelBox"><span class="arrow-right">Laptops</span></div> </a> </li> <li class="ccarousel-item "> <a data-tracking-id="vis_Tablets" class="fllt" href="/tablets"> <div class="fllt imageBox"> <span class = "imgContainer electronics lazy-bgImage" data-bgImage = "http://img5a.flixcart.com/www/promos/new/20150302-134414-revised-electronics-sprite.png" style='background-position:-210px -66px'></span> </div> <div class="fllt labelBox"><span class="arrow-right">Tablets</span></div> </a> </li> <li class="ccarousel-item "> <a data-tracking-id="vis_Cameras" class="fllt" href="/cameras"> <div class="fllt imageBox"> <span class = "imgContainer electronics lazy-bgImage" data-bgImage = "http://img5a.flixcart.com/www/promos/new/20150302-134414-revised-electronics-sprite.png" style='background-position:-105px -132px'></span> </div> <div class="fllt labelBox"><span class="arrow-right">Cameras</span></div> </a> </li> <li class="ccarousel-item "> <a data-tracking-id="vis_Shavers" class="fllt" href="/beauty-and-personal-care/personal-care-appliances/shavers/pr?sid=t06,79s,u3j"> <div class="fllt imageBox"> <span class = "imgContainer electronics lazy-bgImage" data-bgImage = "http://img5a.flixcart.com/www/promos/new/20150302-134414-revised-electronics-sprite.png" style='background-position:-0px -0px'></span> </div> <div class="fllt labelBox"><span class="arrow-right">Shavers</span></div> </a> </li> <li class="ccarousel-item "> <a data-tracking-id="vis_Mobiles" class="fllt" href="/mobiles"> <div class="fllt imageBox"> <span class = "imgContainer electronics lazy-bgImage" data-bgImage = "http://img5a.flixcart.com/www/promos/new/20150302-134414-revised-electronics-sprite.png" style='background-position:-105px -198px'></span> </div> <div class="fllt labelBox"><span class="arrow-right">Mobiles</span></div> </a> </li> <li class="ccarousel-item "> <a data-tracking-id="vis_Washing Machine" class="fllt" href="/home-kitchen/home-appliances/washing-machines"> <div class="fllt imageBox"> <span class = "imgContainer electronics lazy-bgImage" data-bgImage = "http://img5a.flixcart.com/www/promos/new/20150302-134414-revised-electronics-sprite.png" style='background-position:-0px -340px'></span> </div> <div class="fllt labelBox"><span class="arrow-right">Washing Machine</span></div> </a> </li> <li class="ccarousel-item "> <a data-tracking-id="vis_Speakers" class="fllt" href="/computers/audio-players/home-audio/speakers/pr?sid=6bo,ord,rlj,8sb"> <div class="fllt imageBox"> <span class = "imgContainer electronics lazy-bgImage" data-bgImage = "http://img5a.flixcart.com/www/promos/new/20150302-134414-revised-electronics-sprite.png" style='background-position:-108px -409px'></span> </div> <div class="fllt labelBox"><span class="arrow-right">Speakers</span></div> </a> </li> <li class="ccarousel-item "> <a data-tracking-id="vis_Gaming" class="fllt" href="/games"> <div class="fllt imageBox"> <span class = "imgContainer electronics lazy-bgImage" data-bgImage = "http://img5a.flixcart.com/www/promos/new/20150302-134414-revised-electronics-sprite.png" style='background-position:-105px 0'></span> </div> <div class="fllt labelBox"><span class="arrow-right">Gaming</span></div> </a> </li> <li class="ccarousel-item "> <a data-tracking-id="vis_Water Purifiers" class="fllt" href="/home-kitchen/home-appliances/water-purifiers/pr?sid=j9e,abm,i45"> <div class="fllt imageBox"> <span class = "imgContainer electronics lazy-bgImage" data-bgImage = "http://img5a.flixcart.com/www/promos/new/20150302-134414-revised-electronics-sprite.png" style='background-position:-210px -347px'></span> </div> <div class="fllt labelBox"><span class="arrow-right">Water Purifiers</span></div> </a> </li> <li class="ccarousel-item "> <a data-tracking-id="vis_Laptop Accessories" class="fllt" href="/laptop-accessories/pr?sid=6bo,ai3"> <div class="fllt imageBox"> <span class = "imgContainer electronics lazy-bgImage" data-bgImage = "http://img5a.flixcart.com/www/promos/new/20150302-134414-revised-electronics-sprite.png" style='background-position:-105px -66px'></span> </div> <div class="fllt labelBox"><span class="arrow-right">Laptop Accessories</span></div> </a> </li> <li class="ccarousel-item "> <a data-tracking-id="vis_Printers" class="fllt" href="/computers/computer-peripherals/printers-inks/printers"> <div class="fllt imageBox"> <span class = "imgContainer electronics lazy-bgImage" data-bgImage = "http://img5a.flixcart.com/www/promos/new/20150302-134414-revised-electronics-sprite.png" style='background-position:-210px -481px'></span> </div> <div class="fllt labelBox"><span class="arrow-right">Printers</span></div> </a> </li> </ul> </div> </div> <div class="bannersSection"> <div class="bannerHolder left small"> <a data-tracking-id="bn_left" href="/mobile-accessories/power-banks/pr?sid=tyy,4mr,fu6"> <img alt=" Banner 1"
+ src="data:image/gif;base64,R0lGODlhAQABAJEAAAAAAP////Ly8v///yH5BAEAAAMALAAAAAABAAEAAAICVAEAOw=="
+ data-src="http://img6a.flixcart.com/www/promos/new/20150423-152245-p1.jpg"/> </a> </div> <div class="bannerHolder middle big"> <a data-tracking-id="bn_middle" href="/myphone-mystyle"> <img alt=" Banner 2"
+ src="data:image/gif;base64,R0lGODlhAQABAJEAAAAAAP////Ly8v///yH5BAEAAAMALAAAAAABAAEAAAICVAEAOw=="
+ data-src="http://img5a.flixcart.com/www/promos/new/20150407-161359-p2.jpg"/> </a> </div> <div class="bannerHolder right small"> <a data-tracking-id="bn_right" href="/laptops/~amazing-prices-on-laptops/pr?sid=6bo,b5g"> <img alt=" Banner 3"
+ src="data:image/gif;base64,R0lGODlhAQABAJEAAAAAAP////Ly8v///yH5BAEAAAMALAAAAAABAAEAAAICVAEAOw=="
+ data-src="http://img6a.flixcart.com/www/promos/new/20150423-152245-p3.jpg"/> </a> </div> </div> <div class="productsSection newvd"> <div class="tabsContainer"> <a class="fllt tab" data-ajax-url="/ajax/browse/getTopProducts?cat=electronics&type=bestseller" id="hp_category_tab_electronics_0" href="javascript:void(0)"> <span class="">BestSellers</span> </a> <span class="clearfix"></span> </div> <div class="tab-content " id="hp_category_tab_electronics_0-content" data-sortby="" href="javascript:void(0)"> <div class="fk-loader-middle"></div> </div> </div> </div> <div data-tracking-id="mod_homeliving" class="required-tracking catBlock module_homeliving"> <h2 class="header"> <span class="fllt fk-uppercase fk-font-16 lmargin10">HOME and LIVING </span> <span class="fk-font-13 flrt rmargin10 subText"></span> </h2> <div class="navSection"> <div class="lifeStyle"> <div class="unit size1of3"> <div class="navBox tpadding10 fk-text-center"> <div class="fk-font-15"><span>Household Needs</span><span class="arrow-box"></span></div> <div class="tpadding5 imageBox"> <img data-src="http://img5a.flixcart.com/www/promos/new/20150119-125321-image-01---household-needs.png" src="data:image/gif;base64,R0lGODlhAQABAJEAAAAAAP////Ly8v///yH5BAEAAAMALAAAAAABAAEAAAICVAEAOw=="> </div> </div> </div> <div class="unit size1of3"> <div class="navBox tpadding10 fk-text-center"> <div class="fk-font-15"><span>Home Furnishing</span><span class="arrow-box"></span></div> <div class="tpadding5 imageBox"> <img data-src="http://img6a.flixcart.com/www/promos/new/20150119-125321-image-02--home-furnishings.png" src="data:image/gif;base64,R0lGODlhAQABAJEAAAAAAP////Ly8v///yH5BAEAAAMALAAAAAABAAEAAAICVAEAOw=="> </div> </div> </div> <div class="unit size1of3"> <div class="navBox tpadding10 fk-text-center"> <div class="fk-font-15"><span>Home Decor</span><span class="arrow-box"></span></div> <div class="tpadding5 imageBox"> <img data-src="http://img6a.flixcart.com/www/promos/new/20150119-125321-image-03--home-decor.png" src="data:image/gif;base64,R0lGODlhAQABAJEAAAAAAP////Ly8v///yH5BAEAAAMALAAAAAABAAEAAAICVAEAOw=="> </div> </div> </div> <div class="hidden-nav"> <div class="navBoxes"> <div class="tagLine"> <a class="normal-link newTag required-tracking" data-tracking-id="subheader_Household Needs_" href="/home-kitchen-store">Household Needs</a> </div> <div> <ul> <li class="unit size1of6"> <a data-tracking-id="vis_Household Needs_LED & CFLs" class="fllt squareLink" href="/home-decor/lights-lamps/led-cfl-bulbs/pr?sid=1m7,sat,nmw"> <div class="fllt imageBox"><img data-src="http://img5a.flixcart.com/www/promos/new/20150119-125321-image-07--cfl--led.png" src="data:image/gif;base64,R0lGODlhAQABAJEAAAAAAP////Ly8v///yH5BAEAAAMALAAAAAABAAEAAAICVAEAOw=="></div> <div class="fllt labelBox"><span class="arrow-right">LED & CFLs</span></div> </a> </li> <li class="unit size1of6"> <a data-tracking-id="vis_Household Needs_Pressure Cookers" class="fllt squareLink" href="/household/pressure-cookers-pans/pr?sid=r4l,u3r"> <div class="fllt imageBox"><img data-src="http://img5a.flixcart.com/www/promos/new/20150119-125321-image-08--pressure-cooker.png" src="data:image/gif;base64,R0lGODlhAQABAJEAAAAAAP////Ly8v///yH5BAEAAAMALAAAAAABAAEAAAICVAEAOw=="></div> <div class="fllt labelBox"><span class="arrow-right">Pressure Cookers</span></div> </a> </li> <li class="unit size1of6"> <a data-tracking-id="vis_Household Needs_Pans and Tawas" class="fllt squareLink" href="/household/cookware/pots-pans/pans-tawas/pr?sid=r4l,c7t,qov,2vk"> <div class="fllt imageBox"><img data-src="http://img6a.flixcart.com/www/promos/new/20150119-125321-image-09--pans-tawas.png" src="data:image/gif;base64,R0lGODlhAQABAJEAAAAAAP////Ly8v///yH5BAEAAAMALAAAAAABAAEAAAICVAEAOw=="></div> <div class="fllt labelBox"><span class="arrow-right">Pans and Tawas</span></div> </a> </li> <li class="unit size1of6"> <a data-tracking-id="vis_Household Needs_Casseroles" class="fllt squareLink" href="/household/flasks-thermoware/casserole-sets/pr?sid=r4l,p4d,q9o"> <div class="fllt imageBox"><img data-src="http://img5a.flixcart.com/www/promos/new/20150119-125321-image-10--casseroles.png" src="data:image/gif;base64,R0lGODlhAQABAJEAAAAAAP////Ly8v///yH5BAEAAAMALAAAAAABAAEAAAICVAEAOw=="></div> <div class="fllt labelBox"><span class="arrow-right">Casseroles</span></div> </a> </li> <li class="unit size1of6"> <a data-tracking-id="vis_Household Needs_Containers" class="fllt squareLink" href="/household/storage/containers-jars/pr?sid=r4l,v2a,29e"> <div class="fllt imageBox"><img data-src="http://img6a.flixcart.com/www/promos/new/20150119-125321-image-11--containers.png" src="data:image/gif;base64,R0lGODlhAQABAJEAAAAAAP////Ly8v///yH5BAEAAAMALAAAAAABAAEAAAICVAEAOw=="></div> <div class="fllt labelBox"><span class="arrow-right">Containers</span></div> </a> </li> <li class="unit size1of6"> <a data-tracking-id="vis_Household Needs_Mugs" class="fllt squareLink" href="/household/dinnerware-crockery/coffee-tea-sets/mugs/pr?sid=r4l%2Cafn%2Cjvd%2Cajv"> <div class="fllt imageBox"><img data-src="http://img6a.flixcart.com/www/promos/new/20150119-125321-image-12--mugs.png" src="data:image/gif;base64,R0lGODlhAQABAJEAAAAAAP////Ly8v///yH5BAEAAAMALAAAAAABAAEAAAICVAEAOw=="></div> <div class="fllt labelBox"><span class="arrow-right">Mugs</span></div> </a> </li> <li class="clearfix"></li> </ul> </div> </div> <div class="navBoxes"> <div class="tagLine"> <a class="normal-link newTag required-tracking" data-tracking-id="subheader_Home Furnishing_Mugs" href="/home-furnishing">Home Furnishing </a> </div> <div> <ul> <li class="unit size1of6"> <a data-tracking-id="vis_Home Furnishing_Bed sheets" class="fllt squareLink" href="/home-furnishing/bed/bedsheets/pr?sid=vdm,uj4,64i"> <div class="fllt imageBox"><img data-src="http://img6a.flixcart.com/www/promos/new/20150119-125321-image-13--bedsheets.png" src="data:image/gif;base64,R0lGODlhAQABAJEAAAAAAP////Ly8v///yH5BAEAAAMALAAAAAABAAEAAAICVAEAOw=="></div> <div class="fllt labelBox"><span class="arrow-right">Bed sheets</span></div> </a> </li> <li class="unit size1of6"> <a data-tracking-id="vis_Home Furnishing_Blankets" class="fllt squareLink" href="/home-furnishing/bed/blankets/pr?sid=vdm,uj4,9co"> <div class="fllt imageBox"><img data-src="http://img6a.flixcart.com/www/promos/new/20150119-125321-image-14--blanket-hf.png" src="data:image/gif;base64,R0lGODlhAQABAJEAAAAAAP////Ly8v///yH5BAEAAAMALAAAAAABAAEAAAICVAEAOw=="></div> <div class="fllt labelBox"><span class="arrow-right">Blankets</span></div> </a> </li> <li class="unit size1of6"> <a data-tracking-id="vis_Home Furnishing_Curtains" class="fllt squareLink" href="/home-furnishing/living/curtains/pr?sid=vdm,30u,lb9"> <div class="fllt imageBox"><img data-src="http://img5a.flixcart.com/www/promos/new/20150119-125321-image-15--curtains.png" src="data:image/gif;base64,R0lGODlhAQABAJEAAAAAAP////Ly8v///yH5BAEAAAMALAAAAAABAAEAAAICVAEAOw=="></div> <div class="fllt labelBox"><span class="arrow-right">Curtains</span></div> </a> </li> <li class="unit size1of6"> <a data-tracking-id="vis_Home Furnishing_Cushion covers" class="fllt squareLink" href="/home-furnishing/living/cushion-pillow-covers/pr?sid=vdm,30u,muw"> <div class="fllt imageBox"><img data-src="http://img5a.flixcart.com/www/promos/new/20150119-125321-image-16--cushion-covers.png" src="data:image/gif;base64,R0lGODlhAQABAJEAAAAAAP////Ly8v///yH5BAEAAAMALAAAAAABAAEAAAICVAEAOw=="></div> <div class="fllt labelBox"><span class="arrow-right">Cushion covers</span></div> </a> </li> <li class="unit size1of6"> <a data-tracking-id="vis_Home Furnishing_Pillows" class="fllt squareLink" href="/home-furnishing/bed/pillows/pr?sid=vdm,uj4,3me"> <div class="fllt imageBox"><img data-src="http://img6a.flixcart.com/www/promos/new/20150119-125321-image-17--pillows.png" src="data:image/gif;base64,R0lGODlhAQABAJEAAAAAAP////Ly8v///yH5BAEAAAMALAAAAAABAAEAAAICVAEAOw=="></div> <div class="fllt labelBox"><span class="arrow-right">Pillows</span></div> </a> </li> <li class="unit size1of6"> <a data-tracking-id="vis_Home Furnishing_Bath Towels" class="fllt squareLink" href="/home-furnishing/bath/bath-towels/pr?sid=vdm,v28,zs1"> <div class="fllt imageBox"><img data-src="http://img5a.flixcart.com/www/promos/new/20150119-125321-image-18--bath-towels.png" src="data:image/gif;base64,R0lGODlhAQABAJEAAAAAAP////Ly8v///yH5BAEAAAMALAAAAAABAAEAAAICVAEAOw=="></div> <div class="fllt labelBox"><span class="arrow-right">Bath Towels</span></div> </a> </li> <li class="clearfix"></li> </ul> </div> </div> <div class="navBoxes"> <div class="tagLine"> <a class="normal-link newTag required-tracking" data-tracking-id="subheader_Home Decor_Bath Towels" href="/home-decor">Home Decor</a> </div> <div> <ul> <li class="unit size1of6"> <a data-tracking-id="vis_Home Decor_Posters" class="fllt squareLink" href="/home-decor/clocks-wall-decor/wall-decor/posters/pr?sid=1m7,att,3vm,tjw"> <div class="fllt imageBox"><img data-src="http://img5a.flixcart.com/www/promos/new/20150119-125322-image-19--posters.png" src="data:image/gif;base64,R0lGODlhAQABAJEAAAAAAP////Ly8v///yH5BAEAAAMALAAAAAABAAEAAAICVAEAOw=="></div> <div class="fllt labelBox"><span class="arrow-right">Posters</span></div> </a> </li> <li class="unit size1of6"> <a data-tracking-id="vis_Home Decor_Beanbag Covers" class="fllt squareLink" href="/home-decor/home-utilities/bean-bag-covers/pr?sid=1m7,4ud,cu4"> <div class="fllt imageBox"><img data-src="http://img5a.flixcart.com/www/promos/new/20150119-125322-image-20--beanbag-covers.png" src="data:image/gif;base64,R0lGODlhAQABAJEAAAAAAP////Ly8v///yH5BAEAAAMALAAAAAABAAEAAAICVAEAOw=="></div> <div class="fllt labelBox"><span class="arrow-right">Beanbag Covers</span></div> </a> </li> <li class="unit size1of6"> <a data-tracking-id="vis_Home Decor_Wall Clocks" class="fllt squareLink" href="/home-decor/clocks-wall-decor/clocks/wall-clocks/pr?sid=1m7,att,2it,jq3"> <div class="fllt imageBox"><img data-src="http://img6a.flixcart.com/www/promos/new/20150119-125322-image-21--wall-clocks.png" src="data:image/gif;base64,R0lGODlhAQABAJEAAAAAAP////Ly8v///yH5BAEAAAMALAAAAAABAAEAAAICVAEAOw=="></div> <div class="fllt labelBox"><span class="arrow-right">Wall Clocks</span></div> </a> </li> <li class="unit size1of6"> <a data-tracking-id="vis_Home Decor_Wall decals" class="fllt squareLink" href="/home-decor/clocks-wall-decor/wall-decor/wall-decals-stickers/pr?sid=1m7,att,3vm,wrz"> <div class="fllt imageBox"><img data-src="http://img6a.flixcart.com/www/promos/new/20150119-125322-image-22--wall-decals.png" src="data:image/gif;base64,R0lGODlhAQABAJEAAAAAAP////Ly8v///yH5BAEAAAMALAAAAAABAAEAAAICVAEAOw=="></div> <div class="fllt labelBox"><span class="arrow-right">Wall decals</span></div> </a> </li> <li class="unit size1of6"> <a data-tracking-id="vis_Home Decor_Table Showpieces" class="fllt squareLink" href="/home-decor/showpieces"> <div class="fllt imageBox"><img data-src="http://img5a.flixcart.com/www/promos/new/20150119-125322-image-23--showpieces.png" src="data:image/gif;base64,R0lGODlhAQABAJEAAAAAAP////Ly8v///yH5BAEAAAMALAAAAAABAAEAAAICVAEAOw=="></div> <div class="fllt labelBox"><span class="arrow-right">Table Showpieces</span></div> </a> </li> <li class="unit size1of6"> <a data-tracking-id="vis_Home Decor_Hookah" class="fllt squareLink" href="/home-decor/table-decor-handicrafts/hookah/pr?sid=1m7,yvw,zqr"> <div class="fllt imageBox"><img data-src="http://img6a.flixcart.com/www/promos/new/20150119-125843-image-24---hookah.png" src="data:image/gif;base64,R0lGODlhAQABAJEAAAAAAP////Ly8v///yH5BAEAAAMALAAAAAABAAEAAAICVAEAOw=="></div> <div class="fllt labelBox"><span class="arrow-right">Hookah</span></div> </a> </li> <li class="clearfix"></li> </ul> </div> </div> </div> <div class="clearfix"></div> </div> <script type="text/javascript+fk-onload">
+ $('.lifeStyle').each(function(){
+ var timer = null;
+ var $this_box = this;
+ var $nav_box = $('.navBox',this);
+ var $hidden_nav = $('.hidden-nav',this);
+ var $navBoxes = $('.navBoxes', this);
+ $('.navBox',this).mouseenter(function(){
+ var $this = $(this);
+ timer = setTimeout(function(){
+ var n = $nav_box.index($this);
+ $nav_box.removeClass('hover');
+ $this.addClass('hover');
+ $navBoxes.addClass('fk-hidden');
+ $('.navBoxes:eq(' + n + ')', $this_box).removeClass('fk-hidden');
+ $hidden_nav.css({'height':'166px'});
+ },500);
+ });
+ $(this).mouseleave(function(){
+ clearTimeout(timer);timer=null;
+ $nav_box.removeClass('hover');
+ $hidden_nav.css({'height':'0px'});
+ setTimeout(function(){$navBoxes.addClass('fk-hidden');},200);
+ });
+ $('.navBox',this).mouseleave(function(){
+ clearTimeout(timer);timer=null;
+ });
+ });
+</script> </div> <div class="bannersSection"> <div class="bannerHolder left small"> <a data-tracking-id="bn_left" href="/tools-hardware/tools/hardware-electricals/hardware/faucets/pr?sid=amz,qrp,rmi,3st,syf"> <img alt=" Banner 1"
+ src="data:image/gif;base64,R0lGODlhAQABAJEAAAAAAP////Ly8v///yH5BAEAAAMALAAAAAABAAEAAAICVAEAOw=="
+ data-src="http://img5a.flixcart.com/www/promos/new/20150422-150347-p1.jpg"/> </a> </div> <div class="bannerHolder middle big"> <a data-tracking-id="bn_middle" href="/home-decor/wall-decor-clocks/wall-shelves/pr?sid=1m7%2Catt%2Cj4u&otracker=start&q=wall+shelves&as-pos=1_1_ic_wall+shelves&as=on&as-show=on"> <img alt=" Banner 2"
+ src="data:image/gif;base64,R0lGODlhAQABAJEAAAAAAP////Ly8v///yH5BAEAAAMALAAAAAABAAEAAAICVAEAOw=="
+ data-src="http://img6a.flixcart.com/www/promos/new/20150422-150347-p2.jpg"/> </a> </div> <div class="bannerHolder right small"> <a data-tracking-id="bn_right" href="/home-furnishing/kitchen-dining/table-placemats/pr?sid=vdm%2Cow3%2Csm1&q=table+placements"> <img alt=" Banner 3"
+ src="data:image/gif;base64,R0lGODlhAQABAJEAAAAAAP////Ly8v///yH5BAEAAAMALAAAAAABAAEAAAICVAEAOw=="
+ data-src="http://img6a.flixcart.com/www/promos/new/20150422-150347-p3.jpg"/> </a> </div> </div> <div class="productsSection newvd"> <div class="tabsContainer"> <a class="fllt tab" data-ajax-url="/ajax/browse/getTopProducts?cat=homeliving&type=bestseller" id="hp_category_tab_homeliving_0" href="javascript:void(0)"> <span class="">Bestsellers</span> </a> <a class="fllt tab" data-ajax-url="/ajax/browse/getTopProducts?cat=homeliving&type=new-arrivals" id="hp_category_tab_homeliving_1" href="javascript:void(0)"> <span class="">New Arrivals</span> </a> <span class="clearfix"></span> </div> <div class="tab-content " id="hp_category_tab_homeliving_0-content" data-sortby="" href="javascript:void(0)"> <div class="fk-loader-middle"></div> </div> <div class="tab-content hidden" id="hp_category_tab_homeliving_1-content" data-sortby="" href="javascript:void(0)"> <div class="fk-loader-middle"></div> </div> </div> </div> <div data-tracking-id="mod_lifestyle" class="required-tracking catBlock module_lifestyle"> <h2 class="header"> <span class="fllt fk-uppercase fk-font-16 lmargin10">Fashion</span> <span class="fk-font-13 flrt rmargin10 subText"></span> </h2> <div class="navSection"> <div class="lifeStyle"> <div class="unit size1of3"> <div class="navBox tpadding10 fk-text-center"> <div class="fk-font-15"><span>Men</span><span class="arrow-box"></span></div> <div class="tpadding5 imageBox"> <img data-src="http://img6a.flixcart.com/www/promos/new/20140519-163725-men.png" src="data:image/gif;base64,R0lGODlhAQABAJEAAAAAAP////Ly8v///yH5BAEAAAMALAAAAAABAAEAAAICVAEAOw=="> </div> </div> </div> <div class="unit size1of3"> <div class="navBox tpadding10 fk-text-center"> <div class="fk-font-15"><span>Women</span><span class="arrow-box"></span></div> <div class="tpadding5 imageBox"> <img data-src="http://img5a.flixcart.com/www/promos/new/20140519-163725-women.png" src="data:image/gif;base64,R0lGODlhAQABAJEAAAAAAP////Ly8v///yH5BAEAAAMALAAAAAABAAEAAAICVAEAOw=="> </div> </div> </div> <div class="unit size1of3"> <div class="navBox tpadding10 fk-text-center"> <div class="fk-font-15"><span>Kids & Baby</span><span class="arrow-box"></span></div> <div class="tpadding5 imageBox"> <img data-src="http://img5a.flixcart.com/www/promos/new/20140519-163725-kids-1.png" src="data:image/gif;base64,R0lGODlhAQABAJEAAAAAAP////Ly8v///yH5BAEAAAMALAAAAAABAAEAAAICVAEAOw=="> </div> </div> </div> <div class="hidden-nav"> <div class="navBoxes"> <div class="tagLine"> <a class="normal-link newTag required-tracking" data-tracking-id="subheader_Men_" href="/men">Men's Store</a> </div> <div> <ul> <li class="unit size1of6"> <a data-tracking-id="vis_Men_Clothing" class="fllt squareLink" href="/mens-clothing"> <div class="fllt imageBox"><img data-src="http://img5a.flixcart.com//www/promos/new/20130925-202421-vn-men1.png" src="data:image/gif;base64,R0lGODlhAQABAJEAAAAAAP////Ly8v///yH5BAEAAAMALAAAAAABAAEAAAICVAEAOw=="></div> <div class="fllt labelBox"><span class="arrow-right">Clothing</span></div> </a> </li> <li class="unit size1of6"> <a data-tracking-id="vis_Men_Footwear" class="fllt squareLink" href="/mens-footwear"> <div class="fllt imageBox"><img data-src="http://img5a.flixcart.com//www/promos/new/20130925-202421-vn-men2.png" src="data:image/gif;base64,R0lGODlhAQABAJEAAAAAAP////Ly8v///yH5BAEAAAMALAAAAAABAAEAAAICVAEAOw=="></div> <div class="fllt labelBox"><span class="arrow-right">Footwear</span></div> </a> </li> <li class="unit size1of6"> <a data-tracking-id="vis_Men_Watches" class="fllt squareLink" href="/watches/men"> <div class="fllt imageBox"><img data-src="http://img5a.flixcart.com//www/promos/new/20130925-202421-vn-men3.png" src="data:image/gif;base64,R0lGODlhAQABAJEAAAAAAP////Ly8v///yH5BAEAAAMALAAAAAABAAEAAAICVAEAOw=="></div> <div class="fllt labelBox"><span class="arrow-right">Watches</span></div> </a> </li> <li class="unit size1of6"> <a data-tracking-id="vis_Men_Bags" class="fllt squareLink" href="/lifestyle/bags-wallets-belts/men"> <div class="fllt imageBox"><img data-src="http://img5a.flixcart.com//www/promos/new/20130925-202421-vn-men4.png" src="data:image/gif;base64,R0lGODlhAQABAJEAAAAAAP////Ly8v///yH5BAEAAAMALAAAAAABAAEAAAICVAEAOw=="></div> <div class="fllt labelBox"><span class="arrow-right">Bags</span></div> </a> </li> <li class="unit size1of6"> <a data-tracking-id="vis_Men_Sunglasses" class="fllt squareLink" href="/sunglasses/men"> <div class="fllt imageBox"><img data-src="http://img5a.flixcart.com//www/promos/new/20130925-202421-vn-men5.png" src="data:image/gif;base64,R0lGODlhAQABAJEAAAAAAP////Ly8v///yH5BAEAAAMALAAAAAABAAEAAAICVAEAOw=="></div> <div class="fllt labelBox"><span class="arrow-right">Sunglasses</span></div> </a> </li> <li class="unit size1of6"> <a data-tracking-id="vis_Men_Grooming" class="fllt squareLink" href="/health-and-beauty"> <div class="fllt imageBox"><img data-src="http://img5a.flixcart.com//www/promos/new/20130925-202421-vn-men6.png" src="data:image/gif;base64,R0lGODlhAQABAJEAAAAAAP////Ly8v///yH5BAEAAAMALAAAAAABAAEAAAICVAEAOw=="></div> <div class="fllt labelBox"><span class="arrow-right">Grooming</span></div> </a> </li> <li class="clearfix"></li> </ul> </div> </div> <div class="navBoxes"> <div class="tagLine"> <a class="normal-link newTag required-tracking" data-tracking-id="subheader_Women_Grooming" href="/women">Women's Store</a> </div> <div> <ul> <li class="unit size1of6"> <a data-tracking-id="vis_Women_Clothing" class="fllt squareLink" href="/womens-clothing"> <div class="fllt imageBox"><img data-src="http://img5a.flixcart.com//www/promos/new/20130925-202730-vn-women1.png" src="data:image/gif;base64,R0lGODlhAQABAJEAAAAAAP////Ly8v///yH5BAEAAAMALAAAAAABAAEAAAICVAEAOw=="></div> <div class="fllt labelBox"><span class="arrow-right">Clothing</span></div> </a> </li> <li class="unit size1of6"> <a data-tracking-id="vis_Women_Footwear" class="fllt squareLink" href="/womens-footwear"> <div class="fllt imageBox"><img data-src="http://img5a.flixcart.com//www/promos/new/20130925-202730-vn-women2.png" src="data:image/gif;base64,R0lGODlhAQABAJEAAAAAAP////Ly8v///yH5BAEAAAMALAAAAAABAAEAAAICVAEAOw=="></div> <div class="fllt labelBox"><span class="arrow-right">Footwear</span></div> </a> </li> <li class="unit size1of6"> <a data-tracking-id="vis_Women_Watches" class="fllt squareLink" href="/watches/women"> <div class="fllt imageBox"><img data-src="http://img5a.flixcart.com//www/promos/new/20130925-202730-vn-women3.png" src="data:image/gif;base64,R0lGODlhAQABAJEAAAAAAP////Ly8v///yH5BAEAAAMALAAAAAABAAEAAAICVAEAOw=="></div> <div class="fllt labelBox"><span class="arrow-right">Watches</span></div> </a> </li> <li class="unit size1of6"> <a data-tracking-id="vis_Women_Bags" class="fllt squareLink" href="/lifestyle/bags-wallets-belts/women"> <div class="fllt imageBox"><img data-src="http://img5a.flixcart.com//www/promos/new/20130925-202730-vn-women4.png" src="data:image/gif;base64,R0lGODlhAQABAJEAAAAAAP////Ly8v///yH5BAEAAAMALAAAAAABAAEAAAICVAEAOw=="></div> <div class="fllt labelBox"><span class="arrow-right">Bags</span></div> </a> </li> <li class="unit size1of6"> <a data-tracking-id="vis_Women_Jewellery" class="fllt squareLink" href="/jewellery"> <div class="fllt imageBox"><img data-src="http://img6a.flixcart.com/www/promos/new/20140812-154316-jewellery.png" src="data:image/gif;base64,R0lGODlhAQABAJEAAAAAAP////Ly8v///yH5BAEAAAMALAAAAAABAAEAAAICVAEAOw=="></div> <div class="fllt labelBox"><span class="arrow-right">Jewellery</span></div> </a> </li> <li class="unit size1of6"> <a data-tracking-id="vis_Women_Beauty" class="fllt squareLink" href="/health-and-beauty"> <div class="fllt imageBox"><img data-src="http://img5a.flixcart.com//www/promos/new/20130925-202730-vn-women6.png" src="data:image/gif;base64,R0lGODlhAQABAJEAAAAAAP////Ly8v///yH5BAEAAAMALAAAAAABAAEAAAICVAEAOw=="></div> <div class="fllt labelBox"><span class="arrow-right">Beauty</span></div> </a> </li> <li class="clearfix"></li> </ul> </div> </div> <div class="navBoxes"> <div class="tagLine">
+ All kid's shopping needs. </div> <div> <ul> <li class="unit size1of6"> <a data-tracking-id="vis_Kids & Baby_Clothing" class="fllt squareLink" href="kids-clothing"> <div class="fllt imageBox"><img data-src="http://img5a.flixcart.com//www/promos/new/20130926-125219-vn-boys1.png" src="data:image/gif;base64,R0lGODlhAQABAJEAAAAAAP////Ly8v///yH5BAEAAAMALAAAAAABAAEAAAICVAEAOw=="></div> <div class="fllt labelBox"><span class="arrow-right">Clothing</span></div> </a> </li> <li class="unit size1of6"> <a data-tracking-id="vis_Kids & Baby_Footwear" class="fllt squareLink" href="kids-footwear"> <div class="fllt imageBox"><img data-src="http://img5a.flixcart.com//www/promos/new/20130926-125219-vn-girls2.png" src="data:image/gif;base64,R0lGODlhAQABAJEAAAAAAP////Ly8v///yH5BAEAAAMALAAAAAABAAEAAAICVAEAOw=="></div> <div class="fllt labelBox"><span class="arrow-right">Footwear</span></div> </a> </li> <li class="unit size1of6"> <a data-tracking-id="vis_Kids & Baby_Watches" class="fllt squareLink" href="/watches/kids"> <div class="fllt imageBox"><img data-src="http://img5a.flixcart.com//www/promos/new/20130926-125219-vn-boys3.png" src="data:image/gif;base64,R0lGODlhAQABAJEAAAAAAP////Ly8v///yH5BAEAAAMALAAAAAABAAEAAAICVAEAOw=="></div> <div class="fllt labelBox"><span class="arrow-right">Watches</span></div> </a> </li> <li class="unit size1of6"> <a data-tracking-id="vis_Kids & Baby_Toys" class="fllt squareLink" href="/toys/toy-store"> <div class="fllt imageBox"><img data-src="http://img5a.flixcart.com//www/promos/new/20130926-125219-vn-boys4.png" src="data:image/gif;base64,R0lGODlhAQABAJEAAAAAAP////Ly8v///yH5BAEAAAMALAAAAAABAAEAAAICVAEAOw=="></div> <div class="fllt labelBox"><span class="arrow-right">Toys</span></div> </a> </li> <li class="unit size1of6"> <a data-tracking-id="vis_Kids & Baby_Baby Care" class="fllt squareLink" href="/baby-care"> <div class="fllt imageBox"><img data-src="http://img5a.flixcart.com//www/promos/new/20130926-125219-vn-baby1.png" src="data:image/gif;base64,R0lGODlhAQABAJEAAAAAAP////Ly8v///yH5BAEAAAMALAAAAAABAAEAAAICVAEAOw=="></div> <div class="fllt labelBox"><span class="arrow-right">Baby Care</span></div> </a> </li> <li class="unit size1of6"> <a data-tracking-id="vis_Kids & Baby_Sunglasses" class="fllt squareLink" href="/sunglasses/pr?p[]=facets.ideal_for[]=Boys&p[]=facets.ideal_for[]=Girls&sid=26x"> <div class="fllt imageBox"><img data-src="http://img5a.flixcart.com/www/promos/new/20140519-183518-sunglasses-1.png" src="data:image/gif;base64,R0lGODlhAQABAJEAAAAAAP////Ly8v///yH5BAEAAAMALAAAAAABAAEAAAICVAEAOw=="></div> <div class="fllt labelBox"><span class="arrow-right">Sunglasses</span></div> </a> </li> <li class="clearfix"></li> </ul> </div> </div> </div> <div class="clearfix"></div> </div> <script type="text/javascript+fk-onload">
+ $('.lifeStyle').each(function(){
+ var timer = null;
+ var $this_box = this;
+ var $nav_box = $('.navBox',this);
+ var $hidden_nav = $('.hidden-nav',this);
+ var $navBoxes = $('.navBoxes', this);
+ $('.navBox',this).mouseenter(function(){
+ var $this = $(this);
+ timer = setTimeout(function(){
+ var n = $nav_box.index($this);
+ $nav_box.removeClass('hover');
+ $this.addClass('hover');
+ $navBoxes.addClass('fk-hidden');
+ $('.navBoxes:eq(' + n + ')', $this_box).removeClass('fk-hidden');
+ $hidden_nav.css({'height':'166px'});
+ },500);
+ });
+ $(this).mouseleave(function(){
+ clearTimeout(timer);timer=null;
+ $nav_box.removeClass('hover');
+ $hidden_nav.css({'height':'0px'});
+ setTimeout(function(){$navBoxes.addClass('fk-hidden');},200);
+ });
+ $('.navBox',this).mouseleave(function(){
+ clearTimeout(timer);timer=null;
+ });
+ });
+</script> </div> <div class="bannersSection"> <div class="bannerHolder left small"> <a data-tracking-id="bn_left" href="/anouk"> <img alt=" Banner 1"
+ src="data:image/gif;base64,R0lGODlhAQABAJEAAAAAAP////Ly8v///yH5BAEAAAMALAAAAAABAAEAAAICVAEAOw=="
+ data-src="http://img5a.flixcart.com/www/promos/new/20150327-165935-p1.jpg"/> </a> </div> <div class="bannerHolder middle big"> <a data-tracking-id="bn_middle" href="/watches/~fossil-briggs-series/pr?sid=r18"> <img alt=" Banner 2"
+ src="data:image/gif;base64,R0lGODlhAQABAJEAAAAAAP////Ly8v///yH5BAEAAAMALAAAAAABAAEAAAICVAEAOw=="
+ data-src="http://img5a.flixcart.com/www/promos/new/20150327-165935-p2.jpg"/> </a> </div> <div class="bannerHolder right small"> <a data-tracking-id="bn_right" href="/mens-footwear/shoes/casual-shoes/pr?p%5B%5D=facets.brand%255B%255D%3DVans&p%5B%5D=sort%3Drecency_desc&sid=osp,cil,nit,e1f"> <img alt=" Banner 3"
+ src="data:image/gif;base64,R0lGODlhAQABAJEAAAAAAP////Ly8v///yH5BAEAAAMALAAAAAABAAEAAAICVAEAOw=="
+ data-src="http://img5a.flixcart.com/www/promos/new/20150327-165936-p3.jpg"/> </a> </div> </div> <div class="productsSection newvd"> <div class="tabsContainer"> <a class="fllt tab" data-ajax-url="/ajax/browse/getTopProducts?cat=lifestyle&type=new-arrivals" id="hp_category_tab_lifestyle_0" href="javascript:void(0)"> <span class="">New Arrivals</span> </a> <a class="fllt tab" data-ajax-url="/ajax/browse/getTopProducts?cat=lifestyle&type=mens-bestseller" id="hp_category_tab_lifestyle_1" href="javascript:void(0)"> <span class="">Men's BestSellers</span> </a> <a class="fllt tab" data-ajax-url="/ajax/browse/getTopProducts?cat=lifestyle&type=womens-bestseller" id="hp_category_tab_lifestyle_2" href="javascript:void(0)"> <span class="">Women's BestSellers</span> </a> <a class="fllt tab" data-ajax-url="/ajax/browse/getTopProducts?cat=lifestyle&type=kids-bestseller" id="hp_category_tab_lifestyle_3" href="javascript:void(0)"> <span class="">Kid's BestSellers</span> </a> <span class="clearfix"></span> </div> <div class="tab-content " id="hp_category_tab_lifestyle_0-content" data-sortby="" href="javascript:void(0)"> <div class="fk-loader-middle"></div> </div> <div class="tab-content hidden" id="hp_category_tab_lifestyle_1-content" data-sortby="" href="javascript:void(0)"> <div class="fk-loader-middle"></div> </div> <div class="tab-content hidden" id="hp_category_tab_lifestyle_2-content" data-sortby="" href="javascript:void(0)"> <div class="fk-loader-middle"></div> </div> <div class="tab-content hidden" id="hp_category_tab_lifestyle_3-content" data-sortby="" href="javascript:void(0)"> <div class="fk-loader-middle"></div> </div> </div> </div> <div data-tracking-id="mod_rest" class="required-tracking catBlock module_rest"> <h2 class="header"> <span class="fllt fk-uppercase fk-font-16 lmargin10">all other stores</span> <span class="fk-font-13 flrt rmargin10 subText"></span> </h2> <div class="navSection"> <div class="require-nav-carousel nonLifeStyle" data-columns="5" data-buttonsonside="true"> <ul class="ccarousel nojs"> <li class="ccarousel-item "> <a data-tracking-id="vis_Books" class="fllt" href="/books"> <div class="fllt imageBox"> <span class = "imgContainer rest lazy-bgImage" data-bgImage = "http://img6a.flixcart.com/www/promos/new/20150130-160638-icon.png" style='background-position:0 0'></span> </div> <div class="fllt labelBox"><span class="arrow-right">Books</span></div> </a> </li> <li class="ccarousel-item "> <a data-tracking-id="vis_Body and Skin Care" class="fllt" href="/beauty-and-personal-care/~body-and-skin-care/pr?sid=t06"> <div class="fllt imageBox"> <span class = "imgContainer rest lazy-bgImage" data-bgImage = "http://img6a.flixcart.com/www/promos/new/20150130-160638-icon.png" style='background-position:0 -69px'></span> </div> <div class="fllt labelBox"><span class="arrow-right">Body and Skin Care</span></div> </a> </li> <li class="ccarousel-item "> <a data-tracking-id="vis_Hair Care" class="fllt" href="/beauty-and-personal-care/hair-care/pr?p%5B%5D=facets.brand%255B%255D%3DKhadi&p%5B%5D=facets.brand%255B%255D%3DTRESemme&p%5B%5D=facets.brand%255B%255D%3DLoreal%2BParis&p%5B%5D=facets.brand%255B%255D%3DMatrix&p%5B%5D=facets.brand%255B%255D%3DSchwarzkopf%2BProfessional&p%5B%5D=facets.brand%255B%255D%3DOrganix&p%5B%5D=facets.brand%255B%255D%3DDove&p%5B%5D=facets.brand%255B%255D%3DGiovanni&p%5B%5D=facets.brand%255B%255D%3DSchwarzkopf&p%5B%5D=facets.brand%255B%255D%3DJohn%2BFrieda&sid=t06,b7e"> <div class="fllt imageBox"> <span class = "imgContainer rest lazy-bgImage" data-bgImage = "http://img6a.flixcart.com/www/promos/new/20150130-160638-icon.png" style='background-position:-83px -69px'></span> </div> <div class="fllt labelBox"><span class="arrow-right">Hair Care</span></div> </a> </li> <li class="ccarousel-item "> <a data-tracking-id="vis_Stationery" class="fllt" href="/pens-office-supplies"> <div class="fllt imageBox"> <span class = "imgContainer rest lazy-bgImage" data-bgImage = "http://img6a.flixcart.com/www/promos/new/20150130-160638-icon.png" style='background-position:-83px 0'></span> </div> <div class="fllt labelBox"><span class="arrow-right">Stationery</span></div> </a> </li> <li class="ccarousel-item "> <a data-tracking-id="vis_Movies" class="fllt" href="/movies"> <div class="fllt imageBox"> <span class = "imgContainer rest lazy-bgImage" data-bgImage = "http://img6a.flixcart.com/www/promos/new/20150130-160638-icon.png" style='background-position:0 -138px'></span> </div> <div class="fllt labelBox"><span class="arrow-right">Movies</span></div> </a> </li> <li class="ccarousel-item "> <a data-tracking-id="vis_Music" class="fllt" href="/music"> <div class="fllt imageBox"> <span class = "imgContainer rest lazy-bgImage" data-bgImage = "http://img6a.flixcart.com/www/promos/new/20150130-160638-icon.png" style='background-position:-83px -138px'></span> </div> <div class="fllt labelBox"><span class="arrow-right">Music</span></div> </a> </li> <li class="ccarousel-item "> <a data-tracking-id="vis_Automotive" class="fllt" href="/automotive/pr?sid=0hx"> <div class="fllt imageBox"> <span class = "imgContainer rest lazy-bgImage" data-bgImage = "http://img6a.flixcart.com/www/promos/new/20150130-160638-icon.png" style='background-position:-166px -138px'></span> </div> <div class="fllt labelBox"><span class="arrow-right">Automotive</span></div> </a> </li> <li class="ccarousel-item "> <a data-tracking-id="vis_eBooks" class="fllt" href="/ebooks"> <div class="fllt imageBox"> <span class = "imgContainer rest lazy-bgImage" data-bgImage = "http://img6a.flixcart.com/www/promos/new/20150130-160638-icon.png" style='background-position:0 -207px'></span> </div> <div class="fllt labelBox"><span class="arrow-right">eBooks</span></div> </a> </li> <li class="ccarousel-item "> <a data-tracking-id="vis_Baby Care Supplies" class="fllt" href="/baby-care/~baby-care-supplies/pr?sid=kyh"> <div class="fllt imageBox"> <span class = "imgContainer rest lazy-bgImage" data-bgImage = "http://img6a.flixcart.com/www/promos/new/20150130-160638-icon.png" style='background-position:-166px 0'></span> </div> <div class="fllt labelBox"><span class="arrow-right">Baby Care Supplies</span></div> </a> </li> <li class="ccarousel-item "> <a data-tracking-id="vis_Sexual Wellness" class="fllt" href="/beauty-and-personal-care/sexual-wellness/pr?sid=t06%2C7vg"> <div class="fllt imageBox"> <span class = "imgContainer rest lazy-bgImage" data-bgImage = "http://img6a.flixcart.com/www/promos/new/20150130-160638-icon.png" style='background-position:-166px -69px'></span> </div> <div class="fllt labelBox"><span class="arrow-right">Sexual Wellness</span></div> </a> </li> </ul> </div> </div> <div class="bannersSection"> <div class="bannerHolder left small"> <a data-tracking-id="bn_left" href="/automotive/car-accessories/car-care/pr?sid=0hx,f6q,v43"> <img alt=" Banner 1"
+ src="data:image/gif;base64,R0lGODlhAQABAJEAAAAAAP////Ly8v///yH5BAEAAAMALAAAAAABAAEAAAICVAEAOw=="
+ data-src="http://img6a.flixcart.com/www/promos/new/20150407-161527-p1.jpg"/> </a> </div> <div class="bannerHolder middle big"> <a data-tracking-id="bn_middle" href="/becoming-steve-jobs-evolution-reckless-upstart-into-visionary-leader-english/p/itme6yc4rzzbgwzn?pid=9781444761986"> <img alt=" Banner 2"
+ src="data:image/gif;base64,R0lGODlhAQABAJEAAAAAAP////Ly8v///yH5BAEAAAMALAAAAAABAAEAAAICVAEAOw=="
+ data-src="http://img6a.flixcart.com/www/promos/new/20150407-161527-p2.jpg"/> </a> </div> <div class="bannerHolder right small"> <a data-tracking-id="bn_right" href="/beauty-and-personal-care/combos-and-kits/pr?p%5B%5D=sort%3Dpopularity&sid=t06,9ix"> <img alt=" Banner 3"
+ src="data:image/gif;base64,R0lGODlhAQABAJEAAAAAAP////Ly8v///yH5BAEAAAMALAAAAAABAAEAAAICVAEAOw=="
+ data-src="http://img6a.flixcart.com/www/promos/new/20150407-161527-p3.jpg"/> </a> </div> </div> <div class="productsSection newvd"> <div class="tabsContainer"> <a class="fllt tab" data-ajax-url="/ajax/browse/getTopProducts?cat=rest&type=bestseller" id="hp_category_tab_rest_0" href="javascript:void(0)"> <span class="">BestSellers</span> </a> <span class="clearfix"></span> </div> <div class="tab-content " id="hp_category_tab_rest_0-content" data-sortby="" href="javascript:void(0)"> <div class="fk-loader-middle"></div> </div> </div> </div> </div> <div class="gd-col gu4"> <div class="rightBar required-tracking" data-tracking-id="widget"> <div class="trustBlock fk-hidden section"> <div class="header">SHOP WITH CONFIDENCE</div> <div class="row"> <div class="imageBox"><span class="pro"></span></div> <div class="textBox tmargin5">100% Buyer</br>protection</div> <div class="clearfix"></div> </div> <div class="row"> <div class="imageBox"><span class="cod"></span></div> <div class="textBox tmargin2">Cash on </br>delivery</div> <div class="clearfix"></div> </div> <div class="row"> <div class="imageBox"><span class="fr"></span></div> <div class="textBox">free & easy</br>returns</div> <div class="clearfix"></div> </div> <div class="row"> <div class="imageBox"><span class="gp"></span></div> <div class="textBox tmargin8">100% original </br>products</div> <div class="clearfix"></div> </div> </div> <div> <div class="section required-tracking rhs-img-module" data-tracking-id="imgModule"> <a href="/Mobile-apps" class="fk-display-block line" data-tracking-id="Mobile_apps"> <img src="http://img5a.flixcart.com/www/promos/new/20141007-124509-rhs-5.png" alt=Mobile_apps /> </a> </div> <div class="section required-tracking rhs-img-module" data-tracking-id="imgModule"> <a href="/mobiles-accessories/~mipowerbanks/pr?sid=tyy" class="fk-display-block line" data-tracking-id="Mi_PowerBanks"> <img src="http://img6a.flixcart.com/www/promos/new/20150423-163658-rhs-5.png" alt=Mi Power Banks /> </a> </div> <div class="section required-tracking rhs-img-module" data-tracking-id="imgModule"> <a href="/lenovo-a6000-plus" class="fk-display-block line" data-tracking-id="lenovoa6000plus"> <img src="http://img5a.flixcart.com/www/promos/new/20150417-141923-lenovo-a6000-plus-reg-now-1-1-1.jpg" alt=lenovo a6000 plus /> </a> </div> <div class="section required-tracking rhs-img-module" data-tracking-id="imgModule"> <a href="/home-furnishing/cushions-pillows-covers/cushion-pillow-covers/pr?p%5B%5D=facets.pattern%255B%255D%3DAbstract&p%5B%5D=facets.pattern%255B%255D%3DBatik&p%5B%5D=facets.pattern%255B%255D%3DCheckered&p%5B%5D=facets.pattern%255B%255D%3DEmbroidered&sid=vdm%2Cv2y%2Cn6e&filterNone=true" class="fk-display-block line" data-tracking-id="cushionpillowcovers"> <img src="http://img5a.flixcart.com/www/promos/new/20150422-165613-rhs-6.png" alt=cushion pillow covers /> </a> </div> <div class="section required-tracking rhs-img-module" data-tracking-id="imgModule"> <a href="/household/cookware/pr?sid=r4l%2Cc7t&icmpid=foz_viewall_16_s%3Awsr%3Ac%3A034d315f13&offer=s%3Awsr%3Ac%3A034d315f13." class="fk-display-block line" data-tracking-id="Flat40%offonprestigecookware"> <img src="http://img5a.flixcart.com/www/promos/new/20150421-233630-rhs-2.jpg" alt=Flat 40% off on prestige cookware /> </a> </div> <div class="section required-tracking rhs-img-module" data-tracking-id="imgModule"> <a href="/home-furnishing/kitchen-dining/table-covers/pr?p%5B%5D=facets.pattern%255B%255D%3DEmbroidered&p%5B%5D=facets.pattern%255B%255D%3DFloral&p%5B%5D=facets.pattern%255B%255D%3DAbstract&sid=vdm%2Cow3%2Cpx2&filterNone=true" class="fk-display-block line" data-tracking-id="tableplacemats"> <img src="http://img5a.flixcart.com/www/promos/new/20150423-154359-table-covers.png" alt=table placemats /> </a> </div> <div class="section required-tracking rhs-img-module" data-tracking-id="imgModule"> <a href="/tools-hardware/tools/pr?sid=amz,qrp&p[]=facets.availability%255B%255D%3DExclude%2BOut%2Bof%2BStock&offer=b%3Amp%3Ac%3A03b4b13d19." class="fk-display-block line" data-tracking-id="Flat60%offonToolKits"> <img src="http://img5a.flixcart.com/www/promos/new/20150421-233744-rhs-1.png" alt=Flat 60% off on Tool Kits /> </a> </div> <div class="section required-tracking rhs-img-module" data-tracking-id="imgModule"> <a href="/home-decor/table-decor-handicrafts/photo-frames/pr?p%5B%5D=facets.number_of_photos%255B%255D%3D1%2Bto%2B3&p%5B%5D=sort%3Dpopularity&sid=1m7%2Cyvw%2C3qi&filterNone=true" class="fk-display-block line" data-tracking-id="photoframes"> <img src="http://img6a.flixcart.com/www/promos/new/20150422-165416-rhs-15.png" alt=photoframes /> </a> </div> <div class="section required-tracking rhs-img-module" data-tracking-id="imgModule"> <a href="/household/dinnerware-crockery/pr?p%5B%5D=facets.availability%255B%255D%3DExclude%2BOut%2Bof%2BStock&sid=r4l%2Cafn&filterNone=true" class="fk-display-block line" data-tracking-id="Dinnerware&crockery"> <img src="http://img5a.flixcart.com/www/promos/new/20150422-182831-dinnerware.png" alt=Dinnerware & crockery /> </a> </div> <div class="section required-tracking rhs-img-module" data-tracking-id="imgModule"> <a href="/home-furnishing/living/diwan-sets/pr?p%5B%5D=facets.material%255B%255D%3DCotton&sid=vdm%2C30u%2Csq4&filterNone=true" class="fk-display-block line" data-tracking-id="diwansets"> <img src="http://img5a.flixcart.com/www/promos/new/20150422-165447-rhs-diwan-sets.png" alt=diwan sets /> </a> </div> <div class="section required-tracking rhs-img-module" data-tracking-id="imgModule"> <a href="/household/led-cfl-bulbs/pr?sid=r4l%2Cnmw&icmpid=foz_viewall_13_b%3Amp%3Ac%3A03e00be012&offer=b%3Amp%3Ac%3A03e00be012." class="fk-display-block line" data-tracking-id="Min35%offonCFL&LED"> <img src="http://img5a.flixcart.com/www/promos/new/20150422-164729-rhs.jpg" alt=Min 35% off on CFL & LED /> </a> </div> <div class="section required-tracking rhs-img-module" data-tracking-id="imgModule"> <a href="/home-decor/wall-decor-clocks/clocks/wall-clocks/pr?p%5B%5D=facets.dial_shape%255B%255D%3DContemporary&p%5B%5D=facets.availability%255B%255D%3DExclude%2BOut%2Bof%2BStock&p%5B%5D=sort%3Dpopularity&sid=1m7%2Catt%2C2it%2Cjq3&filterNone=true" class="fk-display-block line" data-tracking-id="wallclocks"> <img src="http://img5a.flixcart.com/www/promos/new/20150423-123703-rhs-wallclock.png" alt=wall clocks /> </a> </div> <div data-ctrl="RhsListCtrl"> <div class="section required-tracking fkhp-list-module"
+ data-tracking-id="justLaunched"> <div class="lm-header-wrap"> <div class="lm-header">Just Launched</div> </div> <div class="lm-list-wrap"> <a href="/digiflip" class="fk-display-block line" data-tracking-id="DigiFlip"> <div class="lm-li-wrap"> <img class="fllt rpadding10" alt="DigiFlip" data-src="http://img6a.flixcart.com/www/promos/new/20150213-163018-digiflip-icon.gif" onload="lzld(this)" src="http://img6a.flixcart.com/www/prod/images/gray_1x1-81857055.gif"/> <div class="lastUnit"> <div class="lm-li-title fllt">DigiFlip</div> <div class=""></div> </div> </div> </a> <a href="/automotive" class="fk-display-block line" data-tracking-id="AutomotiveAccessories"> <div class="lm-li-wrap"> <img class="fllt rpadding10" alt="Automotive Accessories" data-src="http://img6a.flixcart.com/www/promos/new/20150109-175848--thumb-25872.png" onload="lzld(this)" src="http://img6a.flixcart.com/www/prod/images/gray_1x1-81857055.gif"/> <div class="lastUnit"> <div class="lm-li-title fllt">Automotive Accessories</div> <div class=""></div> </div> </div> </a> <a href="/sports-fitness/fitness-accessories/shop-by-exercise" class="fk-display-block line" data-tracking-id="FitnessEquipment"> <div class="lm-li-wrap"> <img class="fllt rpadding10" alt="Fitness Equipment" data-src="http://img5a.flixcart.com/www/promos/new/20150107-121836-icon.jpg" onload="lzld(this)" src="http://img6a.flixcart.com/www/prod/images/gray_1x1-81857055.gif"/> <div class="lastUnit"> <div class="lm-li-title fllt">Fitness Equipment</div> <div class=""></div> </div> </div> </a> <a href="/accessories-electronics" class="fk-display-block line" data-tracking-id="AccessoriesStore"> <div class="lm-li-wrap"> <img class="fllt rpadding10" alt="Accessories Store" data-src="http://img6a.flixcart.com/www/promos/new/20141205-181410-accessories.png" onload="lzld(this)" src="http://img6a.flixcart.com/www/prod/images/gray_1x1-81857055.gif"/> <div class="lastUnit"> <div class="lm-li-title fllt">Accessories Store</div> <div class=""></div> </div> </div> </a> <a href="/luxury-store-watches" class="fk-display-block line" data-tracking-id="LuxuryStore"> <div class="lm-li-wrap"> <img class="fllt rpadding10" alt="Luxury Store" data-src="http://img6a.flixcart.com/www/promos/new/20141111-123352-watch-store.png" onload="lzld(this)" src="http://img6a.flixcart.com/www/prod/images/gray_1x1-81857055.gif"/> <div class="lastUnit"> <div class="lm-li-title fllt">Luxury Store</div> <div class=""></div> </div> </div> </a> <a href="/mens-clothing/winter-wear" class="fk-display-block line" data-tracking-id="Men'sWinterwearStore"> <div class="lm-li-wrap"> <img class="fllt rpadding10" alt="Men's Winter wear Store" data-src="http://img6a.flixcart.com/www/promos/new/20141222-144631-winter.png" onload="lzld(this)" src="http://img6a.flixcart.com/www/prod/images/gray_1x1-81857055.gif"/> <div class="lastUnit"> <div class="lm-li-title fllt">Men's Winter wear Store</div> <div class=""></div> </div> </div> </a> </div> <div class="viewAll collapse">View All</div> </div> </div> <script type="text/javascript+fk-onload"> 
+(function controller() {
+ var ctrls = {};
+ function register_controller(name, fn) {
+ ctrls[name] = fn;
+ init_controllers(ctrls);
+ } 
+ register_controller("RhsListCtrl", function (scope) {
+ $('.fkhp-list-module',scope).each(function(){
+ var expand=false;
+ var $parent = $(this);
+ var $list = $parent.find('.lm-list-wrap');
+ var totalHeight = $list.css({height:'auto'}).height();
+ var $liWrap = $list.find('.lm-li-wrap');
+ var initialHeight = 45*Math.min(4,$liWrap.length);// 45 is the height of each li
+ $list.css({height:initialHeight});
+ $parent.find('.viewAll').on('click', function(){
+ if(!expand){
+ $(this).removeClass('collapse').addClass('expand');
+ $list.animate({height:totalHeight},500);
+ }
+ else{
+ $(this).removeClass('expand').addClass('collapse');
+ $list.animate({height:initialHeight},500);
+ }
+ expand = !expand;
+ });
+ });
+ });
+})();
+</script> <div class="section required-tracking " data-tracking-id="imgModule"> <a href="https://seller.flipkart.com/?utm_source=Flipkart&utm_medium=RHS&utm_campaign=Homepage%20RHS" class="fk-display-block line" > <img src="http://img6a.flixcart.com/www/promos/new/20150319-170150-sellonflipkart-rhs.png" alt=sellonflipkart /> </a> </div> <div class="promo-mod section yellow required-tracking ebooks-promo" data-tracking-id="widget"> <a href="/ebooks/apps" class="promo yellow required-tracking" title="Flipkart eBooks" data-tracking-id="eBook"> <div class="img-wrap fk-text-center"> <img alt="Flipkart eBooks" data-src="http://img5a.flixcart.com/www/promos/new/20150406-140044-rhs---books.jpg"/> </div> <div class="footer-decor"></div> </a> </div> <div class="promo-mod section yellow required-tracking gv-promo" data-tracking-id="widget"> <div class="header fk-uppercase fk-bold">E-Gift Vouchers</div> <div class="text">Last minute gifting is now a few clicks away! Give the gift of choice with an e-Gift Voucher.</div> <a href="/buy-gift-voucher" class="btn btn-orange eGiftBtn required-tracking" data-tracking-id="sendgifts">GIFT NOW</a> <div class="footer-decor"></div> </div> </div> <!--Ads section has to be the Last Item Please do not insert anything after this section--> </div> </div> </div> <div class="requirecss-HPS newvd-reco"> <div class="footer-reco-carousel-parent newvd-reco tmargin20 fk-bgcolor-white" id="reco-module-wrapper" data-pageid="hp"> <div class="gd-row"> <div id="session-reco-module"></div> </div> </div> <script type="text/javascript+fk-window-onload">
+ require_module.js('reco', function () { 
+
+ EventBus.publish("recos.loadRecoModules"); 
+ FKART.recommendations = FKART.recommendations || {}; 
+ FKART.recommendations.loadFooterRecommendations = function () {
+ FKART.reco.loadFooterReco({
+ "moduleContainer":"session-reco-module",
+ "isPaginated" : true
+ }); 
+ FKART.recommendations.loadFooterRecommendations = function () {}; // make this function callable only once
+ }
+ }); 
+ if ($('body').height() > $(window).height()) {
+ $(window).scroll(throttle(function () {
+ FKART.recommendations.loadFooterRecommendations();
+ }, 100));
+ }else {
+ FKART.recommendations.loadFooterRecommendations();
+ }
+ </script> </div> <script type="text/javascript+fk-onload">
+ require_module.css("HPS");
+ </script> </div> <script type="text/javascript+fk-window-onload">
+ $(".tabsContainer").ajaxTabs({startIndex:0});
+</script> <script type="text/javascript+fk-onload">
+ require_module.js("carousel", function() {
+ $(".require-nav-carousel").each(function() {
+ var $this = $(this);
+ var params = {
+ content: $('.ccarousel', $this),
+ buttonOverlap : true
+ };
+ var parsed_params = $this.data();
+ $.extend(params, parsed_params); 
+ var navCarousel = new FKART.ui.Carousel(params); 
+ navCarousel.init();
+ $this.removeClass("require-nav-carousel");
+ });
+ });
+ FKART.linkTracking.setContext("hp");
+ $('.bannerHolder').each(function(){
+ $(this).mouseenter(function(){
+ $(this).addClass('hoverIn').removeClass('hoverOut').removeClass('noTransition');
+ }).mouseleave(function(){
+ $(this).addClass('hoverOut').removeClass('hoverIn').addClass('noTransition');
+ });
+ }); 
+ </script> <!-- right side bands --> </div> </div> <div class="fclear"></div> <div class="fk-mainfooter fksk-mainfooter tpadding20 bpadding5 new-vd" id="fk-mainfooter-id"> <div class="fk-content fksk-content bpadding10"> <div class="line tpadding20 bpadding20 footer-dark-top-border"> <div class="unit fk-footer-links-container"> <div class="unit size1of4"> <span class="fk-footer-sub-head fk-footer-unit"><strong>Help</strong></span> <a class="fk-footer-unit fk-footer-link" href="/s/help/payments">Payments</a> <a class="fk-footer-unit fk-footer-link" href="/help/savedcard_how">Saved Cards</a> <a class="fk-footer-unit fk-footer-link" href="/s/help/shipping">Shipping</a> <a class="fk-footer-unit fk-footer-link" href="/s/help/cancellation-returns">Cancellation &amp;
+ Returns</a> <a class="fk-footer-unit fk-footer-link" href="/s/help">FAQ</a> <a class="fk-footer-unit fk-footer-link" href="https://seller.flipkart.com/fiv">Report Infringement</a> </div> <div class="unit size1of4"> <span class="fk-footer-sub-head fk-footer-unit"><strong>Flipkart</strong></span> <a class="fk-footer-unit fk-footer-link" href="/s/contact">Contact Us</a> <a class="fk-footer-unit fk-footer-link" href="/about-us">About Us</a> <a class="fk-footer-unit fk-footer-link" target="_blank" href="/ol?link=http%3A%2F%2Fflipkartcareers.com%2F">Careers</a> <a class="fk-footer-unit fk-footer-link" href="/ol?link=http%3A%2F%2Fblog.flipkart.com%2F">Blog</a> <a class="fk-footer-unit fk-footer-link" href="/s/press">Press</a> <a class="fk-footer-unit fk-footer-link" href="https://seller.flipkart.com/?utm_source=flipkart&utm_medium=website&utm_campaign=sellbutton?otracker=seller_footer">Sell on Flipkart</a> </div> <div class="unit size1of4 required-tracking" data-tracking-id="ch_vn"> <span class="fk-footer-sub-head fk-footer-unit"><strong>Flipkart eBooks</strong></span> <a class="fk-footer-unit fk-footer-link" href="/ebooks/gettingstarted" target="_blank">eBooks Quick Start Guide</a> <a class="fk-footer-unit fk-footer-link" href="/help/flyteeBookfaq" target="_blank">eBooks FAQ</a> <a class="fk-footer-unit fk-footer-link" href="/ebooks/apps" target="_blank">eBooks App</a> <a href="/mobile-apps" data-tracking-id="mobile_apps"><div class="footer-mobile-apps lazy-bgImage" data-bgImage="http://img5a.flixcart.com/www/prod/images/social-sprite-b3c0ada7.png"></div></a> </div> <div class="lastUnit size1of4"> <span class="fk-footer-sub-head fk-footer-unit"><strong>Misc</strong></span> <a class="fk-footer-unit fk-footer-link" href="http://www.flipkart.com">Online Shopping</a> <a class="fk-footer-unit fk-footer-link" href="/affiliate/" target="_blank">Affiliate</a> <a class="fk-footer-unit fk-footer-link" href="/buy-gift-voucher">e-Gift Voucher</a> <a class="fk-footer-unit fk-footer-link" href="/?sitevariant=mobile">Flipkart lite</a> <a class="fk-footer-unit fk-footer-link" href="/flipkart-first">Flipkart First Subscription</a> <a class="fk-footer-unit fk-footer-link" href="/elearning-faq">eLearning FAQ</a> </div> </div> <div class="lastUnit size10f4 lpadding15 fk-trust-boosters"> <p class="fk-footer-sub-head"><strong>Safe and Secure Shopping</strong></p> <p class="bpadding15 fk-trust-content">All major credit and debit cards are accepted. We also accept payments by <strong>Internet Banking, Cash on Delivery</strong> and <strong>Equated Monthly Installments(EMI).</strong></p> </div> </div> <div class="fk-footer-ssa"> <a href="/account/orders?srcLink=footer" class="login-required"> <ul class="line ssa-block"> <li class="unit size1of3 ssa-unit"><i class="icon track-icon"></i><span class="text">Track your<br /> order</span></li> <li class="unit size1of3 ssa-unit"><i class="icon return-icon"></i><span class="text">Free &amp; easy<br /> returns</span></li> <li class="lastUnit ssa-unit"><i class="icon cancel-icon"></i><span class="text">Online<br /> cancellations</span></li> </ul> </a> </div> <div class="line fk-footer-policy"> <div class="unit tpadding5 tc-links"> <span><span class="policies-title boldtext">Policies:</span> <a href="/s/terms">Terms of use</a> | <a href="/s/paymentsecurity">Security</a> | <a
+ href="/s/privacypolicy">Privacy</a> | <a
+ href="https://seller.flipkart.com/fiv">Infringement</a></span> <span class="fk-footet-cr">&copy; 2007-2015 <span>Flipkart.com.</span></span> </div> <div class="fk-footer-kit unitExt fk-inline-block"> <strong class="title fk-float-left">Keep in touch</strong> <a class="facebook_icn inner rmargin5 lazy-bgImage" data-bgImage="//img5a.flixcart.com/www/prod/images/social-sprite-b3c0ada7.png" target="_blank" href="/ol?link=http%3A%2F%2Fwww.facebook.com%2Fflipkart"></a> <a class="twitter_icn inner rmargin5 lazy-bgImage" data-bgImage="//img5a.flixcart.com/www/prod/images/social-sprite-b3c0ada7.png" target="_blank" href="/ol?link=http%3A%2F%2Fwww.twitter.com%2Fflipkart"></a> <a class="google-plus_icn inner fk-sprite-hf rmargin5 lazy-bgImage" data-bgImage="//img5a.flixcart.com/www/prod/images/social-sprite-b3c0ada7.png" target="_blank" href="/ol?link=https%3A%2F%2Fplus.google.com%2F109591199284807005836%2Fposts"></a> <a class="youtube_icn inner rmargin5 lazy-bgImage" data-bgImage="//img5a.flixcart.com/www/prod/images/social-sprite-b3c0ada7.png" target="_blank" href="/ol?link=http%3A%2F%2Fwww.youtube.com%2Fflipkart"></a> </div> </div> <div class="line top-brand-links tpadding10 bpadding10"> <div class="line boldtext bpadding10 top-brands-title">
+ Top Stores : <a href="/brands">Brand Directory</a> | <a href="/store-directory">Store Directory</a> </div> <div class="line"> <div class="line brands"> <div class="unit boldtext rpadding10 size1of9">
+ Most searched for on Flipkart: </div> <div class="lastUnit"> <a href="/lenovo-a7000/p/itme5pfh3ergmamr"> Lenovo A7000</a>
+ | <a href="/home-store"> Home Store</a>
+ | <a href="/offers/home-and-kitchen"> Home and Kitchen Offers</a>
+ | <a href="/androidone"> Android One</a>
+ | <a href="/offers"> Offers</a>
+ | <a href="/moto-turbo/p/itme45h87vyhb3mg"> Moto Turbo</a> </div> </div> <div class="line brands"> <div class="unit boldtext rpadding10 size1of9">
+ Mobiles: </div> <div class="lastUnit"> <a href="/moto-e/p/itmdvuwsybgnbtha"> Moto E</a>
+ | <a href="/q/samsung-mobiles"> Samsung Mobile</a>
+ | <a href="/q/micromax-mobiles"> Micromax Mobile</a>
+ | <a href="/q/nokia-mobiles"> Nokia Mobile</a>
+ | <a href="/q/htc-mobiles"> HTC Mobile</a>
+ | <a href="/q/sony-mobiles"> Sony Mobile</a>
+ | <a href="/q/apple-mobiles"> Apple Mobile</a>
+ | <a href="/q/lg-mobiles"> LG Mobile</a>
+ | <a href="/q/karbonn-mobiles"> Karbonn Mobile</a>
+ | <a href="/mobiles">View all</a> </div> </div> <div class="line brands"> <div class="unit boldtext rpadding10 size1of9">
+ Home: </div> <div class="lastUnit"> <a href="/home-furnishing/bed/bedsheets"> Bedsheets</a>
+ | <a href="/home-furnishing/living/curtains-accessories"> Curtains</a>
+ | <a href="/household/bulbs"> Lighting</a>
+ | <a href="/household/storage"> Kitchen Storage</a>
+ | <a href="/household/kitchen-tools"> Kitchen Tools</a>
+ | <a href="/home-decor/clocks-wall-decor/wall-decor/wall-decals-stickers/pr?sid=1m7,att,3vm,wrz"> Wall Decor</a>
+ | <a href="/home-decor/showpieces"> Showpieces</a>
+ | <a href="/home-decor/clocks-wall-decor/clocks"> Clocks</a>
+ | <a href="/home-furnishing/bath/bath-towels/pr?sid=vdm,v28,zs1"> Towels</a>
+ | <a href="/household/coffee-mugs/pr?sid=r4l%2Cajv"> Coffee Mugs</a>
+ | <a href="/tools-hardware/tools/hand-tools/screwdrivers-allen-keys/pr?sid=amz%2Cqrp%2Cez4%2Cl61"> Screwdrivers</a>
+ | <a href="/home-store">View all</a> </div> </div> <div class="line brands"> <div class="unit boldtext rpadding10 size1of9">
+ Camera: </div> <div class="lastUnit"> <a href="/q/nikon-cameras"> Nikon Camera</a>
+ | <a href="/q/canon-cameras"> Canon Camera</a>
+ | <a href="/q/sony-cameras"> Sony Camera</a>
+ | <a href="/cameras/samsung~brand/pr?sid=jek,p31"> Samsung Camera</a>
+ | <a href="/q/canon-dslr-cameras"> Canon DSLR</a>
+ | <a href="/q/nikon-dslr-cameras"> Nikon DSLR</a>
+ | <a href="/cameras/dslr~type/pr?sid=jek,p31"> DSLR Camera</a>
+ | <a href="/camera-accessories/lenses/pr?sid=jek,6l2,e9y"> Camera Lens</a>
+ | <a href="/camera-accessories/tripods/pr?sid=jek,6l2,ce6"> Camera Tripod</a>
+ | <a href="/cameras">View all</a> </div> </div> <div class="line brands"> <div class="unit boldtext rpadding10 size1of9">
+ Laptops: </div> <div class="lastUnit"> <a href="/laptops/apple~brand/pr?sid=6bo,b5g"> Apple Laptop</a>
+ | <a href="/laptops/acer~brand/pr?sid=6bo,b5g"> Acer Laptop</a>
+ | <a href="/laptops/samsung~brand/pr?sid=6bo,b5g"> Samsung Laptop</a>
+ | <a href="/q/lenovo-laptops"> Lenovo Laptop</a>
+ | <a href="/q/sony-laptops"> Sony Laptop</a>
+ | <a href="/q/dell-laptops"> Dell Laptop</a>
+ | <a href="/laptops/asus~brand/pr?sid=6bo,b5g"> Asus Laptop</a>
+ | <a href="/laptops/toshiba~brand/pr?sid=6bo,b5g"> Toshiba Laptop</a>
+ | <a href="/laptops/lg~brand/pr?sid=6bo,b5g"> LG Laptop</a>
+ | <a href="/q/hp-laptops"> HP Laptop</a>
+ | <a href="/laptops/~notebook/pr?sid=6bo,b5g"> Notebook</a>
+ | <a href="/brands/laptops?sid=6bo,b5g">View all</a> </div> </div> <div class="line brands"> <div class="unit boldtext rpadding10 size1of9">
+ TVs: </div> <div class="lastUnit"> <a href="/home-entertainment/tvs/sony~brand/pr?sid=ckf%2Cczl"> Sony TV</a>
+ | <a href="/home-entertainment/tvs/samsung~brand/pr?sid=ckf%2Cczl"> Samsung TV</a>
+ | <a href="/home-entertainment/tvs/lg~brand/pr?sid=ckf%2Cczl"> LG TV</a>
+ | <a href="/home-entertainment/tvs/panasonic~brand/pr?sid=ckf%2Cczl"> Panasonic TV</a>
+ | <a href="/home-entertainment/tvs/onida~brand/pr?sid=ckf%2Cczl"> Onida TV</a>
+ | <a href="/home-entertainment/tvs/toshiba~brand/pr?sid=ckf%2Cczl"> Toshiba TV</a>
+ | <a href="/home-entertainment/tvs/philips~brand/pr?sid=ckf%2Cczl"> Philips TV</a>
+ | <a href="/home-entertainment/tvs/micromax~brand/pr?sid=ckf%2Cczl"> Micromax TV</a>
+ | <a href="/home-entertainment/tvs/led~screen-type/pr?sid=ckf%2Cczl"> LED TV</a>
+ | <a href="/home-entertainment/tvs/lcd~screen-type/pr?sid=ckf%2Cczl"> LCD TV</a>
+ | <a href="/home-entertainment/tvs/plasma~screen-type/pr?sid=ckf%2Cczl"> Plasma TV</a>
+ | <a href="/home-entertainment/tvs/3d-tv~features/pr?sid=ckf%2Cczl"> 3D TV</a>
+ | <a href="/home-entertainment/tvs/smart-tv~features/pr?sid=ckf%2Cczl"> Smart TV</a>
+ | <a href="/televisions">View all</a> </div> </div> <div class="line brands"> <div class="unit boldtext rpadding10 size1of9">
+ Tablets: </div> <div class="lastUnit"> <a href="/tablets/windows~operating-system/pr?sid=tyy,hry"> Windows Tablets</a>
+ | <a href="/tablets/android~operating-system/pr?sid=tyy,hry"> Android Tablets</a>
+ | <a href="/q/micromax-tablets"> Micromax Tablets</a>
+ | <a href="/tablets/hcl~brand/pr?sid=tyy,hry"> HCL Tablets</a>
+ | <a href="/q/samsung-tablets"> Samsung Tablets</a>
+ | <a href="/q/lenovo-tablets"> Lenovo Tablets</a>
+ | <a href="/q/asus-tablets"> Asus Tablets</a>
+ | <a href="/q/apple-tablets"> Apple Tablets</a>
+ | <a href="/tablets">View all</a> </div> </div> <div class="line brands"> <div class="unit boldtext rpadding10 size1of9">
+ Watches: </div> <div class="lastUnit"> <a href="/q/fcuk-watches"> FCUK Watches</a>
+ | <a href="/watches/titan~brand/pr?sid=r18"> Titan Watches</a>
+ | <a href="/watches/casio~brand/pr?sid=r18"> Casio Watches</a>
+ | <a href="/q/fastrack-watches"> Fastrack Watches</a>
+ | <a href="/q/timex-watches"> Timex Watches</a>
+ | <a href="/watches/fossil~brand/pr?sid=r18"> Fossil Watches</a>
+ | <a href="/watches/diesel~brand/pr?sid=r18"> Diesel Watches</a>
+ | <a href="/watches/~luxury-watches/pr?sid=r18"> Luxury Watches</a>
+ | <a href="/watches">View all</a> </div> </div> <div class="line brands"> <div class="unit boldtext rpadding10 size1of9">
+ Clothing: </div> <div class="lastUnit"> <a href="/q/shirts"> Shirts</a>
+ | <a href="/mens-clothing/jeans"> Jeans</a>
+ | <a href="/mens-clothing/t-shirts"> T shirts</a>
+ | <a href="/q/kurtas-kurtis"> Kurtis</a>
+ | <a href="/womens-clothing/ethnic-wear/sarees"> Sarees</a>
+ | <a href="/q/levi-s-jeans"> Levis Jeans</a>
+ | <a href="/q/pepe-jeans"> Pepe Jeans</a>
+ | <a href="/q/arrow-shirts"> Arrow Shirts</a>
+ | <a href="/womens-clothing/ethnic-wear"> Ethnic Wear</a>
+ | <a href="/q/formal-shirts"> Formal Shirts</a>
+ | <a href="/q/peter-england-shirts"> Peter England Shirts</a>
+ | <a href="/clothing">View all</a> </div> </div> <div class="line brands"> <div class="unit boldtext rpadding10 size1of9">
+ Footwear: </div> <div class="lastUnit"> <a href="/q/shoes"> Shoes</a>
+ | <a href="/q/casual-shoes"> Casual Shoes</a>
+ | <a href="/q/sports-shoes"> Sports Shoes</a>
+ | <a href="/q/formal-shoes"> Formal Shoes</a>
+ | <a href="/q/adidas-shoes"> Adidas Shoes</a>
+ | <a href="/q/fila-shoes"> Fila Shoes</a>
+ | <a href="/q/puma-shoes"> Puma Shoes</a>
+ | <a href="/q/reebok-shoes"> Reebok Shoes</a>
+ | <a href="/q/woodland-shoes"> Woodland Shoes</a>
+ | <a href="/q/red-tape-shoes"> Red tape Shoes</a>
+ | <a href="/q/nike-shoes"> Nike Shoes</a>
+ | <a href="/brands/footwear?sid=osp">View all</a> </div> </div> </div> </div> <div class="pmw tpadding10 bpadding10"> <h2>PAYMENT METHOD</h2> <div class="pmw-payment-method lazy-bgImage" data-bgImage="http://img5a.flixcart.com/www/prod/images/social-sprite-b3c0ada7.png"></div> <div class="pmw-powered-by-payzippy-wrap bpadding5 line"> <div class="pmw-dashed-line"></div> <div class="pmw-powered-by-payzippy"> <span class="pmw-text fk-bold fk-block unit">POWERED BY</span> <a href="http://www.payzippy.com" target="_blank"> <span class="pmw-icon fk-block unitExt lazy-bgImage" data-bgImage="http://img5a.flixcart.com/www/prod/images/social-sprite-b3c0ada7.png" title="PAYZIPPY - Online Payment Gateway in India"></span> </a> </div> </div> </div> <div class="fk-aboutus-text tpadding20 bmargin10" align="justify"> <h1>Online shopping India</h1> 
+ Online shopping. You are doing it. Your neighbour is doing it. Your aunt is doing it. Everyone you know and don’t know is doing it. Online shopping is like going to a mall during a holiday season. Every day there is some sale or the other going on. And just like the mall you have almost every imaginable item available. Flipkart, the online megastore, is one of the top e-commerce sites in India. Visited by thousands of people on a daily basis, Flipkart offers a massive collection of everything from electronics to baby clothing at some of the best prices thanks to various discounts available onsite.<br><br> 
+ We’ve all been there. You are happily watching your favourite TV show in bed, cool as a cucumber, when suddenly you remember that it’s your wife’s birthday in two days time. You are thrown back into reality and it dawns upon you that you have only two days left to get the missus something. Running to the mall and getting her something seems like the most obvious choice to you right? Well, not any more. You can shop online. And where is the best place to shop you ask? Well, the answer is Flipkart, India’s largest online shopping portal.<br><br> <b>Why Flipkart?</b><br> 
+ Flipkart is dedicated to 100% customer delight ensuring that everything from placing your order to delivering it right to your doorstep is smooth and hassle-free. When it comes to online transactions, Flipkart ensures that all credit/debit card and net banking transactions are done through secure and trusted gateways. All your bank details are safe and secure, and will not be shared with any third-party. Flipkart offers a cash on delivery option if you need an easier payment method and excellent after sales services too. If you have any issues with your purchase, the easy exchange and replacement policies comes to your rescue.<br><br> <b>Find everything here</b><br> 
+ It’s quite simple really, Flipkart is your one-stop shop for all your needs. You find that hard to believe? Well, log in and see for yourself. You can shop for your favorite books, apparel, footwear, jewellery, office supplies, movies, TV shows and games, lifestyle accessories, baby care products, toys, posters, sports and fitness products, mobile phones, laptops, cameras, music, health and beauty products, televisions, refrigerators, air-conditioners, washing machines, kitchen and home appliances, MP3 players, beauty and personal care, automotive products and home theater systems. Explore and discover the vast world of Flipkart.<br><br> <b>Home to top brands in electronics, fashion and lifestyle products</b><br> 
+ All the top electronic brands such as Motorola, Lenovo, Asus, Digiflip, Micromax, Apple, Panasonic, VU, Videocon, Onida, Electrolux, Voltas, Bosch, Black & Decker, Eureka Forbes, Whirlpool, Usha, Havells and Crompton Greaves are listed here. Flipkart is also the leading fashion destination for both and men. Brands include Fastrack, American Swan, Being Human, Superdry Japan, Lee, Jack & Jones, HRX, Rodid, Newport and Flipped, Only, The Vanca, Aurelia and Max.<br><br> <b>Easy browsing and customer oriented options</b><br> 
+ Whether you are shopping through your laptop or using the Flipkart App on your smartphone, you will see that the site is user friendly, colourful and filled with helpful filters and drop downs to make your shopping easy and smooth. That’s not all. If you are looking for electronic items, you have buying guides, compare options and reviews to help you make the right choice. Apart from this, you also can seen detailed and interactive descriptions for the products listed on the site.<br><br> <b>Enjoy the Flipkart advantage</b><br> 
+ Flipkart is home to great deals and discounts. Browse through the various products at discounted rates and enjoy massive savings. You can also put items that you want to buy later in your Wishlist.<br><br> 
+ Flipkart is dedicated to 100% customer delight and because of that you are guaranteed to have an easy, smooth and hassle-free shopping experience. All the payment options, whether it is online or cash on delivery, you are guaranteed safe and secure payment transactions. With options like Same Day and In-a-day delivery, you are guaranteed fast delivery right to your doorstep.<br><br> 
+ So whether you are shopping for your wife’s birthday gift or looking for a new suit to wear for that important meeting you know what to do. Simply log in to Flipkart and enjoy shopping online.<br> </div> <script type="text/javascript+fk-onload">
+ $("div[id^='load-snippet-']").each(function() {
+ var $container = $(this);
+ $.get("/deferred?url=" + encodeURIComponent($(this).attr("data-url")), function(content) {
+ $container.after(content);
+ $container.remove();
+ FKART.linkTracking.parse();
+ });
+ });
+</script> <script type="application/ld+json">
+{ "@context" : "http://schema.org",
+ "@type" : "Organization",
+ "url" : "http://www.flipkart.com",
+ "contactPoint" : [
+ { "@type" : "ContactPoint",
+ "telephone" : "+91-(0124)-6150000",
+ "contactType" : "customer support"
+ } ] }
+</script> <!--08e849f1-a0c9-4783-91bf-67b6bba199cc--> </div> </div> <div id="login-signup-dialog" class="line hidden"> <div id="login-message" class="hidden"></div> <div class="line"> <div class="size1of2 unit fk-signin"> <div id="login-dialog"> <div class="fk-font-bold fk-font-big bmargin10">Login</div> <div class="bd main-panel"> <div id="login_tiny_help_message" class="fk-hidden fk-err-all"></div> <form id="login-form" target="login-signup-iframe" method="post" action="https://www.flipkart.com/account/loginIframe" name="login-form"> <div class="line rw"> <div class="unit size1of4 lf"> <label for="login_email_id" class="fk-label">Email</label> </div> <div class="unit size3of4 lastUnit rt"> <input type="text" class="fk-input" name="email" autocomplete="on" id="login_email_id"/> </div> </div> <div class="line rw"> <div class="unit size1of4 lf"> <label for="login_password" class="fk-label" >Password</label> </div> <div class="unit size3of4 lastUnit rt"> <input type="password" class="fk-input" name="password" id="login_password"/> <input type="hidden" name="password_hash" id="login_password_hash"/> </div> </div> <div class="line rw"> <div class="unit size1of4 lf"> <div id="login-loader" class="fk-text-center">&nbsp;</div> </div> <div class="lastUnit size3of4"> <input type="hidden" name="__FK" value="V205c912308b33292573221e830d6e5829d1t19LIO2hpDCwe+rHrCpmuWsdmJBIsmZNzClgEBkog8bSDQqMZcSGv0pSocBGOU81pJAuUBlrmTwI8fuoieI6NRCJ3esxoV9ruMWudpn9wyQ7c4="/> <input class="btn btn-blue" type="submit" value="Login"/> <a class="frgt-pswd" href="javascript:;">Forgot
+ your password?</a> </div> </div> <div class="line">
+ Don't have an account? <a class="signup-button" href="javascript:;">Create One!</a> </div> </form> <div id="frgt_passwd_suc" class="fk-hidden"></div> <div class="fk-frgt-paswd fk-hidden tmargin5" id="frgt_passwd_div" style="display: none;"> <div class="hdr">
+ Forgot your Password?
+ </div><span class="txt">Enter your Email Address here to receive a link to change
+ password.</span> <div id="login_tiny_help_message2" class="fk-hidden fk-err-all"></div> <div class="line rw"> <div class="unit size1of4 lf"> <label for="frgt_paswd_email_id" class="fk-label">Email</label> </div> <div class="unit size3of4 lastUnit rt"> <input type="text" class="fk-input" name="email" id="frgt_paswd_email_id" onkeypress=
+ "FKART.login.keyEventForgetPass(event)"/> </div> </div> <div class="line"> <div class="unit size1of4 lf">
+ &nbsp;
+ </div> <div class="unit size3of4 lastUnit rt"> <button class="btn btn-blue" onclick="FKART.login.forgotPassword();">Send Email</button> </div> </div> </div> </div> </div> <div id="signup-dialog" class="hidden"> <div class="fk-font-bold fk-font-big bmargin10">New User? Sign Up</div> <div class="main-panel"> <div id="signup_tiny_help_message" class="fk-hidden fk-err-all"></div> <form id="signup-form" target="login-signup-iframe" method="post" action="https://www.flipkart.com/account/signupIframe" name="signup-form"> <div class="line rw"> <div class="unit size1of3 lf"> <label for="signup-email" class="fk-label">Email Address</label> </div> <div class="unit size3of4 lastUnit rt"> <input type="text" class="fk-input" name="signup-email" autocomplete="on" id="signup-email"/> </div> </div> <div class="line rw"> <div class="unit size1of3 lf"> <label for="signup-password" class="fk-label" >Password</label> </div> <div class="unit size3of4 lastUnit rt"> <input type="password" class="fk-input" name="signup-password" id="signup-password"/> <input type="hidden" name="signup-password_hash" id="signup-password_hash"/> </div> </div> <div class="line rw"> <div class="unit size1of3 lf"> <label for="signup-repeat-password" class="fk-label" >Repeat Password</label> </div> <div class="unit size3of4 lastUnit rt"> <input type="password" class="fk-input" name="repeat-password" id="signup-repeat-password"/> </div> </div> <div class="line rw"> <div class="unit size1of3 lf"> <div id="signup-loader" class="fk-text-center">&nbsp;</div> </div> <div class="unit size2of3"> <input type="hidden" name="__FK" value="V205c912308b33292573221e830d6e5829d1t19LIO2hpDCwe+rHrCpmuWsdmJBIsmZNzClgEBkog8bSDQqMZcSGv0pSocBGOU81pJAuUBlrmTwI8fuoieI6NRCJ3esxoV9ruMWudpn9wyQ7c4="/> <input class="btn btn-green" type="submit" value="Sign Up Now!"/> </div> </div> </form> <div class="line">
+ Already have an account? <a href="javascript:;" class="login-button">Login</a>!
+ </div> </div> </div> </div> <div class="divider-or unit"> </div> <div id="social-dialog" class="social-connect unit"> <div class="line"> <div class="tmargin25"> <span class="social-signin-message fk-font-bold">Sign in with </span> <div class="social-connect-loader fk-inline-block lmargin10"></div> </div> <div class="line tmargin10"> <a href="/sc/fb_login?__Fk=V205c912308b33292573221e830d6e5829d1t19%2FxyRaOnLhSVshFSU8BjKwcTiT7Kj0QhzH4cPXVz6Q5ObGFku7GX8QmxzhmLVrULBQr1rhewe0Jy1UP17c9aF0xtimYL%2B86warsmh4MzK7kM%3D&rd=http://www.flipkart.com%2F" class="fk-button-social fb"></a> </div> <div class="line tmargin10"> <a href="/sc/google_login?__Fk=V205c912308b33292573221e830d6e5829d1t19%2FxyRaOnLhSVshFSU8BjKwcTiT7Kj0QhzH4cPXVz6Q5ObGFku7GX8QmxzhmLVrULBQr1rhewe0Jy1UP17c9aF0xtimYL%2B86warsmh4MzK7kM%3D&rd=http://www.flipkart.com%2F" class="fk-button-social google"></a> </div> <div id="fb-root"></div> </div> </div> </div> </div> <iframe class="hidden" width="0" height="0" id="login-signup-iframe" name="login-signup-iframe"></iframe> </div> <script type="text/javascript">
+ if(typeof window.lzld_find != "undefined")
+ {
+ window.lzld_find();
+ }
+ </script> <script type="text/javascript">var s_account='flipkart-prd';</script> <script type="text/javascript">
+ window.cartOptions = {
+ height: 502,
+ width: 922,
+ css: "newvd cart-dialog "
+ }
+ </script> <script type="text/javascript">
+ window.cartThrottleOptions = {
+ enable : false
+ }
+ </script> <script type="text/javascript" src="http://img5a.flixcart.com/www/prod/js/new-lib-baddd2e.js"></script><script type="text/javascript"> addOnload(function(){
+ FKART.utils.runOnload();
+ });
+ addWindowOnload(function(){
+ FKART.utils.runWindowOnload();
+ });
+ require_module.init({"spc":{"url":"http://img5a.flixcart.com/www/prod/js/spc-7ee4643.js"},"ie-fix":{"url":"http://img5a.flixcart.com/www/prod/js/ie-fix-862239a.js"},"spc-omniture":{"url":"http://img5a.flixcart.com/www/prod/js/spc-omniture-5a67b32.js"},"doodle":{"url":"http://img5a.flixcart.com/www/prod/js/doodle-48f211d.js"},"alliances":{"url":"http://img5a.flixcart.com/www/prod/js/alliances-b19a692.js"},"static":{"url":"http://img5a.flixcart.com/www/prod/js/static-20e8e39.js"},"affiliate":{"url":"http://img5a.flixcart.com/www/prod/js/affiliate-8accb9e.js"},"yahoo_cobrand_tracking":{"url":"http://img5a.flixcart.com/www/prod/js/yahoo_cobrand_tracking-d6b3860.js"},"affiliate_date_picker":{"url":"http://img5a.flixcart.com/www/prod/js/affiliate_date_picker-1722b57.js"},"jqueryExpose":{"url":"http://img5a.flixcart.com/www/prod/js/jqueryExpose-c59a9be.js"},"affiliate_multiproduct_banner":{"url":"http://img5a.flixcart.com/www/prod/js/affiliate_multiproduct_banner-ed699a7.js"},"affwidget":{"url":"http://img5a.flixcart.com/www/prod/js/affwidget-6ecd57e.js"},"addthis":{"url":"http://img5a.flixcart.com/www/prod/js/addthis-b50efb7.js"},"boomerang":{"url":"http://img5a.flixcart.com/www/prod/js/boomerang-c43a47e.js"},"carousel":{"url":"http://img5a.flixcart.com/www/prod/js/carousel-e1e730d.js"},"slick-carousel":{"url":"http://img5a.flixcart.com/www/prod/js/slick-carousel-9f6387c.js"},"image-carousel":{"url":"http://img5a.flixcart.com/www/prod/js/image-carousel-f0837dc.js"},"zoom":{"url":"http://img5a.flixcart.com/www/prod/js/zoom-6310b9b.js"},"co":{"url":"http://img5a.flixcart.com/www/prod/js/co-a99c1f7.js"},"self-serve-lib":{"url":"http://img5a.flixcart.com/www/prod/js/self-serve-lib-ce4bda3.js"},"returns":{"url":"http://img5a.flixcart.com/www/prod/js/returns-75655ce.js"},"neft-update":{"url":"http://img5a.flixcart.com/www/prod/js/neft-update-b28730b.js"},"my-orders":{"url":"http://img5a.flixcart.com/www/prod/js/my-orders-a940546.js"},"contact-us":{"url":"http://img5a.flixcart.com/www/prod/js/contact-us-471deb7.js"},"helpcentre":{"url":"http://img5a.flixcart.com/www/prod/js/helpcentre-bab166d.js"},"scheduled-delivery":{"url":"http://img5a.flixcart.com/www/prod/js/scheduled-delivery-1c2a7fb.js"},"NDR":{"url":"http://img5a.flixcart.com/www/prod/js/NDR-3c0526d.js"},"resend-egv":{"url":"http://img5a.flixcart.com/www/prod/js/resend-egv-40b2334.js"},"browser-warning":{"url":"http://img5a.flixcart.com/www/prod/js/browser-warning-222b5e6.js"},"logger":{"url":"http://img5a.flixcart.com/www/prod/js/logger-f588a66.js"},"fkselectbox":{"url":"http://img5a.flixcart.com/www/prod/js/fkselectbox-b69970e.js"},"ugc":{"url":"http://img5a.flixcart.com/www/prod/js/ugc-fcbca06.js"},"digital":{"url":"http://img5a.flixcart.com/www/prod/js/digital-c03a8d4.js"},"ads":{"url":"http://img5a.flixcart.com/www/prod/js/ads-2883e46.js"},"browse":{"url":"http://img5a.flixcart.com/www/prod/js/browse-416d850.js"},"newbrowse":{"url":"http://img5a.flixcart.com/www/prod/js/newbrowse-3e5dc04.js"},"buyingGuidePage":{"url":"http://img5a.flixcart.com/www/prod/js/buyingGuidePage-5c85f42.js"},"lifestylebrowse":{"url":"http://img5a.flixcart.com/www/prod/js/lifestylebrowse-e169824.js"},"searchrating":{"url":"http://img5a.flixcart.com/www/prod/js/searchrating-d2fd77c.js"},"multivariant":{"url":"http://img5a.flixcart.com/www/prod/js/multivariant-69acbf2.js"},"phone-sales":{"url":"http://img5a.flixcart.com/www/prod/js/phone-sales-9aecf36.js"},"touch":{"url":"http://img5a.flixcart.com/www/prod/js/touch-a32b9c9.js"},"mobile-tracking":{"url":"http://img5a.flixcart.com/www/prod/js/mobile-tracking-d9f4d2a.js"},"mobile-tracking-old":{"url":"http://img5a.flixcart.com/www/prod/js/mobile-tracking-old-d9f4d2a.js"},"mobile-cart":{"url":"http://img5a.flixcart.com/www/prod/js/mobile-cart-a0ae2a6.js"},"mobile-lego":{"url":"http://img5a.flixcart.com/www/prod/js/mobile-lego-550745c.js"},"operaCart":{"url":"http://img5a.flixcart.com/www/prod/js/operaCart-bd5e5ad.js"},"cloud":{"url":"http://img5a.flixcart.com/www/prod/js/cloud-87a9dbe.js"},"mobile-clp-tracking":{"url":"http://img5a.flixcart.com/www/prod/js/mobile-clp-tracking-12ac4f5.js"},"mobile-combo":{"url":"http://img5a.flixcart.com/www/prod/js/mobile-combo-af2c182.js"},"mobile-prexo":{"url":"http://img5a.flixcart.com/www/prod/js/mobile-prexo-9b8462c.js"},"mobile-ccemi":{"url":"http://img5a.flixcart.com/www/prod/js/mobile-ccemi-ff59787.js"},"mobile-subscription":{"url":"http://img5a.flixcart.com/www/prod/js/mobile-subscription-e2f4676.js"},"mobile-gateway-redirection":{"url":"http://img5a.flixcart.com/www/prod/js/mobile-gateway-redirection-6e6c1d2.js"},"mobile-delivery":{"url":"http://img5a.flixcart.com/www/prod/js/mobile-delivery-ba9e3a6.js"},"mobile-carousel":{"url":"http://img5a.flixcart.com/www/prod/js/mobile-carousel-8b3157d.js"},"mobile-return":{"url":"http://img5a.flixcart.com/www/prod/js/mobile-return-79d776e.js"},"ifsc-helper":{"url":"http://img5a.flixcart.com/www/prod/js/ifsc-helper-d4ae3b1.js"},"mobile-order-details":{"url":"http://img5a.flixcart.com/www/prod/js/mobile-order-details-6462deb.js"},"mobile-contactus":{"url":"http://img5a.flixcart.com/www/prod/js/mobile-contactus-fd4dbc1.js"},"mobile-rpd":{"url":"http://img5a.flixcart.com/www/prod/js/mobile-rpd-5b98c59.js"},"mobile-buying-guide":{"url":"http://img5a.flixcart.com/www/prod/js/mobile-buying-guide-7c216f1.js"},"myaccount":{"url":"http://img5a.flixcart.com/www/prod/js/myaccount-f6efd59.js"},"lib":{"url":"http://img5a.flixcart.com/www/prod/js/lib-83762ba.js"},"main":{"url":"http://img5a.flixcart.com/www/prod/js/main-2943ae0.js"},"homepage":{"url":"http://img5a.flixcart.com/www/prod/js/homepage-b61aaf1.js"},"new-lib":{"url":"http://img5a.flixcart.com/www/prod/js/new-lib-baddd2e.js"},"productpage":{"url":"http://img5a.flixcart.com/www/prod/js/productpage-5f6ad62.js"},"sideBands":{"url":"http://img5a.flixcart.com/www/prod/js/sideBands-fb37c38.js"},"360view":{"url":"http://img5a.flixcart.com/www/prod/js/360view-2b82daa.js"},"survey":{"url":"http://img5a.flixcart.com/www/prod/js/survey-143d902.js"},"sweepstake":{"url":"http://img5a.flixcart.com/www/prod/js/sweepstake-f0fb475.js"},"reviewsummary":{"url":"http://img5a.flixcart.com/www/prod/js/reviewsummary-7cea0e0.js"},"epub":{"url":"http://img5a.flixcart.com/www/prod/js/epub-20be931.js"},"ebooks-preview":{"url":"http://img5a.flixcart.com/www/prod/js/ebooks-preview-3a160de.js"},"reader":{"url":"http://img5a.flixcart.com/www/prod/js/reader-46ad3d3.js"},"sample-reader":{"url":"http://img5a.flixcart.com/www/prod/js/sample-reader-20c549c.js"},"lib-dwnld":{"url":"http://img5a.flixcart.com/www/prod/js/lib-dwnld-d41d8cd.js"},"default":{"url":"http://img5a.flixcart.com/www/prod/js/default-0e6076a.js"},"sticky":{"url":"http://img5a.flixcart.com/www/prod/js/sticky-bb08944.js"},"browse-pincode":{"url":"http://img5a.flixcart.com/www/prod/js/browse-pincode-a943ff1.js"},"geobrowse":{"url":"http://img5a.flixcart.com/www/prod/js/geobrowse-be5a8fd.js"},"widget-modules":{"url":"http://img5a.flixcart.com/www/prod/js/widget-modules-c6ea472.js"},"ndd-launch-page":{"url":"http://img5a.flixcart.com/www/prod/js/ndd-launch-page-c911cc5.js"},"parallax":{"url":"http://img5a.flixcart.com/www/prod/js/parallax-33ce43d.js"},"mobile-sample-reader":{"url":"http://img5a.flixcart.com/www/prod/js/mobile-sample-reader-2a61ad1.js"},"openxAds":{"url":"http://img5a.flixcart.com/www/prod/js/openxAds-3c2d8bf.js"},"jet-planes":{"url":"http://img5a.flixcart.com/www/prod/js/jet-planes-eeb5f51.js"},"reco":{"url":"http://img5a.flixcart.com/www/prod/js/reco-a0ad38f.js"},"legoProductPage":{"url":"http://img5a.flixcart.com/www/prod/js/legoProductPage-15fd4b2.js"},"fozLego":{"url":"http://img5a.flixcart.com/www/prod/js/fozLego-bd6e63a.js"},"boss":{"url":"http://img5a.flixcart.com/www/prod/js/boss-c5ebeca.js"},"foz-intrigue":{"url":"http://img5a.flixcart.com/www/prod/js/foz-intrigue-cfb3e36.js"},"booksCLP":{"url":"http://img5a.flixcart.com/www/prod/js/booksCLP-809f80f.js"},"close-button":{"url":"http://img5a.flixcart.com/www/prod/js/close-button-b319954.js"},"lego-tracking":{"url":"http://img5a.flixcart.com/www/prod/js/lego-tracking-24330ec.js"},"msite-v2-core":{"url":"http://img5a.flixcart.com/www/prod/js/msite-v2-core-6bb8b79.js"},"pdf-web-reader":{"url":"http://img5a.flixcart.com/www/prod/js/pdf-web-reader-92a4038.js"},"pdf-sample-reader":{"url":"http://img5a.flixcart.com/www/prod/js/pdf-sample-reader-ae739b8.js"},"pdf-web-reader-worker":{"url":"http://img5a.flixcart.com/www/prod/js/pdf-web-reader-worker-2c1a052.js"},"pdf-sample-reader-worker":{"url":"http://img5a.flixcart.com/www/prod/js/pdf-sample-reader-worker-cb62529.js"},"attachFlow":{"url":"http://img5a.flixcart.com/www/prod/js/attachFlow-4b0dfb4.js"}}, {"HPS":{"url":["http://img5a.flixcart.com/www/prod/HPS-4020e01b-nogz.css"]},"LegoHomePage":{"url":["http://img5a.flixcart.com/www/prod/LegoHomePage-4020e01b-nogz.css"]},"HPSLite":{"url":["http://img5a.flixcart.com/www/prod/HPSLite-c8ae7b70-nogz.css"]},"attachFlow":{"url":["http://img5a.flixcart.com/www/prod/attachFlow-0bbcfbc6-nogz.css"]},"HomePage":{"url":["http://img5a.flixcart.com/www/prod/HomePage-1e411284-nogz.css"]},"BrowsePage":{"url":["http://img5a.flixcart.com/www/prod/BrowsePage-72a9506a-nogz.css"]},"ProductPage":{"url":["http://img5a.flixcart.com/www/prod/ProductPage-25404b2f-nogz.css"]},"LifeStyle":{"url":["http://img5a.flixcart.com/www/prod/LifeStyle-b9a36e24-nogz.css"]},"BG":{"url":["http://img5a.flixcart.com/www/prod/BG-1237a16a-nogz.css"]},"ads":{"url":["http://img5a.flixcart.com/www/prod/ads-ec23c353-nogz.css"]},"aff":{"url":["http://img5a.flixcart.com/www/prod/aff-d713ea01-nogz.css"]},"grid":{"url":["http://img5a.flixcart.com/www/prod/grid-0a93a7ed-nogz.css"]},"alliances":{"url":["http://img5a.flixcart.com/www/prod/alliances-7dd10fd8-nogz.css"]},"basic":{"url":["http://img5a.flixcart.com/www/prod/basic-898016d4-nogz.css"]},"diwali-phase2":{"url":["http://img5a.flixcart.com/www/prod/diwali-phase2-ee2fce38-nogz.css"]},"diwali-phase3":{"url":["http://img5a.flixcart.com/www/prod/diwali-phase3-e14e0fbf-nogz.css"]},"diwali-phase4":{"url":["http://img5a.flixcart.com/www/prod/diwali-phase4-713b14d2-nogz.css"]},"website-theming":{"url":["http://img5a.flixcart.com/www/prod/website-theming-9872a483-nogz.css"]},"ebooks-anniversary":{"url":["http://img5a.flixcart.com/www/prod/ebooks-anniversary-9c40c5f3-nogz.css"]},"ebooks":{"url":["http://img5a.flixcart.com/www/prod/ebooks-a941534c-nogz.css"]},"ebooks-preview":{"url":["http://img5a.flixcart.com/www/prod/ebooks-preview-fc2c0a5a-nogz.css"]},"sample-reader":{"url":["http://img5a.flixcart.com/www/prod/sample-reader-b413882c-nogz.css"]},"reader":{"url":["http://img5a.flixcart.com/www/prod/reader-c96278c6-nogz.css"]},"help":{"url":["http://img5a.flixcart.com/www/prod/help-da3cd739-nogz.css"]},"flyte-anniversary":{"url":["http://img5a.flixcart.com/www/prod/flyte-anniversary-619a0b95-nogz.css"]},"self-publishing":{"url":["http://img5a.flixcart.com/www/prod/self-publishing-ba100323-nogz.css"]},"mpl":{"url":["http://img5a.flixcart.com/www/prod/mpl-95c33220-nogz.css"]},"mobile":{"url":["http://img5a.flixcart.com/www/prod/mobile-80fad66b-nogz.css"]},"others":{"url":["http://img5a.flixcart.com/www/prod/others-cf54c631-nogz.css"]},"spc":{"url":["http://img5a.flixcart.com/www/prod/spc-9adb84f9-nogz.css"]},"self-serve":{"url":["http://img5a.flixcart.com/www/prod/self-serve-893cbff1-nogz.css"]},"helpcentre":{"url":["http://img5a.flixcart.com/www/prod/helpcentre-0d20b0ed-nogz.css"]},"others-extended":{"url":["http://img5a.flixcart.com/www/prod/others-extended-4300af51-nogz.css"]},"contact-us":{"url":["http://img5a.flixcart.com/www/prod/contact-us-733e78bf-nogz.css"]},"order-return":{"url":["http://img5a.flixcart.com/www/prod/order-return-4fa455f6-nogz.css"]},"neft-update":{"url":["http://img5a.flixcart.com/www/prod/neft-update-d7305866-nogz.css"]},"thin":{"url":["http://img5a.flixcart.com/www/prod/thin-82cdc83e-nogz.css"]},"touch":{"url":["http://img5a.flixcart.com/www/prod/touch-bc1631de-nogz.css"]},"mw-theme":{"url":["http://img5a.flixcart.com/www/prod/mw-theme-9417d115-nogz.css"]},"mobile-app":{"url":["http://img5a.flixcart.com/www/prod/mobile-app-ebdcaf25-nogz.css"]},"mobile-windows-app":{"url":["http://img5a.flixcart.com/www/prod/mobile-windows-app-b65f3667-nogz.css"]},"mobilestore":{"url":["http://img5a.flixcart.com/www/prod/mobilestore-8e670a6e-nogz.css"]},"mobile-website":{"url":["http://img5a.flixcart.com/www/prod/mobile-website-121c8422-nogz.css"]},"mw-core":{"url":["http://img5a.flixcart.com/www/prod/mw-core-e064f539-nogz.css"]},"mw-discovery":{"url":["http://img5a.flixcart.com/www/prod/mw-discovery-305ca515-nogz.css"]},"mw-checkout":{"url":["http://img5a.flixcart.com/www/prod/mw-checkout-411305c3-nogz.css"]},"mw-selfserve":{"url":["http://img5a.flixcart.com/www/prod/mw-selfserve-44333f4a-nogz.css"]},"mw-icons":{"url":["http://img5a.flixcart.com/www/prod/mw-icons-696cadd9-nogz.css"]},"fk-mobile-app":{"url":["http://img5a.flixcart.com/www/prod/fk-mobile-app-6e278a8d-nogz.css"]},"fk-windows-app":{"url":["http://img5a.flixcart.com/www/prod/fk-windows-app-f4b9dc64-nogz.css"]},"mobile-lego":{"url":["http://img5a.flixcart.com/www/prod/mobile-lego-5e3fbc1c-nogz.css"]},"mobile-website-theme":{"url":["http://img5a.flixcart.com/www/prod/mobile-website-theme-29857771-nogz.css"]},"mobile-sample-reader":{"url":["http://img5a.flixcart.com/www/prod/mobile-sample-reader-bd86716f-nogz.css"]},"mobile-opera":{"url":["http://img5a.flixcart.com/www/prod/mobile-opera-a68b9637-nogz.css"]},"touch-vday":{"url":["http://img5a.flixcart.com/www/prod/touch-vday-2b7a1578-nogz.css"]},"affwidget":{"url":["http://img5a.flixcart.com/www/prod/affwidget-5e560bb9-nogz.css"]},"lego":{"url":["http://img5a.flixcart.com/www/prod/lego-7e4be181-nogz.css"]},"sweepstake":{"url":["http://img5a.flixcart.com/www/prod/sweepstake-f4cd3b28-nogz.css"]},"blogs":{"url":["http://img5a.flixcart.com/www/prod/blogs-7246a6a0-nogz.css"]},"stores":{"url":["http://img5a.flixcart.com/www/prod/stores-568e4696-nogz.css"]},"arihant-store":{"url":["http://img5a.flixcart.com/www/prod/arihant-store-10644d83-nogz.css"]},"ack-store":{"url":["http://img5a.flixcart.com/www/prod/ack-store-726150c1-nogz.css"]},"bosch-store":{"url":["http://img5a.flixcart.com/www/prod/bosch-store-53738fc1-nogz.css"]},"chromeBook-store":{"url":["http://img5a.flixcart.com/www/prod/chromeBook-store-edc55ce0-nogz.css"]},"chromebook1-store":{"url":["http://img5a.flixcart.com/www/prod/chromebook1-store-11cdc2ff-nogz.css"]},"disney-store":{"url":["http://img5a.flixcart.com/www/prod/disney-store-d74178e2-nogz.css"]},"motorola-store":{"url":["http://img5a.flixcart.com/www/prod/motorola-store-2e6f7c9c-nogz.css"]},"motox-store":{"url":["http://img5a.flixcart.com/www/prod/motox-store-dd266c82-nogz.css"]},"motoeLaunch-store":{"url":["http://img5a.flixcart.com/www/prod/motoeLaunch-store-ffe12b7f-nogz.css"]},"motog-store":{"url":["http://img5a.flixcart.com/www/prod/motog-store-5f46ece8-nogz.css"]},"flipkartFashion-store":{"url":["http://img5a.flixcart.com/www/prod/flipkartFashion-store-90316ffd-nogz.css"]},"moto-store":{"url":["http://img5a.flixcart.com/www/prod/moto-store-f0464972-nogz.css"]},"philipsHomePage-store":{"url":["http://img5a.flixcart.com/www/prod/philipsHomePage-store-84bbb041-nogz.css"]},"rajini-store":{"url":["http://img5a.flixcart.com/www/prod/rajini-store-10d46bb0-nogz.css"]},"scholastic-store":{"url":["http://img5a.flixcart.com/www/prod/scholastic-store-c01e2686-nogz.css"]},"valentine-store":{"url":["http://img5a.flixcart.com/www/prod/valentine-store-7b8b1269-nogz.css"]},"westland-store":{"url":["http://img5a.flixcart.com/www/prod/westland-store-49de2b8d-nogz.css"]},"westernDigital-store":{"url":["http://img5a.flixcart.com/www/prod/westernDigital-store-7d04949f-nogz.css"]},"philips-monetized":{"url":["http://img5a.flixcart.com/www/prod/philips-monetized-5ba91bc3-nogz.css"]},"beauty-store":{"url":["http://img5a.flixcart.com/www/prod/beauty-store-b9048ff0-nogz.css"]},"valentineday-store":{"url":["http://img5a.flixcart.com/www/prod/valentineday-store-f6aa577f-nogz.css"]},"international-beauty-store":{"url":["http://img5a.flixcart.com/www/prod/international-beauty-store-429f3989-nogz.css"]},"tangerine-store":{"url":["http://img5a.flixcart.com/www/prod/tangerine-store-8fcf0ff3-nogz.css"]},"adidas-store":{"url":["http://img5a.flixcart.com/www/prod/adidas-store-16295c27-nogz.css"]},"benetton-store":{"url":["http://img5a.flixcart.com/www/prod/benetton-store-16295c27-nogz.css"]},"jacknjones-store":{"url":["http://img5a.flixcart.com/www/prod/jacknjones-store-16295c27-nogz.css"]},"fashion-store":{"url":["http://img5a.flixcart.com/www/prod/fashion-store-1bb1d968-nogz.css"]},"puma-store":{"url":["http://img5a.flixcart.com/www/prod/puma-store-5d8c2bfa-nogz.css"]},"kapsons-store":{"url":["http://img5a.flixcart.com/www/prod/kapsons-store-16295c27-nogz.css"]},"veromoda-store":{"url":["http://img5a.flixcart.com/www/prod/veromoda-store-16295c27-nogz.css"]},"lee-store":{"url":["http://img5a.flixcart.com/www/prod/lee-store-0064ba83-nogz.css"]},"wedding-store":{"url":["http://img5a.flixcart.com/www/prod/wedding-store-9b8e4312-nogz.css"]},"ucb-store":{"url":["http://img5a.flixcart.com/www/prod/ucb-store-0064ba83-nogz.css"]},"women-store":{"url":["http://img5a.flixcart.com/www/prod/women-store-d2f1235e-nogz.css"]},"women-store2":{"url":["http://img5a.flixcart.com/www/prod/women-store2-d8dedb32-nogz.css"]},"studentsZone-store":{"url":["http://img5a.flixcart.com/www/prod/studentsZone-store-6d931cbf-nogz.css"]},"philipsAquatouch-store":{"url":["http://img5a.flixcart.com/www/prod/philipsAquatouch-store-cb3d9327-nogz.css"]},"hpcartridges-store":{"url":["http://img5a.flixcart.com/www/prod/hpcartridges-store-75bb5ee1-nogz.css"]},"motoe-store":{"url":["http://img5a.flixcart.com/www/prod/motoe-store-79a0476b-nogz.css"]},"asuszenfone2-store":{"url":["http://img5a.flixcart.com/www/prod/asuszenfone2-store-9d2257e0-nogz.css"]},"mens-store":{"url":["http://img5a.flixcart.com/www/prod/mens-store-0cacb171-nogz.css"]},"womens-store":{"url":["http://img5a.flixcart.com/www/prod/womens-store-d8dedb32-nogz.css"]},"lifestyle-clp":{"url":["http://img5a.flixcart.com/www/prod/lifestyle-clp-0f2bb30f-nogz.css"]},"books-clp":{"url":["http://img5a.flixcart.com/www/prod/books-clp-99e737eb-nogz.css"]},"summer-reads-books-clp":{"url":["http://img5a.flixcart.com/www/prod/summer-reads-books-clp-2d8d5577-nogz.css"]},"children-clp":{"url":["http://img5a.flixcart.com/www/prod/children-clp-5b2151b2-nogz.css"]},"academics-clp":{"url":["http://img5a.flixcart.com/www/prod/academics-clp-1fc65170-nogz.css"]},"flipkart-first":{"url":["http://img5a.flixcart.com/www/prod/flipkart-first-2c47b72c-nogz.css"]},"launch-page":{"url":["http://img5a.flixcart.com/www/prod/launch-page-e4b01cfa-nogz.css"]},"error_pages":{"url":["http://img5a.flixcart.com/www/prod/error_pages-12b16ece-nogz.css"]},"books_launch_page":{"url":["http://img5a.flixcart.com/www/prod/books_launch_page-52436a10-nogz.css"]},"fifa-store":{"url":["http://img5a.flixcart.com/www/prod/fifa-store-03b53e29-nogz.css"]},"mobile-apps-page":{"url":["http://img5a.flixcart.com/www/prod/mobile-apps-page-89e1d8a1-nogz.css"]},"flipkart-cares":{"url":["http://img5a.flixcart.com/www/prod/flipkart-cares-2b9c0a7b-nogz.css"]},"dotdHp":{"url":["http://img5a.flixcart.com/www/prod/dotdHp-e3a6f635-nogz.css"]},"digiflip-store":{"url":["http://img5a.flixcart.com/www/prod/digiflip-store-04a68582-nogz.css"]},"value-store":{"url":["http://img5a.flixcart.com/www/prod/value-store-241cff5b-nogz.css"]},"mi-store":{"url":["http://img5a.flixcart.com/www/prod/mi-store-c7ec65e6-nogz.css"]},"fastrack-store":{"url":["http://img5a.flixcart.com/www/prod/fastrack-store-1b8f9ad8-nogz.css"]},"rakhi-store":{"url":["http://img5a.flixcart.com/www/prod/rakhi-store-371d393d-nogz.css"]},"flipkart-advantage":{"url":["http://img5a.flixcart.com/www/prod/flipkart-advantage-b31acd32-nogz.css"]},"asus-store":{"url":["http://img5a.flixcart.com/www/prod/asus-store-0e9713ae-nogz.css"]},"do-thumbthing-store":{"url":["http://img5a.flixcart.com/www/prod/do-thumbthing-store-018411cd-nogz.css"]},"kids-store":{"url":["http://img5a.flixcart.com/www/prod/kids-store-2817b8f5-nogz.css"]},"wedding-diaries-store":{"url":["http://img5a.flixcart.com/www/prod/wedding-diaries-store-9ac2c28a-nogz.css"]},"legoBasic":{"url":["http://img5a.flixcart.com/www/prod/legoBasic-878a33cf-nogz.css"]},"legoProductPage":{"url":["http://img5a.flixcart.com/www/prod/legoProductPage-7e89d741-nogz.css"]},"intrigue-store":{"url":["http://img5a.flixcart.com/www/prod/intrigue-store-2e4b9176-nogz.css"]},"foz-new":{"url":["http://img5a.flixcart.com/www/prod/foz-new-75478752-nogz.css"]},"foz-gosf":{"url":["http://img5a.flixcart.com/www/prod/foz-gosf-e680cc1a-nogz.css"]},"foz-boss":{"url":["http://img5a.flixcart.com/www/prod/foz-boss-df11e9cc-nogz.css"]},"foz-sale":{"url":["http://img5a.flixcart.com/www/prod/foz-sale-c0e08ecb-nogz.css"]},"diwali-intrigue":{"url":["http://img5a.flixcart.com/www/prod/diwali-intrigue-db29961a-nogz.css"]},"diwali-pbo":{"url":["http://img5a.flixcart.com/www/prod/diwali-pbo-5cf04e76-nogz.css"]},"diwali-leaderboard":{"url":["http://img5a.flixcart.com/www/prod/diwali-leaderboard-40b5682e-nogz.css"]},"plainReco":{"url":["http://img5a.flixcart.com/www/prod/plainReco-03d94b65-nogz.css"]},"watches-store":{"url":["http://img5a.flixcart.com/www/prod/watches-store-bbeae3b4-nogz.css"]},"basd":{"url":["http://img5a.flixcart.com/www/prod/basd-bbb5f258-nogz.css"]},"console":{"url":["http://img5a.flixcart.com/www/prod/console-b3a8bff6-nogz.css"]},"mw-thematic-stores":{"url":["http://img5a.flixcart.com/www/prod/mw-thematic-stores-3b85ca39-nogz.css"]},"app-thematic-stores":{"url":["http://img5a.flixcart.com/www/prod/app-thematic-stores-3b85ca39-nogz.css"]},"windows-thematic-stores":{"url":["http://img5a.flixcart.com/www/prod/windows-thematic-stores-3b85ca39-nogz.css"]},"static":{"url":["http://img5a.flixcart.com/www/prod/static-799aa318-nogz.css"]},"pdf-web-reader":{"url":["http://img5a.flixcart.com/www/prod/pdf-web-reader-16295b55-nogz.css"]},"pdf-sample-reader":{"url":["http://img5a.flixcart.com/www/prod/pdf-sample-reader-6b111094-nogz.css"]},"pdf-mobile-sample-reader":{"url":["http://img5a.flixcart.com/www/prod/pdf-mobile-sample-reader-fccc3375-nogz.css"]}});
+ </script> <script type='text/javascript'>
+ FKART.secureDomain='https://www.flipkart.com';
+</script> <script type="text/javascript+fk-onload">
+ FKART.linkTracking.parse();
+</script> <!-- Omniture code start --> <script type="text/javascript">
+ (function(){
+ var adBlockerDiv = document.createElement("div");
+ adBlockerDiv.className = "advertisement-right advertisement-right-rail advertisement-sidebar advertisement-space advertisement-sponsor advertisement-swimlane advertisement-tag advertisement-text advertisement-top advertisement-txt advertisement-wrapper advertisement1 advertisement300x250 advertisement468 advertisementBackground advertisementBannerVertical advertisementBar advertisementBlock advertisementBox advertisementCenterer";
+ adBlockerDiv.innerHTML = "advertisment";
+ adBlockerDiv.style.visibility = "hidden";
+ document.body.appendChild(adBlockerDiv);
+ if(adBlockerDiv.clientHeight == 0 || adBlockerDiv.offsetHeight == 0 || adBlockerDiv.clientWidth == 0 || adBlockerDiv.offsetWidth == 0) {
+ s.prop8 = "Ad Blocker Present"; 
+ }
+ else {
+ s.prop8 = "Ad Blocker Absent"; 
+ }
+ document.body.removeChild(adBlockerDiv); 
+ })();
+ </script> <script language="JavaScript" type="text/javascript">
+ if (typeof ozone_omn == 'object') {
+ for (var ozone_key in ozone_omn) {
+ s[ozone_key] = ozone_omn[ozone_key];
+ }
+ }
+ s.pageName = "Homepage";
+ s.eVar3 = "Homepage";
+ s.eVar1 = "Home";
+ s.eVar2 = "Home";
+ s.eVar4 = "logout";
+ s.list1 = "mob_mi_4i_register_now_type1_20150423200423;TV_HP22_Upto50_type1_20150422112254;mob_asus_zenfon2_launch_type1_20150423150343";
+ s.eVar62 = "google_ads_disabled";
+ s.eVar4 = "logout";
+ s.eVar5 = "";
+ s.prop66 = ''; 
+ var s_code=s.t();
+ if(s_code) {
+ var omniDiv = document.createElement("div");
+ omniDiv.innerHTML = s_code;
+ document.body.appendChild(omniDiv);
+ } 
+ //if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-');
+ </script> <noscript> <img width='1' height='1' border='0' alt='' src='http://flipkart.d1.sc.omtrdc.net/b/ss/flipkart-prd/1/PHP-1.2/s651023921?AQB=1&ndh=1&t=24%2F3%2F2015%2000%3A26%3A16%205%20-330&ce=UTF-8&cdp=2&gn=Homepage&g=http%3A%2F%2Fwww.flipkart.com%2F%3Faffid%3Dsebaceous&r=http%3A%2F%2Fmote-talk.org%2F&cc=INR&AQE=1' /></noscript> <!-- Omniture code end --> <script type="text/javascript">
+ window.__FK = "V205c912308b33292573221e830d6e5829d1t19H8un9m8XmZ1yiOOB3MbQU4S6t6IYWC7FwJt9A6yGeVJY8kGGYgAIdODB4Lpmr+vYoOA1OmigdbE7hxKmRJ0D1l97yf0h4wkA6Ibx/bD/Ucc=";
+ $.ajaxSetup({
+ data: {__FK:window.__FK} 
+ });
+</script> <script type="text/javascript+fk-window-onload">
+ var _gaq = _gaq || [];
+ _gaq.push(['_setAccount', 'UA-2015996-1']);
+ _gaq.push(['_trackPageview']); 
+ (function() {
+ var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+ })();
+ </script> <!-- Begin comScore Tag --> <script type="text/javascript+fk-window-onload">
+ var _comscore = _comscore || [];
+ _comscore.push({ c1: "2", c2: "16935438" });
+ (function() {
+ var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+ s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+ el.parentNode.insertBefore(s, el);
+ })();
+</script> <noscript> <img src="http://b.scorecardresearch.com/p?c1=2&c2=16935438&cv=2.0&cj=1" /> </noscript> <!-- End comScore Tag --> <!--[if lt IE 8]> <script type="text/javascript">
+ require_module.js("browser-warning");
+ </script> <![endif]--> <script type="text/javascript">
+ var version = "93e3b0dc",
+ useSSL = 'https:' == document.location.protocol,
+ scriptTagsArr = document.getElementsByTagName("script");
+ var url = (useSSL ? 'https://img1a' : 'http://img6a')+".flixcart.com/www/prod/js"; 
+ var script = document.createElement("script");
+ script.type = "text/javascript";
+ script.src = url+"/fk-ads.min-"+version+".js";
+ var node = scriptTagsArr[scriptTagsArr.length - 1];
+ node.parentNode.insertBefore(script,node);
+</script> <div class="aff-tracker fk-hidden"> <script class="ga-conv" type="text/javascript+fk-window-onload">
+ (function(){
+ 
+ (new Image()).src = "//googleads.g.doubleclick.net/pagead/viewthroughconversion/1017598645/?value=0&label=5BlXCLOpwQMQtaWd5QM&guid=ON&script=0";
+ 
+ })();
+</script> <script class="ga-conv" type="text/javascript+fk-window-onload">
+ (function(){
+ 
+ (new Image()).src = "//googleads.g.doubleclick.net/pagead/viewthroughconversion/1008984980/?value=0&label=eJWICIydxgMQlMeP4QM&guid=ON&script=0";
+ 
+ })();
+</script> <script class="ga-conv" type="text/javascript+fk-window-onload">
+ (function(){
+ (new Image()).src = "http://www.googleadservices.com/pagead/conversion/1017598645/?label=OkhfCNuA7AEQtaWd5QM&guid=ON&script=0";
+ })();
+</script> <script type="text/javascript+fk-window-onload">
+(function() {
+ try {
+ 
+ var Lastclick = false;
+ 
+ var viz = document.createElement("script");
+ viz.type = "text/javascript";
+ viz.async = true;
+ viz.src = ("https:" == document.location.protocol ?"https://in-tags.vizury.com" : "http://in-tags.vizury.com")+ "/analyze/pixel.php?account_id=VIZVRM857"; 
+ var s = document.getElementsByTagName("script")[0];
+ s.parentNode.insertBefore(viz, s);
+ viz.onload = function() {
+ try {
+ pixel.parse(Lastclick);
+ } catch (i) {
+ }
+ };
+ viz.onreadystatechange = function() {
+ if (viz.readyState == "complete" || viz.readyState == "loaded") {
+ try {
+ pixel.parse(Lastclick);
+ } catch (i) {
+ }
+ }
+ };
+ } catch (i) {
+ }
+})();
+</script> <script type="text/javascript+fk-window-onload">
+ var customData = "";
+ 
+
+ (function(){
+ (new Image()).src = "https://www.facebook.com/tr?id=1469476963265313&ev=default" + encodeURI(customData);
+ })();
+</script> <noscript> <div style="display:inline;"> <img height="1" width="1" style="border-style:none;" alt="" src="https://www.facebook.com/tr?id=1469476963265313&ev=default"/> </div> </noscript> <script type="text/javascript+fk-window-onload">
+ var customData = "app_id=91577";
+ 
+ customData += "&type=visit&name=landing";
+ (function(){
+ (new Image()).src = "//api.nanigans.com/event.php?" + encodeURI(customData);
+ })();
+ 
+
+</script> <script type="text/javascript+fk-window-onload" class="microad_blade_track"> <!-- Tracking tags -->
+ var microad_blade_gl = microad_blade_gl || { 'params' : new Array(), 'complete_map' : new Object() };
+ (function() {
+ var param = {'co_account_id' : '9583', 'group_id' : '', 'country_id' : '4', 'ver' : '2.1.0'};
+ microad_blade_gl.params.push(param);
+ var src = (location.protocol == 'https:')
+ ? 'https://d-cache.microadinc.com/js/blade_track_gl.js' : 'http://d-cache.microadinc.com/js/blade_track_gl.js';
+ var bs = document.createElement('script');
+ bs.type = 'text/javascript'; bs.async = true;
+ bs.charset = 'utf-8'; bs.src = src;
+ var s = document.getElementsByTagName('script')[0];
+ s.parentNode.insertBefore(bs, s);
+ })(); 
+</script> <!-- Dynamic Re-targeting tags --> <script type="text/javascript+fk-window-onload">
+ (function() {
+ var ma = document.createElement('script'); ma.type = 'text/javascript'; ma.async = true;
+ ma.src = "//px.adadyn.com/script?adv_id=60";
+ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ma, s);
+ })();
+</script> </div> <script id="_webengage_script_tag" type="text/javascript+fk-window-onload">
+ var hideFeedbackForm = (typeof(jQuery)===typeof(Function)) && (jQuery("a img", ".openXSideBand").length>1 || jQuery("a img", ".openXHalfSideBand").length>1 || (window.adsTTL&&window.adsTTL.sideBandsExecuted));
+ if(!hideFeedbackForm){
+ window.webengageWidgetInit = window.webengageWidgetInit || function(){
+ webengage.init({
+ licenseCode:"~c2ab36d6"
+ }).onReady(function(){
+ webengage.feedback.render();
+ webengage.notification.render();
+ webengage.survey.render({
+ ruleData: {
+ "newHomePage" : "true"
+ },
+ data : {
+ "logged_in" : 'no'
+ }
+ });
+ //Commenting the below code to work for page with other libraries
+ if(typeof jQuery !== 'undefined') {
+ jQuery(document).trigger("webengage.notifications");
+ }
+ });
+ }; 
+ (function(d){
+ var _we = d.createElement('script');
+ _we.type = 'text/javascript';
+ _we.async = true;
+ _we.src = (d.location.protocol == 'https:' ? "//ssl.widgets.webengage.com" : "//cdn.widgets.webengage.com") + "/js/widget/webengage-min-v-3.0.js";
+ var _sNode = d.getElementById('_webengage_script_tag');
+ _sNode.parentNode.insertBefore(_we, _sNode);
+ })(document);
+ }
+</script> <div class="loader"> <div class="loader-body large"> <div class="msg">Loading ...</div> </div> <div class="loader-overlay"></div> </div> <div class="hidden" id="go-top">
+ TOP <div class='css-arrow arrow-border'></div><div class='css-arrow arrow-top'></div> </div> </body> </html>
