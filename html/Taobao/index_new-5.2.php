@@ -42,7 +42,7 @@
  #page {} 
 </style>  </head>
 <body><script>
-with(document)with(body)with(insertBefore(createElement("script"),firstChild))setAttribute("exparams","category=&userid=&aplus&yunid=&&asid=AABfTURVjmneoE4rWFw=",id="tb-beacon-aplus",src=(location>"https"?"//g":"//g")+".alicdn.com/alilog/mlog/aplus_v2.js")
+with(document)with(body)with(insertBefore(createElement("script"),firstChild))setAttribute("exparams","category=&userid=&aplus&yunid=&&asid=AACET0RVfrzI+pF+yP4=",id="tb-beacon-aplus",src=(location>"https"?"//g":"//g")+".alicdn.com/alilog/mlog/aplus_v2.js")
 </script>
 <!-- ÒýÓÃÈ«Íøµõ¶¥ -->
 <!--TMS:761882-->
@@ -2028,21 +2028,21 @@ with(document)with(body)with(insertBefore(createElement("script"),firstChild))se
                                 <img src="http://gtms04.alicdn.com/tps/i4/TB10rrOHFXXXXckXFXXRq4iTXXX-200-150.png" width="200" height="150" alt="ÃÔÄãÀ¶ÑÀÒôÏä" />
                             </a>
                             <span class="group-title">ÃÔÄãÀ¶ÑÀÒôÏä</span>
-                            <div class="cd cd-large cd-slide" data-config="{'leftTime':129125,'effect':'slide'}"><span class="clock">${h}:${m}:${s}</span></div>
+                            <div class="cd cd-large cd-slide" data-config="{'leftTime':128576,'effect':'slide'}"><span class="clock">${h}:${m}:${s}</span></div>
                         </li>
                                                 <li>
                             <a class="group-pic" href="http://item.taobao.com/item.htm?id=36940133078" target="_blank">
                                 <img data-ks-lazyload-custom="http://gtms01.alicdn.com/tps/i1/TB1WNP0HFXXXXcjXXXXRq4iTXXX-200-150.png" width="200" height="150" alt="´ó¾í¾í·¢°ô" />
                             </a>
                             <span class="group-title">´ó¾í¾í·¢°ô</span>
-                            <div class="cd cd-large cd-slide" data-config="{'leftTime':215525,'effect':'slide'}"><span class="clock">${h}:${m}:${s}</span></div>
+                            <div class="cd cd-large cd-slide" data-config="{'leftTime':214976,'effect':'slide'}"><span class="clock">${h}:${m}:${s}</span></div>
                         </li>
                                                 <li>
                             <a class="group-pic" href="http://item.taobao.com/item.htm?id=38814209226" target="_blank">
                                 <img data-ks-lazyload-custom="http://gtms03.alicdn.com/tps/i3/TB1FcjSHFXXXXXbXFXXRq4iTXXX-200-150.png" width="200" height="150" alt="ÎÞÏß Í¬ÆÁÆ÷" />
                             </a>
                             <span class="group-title">ÎÞÏß Í¬ÆÁÆ÷</span>
-                            <div class="cd cd-large cd-slide" data-config="{'leftTime':301925,'effect':'slide'}"><span class="clock">${h}:${m}:${s}</span></div>
+                            <div class="cd cd-large cd-slide" data-config="{'leftTime':301376,'effect':'slide'}"><span class="clock">${h}:${m}:${s}</span></div>
                         </li>
                                             </ul>
                     <ul class="group-slide-triggers">

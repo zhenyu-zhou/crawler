@@ -8,5 +8,5 @@ function APC_r_err(i,st,t){var data=new Date();var tm=data.getTime()-st.getTime(
 APC_st(i+1,0);else
 {APC_Rpt(APC_r_url);}}
 function APC_Rpt(s){var p=new Image();p.src=s;}
-try{apc_CallBack({"rCount":2,'59':'http://qzonestyle.gtimg.cn/zljk/bz.gif','1299':'http://dd.myapp.com/16891/bz.gif'});}catch(e){}})();
+try{apc_CallBack({"rCount":3,'1022':'http://down.myapp.com/bz.gif','1652':'http://s8.url.cn/bz.gif','59':'http://qzonestyle.gtimg.cn/zljk/bz.gif'});}catch(e){}})();
 
