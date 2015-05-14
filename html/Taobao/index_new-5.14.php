@@ -36,7 +36,7 @@
  #page {} 
 </style> </head>
 <body><script>
-with(document)with(body)with(insertBefore(createElement("script"),firstChild))setAttribute("exparams","category=&userid=&aplus&yunid=&&asid=AAD55lRV5canOaW9sQU=",id="tb-beacon-aplus",src=(location>"https"?"//g":"//g")+".alicdn.com/alilog/mlog/aplus_v2.js")
+with(document)with(body)with(insertBefore(createElement("script"),firstChild))setAttribute("exparams","category=&userid=&aplus&yunid=&&asid=AAAzBlVVDFF0fWm8s9g=",id="tb-beacon-aplus",src=(location>"https"?"//g":"//g")+".alicdn.com/alilog/mlog/aplus_v2.js")
 </script>
 <div id="J_SiteNav" class="site-nav">
 <div id="J_SiteNavBd" class="site-nav-bd">
@@ -1559,12 +1559,12 @@ with(document)with(body)with(insertBefore(createElement("script"),firstChild))se
 </li>
 <li>
 <div class="slide-full">
-<a href="http://www.taobao.com/go/market/global/outdoor.php" target="_blank"><img data-ks-lazyload-custom="http://gtms04.alicdn.com/tps/i4/TB10XIlHFXXXXcTXFXX4Q5_GpXX-700-482.jpg" width="700" height="482" alt="运动户外"></a>
+<a href="http://www.taobao.com/market/global/2105summer.php" target="_blank"><img data-ks-lazyload-custom="http://gtms02.alicdn.com/tps/i2/TB1Hc8dHVXXXXcQXVXX4Q5_GpXX-700-482.jpg" width="700" height="482" alt="夏日新品"></a>
 </div>
 </li>
 <li>
 <div class="slide-full">
-<a href="http://miiee.taobao.com/themes/theme_hk-55.htm?banner=global" target="_blank"><img data-ks-lazyload-custom="http://gtms04.alicdn.com/tps/i4/TB1xCzLHFXXXXazXVXX4Q5_GpXX-700-482.jpg" width="700" height="482" alt="黑白之间"></a>
+<a href="http://miiee.taobao.com/themes/theme_hk-58.htm?banner=global" target="_blank"><img data-ks-lazyload-custom="http://gtms03.alicdn.com/tps/i3/TB1AidpHVXXXXaoXXXX4Q5_GpXX-700-482.jpg" width="700" height="482" alt="春夏户外风配衬法"></a>
 </div>
 </li>
 <li>
@@ -1575,8 +1575,8 @@ with(document)with(body)with(insertBefore(createElement("script"),firstChild))se
 </ol>
 <ul class="slide-trigger">
 <li class=" ks-active"><i></i>天天10元</li>
-<li class=""><i></i>户外活动专场</li>
-<li class=""><i></i>黑白之间</li>
+<li class=""><i></i>夏日新品</li>
+<li class=""><i></i>春夏户外风配衬法</li>
 <li class=""><i></i>彼得潘领恤衫特辑</li>
 </ul>
 </div>
@@ -1593,21 +1593,21 @@ with(document)with(body)with(insertBefore(createElement("script"),firstChild))se
 <img src="http://gtms02.alicdn.com/tps/i2/TB1vWpRHVXXXXXkXpXXRq4iTXXX-200-150.png" width="200" height="150" alt="美式照片墙" />
 </a>
 <span class="group-title">美式照片墙</span>
-<div class="cd cd-large cd-slide" data-config="{'leftTime':250827,'effect':'slide'}"><span class="clock">${h}:${m}:${s}</span></div>
+<div class="cd cd-large cd-slide" data-config="{'leftTime':242833,'effect':'slide'}"><span class="clock">${h}:${m}:${s}</span></div>
 </li>
 <li>
 <a class="group-pic" href="http://item.taobao.com/item.htm?id=40800314474" target="_blank">
 <img data-ks-lazyload-custom="http://gtms03.alicdn.com/tps/i3/TB1.AdTHVXXXXcqXXXXRq4iTXXX-200-150.png" width="200" height="150" alt="神奇抹布" />
 </a>
 <span class="group-title">神奇抹布</span>
-<div class="cd cd-large cd-slide" data-config="{'leftTime':250827,'effect':'slide'}"><span class="clock">${h}:${m}:${s}</span></div>
+<div class="cd cd-large cd-slide" data-config="{'leftTime':242833,'effect':'slide'}"><span class="clock">${h}:${m}:${s}</span></div>
 </li>
 <li>
 <a class="group-pic" href="http://item.taobao.com/item.htm?id=25481680369" target="_blank">
 <img data-ks-lazyload-custom="http://gtms01.alicdn.com/tps/i1/TB1SoBNHVXXXXauXpXXRq4iTXXX-200-150.png" width="200" height="150" alt="可爱拖鞋挂钩" />
 </a>
 <span class="group-title">可爱拖鞋挂钩</span>
-<div class="cd cd-large cd-slide" data-config="{'leftTime':250827,'effect':'slide'}"><span class="clock">${h}:${m}:${s}</span></div>
+<div class="cd cd-large cd-slide" data-config="{'leftTime':242833,'effect':'slide'}"><span class="clock">${h}:${m}:${s}</span></div>
 </li>
 </ul>
 <ul class="group-slide-triggers">
