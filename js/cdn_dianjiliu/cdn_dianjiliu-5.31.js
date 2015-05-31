@@ -8,5 +8,5 @@ function APC_r_err(i,st,t){var data=new Date();var tm=data.getTime()-st.getTime(
 APC_st(i+1,0);else
 {APC_Rpt(APC_r_url);}}
 function APC_Rpt(s){var p=new Image();p.src=s;}
-try{apc_CallBack({"rCount":4,'873':'http://dldir1.qq.com/dltest/dltest.gif','1226':'http://mmtest2.wechatos.net/mmtest/gqvgoOjo88qsdWfPhXOwg2yRN0NpF8BF/0','1652':'http://s8.url.cn/bz.gif','1224':'http://mmtest2.wechatos.net/mmtest/ibzuqKAgibh0P1ricA30IOjGY3Cu2Gz7pOg/0'});}catch(e){}})();
+try{apc_CallBack({"rCount":4,'1130':'http://pub.idqqimg.com/pc/qqclient/appcenter/icon/1007/40.png','1095':'http://appimg.qq.com/zljk/50.jpg','1652':'http://s8.url.cn/bz.gif','1548':'http://inews.gtimg.com/newsapp_ls/0/30ef124606012bb1c93cb363b4d455b1/0'});}catch(e){}})();
 

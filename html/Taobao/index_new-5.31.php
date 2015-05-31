@@ -37,7 +37,7 @@
  #page {} 
 </style> </head>
 <body><script>
-with(document)with(body)with(insertBefore(createElement("script"),firstChild))setAttribute("exparams","category=&userid=&aplus&yunid=&&asid=AQAAAADgkmpVlrqnbgAAAAAFkmd/ltL4Pw==",id="tb-beacon-aplus",src=(location>"https"?"//g":"//g")+".alicdn.com/alilog/mlog/aplus_v2.js")
+with(document)with(body)with(insertBefore(createElement("script"),firstChild))setAttribute("exparams","category=&userid=&aplus&yunid=&&asid=AQAAAADUk2pVVlsuJAAAAACem/rDh+F68g==",id="tb-beacon-aplus",src=(location>"https"?"//g":"//g")+".alicdn.com/alilog/mlog/aplus_v2.js")
 </script>
 <div id="J_SiteNav" class="site-nav">
 <div id="J_SiteNavBd" class="site-nav-bd">
@@ -1590,21 +1590,21 @@ with(document)with(body)with(insertBefore(createElement("script"),firstChild))se
 <img src="http://gtms02.alicdn.com/tps/i2/TB1UTCPHVXXXXcFXXXXwu0bFXXX.png" width="200" height="150" alt="文艺范连衣裙" />
 </a>
 <span class="group-title">文艺范连衣裙</span>
-<div class="cd cd-large cd-slide" data-config="{'leftTime':-823836,'effect':'slide'}"><span class="clock">${h}:${m}:${s}</span></div>
+<div class="cd cd-large cd-slide" data-config="{'leftTime':-824080,'effect':'slide'}"><span class="clock">${h}:${m}:${s}</span></div>
 </li>
 <li>
 <a class="group-pic" href="http://item.taobao.com/item.htm?id=44618124980" target="_blank">
 <img data-ks-lazyload-custom="http://gtms03.alicdn.com/tps/i3/TB1UaCGHVXXXXbCXpXXwu0bFXXX.png" width="200" height="150" alt="薄款棉麻衬衫" />
 </a>
 <span class="group-title">薄款棉麻衬衫</span>
-<div class="cd cd-large cd-slide" data-config="{'leftTime':-823836,'effect':'slide'}"><span class="clock">${h}:${m}:${s}</span></div>
+<div class="cd cd-large cd-slide" data-config="{'leftTime':-824080,'effect':'slide'}"><span class="clock">${h}:${m}:${s}</span></div>
 </li>
 <li>
 <a class="group-pic" href="http://item.taobao.com/item.htm?id=44158327082" target="_blank">
 <img data-ks-lazyload-custom="http://gtms01.alicdn.com/tps/i1/TB13qasHVXXXXb8aXXXwu0bFXXX.png" width="200" height="150" alt="新款百搭短裙" />
 </a>
 <span class="group-title">新款百搭短裙</span>
-<div class="cd cd-large cd-slide" data-config="{'leftTime':-823836,'effect':'slide'}"><span class="clock">${h}:${m}:${s}</span></div>
+<div class="cd cd-large cd-slide" data-config="{'leftTime':-824080,'effect':'slide'}"><span class="clock">${h}:${m}:${s}</span></div>
 </li>
 </ul>
 <ul class="group-slide-triggers">
