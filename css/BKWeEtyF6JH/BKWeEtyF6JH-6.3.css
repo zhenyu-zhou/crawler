@@ -1,4 +1,4 @@
-/*!CK:1375508236!*//*1433304275,*/
+/*!CK:4480551!*//*1431444706,*/
 
 @-webkit-keyframes dialogHaloPulse{from{background-color:rgba(82,82,82,.8)}to{background-color:rgba(82,82,82,.5)}}.pulseBorderDialog .pop_container_advanced,.VideoCallIncoming.pulseBorder .pop_container_advanced,.VideoCallOutgoing.pulseBorder .pop_container_advanced{-webkit-animation-name:dialogHaloPulse;-webkit-animation-duration:.8s;-webkit-animation-iteration-count:infinite;-webkit-animation-timing-function:ease-in-out;-webkit-animation-direction:alternate}
 .VideoCallIncoming .aux-message{width:250px}.VideoCallIncoming .profileImg{margin-right:10px;float:left}.VideoCallIncoming{z-index:400}
