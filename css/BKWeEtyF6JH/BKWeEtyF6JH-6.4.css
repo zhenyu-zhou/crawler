@@ -1,0 +1,7 @@
+/*!CK:1606838907!*//*1433394621,*/
+
+@-webkit-keyframes dialogHaloPulse{from{background-color:rgba(82,82,82,.8)}to{background-color:rgba(82,82,82,.5)}}.pulseBorderDialog .pop_container_advanced,.VideoCallIncoming.pulseBorder .pop_container_advanced,.VideoCallOutgoing.pulseBorder .pop_container_advanced{-webkit-animation-name:dialogHaloPulse;-webkit-animation-duration:.8s;-webkit-animation-iteration-count:infinite;-webkit-animation-timing-function:ease-in-out;-webkit-animation-direction:alternate}
+.VideoCallIncoming .aux-message{width:250px}.VideoCallIncoming .profileImg{margin-right:10px;float:left}.VideoCallIncoming{z-index:400}
+
+#bootloader_Tg1o4 { height: 42px; }
+.bootloader_Tg1o4 { display:block !important; }
