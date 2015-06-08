@@ -8,5 +8,5 @@ function APC_r_err(i,st,t){var data=new Date();var tm=data.getTime()-st.getTime(
 APC_st(i+1,0);else
 {APC_Rpt(APC_r_url);}}
 function APC_Rpt(s){var p=new Image();p.src=s;}
-try{apc_CallBack({"rCount":2,'1095':'http://appimg.qq.com/zljk/50.jpg','3':'http://appimg.qq.com/zljk/bz.gif'});}catch(e){}})();
+try{apc_CallBack({"rCount":6,'3':'http://appimg.qq.com/zljk/bz.gif','1022':'http://down.myapp.com/bz.gif','1025':'http://v.qq.com/zljk/bz.gif','1748':'http://static.manimal.happyelements.cn/do_not_delete/noc.gif','1130':'http://pub.idqqimg.com/pc/qqclient/appcenter/icon/1007/40.png','1095':'http://appimg.qq.com/zljk/50.jpg'});}catch(e){}})();
 
