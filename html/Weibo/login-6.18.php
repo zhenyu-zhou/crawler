@@ -4,20 +4,20 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="baidu-site-verification" content="m752gVP2ec" />
 <meta name="360-site-verification" content="1b82bbb09c5ea6d0e88c6eb0920674fa" />
-<link href="http://img.t.sinajs.cn/t5/style/css/module/base/frame.css?version=201506181220" type="text/css" rel="stylesheet" />
-<link href="http://img.t.sinajs.cn/t5/style/css/pages/register/register.css?version=201506181220" type="text/css" rel="stylesheet" />
-<link href="http://img.t.sinajs.cn/t5/style/css/patch/register/login.css?version=201506181220" type="text/css" rel="stylesheet" />
+<link href="http://img.t.sinajs.cn/t5/style/css/module/base/frame.css?version=201506181250" type="text/css" rel="stylesheet" />
+<link href="http://img.t.sinajs.cn/t5/style/css/pages/register/register.css?version=201506181250" type="text/css" rel="stylesheet" />
+<link href="http://img.t.sinajs.cn/t5/style/css/patch/register/login.css?version=201506181250" type="text/css" rel="stylesheet" />
 <title>微博-随时随地发现新鲜事</title>
 <script type="text/javascript">
 var $CONFIG = {};
 $CONFIG['islogin'] = '0';
-$CONFIG['version'] = '201506181220';
-$CONFIG['timeDiff'] = (new Date() - 1434601204000);
+$CONFIG['version'] = '201506181250';
+$CONFIG['timeDiff'] = (new Date() - 1434603024000);
 $CONFIG['lang'] = 'zh-cn';
 $CONFIG['jsPath'] = 'http://js.t.sinajs.cn/t5/';
 $CONFIG['cssPath'] = 'http://img.t.sinajs.cn/t5/';
 $CONFIG['imgPath'] = 'http://img.t.sinajs.cn/t5/';
-$CONFIG['servertime'] = 1434601204;
+$CONFIG['servertime'] = 1434603024;
 $CONFIG['mJsPath'] = ['http://js{n}.t.sinajs.cn/t5/', 1, 2];
 $CONFIG['mCssPath'] = ['http://img{n}.t.sinajs.cn/t5/', 1, 2];
 $CONFIG['redirect'] = '';
@@ -145,7 +145,7 @@ $CONFIG['redirect'] = '';
 															    <p class="icon"><span class="icon_warnS"></span></p><p class="txt">用此功能扫描二维码快速登录</p>
 															</div>
 							  								<div class="qrcode_map">
-							                                	<img src="http://img.t.sinajs.cn/t5/style/images/register/qrcode_map.jpg?version=201506181220" />
+							                                	<img src="http://img.t.sinajs.cn/t5/style/images/register/qrcode_map.jpg?version=201506181250" />
 							                                </div>
 														</div>
 													</div>
@@ -163,7 +163,7 @@ $CONFIG['redirect'] = '';
 						<div style="display:none" node-type="connect_form">
 														<div class="taobao_login">
 		                        <div class="taobao_iframe">
-		                        	<iframe scrolling="no" frameborder="no" src="https://login.taobao.com/member/login.jhtml?from=wbfast&style=wbfast&goto=http%3A%2F%2Fweibo.com%2Fa%2Fbind%2Flogin%3Fentry%3Dtaobao%26sid%3D177a96d9a6f44b6c4289cc902d1052c7" allowtransparency="true" style="width: 100%; height:48px; overflow: hidden;"></iframe>
+		                        	<iframe scrolling="no" frameborder="no" src="https://login.taobao.com/member/login.jhtml?from=wbfast&style=wbfast&goto=http%3A%2F%2Fweibo.com%2Fa%2Fbind%2Flogin%3Fentry%3Dtaobao%26sid%3D37a79f57a90bad161882973498a5150c" allowtransparency="true" style="width: 100%; height:48px; overflow: hidden;"></iframe>
 		                        </div>
 		                    </div>
 		                    																			
