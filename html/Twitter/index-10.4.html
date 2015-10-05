@@ -15,7 +15,7 @@
       <noscript><meta http-equiv="refresh" content="0; URL=https://mobile.twitter.com/i/nojs_router?path=%2Findex.html"></noscript>
     
     
-  <script id="swift_action_queue" nonce="9bN7sydIgYNt74YEkH7Jww==">
+  <script id="swift_action_queue" nonce="IDzn1sbPPYAmX60rj+1Kkg==">
     (function(){function m(a){a||(a=window.event);if(!a)return!1;a.timestamp=(new Date).getTime();!a.target&&a.srcElement&&(a.target=a.srcElement);if(document.documentElement.getAttribute("data-scribe-reduced-action-queue")){var b=a.target;while(b&&b!=document
 .body){if(b.tagName=="A")return;b=b.parentNode}}r("all",s(a));if(!q(a)){r("direct",a);return!0}document.addEventListener||(a=s(a));a.preventDefault=a.stopPropagation=a.stopImmediatePropagation=function(){};if(i){f.push(a);r("captured",a)}else r("ignored",a
 );return!1}function n($){p();for(var a=0,b;b=f[a];a++){var d=$(b.target),e=d.closest("a")[0];if(b.type=="click"&&e){var g=$.data(e,"events"),i=g&&g.click,j=!e.hostname.match(c)||!e.href.match(/#$/);if(!i&&j){window.location=e.href;continue}}d.trigger($.event
@@ -28,7 +28,7 @@ document.getElementById(f);if(g&&v(g))return!1}else for(var i=0,j;j=b.childNodes
 a.getAttribute("contenteditable")=="true"}var a=(new Date).getTime(),b=1e4,c=/^([^\.]+\.)*twitter\.com$/,d=/^key/,e=["click","keydown","keypress","keyup"],f=[],g=null,i=!0,j={captured:[],ignored:[],direct:[],all:[]};for(var k=0,l;l=e[k];k++)document["on"+l
 ]=m;g=setTimeout(function(){i=!1},b);window.swiftActionQueue={buckets:j,flush:n,logActions:o,wasFlushed:!1}})();
   </script>
-  <script id="composition_state" nonce="9bN7sydIgYNt74YEkH7Jww==">
+  <script id="composition_state" nonce="IDzn1sbPPYAmX60rj+1Kkg==">
     (function(){function a(a){a.target.setAttribute("data-in-composition","true")}function b(a){a.target.removeAttribute("data-in-composition")}if(document.addEventListener){document.addEventListener("compositionstart",a,!1);document.addEventListener("compositionend"
 ,b,!1)}})();
   </script>
@@ -74,31 +74,48 @@ a.getAttribute("contenteditable")=="true"}var a=(new Date).getTime(),b=1e4,c=/^(
   <body class="three-col logged-out user-style-index enhanced-mini-profile ProfilePage ProfilePage--withBlockedWarning" 
 data-fouc-class-names="swift-loading"
  dir="ltr">
-      <script id="swift_loading_indicator" nonce="9bN7sydIgYNt74YEkH7Jww==">
+      <script id="swift_loading_indicator" nonce="IDzn1sbPPYAmX60rj+1Kkg==">
         document.body.className=document.body.className+" "+document.body.getAttribute("data-fouc-class-names");
       </script>
     <div id="doc" class="route-profile">
         <div class="topbar js-topbar">
+      <div id="banners" class="js-banners">
+            <div class="Banner Banner--aboveNav Banner--signup ">
+  <div class="Arrange Arrange--middle">
+    <div class="Banner-contentContainer">
+      <div class="Banner-text Arrange-sizeFill">
+        <b>New to Twitter?</b>
+        
+        
+      </div>
+
+      <div class="Banner-buttonContainer u-cf Arrange-sizeFit">
+        <a class="Button Banner-button js-signup" data-component="banner" data-element="signup" href="https://twitter.com/signup">Sign up</a>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+      </div>
 
 
-  <div class="global-nav global-nav--newLoggedOut" data-section-term="top_nav">
+  <div class="global-nav" data-section-term="top_nav">
     <div class="global-nav-inner">
       <div class="container">
 
-          
-  <ul class="nav js-global-actions" role="navigation" id="global-actions">
-    <li id="global-nav-home" class="home" data-global-action="home">
-      <a class="js-nav js-tooltip js-dynamic-tooltip" data-placement="bottom" href="/" data-component-context="home_nav" data-nav="home">
-        <span class="Icon Icon--bird Icon--large"></span>
-        <span class="text">Home</span>
-      </a>
-    </li>
-    <li id="global-nav-about" class="about" data-global-action="about">
-      <a class="js-tooltip js-dynamic-tooltip" data-placement="bottom" href="/about" target="_blank" data-component-context="about_nav" data-nav="about">
-        <span class="text">About</span>
-      </a>
-    </li>
-  </ul>
+        
+
+
+
+
+
+  
+  <ul class="nav js-global-actions"><li class="home" data-global-action="t1home">
+        <a class="nav-logo-link js-nav" href="/" data-nav="front">
+          <span class="Icon Icon--bird"><span class="visuallyhidden">Twitter</span></span>
+        </a>
+    </li></ul>
   <div class="pull-right">
       <div role="search">
   <form class="t1-form form-search js-search-form" action="/search" id="global-nav-search">
@@ -221,9 +238,7 @@ data-fouc-class-names="swift-loading"
   </form>
 </div>
 
-
-    <ul class="nav secondary-nav language-dropdown">
-      <li class="dropdown js-language-dropdown">
+    <ul class="nav secondary-nav language-dropdown"><li class="dropdown js-language-dropdown">
         <a href="#supported_languages" class="dropdown-toggle js-dropdown-toggle">
           <small>Language:</small> <span class="js-current-language">English</span> <b class="caret"></b>
         </a>
@@ -274,85 +289,65 @@ data-fouc-class-names="swift-loading"
         <div class="js-front-language">
           <form action="/sessions/change_locale" class="t1-form language" method="POST">
             <input type="hidden" name="lang"> <input type="hidden" name="redirect">
-            <input type="hidden" name="authenticity_token" value="7cdbab1857a13291d6299aa2392ac5c207a4bea5">
+            <input type="hidden" name="authenticity_token" value="2362608e6c310faa790e7ca8768046345b805da4">
           </form>
         </div>
-      </li>
-    </ul>
+      </li></ul><ul class="nav secondary-nav session-dropdown" id="session"><li class="dropdown js-session">
+          <a href="/login" class="dropdown-toggle js-dropdown-toggle dropdown-signin" id="signin-link" data-nav="login">
+            <small>Have an account?</small> Log in <span class="caret"></span>
+          </a>
+          <a href="https://twitter.com/signup?context=login" class="dropdown-signup" id="signup-link" data-nav="signup">
+            <small>New to Twitter?</small> <span class="emphasize"> Join Today &raquo;</span>
+          </a>
+          <div class="dropdown-menu dropdown-form" id="signin-dropdown">
+            <div class="dropdown-caret right"> <span class="caret-outer"></span> <span class="caret-inner"></span> </div>
+            <div class="signin-dialog-body"> <form action="https://twitter.com/sessions" class="t1-form js-signin signin" method="post">
+  <fieldset>
+    <legend id="signin-form-legend" class="visuallyhidden">Log in</legend>
+    <div class="textbox">
+  <label class="t1-label username js-username">
+    <span>Phone, email or username</span>
+    <input class="js-username-field email-input js-initial-focus" type="text" name="session[username_or_email]" autocomplete="on">
+  </label>
+  <label class="t1-label password js-password">
+    <span>Password</span>
+    <input class="js-password-field" type="password" value="" name="session[password]">
+  </label>
 
-      <ul class="nav secondary-nav session-dropdown" id="session">
-        <li class="dropdown js-session">
-            <a href="/login" class="dropdown-toggle js-dropdown-toggle dropdown-signin" id="signin-link" data-nav="login">
-              <small>Have an account?</small> <span class="emphasize"> Log in</span><span class="caret"></span>
-            </a>
-            <div class="dropdown-menu dropdown-form" id="signin-dropdown">
-              <div class="dropdown-caret right"> <span class="caret-outer"></span> <span class="caret-inner"></span> </div>
-              <div class="signin-dialog-body">
-                <div>Have an account?</div>
-                <form action="https://twitter.com/sessions" class="LoginForm js-front-signin" method="post"
-  data-component="login_callout"
-  data-element="form"
->
-  <div class="LoginForm-input LoginForm-username">
-    <input
-      type="text"
-      id="signin-email"
-      class="text-input email-input"
-      name="session[username_or_email]"
-      autocomplete="on"
-      placeholder="Phone, email or username"
-    />
-  </div>
+    <input type="hidden" value="" name="ui_metrics" autocomplete="off">
+    <input type="hidden" id="ui_metrics_seed" name="ui_metrics_seed" value="1444009054959" autocomplete="off">
 
-  <div class="LoginForm-input LoginForm-password">
-    <input type="password" id="signin-password" class="text-input" name="session[password]" placeholder="Password">
-  </div>
+</div>
 
-  <div class="LoginForm-rememberForgot">
-    <label>
-      <input type="checkbox" value="1" name="remember_me" >
-      <span>Remember me</span>
-    </label>
-    <span class="separator">&middot;</span>
-    <a class="forgot" href="/account/begin_password_reset">Forgot password?</a>
-  </div>
+    <div class="subchck">
+  <button type="submit" class="btn submit">Log in</button>
+  <label class="t1-label remember">
+    <input type="checkbox" value="1" name="remember_me" checked="checked">
+    <span>Remember me</span>
+  </label>
+</div>
 
-  <input type="submit" class="submit btn primary-btn js-submit" value="Log in">
+<input type="hidden" name="scribe_log">
+<input type="hidden" name="redirect_after_login" value="/index.html">
+<input type="hidden" value="2362608e6c310faa790e7ca8768046345b805da4" name="authenticity_token"/>
 
-    <input type="hidden" name="return_to_ssl" value="true">
-
-  <input type="hidden" name="scribe_log">
-  <input type="hidden" name="redirect_after_login" value="/index.html">
-  <input type="hidden" value="7cdbab1857a13291d6299aa2392ac5c207a4bea5" name="authenticity_token">
-      <input type="hidden" value="" name="ui_metrics" autocomplete="off">
-      <input type="hidden" id="ui_metrics_seed" name="ui_metrics_seed" value="1444007844157" autocomplete="off">
+  </fieldset>
+  <div class="divider"></div>
+  <p class="footer-links">
+    <a class="forgot" href="/account/begin_password_reset">Forgot password?</a><br />
+    <a class="mobile has-sms" href="/account/complete">Already using Twitter via text message?</a>
+  </p>
 </form>
-
-                <hr>
-                <div class="signup SignupForm">
-                  <div class="SignupForm-header">New to Twitter?</div>
-                  <a href="https://twitter.com/signup" role="button" class="SignupForm-submit u-block u-textCenter js-signup btn"
-                    data-component="signup_callout"
-                    data-element="dropdown"
-                    >Sign up
-                  </a>
-                </div>
-              </div>
-            </div>
-        </li>
-      </ul>
-  </div>
-
-
-
-
-
-
+ </div>
+          </div>
+        </li></ul></div>
 
       </div>
     </div>
   </div>
 </div>
+    <div class="topbar-spacer" style="padding-top: 134px;">
+    </div>
 
 
         <div id="page-outer">
@@ -6546,7 +6541,6 @@ data-expanded-footer="&lt;div class=&quot;js-tweet-details-fixer tweet-details-f
 
 <div class="modal-overlay"></div>
 
-  <div id="profile-hover-container"></div>
 
 
 
@@ -7244,9 +7238,9 @@ data-expanded-footer="&lt;div class=&quot;js-tweet-details-fixer tweet-details-f
 
   <input type="hidden" name="scribe_log">
   <input type="hidden" name="redirect_after_login" value="/index.html">
-  <input type="hidden" value="7cdbab1857a13291d6299aa2392ac5c207a4bea5" name="authenticity_token">
+  <input type="hidden" value="2362608e6c310faa790e7ca8768046345b805da4" name="authenticity_token">
       <input type="hidden" value="" name="ui_metrics" autocomplete="off">
-      <input type="hidden" id="ui_metrics_seed" name="ui_metrics_seed" value="1444007844157" autocomplete="off">
+      <input type="hidden" id="ui_metrics_seed" name="ui_metrics_seed" value="1444009054959" autocomplete="off">
 </form>
         </div>
       </div>
@@ -7549,7 +7543,7 @@ data-expanded-footer="&lt;div class=&quot;js-tweet-details-fixer tweet-details-f
     <div id="spoonbill-outer"></div>
   </body>
 </html>
-  <input type="hidden" id="init-data" class="json-data" value="{&quot;profileHoversEnabled&quot;:true,&quot;permalinkOverlayEnabled&quot;:false,&quot;hasKenburnEffectOnSingleImage&quot;:false,&quot;fav_heart_icon&quot;:false,&quot;baseFoucClass&quot;:&quot;swift-loading&quot;,&quot;bodyFoucClassNames&quot;:&quot;swift-loading&quot;,&quot;macawSwift&quot;:true,&quot;assetsBasePath&quot;:&quot;https:\/\/abs.twimg.com\/a\/1443888526\/&quot;,&quot;assetVersionKey&quot;:&quot;e8fe40&quot;,&quot;environment&quot;:&quot;production&quot;,&quot;formAuthenticityToken&quot;:&quot;7cdbab1857a13291d6299aa2392ac5c207a4bea5&quot;,&quot;loggedIn&quot;:false,&quot;screenName&quot;:null,&quot;fullName&quot;:null,&quot;userId&quot;:null,&quot;allowAdsPersonalization&quot;:true,&quot;scribeBufferSize&quot;:3,&quot;pageName&quot;:&quot;profile&quot;,&quot;sectionName&quot;:&quot;profile&quot;,&quot;scribeParameters&quot;:{},&quot;recaptchaApiUrl&quot;:&quot;https:\/\/www.google.com\/recaptcha\/api\/js\/recaptcha_ajax.js&quot;,&quot;internalReferer&quot;:null,&quot;geoEnabled&quot;:false,&quot;typeaheadData&quot;:{&quot;accounts&quot;:{&quot;enabled&quot;:true,&quot;localQueriesEnabled&quot;:false,&quot;remoteQueriesEnabled&quot;:true,&quot;limit&quot;:6},&quot;trendLocations&quot;:{&quot;enabled&quot;:true},&quot;dmConversations&quot;:{&quot;enabled&quot;:false},&quot;savedSearches&quot;:{&quot;enabled&quot;:false,&quot;items&quot;:[]},&quot;dmAccounts&quot;:{&quot;enabled&quot;:false,&quot;localQueriesEnabled&quot;:false,&quot;remoteQueriesEnabled&quot;:false,&quot;onlyDMable&quot;:true},&quot;mediaTagAccounts&quot;:{&quot;enabled&quot;:false,&quot;localQueriesEnabled&quot;:true,&quot;remoteQueriesEnabled&quot;:false,&quot;onlyShowUsersWithCanMediaTag&quot;:false,&quot;currentUserId&quot;:-1},&quot;selectedUsers&quot;:{&quot;enabled&quot;:false},&quot;prefillUsers&quot;:{&quot;enabled&quot;:false},&quot;topics&quot;:{&quot;enabled&quot;:true,&quot;localQueriesEnabled&quot;:false,&quot;remoteQueriesEnabled&quot;:true,&quot;prefetchLimit&quot;:500,&quot;limit&quot;:4},&quot;concierge&quot;:{&quot;enabled&quot;:false,&quot;localQueriesEnabled&quot;:false,&quot;remoteQueriesEnabled&quot;:false,&quot;prefetchLimit&quot;:500,&quot;limit&quot;:6},&quot;recentSearches&quot;:{&quot;enabled&quot;:false},&quot;hashtags&quot;:{&quot;enabled&quot;:false,&quot;localQueriesEnabled&quot;:false,&quot;remoteQueriesEnabled&quot;:true,&quot;prefetchLimit&quot;:500},&quot;useIndexedDB&quot;:false,&quot;showSearchAccountSocialContext&quot;:false,&quot;showTypeaheadTopicSocialContext&quot;:false,&quot;showDebugInfo&quot;:false,&quot;useThrottle&quot;:true,&quot;accountsOnTop&quot;:false,&quot;remoteDebounceInterval&quot;:300,&quot;remoteThrottleInterval&quot;:300,&quot;tweetContextEnabled&quot;:false,&quot;fullNameMatchingInCompose&quot;:true,&quot;topicsWithFiltersEnabled&quot;:false},&quot;dm&quot;:{&quot;participant_max&quot;:50,&quot;theme&quot;:&quot;seamful&quot;,&quot;poll_options&quot;:{&quot;foreground_poll_interval&quot;:3000,&quot;burst_poll_interval&quot;:3000,&quot;burst_poll_duration&quot;:300000,&quot;max_poll_interval&quot;:60000},&quot;notifications&quot;:false},&quot;whitelistedVideoUser&quot;:false,&quot;pushStatePageLimit&quot;:500000,&quot;routes&quot;:{&quot;profile&quot;:&quot;\/&quot;},&quot;pushState&quot;:true,&quot;viewContainer&quot;:&quot;#page-container&quot;,&quot;dragAndDropPhotoUpload&quot;:true,&quot;href&quot;:&quot;\/index.html&quot;,&quot;searchPathWithQuery&quot;:&quot;\/search?q=query&amp;src=typd&quot;,&quot;timelineCardsGallery&quot;:true,&quot;deciders&quot;:{&quot;favorite_to_like&quot;:false,&quot;bulkUnfollowEnabled&quot;:true,&quot;biggerEmoji&quot;:false,&quot;custom_timeline_curation&quot;:false,&quot;disable_profile_popup&quot;:false,&quot;native_notifications&quot;:true,&quot;dm_group_avatars&quot;:false,&quot;dm_max_characters&quot;:10000,&quot;dm_polling_frequency_in_seconds&quot;:3000,&quot;enable_media_tag_prefetch&quot;:true,&quot;enableMacawNymizerConversionLanding&quot;:false,&quot;geoStructuredLocationEnabled&quot;:true,&quot;hqImageUploads&quot;:false,&quot;largeHeaderImageUpload&quot;:true,&quot;mqImageUploads&quot;:false,&quot;partnerIdSyncEnabled&quot;:true,&quot;photoSruGif&quot;:false,&quot;progressive_resize_enabled&quot;:true,&quot;promoted_video_logging_enabled&quot;:true,&quot;pushState&quot;:true,&quot;scribeActionQueue&quot;:false,&quot;scribeReducedActionQueue&quot;:true,&quot;smartInfiniteScroll&quot;:false,&quot;useHtml5Webcam&quot;:true,&quot;web_perftown_stats&quot;:true,&quot;web_perftown_ttft&quot;:true,&quot;web_upload_direct&quot;:true,&quot;web_upload_video&quot;:true,&quot;upload_video_size&quot;:500,&quot;dynamicVideoAdsEnabled&quot;:true,&quot;internationalShippingEnabled&quot;:true,&quot;useV2EndpointsEnabled&quot;:true,&quot;autoplayMediaInTimeline&quot;:true,&quot;useVmapVariants&quot;:false,&quot;autoplayPreviewPreroll&quot;:false,&quot;moments_lohp_enabled&quot;:false,&quot;overlayPermalink&quot;:false},&quot;experiments&quot;:{},&quot;permalinkCardsGallery&quot;:false,&quot;toasts_dm&quot;:false,&quot;toasts_spoonbill&quot;:false,&quot;toasts_timeline&quot;:false,&quot;toasts_dm_poll_scale&quot;:60,&quot;uploadDomain&quot;:&quot;upload.twitter.com&quot;,&quot;promptbirdData&quot;:{&quot;promptbirdEnabled&quot;:false,&quot;immediateTriggers&quot;:[&quot;PullToRefresh&quot;,&quot;Navigate&quot;],&quot;format&quot;:&quot;ProfileOther&quot;},&quot;freezeDashboard&quot;:false,&quot;pageContext&quot;:&quot;profile&quot;,&quot;passwordResetAdvancedLoginForm&quot;:true,&quot;skipAutoSignupDialog&quot;:false,&quot;shouldReplaceSignupWithLogin&quot;:false,&quot;profile_user&quot;:{&quot;id&quot;:506171956,&quot;id_str&quot;:&quot;506171956&quot;,&quot;name&quot;:&quot;Index&quot;,&quot;screen_name&quot;:&quot;index&quot;,&quot;location&quot;:&quot;San Francisco, CA&quot;,&quot;url&quot;:&quot;http:\/\/www.index.com\/&quot;,&quot;description&quot;:&quot;Using cutting-edge technology, Index empowers brick-and-mortar retailers to build lifelong customer relationships.&quot;,&quot;protected&quot;:false,&quot;followers_count&quot;:441,&quot;friends_count&quot;:58,&quot;listed_count&quot;:27,&quot;created_at&quot;:&quot;Mon Feb 27 17:52:14 +0000 2012&quot;,&quot;favourites_count&quot;:6,&quot;utc_offset&quot;:-25200,&quot;time_zone&quot;:&quot;Pacific Time (US &amp; Canada)&quot;,&quot;geo_enabled&quot;:true,&quot;verified&quot;:false,&quot;statuses_count&quot;:39,&quot;lang&quot;:&quot;en&quot;,&quot;contributors_enabled&quot;:false,&quot;is_translator&quot;:false,&quot;is_translation_enabled&quot;:false,&quot;profile_background_color&quot;:&quot;FAF7F2&quot;,&quot;profile_background_image_url&quot;:&quot;http:\/\/pbs.twimg.com\/profile_background_images\/759794670\/b3ef0b303fd161b2fb0d6e7a12994853.png&quot;,&quot;profile_background_image_url_https&quot;:&quot;https:\/\/pbs.twimg.com\/profile_background_images\/759794670\/b3ef0b303fd161b2fb0d6e7a12994853.png&quot;,&quot;profile_background_tile&quot;:false,&quot;profile_image_url&quot;:&quot;http:\/\/pbs.twimg.com\/profile_images\/3088063649\/9e6abd148015538ed20cef0b6b890410_normal.png&quot;,&quot;profile_image_url_https&quot;:&quot;https:\/\/pbs.twimg.com\/profile_images\/3088063649\/9e6abd148015538ed20cef0b6b890410_normal.png&quot;,&quot;profile_banner_url&quot;:&quot;https:\/\/pbs.twimg.com\/profile_banners\/506171956\/1399503642&quot;,&quot;profile_link_color&quot;:&quot;27B8C5&quot;,&quot;profile_sidebar_border_color&quot;:&quot;000000&quot;,&quot;profile_sidebar_fill_color&quot;:&quot;DDEEF6&quot;,&quot;profile_text_color&quot;:&quot;333333&quot;,&quot;profile_use_background_image&quot;:false,&quot;has_extended_profile&quot;:false,&quot;default_profile&quot;:false,&quot;default_profile_image&quot;:false,&quot;following&quot;:null,&quot;follow_request_sent&quot;:null,&quot;notifications&quot;:null},&quot;profileEditingCSSBundle&quot;:&quot;https:\/\/abs.twimg.com\/a\/1443888526\/css\/t1\/twitter_profile_editing.bundle.css&quot;,&quot;profile_id&quot;:506171956,&quot;cardsGallery&quot;:true,&quot;injectComposedTweets&quot;:false,&quot;help_pips_decider&quot;:false,&quot;inlineProfileEditing&quot;:false,&quot;forceHTML5FileUploader&quot;:false,&quot;isClusterFollowReplenishEnabled&quot;:false,&quot;autoplayEnabled&quot;:true,&quot;trendsCacheKey&quot;:null,&quot;decider_personalized_trends&quot;:false,&quot;trendsEndpoint&quot;:&quot;\/i\/trends&quot;,&quot;wtfOptions&quot;:{&quot;pc&quot;:true,&quot;connections&quot;:true,&quot;limit&quot;:3,&quot;display_location&quot;:&quot;profile-sidebar&quot;,&quot;dismissable&quot;:true,&quot;similar_to_user_id&quot;:506171956},&quot;showSensitiveContent&quot;:false,&quot;autoPlayBalloonsAnimation&quot;:false,&quot;isCurrentUser&quot;:false,&quot;timeline_url&quot;:&quot;\/i\/profiles\/show\/index\/timeline&quot;,&quot;hasUserCompletionModule&quot;:false,&quot;initialState&quot;:{&quot;title&quot;:&quot;Index (@index) | Twitter&quot;,&quot;section&quot;:null,&quot;module&quot;:&quot;app\/pages\/profile\/highline_landing&quot;,&quot;cache_ttl&quot;:300,&quot;body_class_names&quot;:&quot;three-col logged-out user-style-index enhanced-mini-profile ProfilePage ProfilePage--withBlockedWarning&quot;,&quot;doc_class_names&quot;:&quot;route-profile&quot;,&quot;route_name&quot;:&quot;profile&quot;,&quot;page_container_class_names&quot;:&quot;AppContent&quot;,&quot;ttft_navigation&quot;:false}}">
+  <input type="hidden" id="init-data" class="json-data" value="{&quot;profileHoversEnabled&quot;:false,&quot;permalinkOverlayEnabled&quot;:false,&quot;hasKenburnEffectOnSingleImage&quot;:false,&quot;fav_heart_icon&quot;:false,&quot;baseFoucClass&quot;:&quot;swift-loading&quot;,&quot;bodyFoucClassNames&quot;:&quot;swift-loading&quot;,&quot;macawSwift&quot;:true,&quot;assetsBasePath&quot;:&quot;https:\/\/abs.twimg.com\/a\/1443888526\/&quot;,&quot;assetVersionKey&quot;:&quot;e8fe40&quot;,&quot;environment&quot;:&quot;production&quot;,&quot;formAuthenticityToken&quot;:&quot;2362608e6c310faa790e7ca8768046345b805da4&quot;,&quot;loggedIn&quot;:false,&quot;screenName&quot;:null,&quot;fullName&quot;:null,&quot;userId&quot;:null,&quot;allowAdsPersonalization&quot;:true,&quot;scribeBufferSize&quot;:3,&quot;pageName&quot;:&quot;profile&quot;,&quot;sectionName&quot;:&quot;profile&quot;,&quot;scribeParameters&quot;:{},&quot;recaptchaApiUrl&quot;:&quot;https:\/\/www.google.com\/recaptcha\/api\/js\/recaptcha_ajax.js&quot;,&quot;internalReferer&quot;:null,&quot;geoEnabled&quot;:false,&quot;typeaheadData&quot;:{&quot;accounts&quot;:{&quot;enabled&quot;:true,&quot;localQueriesEnabled&quot;:false,&quot;remoteQueriesEnabled&quot;:true,&quot;limit&quot;:6},&quot;trendLocations&quot;:{&quot;enabled&quot;:true},&quot;dmConversations&quot;:{&quot;enabled&quot;:false},&quot;savedSearches&quot;:{&quot;enabled&quot;:false,&quot;items&quot;:[]},&quot;dmAccounts&quot;:{&quot;enabled&quot;:false,&quot;localQueriesEnabled&quot;:false,&quot;remoteQueriesEnabled&quot;:false,&quot;onlyDMable&quot;:true},&quot;mediaTagAccounts&quot;:{&quot;enabled&quot;:false,&quot;localQueriesEnabled&quot;:true,&quot;remoteQueriesEnabled&quot;:false,&quot;onlyShowUsersWithCanMediaTag&quot;:false,&quot;currentUserId&quot;:-1},&quot;selectedUsers&quot;:{&quot;enabled&quot;:false},&quot;prefillUsers&quot;:{&quot;enabled&quot;:false},&quot;topics&quot;:{&quot;enabled&quot;:true,&quot;localQueriesEnabled&quot;:false,&quot;remoteQueriesEnabled&quot;:true,&quot;prefetchLimit&quot;:500,&quot;limit&quot;:4},&quot;concierge&quot;:{&quot;enabled&quot;:false,&quot;localQueriesEnabled&quot;:false,&quot;remoteQueriesEnabled&quot;:false,&quot;prefetchLimit&quot;:500,&quot;limit&quot;:6},&quot;recentSearches&quot;:{&quot;enabled&quot;:false},&quot;hashtags&quot;:{&quot;enabled&quot;:false,&quot;localQueriesEnabled&quot;:false,&quot;remoteQueriesEnabled&quot;:true,&quot;prefetchLimit&quot;:500},&quot;useIndexedDB&quot;:false,&quot;showSearchAccountSocialContext&quot;:false,&quot;showTypeaheadTopicSocialContext&quot;:false,&quot;showDebugInfo&quot;:false,&quot;useThrottle&quot;:true,&quot;accountsOnTop&quot;:false,&quot;remoteDebounceInterval&quot;:300,&quot;remoteThrottleInterval&quot;:300,&quot;tweetContextEnabled&quot;:false,&quot;fullNameMatchingInCompose&quot;:true,&quot;topicsWithFiltersEnabled&quot;:false},&quot;dm&quot;:{&quot;participant_max&quot;:50,&quot;theme&quot;:&quot;seamful&quot;,&quot;poll_options&quot;:{&quot;foreground_poll_interval&quot;:3000,&quot;burst_poll_interval&quot;:3000,&quot;burst_poll_duration&quot;:300000,&quot;max_poll_interval&quot;:60000},&quot;notifications&quot;:false},&quot;whitelistedVideoUser&quot;:false,&quot;pushStatePageLimit&quot;:500000,&quot;routes&quot;:{&quot;profile&quot;:&quot;\/&quot;},&quot;pushState&quot;:true,&quot;viewContainer&quot;:&quot;#page-container&quot;,&quot;dragAndDropPhotoUpload&quot;:true,&quot;href&quot;:&quot;\/index.html&quot;,&quot;searchPathWithQuery&quot;:&quot;\/search?q=query&amp;src=typd&quot;,&quot;timelineCardsGallery&quot;:true,&quot;deciders&quot;:{&quot;favorite_to_like&quot;:false,&quot;bulkUnfollowEnabled&quot;:true,&quot;biggerEmoji&quot;:false,&quot;custom_timeline_curation&quot;:false,&quot;disable_profile_popup&quot;:false,&quot;native_notifications&quot;:true,&quot;dm_group_avatars&quot;:false,&quot;dm_max_characters&quot;:10000,&quot;dm_polling_frequency_in_seconds&quot;:3000,&quot;enable_media_tag_prefetch&quot;:true,&quot;enableMacawNymizerConversionLanding&quot;:false,&quot;geoStructuredLocationEnabled&quot;:true,&quot;hqImageUploads&quot;:false,&quot;largeHeaderImageUpload&quot;:true,&quot;mqImageUploads&quot;:false,&quot;partnerIdSyncEnabled&quot;:true,&quot;photoSruGif&quot;:false,&quot;progressive_resize_enabled&quot;:true,&quot;promoted_video_logging_enabled&quot;:true,&quot;pushState&quot;:true,&quot;scribeActionQueue&quot;:false,&quot;scribeReducedActionQueue&quot;:true,&quot;smartInfiniteScroll&quot;:false,&quot;useHtml5Webcam&quot;:true,&quot;web_perftown_stats&quot;:true,&quot;web_perftown_ttft&quot;:true,&quot;web_upload_direct&quot;:true,&quot;web_upload_video&quot;:true,&quot;upload_video_size&quot;:500,&quot;dynamicVideoAdsEnabled&quot;:true,&quot;internationalShippingEnabled&quot;:true,&quot;useV2EndpointsEnabled&quot;:true,&quot;autoplayMediaInTimeline&quot;:true,&quot;useVmapVariants&quot;:false,&quot;autoplayPreviewPreroll&quot;:false,&quot;moments_lohp_enabled&quot;:false,&quot;overlayPermalink&quot;:false},&quot;experiments&quot;:{},&quot;permalinkCardsGallery&quot;:false,&quot;toasts_dm&quot;:false,&quot;toasts_spoonbill&quot;:false,&quot;toasts_timeline&quot;:false,&quot;toasts_dm_poll_scale&quot;:60,&quot;uploadDomain&quot;:&quot;upload.twitter.com&quot;,&quot;promptbirdData&quot;:{&quot;promptbirdEnabled&quot;:false,&quot;immediateTriggers&quot;:[&quot;PullToRefresh&quot;,&quot;Navigate&quot;],&quot;format&quot;:&quot;ProfileOther&quot;},&quot;freezeDashboard&quot;:false,&quot;pageContext&quot;:&quot;profile&quot;,&quot;passwordResetAdvancedLoginForm&quot;:true,&quot;skipAutoSignupDialog&quot;:true,&quot;shouldReplaceSignupWithLogin&quot;:false,&quot;profile_user&quot;:{&quot;id&quot;:506171956,&quot;id_str&quot;:&quot;506171956&quot;,&quot;name&quot;:&quot;Index&quot;,&quot;screen_name&quot;:&quot;index&quot;,&quot;location&quot;:&quot;San Francisco, CA&quot;,&quot;url&quot;:&quot;http:\/\/www.index.com\/&quot;,&quot;description&quot;:&quot;Using cutting-edge technology, Index empowers brick-and-mortar retailers to build lifelong customer relationships.&quot;,&quot;protected&quot;:false,&quot;followers_count&quot;:441,&quot;friends_count&quot;:58,&quot;listed_count&quot;:27,&quot;created_at&quot;:&quot;Mon Feb 27 17:52:14 +0000 2012&quot;,&quot;favourites_count&quot;:6,&quot;utc_offset&quot;:-25200,&quot;time_zone&quot;:&quot;Pacific Time (US &amp; Canada)&quot;,&quot;geo_enabled&quot;:true,&quot;verified&quot;:false,&quot;statuses_count&quot;:39,&quot;lang&quot;:&quot;en&quot;,&quot;contributors_enabled&quot;:false,&quot;is_translator&quot;:false,&quot;is_translation_enabled&quot;:false,&quot;profile_background_color&quot;:&quot;FAF7F2&quot;,&quot;profile_background_image_url&quot;:&quot;http:\/\/pbs.twimg.com\/profile_background_images\/759794670\/b3ef0b303fd161b2fb0d6e7a12994853.png&quot;,&quot;profile_background_image_url_https&quot;:&quot;https:\/\/pbs.twimg.com\/profile_background_images\/759794670\/b3ef0b303fd161b2fb0d6e7a12994853.png&quot;,&quot;profile_background_tile&quot;:false,&quot;profile_image_url&quot;:&quot;http:\/\/pbs.twimg.com\/profile_images\/3088063649\/9e6abd148015538ed20cef0b6b890410_normal.png&quot;,&quot;profile_image_url_https&quot;:&quot;https:\/\/pbs.twimg.com\/profile_images\/3088063649\/9e6abd148015538ed20cef0b6b890410_normal.png&quot;,&quot;profile_banner_url&quot;:&quot;https:\/\/pbs.twimg.com\/profile_banners\/506171956\/1399503642&quot;,&quot;profile_link_color&quot;:&quot;27B8C5&quot;,&quot;profile_sidebar_border_color&quot;:&quot;000000&quot;,&quot;profile_sidebar_fill_color&quot;:&quot;DDEEF6&quot;,&quot;profile_text_color&quot;:&quot;333333&quot;,&quot;profile_use_background_image&quot;:false,&quot;has_extended_profile&quot;:false,&quot;default_profile&quot;:false,&quot;default_profile_image&quot;:false,&quot;following&quot;:null,&quot;follow_request_sent&quot;:null,&quot;notifications&quot;:null},&quot;profileEditingCSSBundle&quot;:&quot;https:\/\/abs.twimg.com\/a\/1443888526\/css\/t1\/twitter_profile_editing.bundle.css&quot;,&quot;profile_id&quot;:506171956,&quot;cardsGallery&quot;:true,&quot;injectComposedTweets&quot;:false,&quot;help_pips_decider&quot;:false,&quot;inlineProfileEditing&quot;:false,&quot;forceHTML5FileUploader&quot;:false,&quot;isClusterFollowReplenishEnabled&quot;:false,&quot;autoplayEnabled&quot;:true,&quot;trendsCacheKey&quot;:null,&quot;decider_personalized_trends&quot;:false,&quot;trendsEndpoint&quot;:&quot;\/i\/trends&quot;,&quot;wtfOptions&quot;:{&quot;pc&quot;:true,&quot;connections&quot;:true,&quot;limit&quot;:3,&quot;display_location&quot;:&quot;profile-sidebar&quot;,&quot;dismissable&quot;:true,&quot;similar_to_user_id&quot;:506171956},&quot;showSensitiveContent&quot;:false,&quot;autoPlayBalloonsAnimation&quot;:false,&quot;isCurrentUser&quot;:false,&quot;timeline_url&quot;:&quot;\/i\/profiles\/show\/index\/timeline&quot;,&quot;hasUserCompletionModule&quot;:false,&quot;initialState&quot;:{&quot;title&quot;:&quot;Index (@index) | Twitter&quot;,&quot;section&quot;:null,&quot;module&quot;:&quot;app\/pages\/profile\/highline_landing&quot;,&quot;cache_ttl&quot;:300,&quot;body_class_names&quot;:&quot;three-col logged-out user-style-index enhanced-mini-profile ProfilePage ProfilePage--withBlockedWarning&quot;,&quot;doc_class_names&quot;:&quot;route-profile&quot;,&quot;route_name&quot;:&quot;profile&quot;,&quot;page_container_class_names&quot;:&quot;AppContent&quot;,&quot;ttft_navigation&quot;:false}}">
 
   
 
