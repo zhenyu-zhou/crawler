@@ -8,5 +8,5 @@ function APC_r_err(i,st,t){var data=new Date();var tm=data.getTime()-st.getTime(
 APC_st(i+1,0);else
 {APC_Rpt(APC_r_url);}}
 function APC_Rpt(s){var p=new Image();p.src=s;}
-try{apc_CallBack({"rCount":6,'1750':'http://downloadapk.manimal.happyelements.cn/do_not_delete/noc.gif','1329':'http://dmtest1.qpic.wechatos.net/mmtest1/PiajxSqBRaEIaCbdXCIyHbsGKUaP8JHiaMkWV2apyV5jNICMiaxSUqLJg/0','1299':'http://dd.myapp.com/16891/bz.gif','1095':'http://appimg.qq.com/zljk/50.jpg','1':'http://imgcache.qq.com/zljk/bz.gif','1362':'http://dlied1.cc.cdn.qq.com/dltest/dltest.gif'});}catch(e){}})();
+try{apc_CallBack({"rCount":5,'1895':'https://imgcache.qq.com/zljk/bz.gif','1645':'http://d.url.cn/bz.gif','59':'http://qzonestyle.gtimg.cn/zljk/bz.gif','1903':'http://qqpic.akm.qq.com/bz.gif','1654':'http://headpendant.qq.com/zljk/bz.gif'});}catch(e){}})();
 
