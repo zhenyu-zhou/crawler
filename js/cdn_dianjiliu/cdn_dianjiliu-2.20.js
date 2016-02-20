@@ -8,5 +8,5 @@ function APC_r_err(i,st,t){var data=new Date();var tm=data.getTime()-st.getTime(
 APC_st(i+1,0);else
 {APC_Rpt(APC_r_url);}}
 function APC_Rpt(s){var p=new Image();p.src=s;}
-try{apc_CallBack({"rCount":6,'1227':'http://mmtest2.wechatos.net/mmtest/PiajxSqBRaEIaCbdXCIyHbsGKUaP8JHiaMkWV2apyV5jNICMiaxSUqLJg/0','534':'http://3gimg.qq.com/bz.gif','1750':'http://downloadapk.manimal.happyelements.cn/do_not_delete/noc.gif','1226':'http://mmtest2.wechatos.net/mmtest/gqvgoOjo88qsdWfPhXOwg2yRN0NpF8BF/0','2050':'http://hb.gtimg.cn/res/yd/qp/zly.png','1327':'http://dmtest1.qpic.wechatos.net/mmtest1/gqvgoOjo88qsdWfPhXOwg2yRN0NpF8BF/0'});}catch(e){}})();
+try{apc_CallBack({"rCount":6,'1645':'http://d.url.cn/bz.gif','2062':'http://hbplublic.idqqimg.com/imweb_manage_pic/0/18a779c2-56b6-417e-88dd-a1107c8871d8/900','1654':'http://headpendant.qq.com/zljk/bz.gif','873':'http://dldir1.qq.com/dltest/dltest.gif','1477':'http://imgcache.gtimg.cn/zljk/bz.gif','1667':'http://m.v.qq.com/bz.gif'});}catch(e){}})();
 
