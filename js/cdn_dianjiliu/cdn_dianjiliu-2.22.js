@@ -8,5 +8,5 @@ function APC_r_err(i,st,t){var data=new Date();var tm=data.getTime()-st.getTime(
 APC_st(i+1,0);else
 {APC_Rpt(APC_r_url);}}
 function APC_Rpt(s){var p=new Image();p.src=s;}
-try{apc_CallBack({"rCount":2,'2058':'http://hbd.url.cn/myapp/qq_desk/2016hongbao/20151231yuandan/zhaoliying_logo_320.png','1477':'http://imgcache.gtimg.cn/zljk/bz.gif'});}catch(e){}})();
+try{apc_CallBack({"rCount":2,'2050':'http://hb.gtimg.cn/res/yd/qp/zly.png','1224':'http://mmtest2.wechatos.net/mmtest/ibzuqKAgibh0P1ricA30IOjGY3Cu2Gz7pOg/0'});}catch(e){}})();
 
