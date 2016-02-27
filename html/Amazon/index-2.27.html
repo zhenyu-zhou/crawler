@@ -403,6 +403,9 @@ $Nav.declare('img.pixel', 'http://g-ecx.images-amazon.com/images/G/01/x-locale/c
 
 
 
+
+
+
 <!--Pilu -->
 
 <script type='text/javascript'>
@@ -438,7 +441,7 @@ window.$Nav && $Nav.declare('config.ajaxProximity', [141,7,60,150]);
 
 <style type='text/css'>div#navSwmHoliday.nav-focus {border: none;margin: 0;}</style><script type='text/javascript'>if(window.$Nav) { $Nav.when('$','$F','config','logEvent','panels','phoneHome','dataPanel','flyouts.renderPromo','flyouts.sloppyTrigger','flyouts.accessibility','util.mouseOut','util.onKey','debug.param').build('flyouts.buildSubPanels',function($,$F,config,logEvent,panels,phoneHome,dataPanel,renderPromo,createSloppyTrigger,a11yHandler,mouseOutUtility,onKey,debugParam){var flyoutDebug=debugParam('navFlyoutClick');return function(flyout,event){var linkKeys=[];$('.nav-item',flyout.elem()).each(function(){var $item=$(this);linkKeys.push({link:$item,panelKey:$item.attr('data-nav-panelkey')});});if(linkKeys.length===0){return;} var visible=false;var $parent=$('<div class=\'nav-subcats\'></div>').appendTo(flyout.elem());var panelGroup=flyout.getName()+'SubCats';var hideTimeout=null;var sloppyTrigger=createSloppyTrigger($parent);var showParent=function(){if(hideTimeout){clearTimeout(hideTimeout);hideTimeout=null;} if(visible){return;} var height=$('#nav-flyout-shopAll').height();$parent.animate({width:'show'},{duration:200,complete:function(){$parent.css({overflow:'visible','height':height});}});visible=true;};var hideParentNow=function(){$parent.stop().css({overflow:'hidden',display:'none',width:'auto',height:'auto'});panels.hideAll({group:panelGroup});visible=false;if(hideTimeout){clearTimeout(hideTimeout);hideTimeout=null;}};var hideParent=function(){if(!visible){return;} if(hideTimeout){clearTimeout(hideTimeout);hideTimeout=null;} hideTimeout=setTimeout(hideParentNow,10);};flyout.onHide(function(){sloppyTrigger.disable();hideParentNow();this.elem().hide();});var addPanel=function($link,panelKey){var panel=dataPanel({className:'nav-subcat',dataKey:panelKey,groups:[panelGroup],spinner:false,visible:false});if(!flyoutDebug){var mouseout=mouseOutUtility();mouseout.add(flyout.elem());mouseout.action(function(){panel.hide();});mouseout.enable();} var a11y=a11yHandler({link:$link,onEscape:function(){panel.hide();$link.focus();}});var logPanelInteraction=function(promoID,wlTriggers){var logNow=$F.once().on(function(){var panelEvent=$.extend({},event,{id:promoID});if(config.browsePromos&&!!config.browsePromos[promoID]){panelEvent.bp=1;} logEvent(panelEvent);phoneHome.trigger(wlTriggers);});if(panel.isVisible()&&panel.hasInteracted()){logNow();}else{panel.onInteract(logNow);}};panel.onData(function(data){renderPromo(data.promoID,panel.elem());logPanelInteraction(data.promoID,data.wlTriggers);});panel.onShow(function(){var columnCount=$('.nav-column',panel.elem()).length;panel.elem().addClass('nav-colcount-'+columnCount);showParent();var $subCatLinks=$('.nav-subcat-links > a',panel.elem());var length=$subCatLinks.length;if(length>0){var firstElementLeftPos=$subCatLinks.eq(0).offset().left;for(var i=1;i<length;i++){if(firstElementLeftPos===$subCatLinks.eq(i).offset().left){$subCatLinks.eq(i).addClass('nav_linestart');}} if($('span.nav-title.nav-item',panel.elem()).length===0){var catTitle=$.trim($link.html());catTitle=catTitle.replace(/ref=sa_menu_top/g,'ref=sa_menu');var $subPanelTitle=$('<span class=\'nav-title nav-item\'>'+ catTitle+'</span>');panel.elem().prepend($subPanelTitle);}} $link.addClass('nav-active');});panel.onHide(function(){$link.removeClass('nav-active');hideParent();a11y.disable();});panel.onShow(function(){a11y.elems($('a, area',panel.elem()));});sloppyTrigger.register($link,panel);if(flyoutDebug){$link.click(function(){if(panel.isVisible()){panel.hide();}else{panel.show();}});} var panelKeyHandler=onKey($link,function(){if(this.isEnter()||this.isSpace()){panel.show();}},'keydown',false);$link.focus(function(){panelKeyHandler.bind();}).blur(function(){panelKeyHandler.unbind();});panel.elem().appendTo($parent);};var hideParentAndResetTrigger=function(){hideParent();sloppyTrigger.disable();};for(var i=0;i<linkKeys.length;i++){var item=linkKeys[i];if(item.panelKey){addPanel(item.link,item.panelKey);}else{item.link.mouseover(hideParentAndResetTrigger);}}};});};</script>
 
-<!-- navp-bfJL8ZmtNhp05bW/TAuyGpWoBoLPyeVg5sHzGpjqISx9H48N6WOM8nGExExeD6uP1LrPqjQDe+g= rid-0NVQ278BX7CJNQF6396Y (Sat Feb 27 14:33:44 2016) -->
+<!-- navp-sTf1hINrYmn1DVV9WR1McPld9G7NqDZfzetdzTBK3A63uLdC/ullqQz4LAwo/KNvfBPtp8FgQss= rid-0D3DYXAWQVDH842F6MMF (Sat Feb 27 14:53:24 2016) -->
 
 
 
@@ -529,7 +532,7 @@ window.$Nav && $Nav.declare('config.ajaxProximity', [141,7,60,150]);
 
 
 
-<div id="navSwmHoliday" data-nav-slot="nav-superswm-7" data-nav-cid="457060702-1" style="background-image: url(http://g-ecx.images-amazon.com/images/G/01/img15/software/swms/30180_tax_central_swm_header_swms_dark_400x39._CB286869209_.png); width: 400px; height: 39px; overflow: hidden;"><img alt='Tax Central' src='http://g-ecx.images-amazon.com/images/G/01/x-locale/common/transparent-pixel._CB386942464_.gif' border='0' width='400px' height='39px' usemap='#nav-swm-holiday-map' /></div><div style="display: none;"><map id="nav-swm-holiday-map" name="nav-swm-holiday-map"><area shape="rect" coords="1,2,400,39" href ="/b?ie=UTF8&node=13420368011&pf_rd_p=2406850222&pf_rd_s=nav-superswm-7&pf_rd_t=desktop-unrec&pf_rd_i=&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=0NVQ278BX7CJNQF6396Y" alt ="Tax Central" /></map></div>
+<div id="navSwmHoliday" data-nav-slot="nav-superswm-7" data-nav-cid="457060702-1" style="background-image: url(http://g-ecx.images-amazon.com/images/G/01/img15/software/swms/30180_tax_central_swm_header_swms_dark_400x39._CB286869209_.png); width: 400px; height: 39px; overflow: hidden;"><img alt='Tax Central' src='http://g-ecx.images-amazon.com/images/G/01/x-locale/common/transparent-pixel._CB386942464_.gif' border='0' width='400px' height='39px' usemap='#nav-swm-holiday-map' /></div><div style="display: none;"><map id="nav-swm-holiday-map" name="nav-swm-holiday-map"><area shape="rect" coords="1,2,400,39" href ="/b?ie=UTF8&node=13420368011&pf_rd_p=2406850222&pf_rd_s=nav-superswm-7&pf_rd_t=desktop-unrec&pf_rd_i=&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=0D3DYXAWQVDH842F6MMF" alt ="Tax Central" /></map></div>
   </div>
 
       </div>
@@ -667,123 +670,123 @@ window.$Nav && $Nav.declare('config.ajaxProximity', [141,7,60,150]);
 
 
 <map name="nav_imgmap_nav-sa-android" id="nav_imgmap_nav-sa-android">
-<area shape="rect" coords="10,10,519,522" href="/b?ie=UTF8&node=12919929011&pf_rd_p=2417521202&pf_rd_s=nav-sa-android&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=1980MYAPS15W91EQSY3R" alt=""/>
+<area shape="rect" coords="10,10,519,522" href="/b?ie=UTF8&node=12919929011&pf_rd_p=2417521202&pf_rd_s=nav-sa-android&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=1E4ZCP36SHMSSC9JTN8S" alt=""/>
 </map>
 
 
 
 <map name="nav_imgmap_nav-sa-automotive-industrial" id="nav_imgmap_nav-sa-automotive-industrial">
-<area shape="poly" coords="13,480,128,288,250,163,491,164,492,482" href="/b?ie=UTF8&node=1264351011&pf_rd_p=2409001402&pf_rd_s=nav-sa-automotive-industrial&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=1980MYAPS15W91EQSY3R" alt="Industrial Deals"/>
+<area shape="poly" coords="13,480,128,288,250,163,491,164,492,482" href="/b?ie=UTF8&node=1264351011&pf_rd_p=2409001402&pf_rd_s=nav-sa-automotive-industrial&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=1E4ZCP36SHMSSC9JTN8S" alt="Industrial Deals"/>
 </map>
 
 
 
 <map name="nav_imgmap_nav-sa-books" id="nav_imgmap_nav-sa-books">
-<area shape="rect" coords="0,0,520,475" href="/Best-Books-of-the-Month/b?ie=UTF8&node=390919011&pf_rd_p=2362427262&pf_rd_s=nav-sa-books&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=1980MYAPS15W91EQSY3R" alt="Best Books of the Month"/>
+<area shape="rect" coords="0,0,520,475" href="/Best-Books-of-the-Month/b?ie=UTF8&node=390919011&pf_rd_p=2362427262&pf_rd_s=nav-sa-books&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=1E4ZCP36SHMSSC9JTN8S" alt="Best Books of the Month"/>
 </map>
 
 
 
 <map name="nav_imgmap_nav-sa-clothing-shoes-jewelry" id="nav_imgmap_nav-sa-clothing-shoes-jewelry">
-<area shape="poly" coords="181,86,177,119,294,117,284,144,355,146,358,207,359,237,353,238,345,215,337,204,325,203,311,214,269,252,260,268,256,280,258,296,263,307,287,323,305,338,318,342,334,354,309,354,290,359,254,359,205,358,149,345,131,354,122,362,109,375,109,396,131,432,154,453,181,467,202,476,232,484,255,486,278,484,304,492,345,504,372,507,390,503,403,479,413,460,424,430,424,417,444,428,478,429,497,427,506,414,514,400,517,389,513,380,474,350,466,329,444,288,432,264,420,241,411,235,392,236,388,246,369,246,366,208,456,208,454,191,420,165,419,147,486,148,497,65,308,60,301,91" href="/b?ie=UTF8&node=13631151011&pf_rd_p=2416238422&pf_rd_s=nav-sa-clothing-shoes-jewelry&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=1980MYAPS15W91EQSY3R" alt="Women's Dresses"/>
+<area shape="poly" coords="181,86,177,119,294,117,284,144,355,146,358,207,359,237,353,238,345,215,337,204,325,203,311,214,269,252,260,268,256,280,258,296,263,307,287,323,305,338,318,342,334,354,309,354,290,359,254,359,205,358,149,345,131,354,122,362,109,375,109,396,131,432,154,453,181,467,202,476,232,484,255,486,278,484,304,492,345,504,372,507,390,503,403,479,413,460,424,430,424,417,444,428,478,429,497,427,506,414,514,400,517,389,513,380,474,350,466,329,444,288,432,264,420,241,411,235,392,236,388,246,369,246,366,208,456,208,454,191,420,165,419,147,486,148,497,65,308,60,301,91" href="/b?ie=UTF8&node=13631151011&pf_rd_p=2416238422&pf_rd_s=nav-sa-clothing-shoes-jewelry&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=1E4ZCP36SHMSSC9JTN8S" alt="Women's Dresses"/>
 </map>
 
 
 
 <map name="nav_imgmap_nav-sa-cloud-drive" id="nav_imgmap_nav-sa-cloud-drive">
-<area shape="rect" coords="0,0,590,456" href="/b?_encoding=UTF8&node=11257142011&ref=CD_PRP_GNO_Q1E&pf_rd_p=2399467042&pf_rd_s=nav-sa-cloud-drive&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=1980MYAPS15W91EQSY3R" alt="Learn more"/>
+<area shape="rect" coords="0,0,590,456" href="/b?_encoding=UTF8&node=11257142011&ref=CD_PRP_GNO_Q1E&pf_rd_p=2399467042&pf_rd_s=nav-sa-cloud-drive&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=1E4ZCP36SHMSSC9JTN8S" alt="Learn more"/>
 </map>
 
 
 
 <map name="nav_imgmap_nav-sa-credit" id="nav_imgmap_nav-sa-credit">
-<area shape="rect" coords="0,0,499,456" href="/shopwithpoints?pf_rd_p=2381983462&pf_rd_s=nav-sa-credit&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=1980MYAPS15W91EQSY3R" alt="nav_sap_SWP_6M_fly_beacon"/>
+<area shape="rect" coords="0,0,499,456" href="/shopwithpoints?pf_rd_p=2381983462&pf_rd_s=nav-sa-credit&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=1E4ZCP36SHMSSC9JTN8S" alt="nav_sap_SWP_6M_fly_beacon"/>
 </map>
 
 
 
 <map name="nav_imgmap_nav-sa-digital-music" id="nav_imgmap_nav-sa-digital-music">
-<area shape="poly" coords="238,2,226,233,154,258,115,281,2,281,1,500,497,500,497,1" href="/dp/B01BOBL8C2?pf_rd_p=2416649442&pf_rd_s=nav-sa-digital-music&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=1980MYAPS15W91EQSY3R" alt="Macklemore"/>
+<area shape="poly" coords="238,2,226,233,154,258,115,281,2,281,1,500,497,500,497,1" href="/dp/B01BOBL8C2?pf_rd_p=2416649442&pf_rd_s=nav-sa-digital-music&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=1E4ZCP36SHMSSC9JTN8S" alt="Macklemore"/>
 </map>
 
 
 
 <map name="nav_imgmap_nav-sa-electronics-computers" id="nav_imgmap_nav-sa-electronics-computers">
-<area shape="rect" coords="4,308,508,488" href="/b?_encoding=UTF8&node=2226766011&pf_rd_p=2382126322&pf_rd_s=nav-sa-electronics-computers&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=1980MYAPS15W91EQSY3R" alt=""/>
+<area shape="rect" coords="4,308,508,488" href="/b?_encoding=UTF8&node=2226766011&pf_rd_p=2382126322&pf_rd_s=nav-sa-electronics-computers&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=1E4ZCP36SHMSSC9JTN8S" alt=""/>
 </map>
 
 
 
 <map name="nav_imgmap_nav-sa-fire-tv" id="nav_imgmap_nav-sa-fire-tv">
-<area shape="rect" coords="4,127,498,499" href="/dp/B00GDQ0RMG?pf_rd_p=2302269722&pf_rd_s=nav-sa-fire-tv&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=1980MYAPS15W91EQSY3R" alt="Fire TV Stick"/>
+<area shape="rect" coords="4,127,498,499" href="/dp/B00GDQ0RMG?pf_rd_p=2302269722&pf_rd_s=nav-sa-fire-tv&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=1E4ZCP36SHMSSC9JTN8S" alt="Fire TV Stick"/>
 </map>
 
 
 
 <map name="nav_imgmap_nav-sa-grocery-health-beauty" id="nav_imgmap_nav-sa-grocery-health-beauty">
-<area shape="rect" coords="225,78,499,479" href="/b?_encoding=UTF8&node=13593050011&pf_rd_p=2408077662&pf_rd_s=nav-sa-grocery-health-beauty&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=1980MYAPS15W91EQSY3R" alt="Grocery"/>
+<area shape="poly" coords="217,0,217,457,472,457,457,2" href="/b?_encoding=UTF8&node=5856181011&pf_rd_p=2122487362&pf_rd_s=nav-sa-grocery-health-beauty&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=1E4ZCP36SHMSSC9JTN8S" alt="Subscribe & Save"/>
 </map>
 
 
 
 <map name="nav_imgmap_nav-sa-handmade" id="nav_imgmap_nav-sa-handmade">
-<area shape="poly" coords="0,230,0,519,499,519,499,0,380,0,380,100,240,100,240,230" href="/s?_encoding=UTF8&page=1&rh=n%3A11403480011%2Ck%3Aceltic&rw_html_to_wsrp=1&pf_rd_p=2413737362&pf_rd_s=nav-sa-handmade&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=1980MYAPS15W91EQSY3R" alt="Celtic Jewelry"/>
+<area shape="poly" coords="0,230,0,519,499,519,499,0,380,0,380,100,240,100,240,230" href="/s?_encoding=UTF8&page=1&rh=n%3A11403480011%2Ck%3Aceltic&rw_html_to_wsrp=1&pf_rd_p=2413737362&pf_rd_s=nav-sa-handmade&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=1E4ZCP36SHMSSC9JTN8S" alt="Celtic Jewelry"/>
 </map>
 
 
 
 <map name="nav_imgmap_nav-sa-home-garden-tools" id="nav_imgmap_nav-sa-home-garden-tools">
-<area shape="rect" coords="0,219,515,464" href="/s?_encoding=UTF8&bbn=2975359011&lo=none&rh=i%3Apets%2Cn%3A2619533011%2Cn%3A!2619534011%2Cn%3A2975312011%2Cn%3A2975359011%2Cp_89%3APurina%20Pro%20Plan%2Cp_6%3AATVPDKIKX0DER&rw_html_to_wsrp=1&pf_rd_p=2171824262&pf_rd_s=nav-sa-home-garden-tools&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=1980MYAPS15W91EQSY3R" alt="Find the Best Purina Pro Plan for Your Pet"/>
+<area shape="rect" coords="0,0,508,492" href="/b?ie=UTF8&node=13789892011&pf_rd_p=2414551022&pf_rd_s=nav-sa-home-garden-tools&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=1E4ZCP36SHMSSC9JTN8S" alt=""/>
 </map>
 
 
 
 <map name="nav_imgmap_nav-sa-home-services" id="nav_imgmap_nav-sa-home-services">
-<area shape="poly" coords="498,8,498,510,2,512,0,321,195,317,189,17" href="/b?ie=UTF8&node=12643064011&pf_rd_p=2412775742&pf_rd_s=nav-sa-home-services&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=1980MYAPS15W91EQSY3R" alt="Amazon Gift Card Offer"/>
+<area shape="poly" coords="498,8,498,510,2,512,0,321,195,317,189,17" href="/b?ie=UTF8&node=12643064011&pf_rd_p=2412775742&pf_rd_s=nav-sa-home-services&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=1E4ZCP36SHMSSC9JTN8S" alt="Amazon Gift Card Offer"/>
 </map>
 
 
 
 <map name="nav_imgmap_nav-sa-instant-video" id="nav_imgmap_nav-sa-instant-video">
-<area shape="rect" coords="223,0,495,490" href="/dp/B01BN7KD46?pf_rd_p=2416538862&pf_rd_s=nav-sa-instant-video&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=1980MYAPS15W91EQSY3R" alt="fashion"/>
-<area shape="rect" coords="124,274,225,490" href="/dp/B01BN7KD46?pf_rd_p=2416538862&pf_rd_s=nav-sa-instant-video&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=1980MYAPS15W91EQSY3R" alt="fashion"/>
-<area shape="rect" coords="0,333,126,490" href="/dp/B01BN7KD46?pf_rd_p=2416538862&pf_rd_s=nav-sa-instant-video&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=1980MYAPS15W91EQSY3R" alt="fashion"/>
+<area shape="rect" coords="223,0,495,490" href="/dp/B01BN7KD46?pf_rd_p=2416538862&pf_rd_s=nav-sa-instant-video&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=1E4ZCP36SHMSSC9JTN8S" alt="fashion"/>
+<area shape="rect" coords="124,274,225,490" href="/dp/B01BN7KD46?pf_rd_p=2416538862&pf_rd_s=nav-sa-instant-video&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=1E4ZCP36SHMSSC9JTN8S" alt="fashion"/>
+<area shape="rect" coords="0,333,126,490" href="/dp/B01BN7KD46?pf_rd_p=2416538862&pf_rd_s=nav-sa-instant-video&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=1E4ZCP36SHMSSC9JTN8S" alt="fashion"/>
 </map>
 
 
 
 <map name="nav_imgmap_nav-sa-kindle-amazon-echo" id="nav_imgmap_nav-sa-kindle-amazon-echo">
-<area shape="poly" coords="0,347,237,347,237,2,500,0,500,490,0,490" href="/dp/B00X4WHP5E?pf_rd_p=2355676842&pf_rd_s=nav-sa-kindle-amazon-echo&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=1980MYAPS15W91EQSY3R" alt=" Amazon Echo"/>
+<area shape="poly" coords="0,347,237,347,237,2,500,0,500,490,0,490" href="/dp/B00X4WHP5E?pf_rd_p=2355676842&pf_rd_s=nav-sa-kindle-amazon-echo&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=1E4ZCP36SHMSSC9JTN8S" alt=" Amazon Echo"/>
 </map>
 
 
 
 <map name="nav_imgmap_nav-sa-kindle-fire-tablet" id="nav_imgmap_nav-sa-kindle-fire-tablet">
-<area shape="rect" coords="2,226,500,472" href="/b/?_encoding=UTF8&node=6669703011&pf_rd_p=2355676722&pf_rd_s=nav-sa-kindle-fire-tablet&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=1980MYAPS15W91EQSY3R" alt="Starting at $49.99"/>
+<area shape="rect" coords="2,226,500,472" href="/b/?_encoding=UTF8&node=6669703011&pf_rd_p=2355676722&pf_rd_s=nav-sa-kindle-fire-tablet&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=1E4ZCP36SHMSSC9JTN8S" alt="Starting at $49.99"/>
 </map>
 
 
 
 <map name="nav_imgmap_nav-sa-kindle-reader" id="nav_imgmap_nav-sa-kindle-reader">
-<area shape="poly" coords="500,490,490,130,228,141,210,317,0,321,0,490" href="/dp/B00IOY8XWQ?pf_rd_p=2172073062&pf_rd_s=nav-sa-kindle-reader&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=1980MYAPS15W91EQSY3R" alt="Kindle Voyage"/>
+<area shape="poly" coords="500,490,490,130,228,141,210,317,0,321,0,490" href="/dp/B00IOY8XWQ?pf_rd_p=2172073062&pf_rd_s=nav-sa-kindle-reader&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=1E4ZCP36SHMSSC9JTN8S" alt="Kindle Voyage"/>
 </map>
 
 
 
 <map name="nav_imgmap_nav-sa-movies-music-games" id="nav_imgmap_nav-sa-movies-music-games">
-<area shape="poly" coords="383,31,314,104,235,190,219,382,98,385,75,438,32,457,41,542,511,544,508,32" href="/b/?_encoding=UTF8&node=13584215011&pf_rd_p=2400010122&pf_rd_s=nav-sa-movies-music-games&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=1980MYAPS15W91EQSY3R" alt="Prime Exclusive Savings in Video Games"/>
+<area shape="poly" coords="383,31,314,104,235,190,219,382,98,385,75,438,32,457,41,542,511,544,508,32" href="/b/?_encoding=UTF8&node=13584215011&pf_rd_p=2400010122&pf_rd_s=nav-sa-movies-music-games&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=1E4ZCP36SHMSSC9JTN8S" alt="Prime Exclusive Savings in Video Games"/>
 </map>
 
 
 
 <map name="nav_imgmap_nav-sa-sports-outdoors-t1" id="nav_imgmap_nav-sa-sports-outdoors-t1">
-<area shape="rect" coords="0,278,519,545" href="/b?_encoding=UTF8&node=706813011&pf_rd_p=2412810822&pf_rd_s=nav-sa-sports-outdoors-t1&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=1980MYAPS15W91EQSY3R" alt="Shop Now"/>
+<area shape="rect" coords="0,278,519,545" href="/b?_encoding=UTF8&node=706813011&pf_rd_p=2412810822&pf_rd_s=nav-sa-sports-outdoors-t1&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=1E4ZCP36SHMSSC9JTN8S" alt="Shop Now"/>
 </map>
 
 
 
 <map name="nav_imgmap_nav-sa-toys-kids-baby" id="nav_imgmap_nav-sa-toys-kids-baby">
-<area shape="poly" coords="471,122,47,353,46,505,49,512,505,514,517,508" href="/gp/coupon/get-x20-50-x25-x20-off-x20-your-x20/A1ULGBEQIKG8UL?pf_rd_p=2400242282&pf_rd_s=nav-sa-toys-kids-baby&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=1980MYAPS15W91EQSY3R" alt="SnS"/>
+<area shape="poly" coords="471,122,47,353,46,505,49,512,505,514,517,508" href="/gp/coupon/get-x20-50-x25-x20-off-x20-your-x20/A1ULGBEQIKG8UL?pf_rd_p=2400242282&pf_rd_s=nav-sa-toys-kids-baby&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=1E4ZCP36SHMSSC9JTN8S" alt="SnS"/>
 </map>
 
 
@@ -834,7 +837,7 @@ window.$Nav && $Nav.declare('config.subnavFlyoutUrl',
 window.$Nav && $Nav.declare('config.readyOnATF', true);
 
 window.$Nav && $Nav.declare('config.dynamicMenuArgs',
-  {"rid":"0NVQ278BX7CJNQF6396Y","isPrime":0,"dynamicRequest":1,"weblabs":"","isFreshRegionAndCustomer":"","primeMenuWidth":310});
+  {"rid":"0D3DYXAWQVDH842F6MMF","isPrime":0,"dynamicRequest":1,"weblabs":"","isFreshRegionAndCustomer":"","primeMenuWidth":310});
 
 window.$Nav && $Nav.declare('config.signOutText',
   null);
@@ -851,7 +854,7 @@ window.$Nav && $Nav.declare('config.yourAccountPrimeHover',
 window.$Nav && $Nav.declare('config.primeEventLoggingEnabled', true);
 
 window.$Nav && $Nav.declare('config.primeFlyoutProfilingUrl',
-    '/gp/prime/navigation/record-prime-menu-event.html?ie=UTF8&rid=0NVQ278BX7CJNQF6396Y');
+    '/gp/prime/navigation/record-prime-menu-event.html?ie=UTF8&rid=0D3DYXAWQVDH842F6MMF');
 
 window.$Nav && $Nav.declare('config.searchBackState',
   {});
@@ -887,7 +890,7 @@ window.$Nav && $Nav.declare('config.searchBackState',
     , filterAliases: []
     , isDoCtw: 1
     , pageType: "Gateway"
-    , requestId: "0NVQ278BX7CJNQF6396Y"
+    , requestId: "0D3DYXAWQVDH842F6MMF"
     , keydownTriggeredWeblabs: []
     , displayTriggeredWeblabs: [      function(data) {
         return data && data.fastlabs ? data.fastlabs : undefined;
@@ -1148,9 +1151,9 @@ window.$Nav && $Nav.declare('config.timelineOptimization', false);
  _navbar.browsepromos['nav-sa-digital-music'] = {"width":519,"promoType":"wide","vertOffset":"-10","tabletAltText":null,"horizOffset":"-20","height":517,"image":"http://g-ecx.images-amazon.com/images/G/01/digital/music/merch/2016/NewReleases/Takeover/022616/Macklemore_TO_022616_Flyout_Blackbelt._CB297128759_.png","tabletDestination":null,"tabletImage":null}; 
  _navbar.browsepromos['nav-sa-electronics-computers'] = {"width":495,"promoType":"wide","vertOffset":"0","tabletAltText":null,"horizOffset":"-18","height":472,"image":"http://g-ecx.images-amazon.com/images/G/01/img14/ce-accessories/flyout/electronics_tradein_flyout._CB364719417_.png","tabletDestination":null,"tabletImage":null}; 
  _navbar.browsepromos['nav-sa-fire-tv'] = {"width":519,"promoType":"wide","vertOffset":"-10","tabletAltText":null,"horizOffset":"-20","height":499,"image":"http://g-ecx.images-amazon.com/images/G/01/kindle/merch/2015/campaign/7483990/gno/montoya_flyout_us._CB287738814_.png","tabletDestination":null,"tabletImage":null}; 
- _navbar.browsepromos['nav-sa-grocery-health-beauty'] = {"width":519,"promoType":"wide","vertOffset":"-10","tabletAltText":null,"horizOffset":"-20","height":545,"image":"http://g-ecx.images-amazon.com/images/G/01/img16/grocery/flyout/32811_us_grocery_easter_flyout._CB298417516_.png","tabletDestination":null,"tabletImage":null}; 
+ _navbar.browsepromos['nav-sa-grocery-health-beauty'] = {"width":499,"promoType":"wide","vertOffset":"0","tabletAltText":null,"horizOffset":0,"height":479,"image":"http://g-ecx.images-amazon.com/images/G/01/img14/subscribe-and-save/flyout/sns_updated_flyout_us_classic_A._CB320466802_.png","tabletDestination":null,"tabletImage":null}; 
  _navbar.browsepromos['nav-sa-handmade'] = {"width":519,"promoType":"wide","vertOffset":"-2","tabletAltText":null,"horizOffset":"-20","height":522,"image":"http://g-ecx.images-amazon.com/images/G/01/handmade/2016/Q1/flyout/33156_handmade_Celtic_Jewelry_Asset_Set_flyout._CB297015030_.png","tabletDestination":null,"tabletImage":null}; 
- _navbar.browsepromos['nav-sa-home-garden-tools'] = {"width":499,"promoType":"wide","vertOffset":"-0","tabletAltText":null,"horizOffset":"-0","height":502,"image":"http://g-ecx.images-amazon.com/images/G/01/img15/pet-products/flyout/23618_us_pet-products_aug-3_purina_flyout._CB310600290_.png","tabletDestination":null,"tabletImage":null}; 
+ _navbar.browsepromos['nav-sa-home-garden-tools'] = {"width":519,"promoType":"wide","vertOffset":"-10","tabletAltText":null,"horizOffset":"-20","height":545,"image":"http://g-ecx.images-amazon.com/images/G/01/img16/home/flyout/32983_home_st-patricks-day-images_flyout_us._CB296876671_.png","tabletDestination":null,"tabletImage":null}; 
  _navbar.browsepromos['nav-sa-home-services'] = {"width":519,"promoType":"wide","vertOffset":"-10","tabletAltText":null,"horizOffset":"-20","height":522,"image":"http://g-ecx.images-amazon.com/images/G/01/vas/promo/firsttime/30/GNO-flyout._CB297013926_.png","tabletDestination":null,"tabletImage":null}; 
  _navbar.browsepromos['nav-sa-instant-video'] = {"width":519,"promoType":"wide","vertOffset":"-10","tabletAltText":null,"horizOffset":"-20","height":545,"image":"http://g-ecx.images-amazon.com/images/G/01/digital/video/merch/GNOflyout/FashionFund_Flyout_us_V2_519x545._CB297702407_.png","tabletDestination":null,"tabletImage":null}; 
  _navbar.browsepromos['nav-sa-kindle-amazon-echo'] = {"width":500,"promoType":"wide","vertOffset":"0","tabletAltText":null,"horizOffset":"0","height":490,"image":"http://g-ecx.images-amazon.com/images/G/01/kindle/merch/2015/campaign/E/D-GNO5-2-500x490._CB286754433_.png","tabletDestination":null,"tabletImage":null}; 
@@ -1239,10 +1242,10 @@ window.$Nav && $Nav.declare('configComplete');
 
 
 
-<div id="image-map-ns_0MMYQHH8WA4Z0HFE3KN7_10794_" class="shogun-widget image-map gateway-desktop-map">
+<div id="image-map-ns_1KVF1E4KNR4EKZCNV1XY_9144_" class="shogun-widget image-map gateway-desktop-map">
     <div class="cropped-image-map-size" style="height:300px;">
         <div class="cropped-image-map-center-alignment">
-            <map name="map_0_image-map-ns_0MMYQHH8WA4Z0HFE3KN7_10794_">
+            <map name="map_0_image-map-ns_1KVF1E4KNR4EKZCNV1XY_9144_">
   
 
 <area coords="0,300,745,0" shape="rect" alt="Fire TV Stick" href="/dp/B00GDQ0RMG">
@@ -1253,7 +1256,7 @@ window.$Nav && $Nav.declare('configComplete');
 
 </map>
             <span style="display:inline-block">
-              <img alt="Fire TV Stick and All-New Fire TV Stick with Voice Remote" src="http://g-ecx.images-amazon.com/images/G/01/kindle/merch/2015/campaign/7483990/GW/Montoya_Dual._CB298584392_.jpg" class="a-dynamic-image" title="Fire TV Stick and All-New Fire TV Stick with Voice Remote" height="300px" width="1500px" data-a-dynamic-image="{&quot;http://g-ecx.images-amazon.com/images/G/01/kindle/merch/2015/campaign/7483990/GW/Montoya_Dual_2x._CB298584320_.jpg&quot;:[600,3000],&quot;http://g-ecx.images-amazon.com/images/G/01/kindle/merch/2015/campaign/7483990/GW/Montoya_Dual_2x._UX2250_SX2250_CB298584320_.jpg&quot;:[450,2250],&quot;http://g-ecx.images-amazon.com/images/G/01/kindle/merch/2015/campaign/7483990/GW/Montoya_Dual._CB298584392_.jpg&quot;:[300,1500]}" usemap="#map_0_image-map-ns_0MMYQHH8WA4Z0HFE3KN7_10794_">
+              <img alt="Fire TV Stick and All-New Fire TV Stick with Voice Remote" src="http://g-ecx.images-amazon.com/images/G/01/kindle/merch/2015/campaign/7483990/GW/Montoya_Dual._CB298584392_.jpg" class="a-dynamic-image" title="Fire TV Stick and All-New Fire TV Stick with Voice Remote" height="300px" width="1500px" data-a-dynamic-image="{&quot;http://g-ecx.images-amazon.com/images/G/01/kindle/merch/2015/campaign/7483990/GW/Montoya_Dual_2x._CB298584320_.jpg&quot;:[600,3000],&quot;http://g-ecx.images-amazon.com/images/G/01/kindle/merch/2015/campaign/7483990/GW/Montoya_Dual_2x._UX2250_SX2250_CB298584320_.jpg&quot;:[450,2250],&quot;http://g-ecx.images-amazon.com/images/G/01/kindle/merch/2015/campaign/7483990/GW/Montoya_Dual._CB298584392_.jpg&quot;:[300,1500]}" usemap="#map_0_image-map-ns_1KVF1E4KNR4EKZCNV1XY_9144_">
             </span>
         </div>
     </div>
@@ -1407,7 +1410,7 @@ window.$Nav && $Nav.declare('configComplete');
 <script>
   window.GWI && window.GWI.instrumentImages('popular-departments', "http://g-ecx.images-amazon.com/images/G/01/gateway/yiyiz/Kindle._CB300901238_.png http://g-ecx.images-amazon.com/images/G/01/gateway/yiyiz/AV._CB299522610_.png http://g-ecx.images-amazon.com/images/G/01/gateway/yiyiz/Music._CB299479121_.png http://g-ecx.images-amazon.com/images/G/01/gateway/yiyiz/Grocery._CB299522610_.png");
 </script>
-<div id="popular-departments-ns_10ZQMSJJ73DPVGR42HAS_13934_" class="a-section a-spacing-none shogun-widget popular-departments aui-desktop">
+<div id="popular-departments-ns_0D3J0ARA7GMJK5Y3YBMC_8521_" class="a-section a-spacing-none shogun-widget popular-departments aui-desktop">
 
   <h3 class="a-size-large a-text-normal">
     Popular&nbsp;departments
@@ -1795,14 +1798,14 @@ window.$Nav && $Nav.declare('configComplete');
         return BaseState({});
       }
     };
-    var $viewport = $("#airy-gw-resizeable-inline-video-ns_1WZN8D9BVXQYC1X2ZT4H_15922_ .airy-video-viewport");
-    var airyConfig = {"installFlashButtonText":"Install Flash Player","contentTitle":null,"flashParams":{"wmode":"transparent"},"autoplayCutOffTimeSeconds":null,"ageGate":{"monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"deniedPrompt":"We're sorry. You are not old enough to watch this video.","submitText":"Submit","prompt":"This video is not intended for all audiences. What date were you born?"},"videoAds":null,"isVideoUnsupportedDialogDisabled":1,"videoUnsupportedPrompt":"Sorry, this video is unsupported on this browser.","desiredMode":"html","disabledViewIds":["adsPlayToggleHintStage","adsControlsContainer","ageGate","autoplayHintStage","controlsContainer","loadingSpinnerStage","replayHintStage"],"swfUrl":"http://g-ecx.images-amazon.com/images/G/01/vap/video/airy2/prod/2.0.1351.0/flash/AiryBasicRenderer._CB301816269_.swf","isAutoplayEnabled":"1","installFlashPrompt":"Adobe Flash Player is required to watch this video.","isLiveStream":null,"regionCode":"NA","contentId":null,"playbackErrorPrompt":"Sorry, an error has occurred while attempting video playback. Please try again later.","contentMinAge":null,"chromeless":{"endedAnimationDurationMillis":1000,"isSupportEnabled":1,"endedAnimationStartMillisFromEnd":0},"isShowFirstFrameWhenReadyEnabled":1,"isInstallFlashDialogDisabled":1,"isForesterTrackingDisabled":null,"streamingUrls":["http://g-ecx.images-amazon.com/images/G/01/gateway/yiyiz/B014MGIN42_video._CB297030377_.mp4"],"parentId":"airy-gw-resizeable-inline-video-ns_1WZN8D9BVXQYC1X2ZT4H_15922_-airy-container-in","foresterMetadataParams":null,"backgroundColor":"#FFFFFF"};
+    var $viewport = $("#airy-gw-resizeable-inline-video-ns_085BA9DJCDJ9HH9B8QSG_4913_ .airy-video-viewport");
+    var airyConfig = {"installFlashButtonText":"Install Flash Player","contentTitle":null,"flashParams":{"wmode":"transparent"},"autoplayCutOffTimeSeconds":null,"ageGate":{"monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"deniedPrompt":"We're sorry. You are not old enough to watch this video.","submitText":"Submit","prompt":"This video is not intended for all audiences. What date were you born?"},"videoAds":null,"isVideoUnsupportedDialogDisabled":1,"videoUnsupportedPrompt":"Sorry, this video is unsupported on this browser.","desiredMode":"html","disabledViewIds":["adsPlayToggleHintStage","adsControlsContainer","ageGate","autoplayHintStage","controlsContainer","loadingSpinnerStage","replayHintStage"],"swfUrl":"http://g-ecx.images-amazon.com/images/G/01/vap/video/airy2/prod/2.0.1351.0/flash/AiryBasicRenderer._CB301816269_.swf","isAutoplayEnabled":"1","installFlashPrompt":"Adobe Flash Player is required to watch this video.","isLiveStream":null,"regionCode":"NA","contentId":null,"playbackErrorPrompt":"Sorry, an error has occurred while attempting video playback. Please try again later.","contentMinAge":null,"chromeless":{"endedAnimationDurationMillis":1000,"isSupportEnabled":1,"endedAnimationStartMillisFromEnd":0},"isShowFirstFrameWhenReadyEnabled":1,"isInstallFlashDialogDisabled":1,"isForesterTrackingDisabled":null,"streamingUrls":["http://g-ecx.images-amazon.com/images/G/01/gateway/yiyiz/B014MGIN42_video._CB297030377_.mp4"],"parentId":"airy-gw-resizeable-inline-video-ns_085BA9DJCDJ9HH9B8QSG_4913_-airy-container-in","foresterMetadataParams":null,"backgroundColor":"#FFFFFF"};
     return VideoPlayer($viewport, airyConfig, config);
   });
 </script>
 
 
-<div id="airy-gw-resizeable-inline-video-ns_1WZN8D9BVXQYC1X2ZT4H_15922_" class="shogun-widget airy-gw-resizeable-inline-video aui-desktop">
+<div id="airy-gw-resizeable-inline-video-ns_085BA9DJCDJ9HH9B8QSG_4913_" class="shogun-widget airy-gw-resizeable-inline-video aui-desktop">
   <h3 class="a-size-large a-text-normal">
     The dress shop
   </h3>
@@ -1820,13 +1823,13 @@ window.$Nav && $Nav.declare('configComplete');
 
       <div class="image-map-before">
     <a class="a-link-normal  a-inline-block" href="/s/?_encoding=UTF8&bbn=10445813011&rh=n%3A7141123011%2Cn%3A10445813011%2Cn%3A7147440011%2Cn%3A1040660%2Cn%3A1045024">
-    <img alt="Before the video Slate Image alt text" src="http://g-ecx.images-amazon.com/images/G/01/gateway/yiyiz/B014MGIN42_image._UX984_SX984_CB297030379_.jpg" class="a-dynamic-image" height="1279px" width="984px" data-a-dynamic-image="{&quot;http://g-ecx.images-amazon.com/images/G/01/gateway/yiyiz/B014MGIN42_image._CB297030379_.jpg&quot;:[2560,1969],&quot;http://g-ecx.images-amazon.com/images/G/01/gateway/yiyiz/B014MGIN42_image._UX1476_SX1476_CB297030379_.jpg&quot;:[1919,1476],&quot;http://g-ecx.images-amazon.com/images/G/01/gateway/yiyiz/B014MGIN42_image._UX984_SX984_CB297030379_.jpg&quot;:[1279,984]}" usemap="#map_0_airy-gw-resizeable-inline-video-ns_1WZN8D9BVXQYC1X2ZT4H_15922_">
+    <img alt="Before the video Slate Image alt text" src="http://g-ecx.images-amazon.com/images/G/01/gateway/yiyiz/B014MGIN42_image._UX984_SX984_CB297030379_.jpg" class="a-dynamic-image" height="1279px" width="984px" data-a-dynamic-image="{&quot;http://g-ecx.images-amazon.com/images/G/01/gateway/yiyiz/B014MGIN42_image._CB297030379_.jpg&quot;:[2560,1969],&quot;http://g-ecx.images-amazon.com/images/G/01/gateway/yiyiz/B014MGIN42_image._UX1476_SX1476_CB297030379_.jpg&quot;:[1919,1476],&quot;http://g-ecx.images-amazon.com/images/G/01/gateway/yiyiz/B014MGIN42_image._UX984_SX984_CB297030379_.jpg&quot;:[1279,984]}" usemap="#map_0_airy-gw-resizeable-inline-video-ns_085BA9DJCDJ9HH9B8QSG_4913_">
 </a>
    </div>
 
       </div>
         <a class="click-through" href="/s/?_encoding=UTF8&bbn=10445813011&rh=n%3A7141123011%2Cn%3A10445813011%2Cn%3A7147440011%2Cn%3A1040660%2Cn%3A1045024">
-          <div id="airy-gw-resizeable-inline-video-ns_1WZN8D9BVXQYC1X2ZT4H_15922_-airy-container-in" class="airy-video-container">
+          <div id="airy-gw-resizeable-inline-video-ns_085BA9DJCDJ9HH9B8QSG_4913_-airy-container-in" class="airy-video-container">
             <div class="airy-video-container-in"></div>
           </div>
         </a>
@@ -1838,7 +1841,7 @@ window.$Nav && $Nav.declare('configComplete');
     </div>
   </div>
   <a class="a-link-normal  image-map-hidden a-inline-block" href="/s/?_encoding=UTF8&bbn=10445813011&rh=n%3A7141123011%2Cn%3A10445813011%2Cn%3A7147440011%2Cn%3A1040660%2Cn%3A1045024">
-    <img alt="Before the video Slate Image alt text" src="http://g-ecx.images-amazon.com/images/G/01/gateway/yiyiz/B014MGIN42_image._UX984_SX984_CB297030379_.jpg" class="a-dynamic-image" title="Before the video Slate Image alt text" height="1279px" width="984px" data-a-dynamic-image="{&quot;http://g-ecx.images-amazon.com/images/G/01/gateway/yiyiz/B014MGIN42_image._CB297030379_.jpg&quot;:[2560,1969],&quot;http://g-ecx.images-amazon.com/images/G/01/gateway/yiyiz/B014MGIN42_image._UX1476_SX1476_CB297030379_.jpg&quot;:[1919,1476],&quot;http://g-ecx.images-amazon.com/images/G/01/gateway/yiyiz/B014MGIN42_image._UX984_SX984_CB297030379_.jpg&quot;:[1279,984]}" usemap="#map_0_airy-gw-resizeable-inline-video-ns_1WZN8D9BVXQYC1X2ZT4H_15922_">
+    <img alt="Before the video Slate Image alt text" src="http://g-ecx.images-amazon.com/images/G/01/gateway/yiyiz/B014MGIN42_image._UX984_SX984_CB297030379_.jpg" class="a-dynamic-image" title="Before the video Slate Image alt text" height="1279px" width="984px" data-a-dynamic-image="{&quot;http://g-ecx.images-amazon.com/images/G/01/gateway/yiyiz/B014MGIN42_image._CB297030379_.jpg&quot;:[2560,1969],&quot;http://g-ecx.images-amazon.com/images/G/01/gateway/yiyiz/B014MGIN42_image._UX1476_SX1476_CB297030379_.jpg&quot;:[1919,1476],&quot;http://g-ecx.images-amazon.com/images/G/01/gateway/yiyiz/B014MGIN42_image._UX984_SX984_CB297030379_.jpg&quot;:[1279,984]}" usemap="#map_0_airy-gw-resizeable-inline-video-ns_085BA9DJCDJ9HH9B8QSG_4913_">
 </a>
 
   <div class="bottom-section">
@@ -1966,7 +1969,7 @@ window.$Nav && $Nav.declare('configComplete');
   window.GWI && window.GWI.instrumentImages('deals-image', "http://ecx.images-amazon.com/images/I/41QvdGqq9mL._AC_UY600_SR600,600_SY200_.jpg");
 </script>
 
-<div id="deals-image_deals-image-ns_1PAH460CTGPRGTP37FF7_12096_" class="a-section a-spacing-base a-text-center shogun-widget deals-image aui-desktop deals-image-small">
+<div id="deals-image_deals-image-ns_0PG8DG8MVJV49JP4M5M0_6710_" class="a-section a-spacing-base a-text-center shogun-widget deals-image aui-desktop deals-image-small">
   <div class="deals-inner"> 
     
   <h3 class="a-size-large a-spacing-medium a-text-normal">
@@ -2031,7 +2034,7 @@ window.$Nav && $Nav.declare('configComplete');
 </div>
 
 <noscript type="text/fullsize-content">
-  <div id="deals-image_fullsize_deals-image-ns_1PAH460CTGPRGTP37FF7_12096_" class="a-section a-text-center shogun-widget deals-image aui-desktop deals-image-large">
+  <div id="deals-image_fullsize_deals-image-ns_0PG8DG8MVJV49JP4M5M0_6710_" class="a-section a-text-center shogun-widget deals-image aui-desktop deals-image-large">
     <div class="deals-inner"> 
       
   <h3 class="a-size-large a-spacing-medium a-text-normal">
@@ -2949,8 +2952,6 @@ window.$Nav && $Nav.declare('config.prefetch',function() {
 
 
 
-
-
 <div id='navFooter'><a href="#nav-top" id="navBackToTop"><div class="navFooterBackToTop"><span>Back to top</span></div></a>
 
 <table class="navFooterVerticalColumn" cellspacing="0" align="center" role="presentation"><tr><td class="navFooterLinkCol"><div class="navFooterColHead">Get to Know Us</div><ul><li class='nav_first'><a href='/gp/redirect.html?ie=UTF8&amp;location=http%3A%2F%2Fwww.amazon.jobs%2Fgp%2Fredirect.html%3Flocation%3D%252F&amp;source=standards&amp;token=25117E9F01C8F0AB1D649F37EDDD2DEBE047C3A6' class='nav_a'>Careers</a></li><li><a href='https://www.amazon.com/p/feature/rzekmvyjojcp6uc?ref_=aa_nav_footer' class='nav_a'>About Amazon</a></li><li><a href='/gp/redirect.html?_encoding=UTF8&amp;location=http%3A%2F%2Fphx.corporate-ir.net%2Fphoenix.zhtml%3Fc%3D97664%26p%3Dirol-irhome&amp;source=standards&amp;token=F9CAD8A11D4336B5E0B3C3B089FA066D0A467C1C' class='nav_a'>Investor Relations</a></li><li class='nav_last'><a href='/b?ie=UTF8&amp;node=10394030011' class='nav_a'>Amazon Devices</a></li></ul></td><td class="navFooterColSpacerInner"></td><td class="navFooterLinkCol"><div class="navFooterColHead">Make Money with Us</div><ul><li class='nav_first'><a href='/gp/redirect.html?_encoding=UTF8&amp;location=http%3A%2F%2Fwww.amazonservices.com%2Fcontent%2Fsell-on-amazon.htm%2Fref%3Dfooter_soa%3Fld%3DAZFSSOA&amp;source=standards&amp;token=1E60AB4AC0ECCA00151B45353E21782E539DC601' class='nav_a'>Sell on Amazon</a></li><li><a href='/gp/redirect.html?_encoding=UTF8&amp;location=http%3A%2F%2Fservices.amazon.com%2Fselling-services%2Fbenefits.htm%3Fld%3DAZUSVAS-globalfooter&amp;source=standards&amp;token=2EF4DF105FC57E2F8FA2BB129755A3E03E343571' class='nav_a'>Sell Your Services on Amazon</a></li><li><a href='/b?ie=UTF8&amp;node=11436294011' class='nav_a'>Sell on Amazon Business</a></li><li><a href='https://www.amazon.com:443/gp/redirect.html?_encoding=UTF8&amp;location=https%3A%2F%2Fdeveloper.amazon.com%2Fappsandservices%3Fsc_channel%3Dba%26sc_place%3Damazonhome&amp;source=standards&amp;token=DF0CFA9EECFD0DEDEAE6094981480E48DBC1E112' class='nav_a'>Sell Your Apps on Amazon</a></li><li><a href='/gp/redirect.html?location=http://affiliate-program.amazon.com/&amp;token=020E83530EE2B7F2EDA65ADA51F882D31A4AC155&amp;source=standards' class='nav_a'>Become an Affiliate</a></li><li><a href='https://advertising.amazon.com/' class='nav_a'>Advertise Your Products</a></li><li><a href='/gp/seller-account/mm-summary-page.html?ie=UTF8&amp;ld=AZFooterSelfPublish&amp;topic=200260520' class='nav_a'>Self-Publish with Us</a></li><li><a href='/b?ie=UTF8&amp;node=10659983011' class='nav_a'>Become an Amazon Vendor</a></li><li class='nav_last nav_a_carat'><span class="nav_a_carat">&rsaquo;</span><a href='/b/?_encoding=UTF8&amp;ld=AZUSSOA-seeall&amp;node=13605942011' class='nav_a'>See all</a></li></ul></td><td class="navFooterColSpacerInner"></td><td class="navFooterLinkCol"><div class="navFooterColHead">Amazon Payment Products</div><ul><li class='nav_first'><a href='/iss/credit/rewardscardmember?_encoding=UTF8&amp;plattr=CBFOOT' class='nav_a'>Amazon.com Rewards Visa Card</a></li><li><a href='/iss/credit/storecardmember?_encoding=UTF8&amp;plattr=PLCCFOOT' class='nav_a'>Amazon.com Store Card</a></li><li><a href='/gp/cobrandcard/marketing.html?ie=UTF-8&amp;place=camp&amp;plattr=CCLFOOT&amp;pr=ibprox' class='nav_a'>Amazon.com Corporate Credit Line</a></li><li><a href='/earn-spend-rewards-points/b?ie=UTF8&amp;node=2634438011' class='nav_a'>Shop with Points</a></li><li><a href='/compare-credit-card-offers/b?ie=UTF8&amp;node=3561432011' class='nav_a'>Credit Card Marketplace</a></li><li class='nav_last'><a href='/Currency-Converter/b?ie=UTF8&amp;node=388305011' class='nav_a'>Amazon Currency Converter</a></li></ul></td><td class="navFooterColSpacerInner"></td><td class="navFooterLinkCol"><div class="navFooterColHead">Let Us Help You</div><ul><li class='nav_first'><a href='https://www.amazon.com/gp/css/homepage.html' class='nav_a'>Your Account</a></li><li><a href='https://www.amazon.com/gp/css/order-history' class='nav_a'>Your Orders</a></li><li><a href='/gp/help/customer/display.html?ie=UTF8&amp;nodeId=468520' class='nav_a'>Shipping Rates & Policies</a></li><li><a href='/gp/prime' class='nav_a'>Amazon Prime</a></li><li><a href='/gp/css/returns/homepage.html' class='nav_a'>Returns & Replacements</a></li><li><a href='/gp/digital/fiona/manage' class='nav_a'>Manage Your Content and Devices</a></li><li><a href='/gp/BIT/ref=bit_v2_us_footer_A0029?bitCampaignCode=A0029' class='nav_a'>Amazon Assistant</a></li><li class='nav_last'><a href='/gp/help/customer/display.html?ie=UTF8&amp;nodeId=508510' class='nav_a'>Help</a></li></ul></td></tr></table>
@@ -3053,9 +3054,8 @@ window.$Nav && $Nav.declare('config.prefetch',function() {
 
 <div class="navFooterLine navFooterLinkLine navFooterPadItemLine"><ul><li class='nav_first'><a href='/gp/help/customer/display.html?ie=UTF8&amp;nodeId=508088' class='nav_a'>Conditions of Use</a></li><li><a href='/gp/help/customer/display.html?ie=UTF8&amp;nodeId=468496' class='nav_a'>Privacy Notice</a></li><li><a href='/interestbasedads' class='nav_a'>Interest-Based Ads</a></li><li class='nav_last'>© 1996-2016, Amazon.com, Inc. or its affiliates</li></ul></div>
 </div>
-<!-- whfh-T42HItxrcsdJB/yHxx2GhJ30Uo0t2ObGVG9/VG/z6otkuC9F0iZFvqBhF4APRF1C rid-0NVQ278BX7CJNQF6396Y -->
-
-<div id="sis_pixel_r2" aria-hidden="true" style="height:1px; position: absolute; left: -1000000px; top: -1000000px;"></div><script>(function(a,b){a.attachEvent?a.attachEvent("onload",b):a.addEventListener&&a.addEventListener("load",b,!1)})(window,function(){setTimeout(function(){var el=document.getElementById("sis_pixel_r2");el&&(el.innerHTML='<iframe id="DAsis" src="//s.amazon-adsystem.com/iu3?d=amazon.com&slot=navFooter&a2=0101a1823ca3d5d46ce03d4502edf28f095b20f780c29eddcddebefb2933fa9c1e98&old_oo=0&cb=1456612424139" width="1" height="1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>')},300)});</script>
+<!-- whfh-UgbA7sG0YmnVSZjHvDRVwWAvfXjv+A8eff2Oj2YVo1j2LuWxh08oJ1e26b28guVm rid-0D3DYXAWQVDH842F6MMF -->
+<div id="sis_pixel_r2" aria-hidden="true" style="height:1px; position: absolute; left: -1000000px; top: -1000000px;"></div><script>(function(a,b){a.attachEvent?a.attachEvent("onload",b):a.addEventListener&&a.addEventListener("load",b,!1)})(window,function(){setTimeout(function(){var el=document.getElementById("sis_pixel_r2");el&&(el.innerHTML='<iframe id="DAsis" src="//s.amazon-adsystem.com/iu3?d=amazon.com&slot=navFooter&a2=0101a1823ca3d5d46ce03d4502edf28f095b20f780c29eddcddebefb2933fa9c1e98&old_oo=0&cb=1456613604455" width="1" height="1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>')},300)});</script>
     
 
   
@@ -3076,7 +3076,7 @@ window.$Nav && $Nav.declare('config.prefetch',function() {
 <script type="text/javascript">
 try {
 P.when('A').execute(function(A){
-  A.preload(["https://images-na.ssl-images-amazon.com/images/G/01/x-locale/common/login/fwcim._CB342128453_.js","https://images-na.ssl-images-amazon.com/images/G/01/authportal/common/css/ap_global._CB318885489_.css","https://images-na.ssl-images-amazon.com/images/G/01/authportal/flex/reduced-nav/ap-flex-reduced-nav-2.1._CB343920894_.css","https://images-na.ssl-images-amazon.com/images/G/01/authportal/common/js/ap-checkout-frn._CB309092179_.js","https://images-na.ssl-images-amazon.com/images/G/01/orderApplication/js/authPortal/sign-in._CB375965495_.js","https://images-na.ssl-images-amazon.com/images/G/01/authportal/flex/reduced-nav/ap-flex-reduced-nav-2.0._CB309092102_.js","https://images-na.ssl-images-amazon.com/images/G/01/x-locale/checkout/signin-banner._CB356015500_.gif","https://images-na.ssl-images-amazon.com/images/G/01/x-locale/common/errors-alerts/error-styles-ssl._CB219086192_.css","https://images-na.ssl-images-amazon.com/images/G/01/orderApplication/css/authPortal/sign-in._CB392399058_.css","https://images-na.ssl-images-amazon.com/images/G/01/authportal/common/css/ap-checkout-frn._CB319237959_.css","https://images-na.ssl-images-amazon.com/images/G/01/x-locale/common/buttons/sign-in-secure._CB192194766_.gif","https://images-na.ssl-images-amazon.com/images/G/01/authportal/common/js/ap_global-1.1._CB306317608_.js","https://images-na.ssl-images-amazon.com/images/G/01/advertising/dev/js/live/adSnippet._CB142890782_.js","https://images-na.ssl-images-amazon.com/images/G/01/javascripts/lib/jquery/jquery-1.2.6.min._CB253690767_.js","https://images-na.ssl-images-amazon.com/images/G/01/authportal/common/images/amznbtn-sprite03._CB395592492_.png","https://images-na.ssl-images-amazon.com/images/G/01/authportal/common/images/amazon_logo_no-org_mid._CB153387053_.png"]);
+  A.preload(["https://images-na.ssl-images-amazon.com/images/G/01/authportal/common/css/ap_global._CB318885489_.css","https://images-na.ssl-images-amazon.com/images/G/01/x-locale/common/buttons/sign-in-secure._CB192194766_.gif","https://images-na.ssl-images-amazon.com/images/G/01/x-locale/checkout/signin-banner._CB356015500_.gif","https://images-na.ssl-images-amazon.com/images/G/01/orderApplication/css/authPortal/sign-in._CB392399058_.css","https://images-na.ssl-images-amazon.com/images/G/01/authportal/common/css/ap-checkout-frn._CB319237959_.css","https://images-na.ssl-images-amazon.com/images/G/01/authportal/flex/reduced-nav/ap-flex-reduced-nav-2.1._CB343920894_.css","https://images-na.ssl-images-amazon.com/images/G/01/x-locale/common/errors-alerts/error-styles-ssl._CB219086192_.css","https://images-na.ssl-images-amazon.com/images/G/01/authportal/flex/reduced-nav/ap-flex-reduced-nav-2.0._CB309092102_.js","https://images-na.ssl-images-amazon.com/images/G/01/orderApplication/js/authPortal/sign-in._CB375965495_.js","https://images-na.ssl-images-amazon.com/images/G/01/authportal/common/images/amazon_logo_no-org_mid._CB153387053_.png","https://images-na.ssl-images-amazon.com/images/G/01/javascripts/lib/jquery/jquery-1.2.6.min._CB253690767_.js","https://images-na.ssl-images-amazon.com/images/G/01/advertising/dev/js/live/adSnippet._CB142890782_.js","https://images-na.ssl-images-amazon.com/images/G/01/x-locale/common/login/fwcim._CB342128453_.js","https://images-na.ssl-images-amazon.com/images/G/01/authportal/common/js/ap-checkout-frn._CB309092179_.js","https://images-na.ssl-images-amazon.com/images/G/01/authportal/common/js/ap_global-1.1._CB306317608_.js","https://images-na.ssl-images-amazon.com/images/G/01/authportal/common/images/amznbtn-sprite03._CB395592492_.png"]);
 });
 }
 catch (e) {}
@@ -3130,22 +3130,22 @@ catch (e) {}
   (window.AmazonUIPageJS ? AmazonUIPageJS : P).when('A').execute("auiPreloadJS_"+(++__auiPreloadIndex), function(A){
     A.preload('http://z-ecx.images-amazon.com/images/G/01/AUIClients/AmazonUI-0a76671a2c19f38b4ddb3bd1b935f2a76a4fc902._V2_.js#AUIClients/AmazonUI.rendering_engine-not-trident.udp_amznjq_shim.min');
     A.preload('https://images-na.ssl-images-amazon.com/images/G/01/AUIClients/AmazonUI-0a76671a2c19f38b4ddb3bd1b935f2a76a4fc902._V2_.js#AUIClients/AmazonUI.rendering_engine-not-trident.secure.udp_amznjq_shim-true.min');
-    A.preload('http://z-ecx.images-amazon.com/images/I/41kqh6nzHNL._RC|11Ns1VsAM4L.js,21T+wghIdtL.js,11-0cqrulNL.js,01Arpwx2zHL.js,01UytMcKM7L.js,41fE9jSgHEL.js,21GPvdFSAXL.js,21lI163BfyL.js,41MxzrA6+aL.js,01HsBt63IuL.js,41PeyJ5l1rL.js,11Cutb4oqOL.js,318XdQ-a4QL.js,4156oCaTngL.js,01dxEvVBUeL.js,112IXy0KrSL.js,21bzo8YKdfL.js,01Fz6nMpmLL.js,01jml6Pm+QL.js,118FZCISs1L.js,61iO0Zn+S2L.js,41tomXhJXmL.js,01JznSgpsVL.js,01q-8DVpPQL.js,21mzpYLQMiL.js_.js#AUIClients/USHardlinesDetailPageMetaAsset');
-    A.preload('https://images-na.ssl-images-amazon.com/images/I/41kqh6nzHNL._RC|11Ns1VsAM4L.js,21T+wghIdtL.js,11-0cqrulNL.js,01Arpwx2zHL.js,01UytMcKM7L.js,41fE9jSgHEL.js,21GPvdFSAXL.js,21lI163BfyL.js,41MxzrA6+aL.js,01HsBt63IuL.js,41PeyJ5l1rL.js,11Cutb4oqOL.js,318XdQ-a4QL.js,4156oCaTngL.js,01dxEvVBUeL.js,112IXy0KrSL.js,21bzo8YKdfL.js,01Fz6nMpmLL.js,01jml6Pm+QL.js,118FZCISs1L.js,61iO0Zn+S2L.js,41tomXhJXmL.js,01JznSgpsVL.js,01q-8DVpPQL.js,21mzpYLQMiL.js_.js#AUIClients/USHardlinesDetailPageMetaAsset');
-    A.preload('http://z-ecx.images-amazon.com/images/I/41kqh6nzHNL._RC|21T+wghIdtL.js,11-0cqrulNL.js,01Arpwx2zHL.js,41fE9jSgHEL.js,51iS99oFJDL.js,21GPvdFSAXL.js,0160Lz3UB5L.js,41PeyJ5l1rL.js,01dxEvVBUeL.js,01Fz6nMpmLL.js,01jml6Pm+QL.js,21wl2cA6IRL.js,41tomXhJXmL.js,01JznSgpsVL.js,01q-8DVpPQL.js,21mzpYLQMiL.js_.js#AUIClients/USSoftlinesDetailPageMetaAsset');
-    A.preload('https://images-na.ssl-images-amazon.com/images/I/41kqh6nzHNL._RC|21T+wghIdtL.js,11-0cqrulNL.js,01Arpwx2zHL.js,41fE9jSgHEL.js,51iS99oFJDL.js,21GPvdFSAXL.js,0160Lz3UB5L.js,41PeyJ5l1rL.js,01dxEvVBUeL.js,01Fz6nMpmLL.js,01jml6Pm+QL.js,21wl2cA6IRL.js,41tomXhJXmL.js,01JznSgpsVL.js,01q-8DVpPQL.js,21mzpYLQMiL.js_.js#AUIClients/USSoftlinesDetailPageMetaAsset');
-    A.preload('http://z-ecx.images-amazon.com/images/I/41kqh6nzHNL._RC|11-0cqrulNL.js,01Arpwx2zHL.js,41PeyJ5l1rL.js,41fE9jSgHEL.js,21T+wghIdtL.js,21bzo8YKdfL.js,01Fz6nMpmLL.js,21WLXqXSRqL.js,01jml6Pm+QL.js,41tomXhJXmL.js,01JznSgpsVL.js,01q-8DVpPQL.js,21mzpYLQMiL.js_.js#AUIClients/USMediaDetailPageMetaAsset');
-    A.preload('https://images-na.ssl-images-amazon.com/images/I/41kqh6nzHNL._RC|11-0cqrulNL.js,01Arpwx2zHL.js,41PeyJ5l1rL.js,41fE9jSgHEL.js,21T+wghIdtL.js,21bzo8YKdfL.js,01Fz6nMpmLL.js,21WLXqXSRqL.js,01jml6Pm+QL.js,41tomXhJXmL.js,01JznSgpsVL.js,01q-8DVpPQL.js,21mzpYLQMiL.js_.js#AUIClients/USMediaDetailPageMetaAsset');
+    A.preload('http://z-ecx.images-amazon.com/images/I/41z0GtdnsWL._RC|11Ns1VsAM4L.js,21T+wghIdtL.js,11-0cqrulNL.js,01Arpwx2zHL.js,01UytMcKM7L.js,41fE9jSgHEL.js,21GPvdFSAXL.js,21lI163BfyL.js,41MxzrA6+aL.js,01HsBt63IuL.js,41PeyJ5l1rL.js,11Cutb4oqOL.js,318XdQ-a4QL.js,4156oCaTngL.js,01dxEvVBUeL.js,112IXy0KrSL.js,21bzo8YKdfL.js,01Fz6nMpmLL.js,01jml6Pm+QL.js,118FZCISs1L.js,61iO0Zn+S2L.js,41tomXhJXmL.js,01JznSgpsVL.js,01q-8DVpPQL.js,21mzpYLQMiL.js_.js#AUIClients/USHardlinesDetailPageMetaAsset');
+    A.preload('https://images-na.ssl-images-amazon.com/images/I/41z0GtdnsWL._RC|11Ns1VsAM4L.js,21T+wghIdtL.js,11-0cqrulNL.js,01Arpwx2zHL.js,01UytMcKM7L.js,41fE9jSgHEL.js,21GPvdFSAXL.js,21lI163BfyL.js,41MxzrA6+aL.js,01HsBt63IuL.js,41PeyJ5l1rL.js,11Cutb4oqOL.js,318XdQ-a4QL.js,4156oCaTngL.js,01dxEvVBUeL.js,112IXy0KrSL.js,21bzo8YKdfL.js,01Fz6nMpmLL.js,01jml6Pm+QL.js,118FZCISs1L.js,61iO0Zn+S2L.js,41tomXhJXmL.js,01JznSgpsVL.js,01q-8DVpPQL.js,21mzpYLQMiL.js_.js#AUIClients/USHardlinesDetailPageMetaAsset');
+    A.preload('http://z-ecx.images-amazon.com/images/I/41z0GtdnsWL._RC|21T+wghIdtL.js,11-0cqrulNL.js,01Arpwx2zHL.js,41fE9jSgHEL.js,51iS99oFJDL.js,21GPvdFSAXL.js,0160Lz3UB5L.js,41PeyJ5l1rL.js,01dxEvVBUeL.js,01Fz6nMpmLL.js,01jml6Pm+QL.js,21wl2cA6IRL.js,41tomXhJXmL.js,01JznSgpsVL.js,01q-8DVpPQL.js,21mzpYLQMiL.js_.js#AUIClients/USSoftlinesDetailPageMetaAsset');
+    A.preload('https://images-na.ssl-images-amazon.com/images/I/41z0GtdnsWL._RC|21T+wghIdtL.js,11-0cqrulNL.js,01Arpwx2zHL.js,41fE9jSgHEL.js,51iS99oFJDL.js,21GPvdFSAXL.js,0160Lz3UB5L.js,41PeyJ5l1rL.js,01dxEvVBUeL.js,01Fz6nMpmLL.js,01jml6Pm+QL.js,21wl2cA6IRL.js,41tomXhJXmL.js,01JznSgpsVL.js,01q-8DVpPQL.js,21mzpYLQMiL.js_.js#AUIClients/USSoftlinesDetailPageMetaAsset');
+    A.preload('http://z-ecx.images-amazon.com/images/I/41z0GtdnsWL._RC|11-0cqrulNL.js,01Arpwx2zHL.js,41PeyJ5l1rL.js,41fE9jSgHEL.js,21T+wghIdtL.js,21bzo8YKdfL.js,01Fz6nMpmLL.js,21WLXqXSRqL.js,01jml6Pm+QL.js,41tomXhJXmL.js,01JznSgpsVL.js,01q-8DVpPQL.js,21mzpYLQMiL.js_.js#AUIClients/USMediaDetailPageMetaAsset');
+    A.preload('https://images-na.ssl-images-amazon.com/images/I/41z0GtdnsWL._RC|11-0cqrulNL.js,01Arpwx2zHL.js,41PeyJ5l1rL.js,41fE9jSgHEL.js,21T+wghIdtL.js,21bzo8YKdfL.js,01Fz6nMpmLL.js,21WLXqXSRqL.js,01jml6Pm+QL.js,41tomXhJXmL.js,01JznSgpsVL.js,01q-8DVpPQL.js,21mzpYLQMiL.js_.js#AUIClients/USMediaDetailPageMetaAsset');
   });
   (window.AmazonUIPageJS ? AmazonUIPageJS : P).when('A').execute("auiPreloadCSS_"+(++__auiPreloadIndex), function(A){
     A.preload('http://z-ecx.images-amazon.com/images/G/01/AUIClients/AmazonUI-d1e65f585fce29bb873bcd1337775366bf79d061._V2_.css#AUIClients/AmazonUI.rendering_engine-not-trident.udp_amznjq_shim.min');
     A.preload('https://images-na.ssl-images-amazon.com/images/G/01/AUIClients/AmazonUI-a0d292b78b05834723a8a6677d07835232a37a69._V2_.css#AUIClients/AmazonUI.rendering_engine-not-trident.secure.udp_amznjq_shim-true.min');
-    A.preload('http://z-ecx.images-amazon.com/images/I/61zzfL6OWpL._RC|41DINQ2H2hL.css,11ikU6MX1JL.css,31YnxVFBqZL.css,01pz7EOWc8L.css,01oCAuKo6VL.css,113FuDtwChL.css,21EzwW3bTnL.css,11xRy3bSkOL.css,51Y7PgsbdkL.css,01IYJsHQbtL.css,01OjVrFGeBL.css,11OmGxcWWfL.css,21o+ngzFrDL.css,01QUs5FVXoL.css,11MXghh1eBL.css,01hvfEvfPgL.css,01rgQ3jqo7L.css,11WwccDKrLL.css,41A3MwXNi4L.css,31DJFjtqQ7L.css,01vlNj8txwL.css,21Rjwbph1AL.css_.css#AUIClients/USHardlinesDetailPageMetaAsset');
-    A.preload('https://images-na.ssl-images-amazon.com/images/I/61jNCyOBdOL._RC|41tb3NtHnqL.css,11ikU6MX1JL.css,31BXJBpf4hL.css,01pz7EOWc8L.css,01oCAuKo6VL.css,113FuDtwChL.css,21EzwW3bTnL.css,11xRy3bSkOL.css,51UOMEVMC-L.css,01IYJsHQbtL.css,01OjVrFGeBL.css,11OmGxcWWfL.css,21o+ngzFrDL.css,01QUs5FVXoL.css,11MXghh1eBL.css,01hvfEvfPgL.css,01rgQ3jqo7L.css,11LVd33jknL.css,41A3MwXNi4L.css,31DJFjtqQ7L.css,01vlNj8txwL.css,21Rjwbph1AL.css_.css#AUIClients/USHardlinesDetailPageMetaAsset');
-    A.preload('http://z-ecx.images-amazon.com/images/I/41geocARXdL._RC|41itsUsyXnL.css,41DINQ2H2hL.css,31YnxVFBqZL.css,01pz7EOWc8L.css,01oCAuKo6VL.css,113FuDtwChL.css,316ZML3CgXL.css,21EzwW3bTnL.css,01IYJsHQbtL.css,01hvfEvfPgL.css,01rgQ3jqo7L.css,11zbtATnVTL.css,31DJFjtqQ7L.css,01vlNj8txwL.css,21Rjwbph1AL.css_.css#AUIClients/USSoftlinesDetailPageMetaAsset');
-    A.preload('https://images-na.ssl-images-amazon.com/images/I/41geocARXdL._RC|41itsUsyXnL.css,41tb3NtHnqL.css,31BXJBpf4hL.css,01pz7EOWc8L.css,01oCAuKo6VL.css,113FuDtwChL.css,316ZML3CgXL.css,21EzwW3bTnL.css,01IYJsHQbtL.css,01hvfEvfPgL.css,01rgQ3jqo7L.css,11zbtATnVTL.css,31DJFjtqQ7L.css,01vlNj8txwL.css,21Rjwbph1AL.css_.css#AUIClients/USSoftlinesDetailPageMetaAsset');
-    A.preload('http://z-ecx.images-amazon.com/images/I/511M1qVYXDL._RC|41DINQ2H2hL.css,01pz7EOWc8L.css,01oCAuKo6VL.css,01IYJsHQbtL.css,113FuDtwChL.css,31YnxVFBqZL.css,11MXghh1eBL.css,01hvfEvfPgL.css,01rgQ3jqo7L.css,31DJFjtqQ7L.css,01vlNj8txwL.css,21Rjwbph1AL.css_.css#AUIClients/USMediaDetailPageMetaAsset');
-    A.preload('https://images-na.ssl-images-amazon.com/images/I/511M1qVYXDL._RC|41tb3NtHnqL.css,01pz7EOWc8L.css,01oCAuKo6VL.css,01IYJsHQbtL.css,113FuDtwChL.css,31BXJBpf4hL.css,11MXghh1eBL.css,01hvfEvfPgL.css,01rgQ3jqo7L.css,31DJFjtqQ7L.css,01vlNj8txwL.css,21Rjwbph1AL.css_.css#AUIClients/USMediaDetailPageMetaAsset');
+    A.preload('http://z-ecx.images-amazon.com/images/I/61zzfL6OWpL._RC|4192QzpyztL.css,11ikU6MX1JL.css,31YnxVFBqZL.css,01pz7EOWc8L.css,01oCAuKo6VL.css,113FuDtwChL.css,21EzwW3bTnL.css,11xRy3bSkOL.css,51Y7PgsbdkL.css,01IYJsHQbtL.css,01OjVrFGeBL.css,11OmGxcWWfL.css,21o+ngzFrDL.css,01QUs5FVXoL.css,11MXghh1eBL.css,01hvfEvfPgL.css,01rgQ3jqo7L.css,11WwccDKrLL.css,41A3MwXNi4L.css,31DJFjtqQ7L.css,01vlNj8txwL.css,21Rjwbph1AL.css_.css#AUIClients/USHardlinesDetailPageMetaAsset');
+    A.preload('https://images-na.ssl-images-amazon.com/images/I/61jNCyOBdOL._RC|41G8rtbFmeL.css,11ikU6MX1JL.css,31BXJBpf4hL.css,01pz7EOWc8L.css,01oCAuKo6VL.css,113FuDtwChL.css,21EzwW3bTnL.css,11xRy3bSkOL.css,51UOMEVMC-L.css,01IYJsHQbtL.css,01OjVrFGeBL.css,11OmGxcWWfL.css,21o+ngzFrDL.css,01QUs5FVXoL.css,11MXghh1eBL.css,01hvfEvfPgL.css,01rgQ3jqo7L.css,11LVd33jknL.css,41A3MwXNi4L.css,31DJFjtqQ7L.css,01vlNj8txwL.css,21Rjwbph1AL.css_.css#AUIClients/USHardlinesDetailPageMetaAsset');
+    A.preload('http://z-ecx.images-amazon.com/images/I/41geocARXdL._RC|41itsUsyXnL.css,4192QzpyztL.css,31YnxVFBqZL.css,01pz7EOWc8L.css,01oCAuKo6VL.css,113FuDtwChL.css,316ZML3CgXL.css,21EzwW3bTnL.css,01IYJsHQbtL.css,01hvfEvfPgL.css,01rgQ3jqo7L.css,11zbtATnVTL.css,31DJFjtqQ7L.css,01vlNj8txwL.css,21Rjwbph1AL.css_.css#AUIClients/USSoftlinesDetailPageMetaAsset');
+    A.preload('https://images-na.ssl-images-amazon.com/images/I/41geocARXdL._RC|41itsUsyXnL.css,41G8rtbFmeL.css,31BXJBpf4hL.css,01pz7EOWc8L.css,01oCAuKo6VL.css,113FuDtwChL.css,316ZML3CgXL.css,21EzwW3bTnL.css,01IYJsHQbtL.css,01hvfEvfPgL.css,01rgQ3jqo7L.css,11zbtATnVTL.css,31DJFjtqQ7L.css,01vlNj8txwL.css,21Rjwbph1AL.css_.css#AUIClients/USSoftlinesDetailPageMetaAsset');
+    A.preload('http://z-ecx.images-amazon.com/images/I/511M1qVYXDL._RC|4192QzpyztL.css,01pz7EOWc8L.css,01oCAuKo6VL.css,01IYJsHQbtL.css,113FuDtwChL.css,31YnxVFBqZL.css,11MXghh1eBL.css,01hvfEvfPgL.css,01rgQ3jqo7L.css,31DJFjtqQ7L.css,01vlNj8txwL.css,21Rjwbph1AL.css_.css#AUIClients/USMediaDetailPageMetaAsset');
+    A.preload('https://images-na.ssl-images-amazon.com/images/I/511M1qVYXDL._RC|41G8rtbFmeL.css,01pz7EOWc8L.css,01oCAuKo6VL.css,01IYJsHQbtL.css,113FuDtwChL.css,31BXJBpf4hL.css,11MXghh1eBL.css,01hvfEvfPgL.css,01rgQ3jqo7L.css,31DJFjtqQ7L.css,01vlNj8txwL.css,21Rjwbph1AL.css_.css#AUIClients/USMediaDetailPageMetaAsset');
   });
 </script>
 
@@ -3166,7 +3166,7 @@ catch (e) {}
 
 
 <script type="text/javascript">
-    P.when('A').execute(function(A){ A.preload(["http://z-ecx.images-amazon.com/images/G/01/x-locale/communities/profile/customer-popover/script-13-min._CB224617671_.js","http://z-ecx.images-amazon.com/images/G/01/x-locale/personalization/yourstore/js/ratings-bar-366177._CB204593665_.js","http://z-ecx.images-amazon.com/images/G/01/x-locale/communities/profile/customer-popover/style-3._CB248984170_.css","http://z-ecx.images-amazon.com/images/G/01/x-locale/communities/profile/customer-popover/style-4._CB196325517_.css","http://z-ecx.images-amazon.com/images/G/01/nav2/gamma/accessoriesCSS/US/combined-3689044428._CB189697042_.css","http://z-ecx.images-amazon.com/images/G/01/nav2/gamma/websiteGridCSS/websiteGridCSS-websiteGridCSS-48346.css._CB176526456_.css","http://z-ecx.images-amazon.com/images/G/01/twister/beta/twister-dpf.87b069b255db02b4805f7e714b617f8f._V1_.js","http://z-ecx.images-amazon.com/images/G/01/browser-scripts/share-with-friends-css-new/share-with-friends-css-new-2745439681._V1_.css","http://g-ecx.images-amazon.com/images/G/01/common/sprites/sprite-communities._V136632413_.png","http://z-ecx.images-amazon.com/images/G/01/browser-scripts/fruitCSS/US-combined-1263363419._CB320013542_.css","http://z-ecx.images-amazon.com/images/G/01/browser-scripts/dpSpritesCSS/US-combined-3044029242._CB358606633_.css","http://z-ecx.images-amazon.com/images/G/01/kitchen/scheduled-delivery/sd_style-ScheduledDeliveryJavascript-v2-b1.0.118.0-min._CB290041502_.css","http://z-ecx.images-amazon.com/images/G/01/productAds/css/detailPageStatic._CB349243534_.css"]);}); 
+    P.when('A').execute(function(A){ A.preload(["http://z-ecx.images-amazon.com/images/G/01/x-locale/communities/profile/customer-popover/script-13-min._CB224617671_.js","http://z-ecx.images-amazon.com/images/G/01/x-locale/personalization/yourstore/js/ratings-bar-366177._CB204593665_.js","http://z-ecx.images-amazon.com/images/G/01/x-locale/communities/profile/customer-popover/style-3._CB248984170_.css","http://z-ecx.images-amazon.com/images/G/01/x-locale/communities/profile/customer-popover/style-4._CB196325517_.css","http://z-ecx.images-amazon.com/images/G/01/nav2/gamma/accessoriesCSS/US/combined-3689044428._CB189697042_.css","http://z-ecx.images-amazon.com/images/G/01/nav2/gamma/websiteGridCSS/websiteGridCSS-websiteGridCSS-48346.css._CB176526456_.css","http://z-ecx.images-amazon.com/images/G/01/twister/beta/twister-dpf.87b069b255db02b4805f7e714b617f8f._V1_.js","http://z-ecx.images-amazon.com/images/G/01/browser-scripts/dpProductImage/dpProductImage-2900646310._V1_.js","http://z-ecx.images-amazon.com/images/G/01/browser-scripts/immersiveView/immersiveView-990982538._V1_.js","http://z-ecx.images-amazon.com/images/G/01/nav2/gamma/tmmJS/tmmJS-combined-core-4624._V1_.js","http://z-ecx.images-amazon.com/images/G/01/browser-scripts/amazonShoveler/amazonShoveler-1668981302._V1_.js","http://z-ecx.images-amazon.com/images/G/01/browser-scripts/site-wide-js-1.6.4-beacon/site-wide-7939884564._V1_.js","http://z-ecx.images-amazon.com/images/G/01/nav2/gamma/cmuAnnotations/cmuAnnotations-cmuAnnotations-55262._V1_.js","http://z-ecx.images-amazon.com/images/G/01/nav2/gamma/accessoriesJS/accessoriesJS-accessories-49340._V1_.js","http://z-ecx.images-amazon.com/images/G/01/nav2/gamma/accessoriesJS/accessoriesJS-accessoriesNavView-32529._V1_.js","http://z-ecx.images-amazon.com/images/G/01/browser-scripts/share-with-friends-js-new/share-with-friends-js-new-1645223338._V1_.js","http://z-ecx.images-amazon.com/images/G/01/nav2/gamma/lazyLoadLib/lazyLoadLib-lazyLoadLib-62327._V1_.js","http://z-ecx.images-amazon.com/images/G/01/nav2/gamma/priceformatterJQ/priceformatterJQ-price-21701._V1_.js","http://z-ecx.images-amazon.com/images/G/01/browser-scripts/amazonShoveler/amazonShoveler-1668981302._V1_.js","http://z-ecx.images-amazon.com/images/G/01/nav2/gamma/ciuCSS/ciuCSS-ciuAnnotations-56849._V1_.css","http://z-ecx.images-amazon.com/images/G/01/browser-scripts/share-with-friends-css-new/share-with-friends-css-new-2745439681._V1_.css","http://z-ecx.images-amazon.com/images/G/01/browser-scripts/us-site-wide-css-beacon/site-wide-6800426958._V1_.css","http://g-ecx.images-amazon.com/images/G/01/common/sprites/sprite-communities._V136632413_.png","http://z-ecx.images-amazon.com/images/G/01/browser-scripts/fruitCSS/US-combined-1263363419._CB320013542_.css","http://z-ecx.images-amazon.com/images/G/01/browser-scripts/dpSpritesCSS/US-combined-3044029242._CB358606633_.css","http://z-ecx.images-amazon.com/images/G/01/kitchen/scheduled-delivery/sd_style-ScheduledDeliveryJavascript-v2-b1.0.118.0-min._CB290041502_.css","http://z-ecx.images-amazon.com/images/G/01/productAds/css/detailPageStatic._CB349243534_.css"]);}); 
 </script>
 
 
