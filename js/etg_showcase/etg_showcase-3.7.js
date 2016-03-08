@@ -20,7 +20,7 @@ GDTMOD.showcase.loadCpcAd=function(){var url='http://te.paipai.com/tws/cpcad/cpc
 var adlist=listObj.getElementsByTagName('li'),model=model.innerHTML;if(datas.length==0){reCoder.report(true,EXPADERR.EMPTY);}else{for(var i=0,len=datas.length;i<len;++i){html.push($strReplace(model,{"{#commodityUrl#}":datas[i].commodityUrl,"{#recmdRegName#}":datas[i].recmdRegName,"{#image#}":datas[i].image,"{#newPrice#}":datas[i].newPrice}));}
 for(var i=(adlist.length-CPCDATA.count),len=adlist.length,j=0;i<len;++i){adlist[i].innerHTML=html[j++];}
 reCoder.report(true,EXPADERR.FINISH);}}catch(e){reCoder.report(false,EXPADERR.EXECERR);}},'bizId=adcard');}
-GDTMOD.showcase.getCmdtyInfo=function(commIds,prefixID){GDTMOD.showcase.loadObj.loadData('http://express.paipai.com/tws/expcomm/ExpViewAdStat?commid='+commIds.join('|')+'&filter=3',function(response,reCoder){try{var len=commIds.length;count=response.data.length;if(len!=count){reCoder.report(false,EXPADERR.NOTENOUGH);}
+GDTMOD.showcase.getCmdtyInfo=function(commIds,prefixID){GDTMOD.showcase.loadObj.loadData('http://express.paipai.com/tws/expcomm/ExpViewAdStat?commid='+commIds.join('|')+'&f=3',function(response,reCoder){try{var len=commIds.length;count=response.data.length;if(len!=count){reCoder.report(false,EXPADERR.NOTENOUGH);}
 for(var i=0;i<count;++i){var item=response.data[i],priceObj=$id('price'+item.commId),soldObj=$id('sold'+item.commId);if(priceObj){priceObj.innerHTML='&yen;'+item.price;}
 if(soldObj){soldObj.innerHTML=item.payCnt;}}
 reCoder.report(true,EXPADERR.FINISH);}catch(e){reCoder.report(false,EXPADERR.EXECERR);}},'bizId=adcard');}
