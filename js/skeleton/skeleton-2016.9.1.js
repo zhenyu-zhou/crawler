@@ -43,7 +43,7 @@ try {
 		sp_cdnDomain:'cdn.adsafeprotected.com',
 		protocol:'https',
 		jsref : "",
-		asid : "4f3e4760-6ff9-11e6-89b7-382c4ac73093",
+		asid : "776eb559-704f-11e6-93d0-382c4ac7ff27",
 		allowViewability : "true",
 		jsFeatures : "mousetrack,cocoapuffs,viewabilityready,consecutive,cachebust:0,forcecocoa:0,rattie,exch,recordalternate:0,usedtdomain,nextcocoa:100,bapiDiag,cookie,postDts:0,unreliabilityDetection,videotwoseconds,getPl,decodePl,resolution,usetpl,tpiLookupURL,hundredpct,jloadDiag:0,blur:0,sendclogs,zeroPing,idMap,offscreen,everySecond:1,sdkdetection,moreAdTalkCalls,slid,fm2:1,largeAd,nextcocoaie:100,usevh,fxdet,mmsb:100,bigmon:0,chromeNativeIO:100,oddet:100,ios:0,ancestor:100,avmm:100,avgrn:100,useScreenLocationInfoAdaptor:100,swapids:100,pIntervals:10",
 		adsafeDomain : "adsafeprotected.com:80",
@@ -74,7 +74,7 @@ try {
 		cookieBaseURL:'sc.iasds01.com/dtc?advEntityId=33642',
 		fwMonitoring:'true',
 		doNothing: false,
-		mn: "app27",
+		mn: "app35",
 		mobOrTab: false,
 		mobFwUrl : "https://mobile.adsafeprotected.com/internal/monitoring/app/initial/33642/3584127/",
 		videoId : ''

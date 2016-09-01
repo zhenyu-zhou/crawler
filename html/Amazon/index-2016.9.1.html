@@ -9,22 +9,23 @@ f?(f=!1,m("resource_retry"),e()):(m("resource_error"),a.log("Asset failed to loa
 delete K[a]}x.done=!0}var r=k||this;"function"===typeof l&&(m=l,l=b);d&&(l=(l||"__NONAME__").replace(/^prv:/,""),T.hasOwnProperty(l)&&r.error(h(" @ ","Component already registered",l),l),T[l]=b);for(var n=[],w=0;w<a.length;w++)n[w]=a[w].replace(/^prv:/,"");var x=ca[l]={depend:n,registered:H()};f?q():e(n,r.guardFatal(l,q))}}function r(a){return function(){return{execute:q(arguments,!1,a,!1,this),register:q(arguments,!0,a,!1,this)}}}function w(a,c){return function(d,e){e||(e=d,d=b);return function(){ja.push({attribution:a,
 name:d,logLevel:c});var b=e.apply(this,arguments);ja.pop();return b}}}function x(c,b){this.logError=function(a,b,d,e){return p.ueLogError?(b={message:b,logLevel:d||"ERROR",attribution:h(":",c,e)},p.ueLogError(a||b,a?b:null),!0):!1};this.error=function(a,b,d,e){a=Error(h(":",e,a,d));a.attribution=h(":",c,b);throw a;};this.guardError=w(c);this.guardFatal=w(c,"FATAL");this.load={js:a(this,!0),css:a(this)};g(this,"namespace",b)}function v(){t.body?ga.trigger("a-bodyBegin"):setTimeout(v,20)}function y(a,
 c){if(c){for(var b=a.className.split(" "),d=b.length;d--;)if(b[d]===c)return;a.className+=" "+c}}function z(a,c){for(var d=a.className.split(" "),e=[],f;(f=d.pop())!==b;)f&&f!==c&&e.push(f);a.className=e.join(" ")}function A(a){try{return a()}catch(c){return!1}}function D(){if(ba){var a=p.innerWidth?{w:p.innerWidth,h:p.innerHeight}:{w:la.clientWidth,h:la.clientHeight},c=!1;5<Math.abs(a.w-ua.w)||50<a.h-ua.h?(ua=a,qa=4,(c=ka.mobile||ka.tablet?a.w>a.h:1250<=a.w)?y(la,"a-ws"):z(la,"a-ws")):qa--&&(Da=
-setTimeout(D,16))}}function E(a){(ba=a===b?!ba:!!a)&&D()}function C(){return ba}var G=p.AmazonUIPageJS||p.P;if(G&&G.when&&G.register)throw Error("A copy of P has already been loaded on this page.");var F=p.ue;F&&F.tag&&(F.tag("aui"),F.tag("aui:aui_build_date:3.16.8.10-2016-08-23"));var H=u.now=u.now||function(){return+new u},I=[],J=!1,L;L=function(){for(var a=f(),c=H();I.length;)if(I.shift()(),50<H()-c)return;clearTimeout(a);J=!1};l(/OS 6_[0-9]+ like Mac OS X/i)&&k(p,"scroll",f);var B=
+setTimeout(D,16))}}function E(a){(ba=a===b?!ba:!!a)&&D()}function C(){return ba}var G=p.AmazonUIPageJS||p.P;if(G&&G.when&&G.register)throw Error("A copy of P has already been loaded on this page.");var F=p.ue;F&&F.tag&&(F.tag("aui"),F.tag("aui:aui_build_date:3.16.8.10-2016-08-28"));var H=u.now=u.now||function(){return+new u},I=[],J=!1,L;L=function(){for(var a=f(),c=H();I.length;)if(I.shift()(),50<H()-c)return;clearTimeout(a);J=!1};l(/OS 6_[0-9]+ like Mac OS X/i)&&k(p,"scroll",f);var B=
 {},K={},M={},n=!1;k(p,"beforeunload",function(){n=!0;setTimeout(function(){n=!1},1E4)});var T={},ca={},ja=[],ra=p.onerror;p.onerror=function(a,c,d,e,f){f&&"object"===typeof f||(f=Error(a,c,d),f.columnNumber=e,f.stack=c||d||e?h(String.fromCharCode(92),f.message,"at "+h(":",c,d,e)):b);var g=ja.pop()||{};f.attribution=h(":",f.attribution||g.attribution,g.name);f.logLevel=g.logLevel;f.attribution&&console&&console.log&&console.log([f.logLevel||"ERROR",a,"thrown by",f.attribution].join(" "));ja=[];ra&&
-(g=[].slice.call(arguments),g[4]=f,ra.apply(p,g))};x.prototype={log:function(a,c,b){return this.logError(null,a,c,b)},declare:q([],!0,!0,!0),register:q([],!0),execute:q([]),AUI_BUILD_DATE:"3.16.8.10-2016-08-23",when:r(),now:r(!0),trigger:function(a,c){var b=H();this.declare(a,{data:c,pageElapsedTime:b-(p.aPageStart||NaN),triggerTime:b})},handleTriggers:function(){this.log("handleTriggers deprecated")},attributeErrors:function(a){return new x(a)},_namespace:function(a,c){return new x(a,c)}};var ga=
+(g=[].slice.call(arguments),g[4]=f,ra.apply(p,g))};x.prototype={log:function(a,c,b){return this.logError(null,a,c,b)},declare:q([],!0,!0,!0),register:q([],!0),execute:q([]),AUI_BUILD_DATE:"3.16.8.10-2016-08-28",when:r(),now:r(!0),trigger:function(a,c){var b=H();this.declare(a,{data:c,pageElapsedTime:b-(p.aPageStart||NaN),triggerTime:b})},handleTriggers:function(){this.log("handleTriggers deprecated")},attributeErrors:function(a){return new x(a)},_namespace:function(a,c){return new x(a,c)}};var ga=
 g(p,"AmazonUIPageJS",new x);ga._namespace("PageJS","AmazonUI").declare("prv:p-debug",ca);ga.declare("p-recorder-events",[]);ga.declare("p-recorder-stop",function(){});g(p,"P",ga);v();if(t.addEventListener){var aa;t.addEventListener("DOMContentLoaded",aa=function(){ga.trigger("a-domready");t.removeEventListener("DOMContentLoaded",aa,!1)},!1)}var la=t.documentElement,na=function(){var a=["O","ms","Moz","Webkit"],c=t.createElement("div");return{testGradients:function(){c.style.cssText=("background-image:-webkit-gradient(linear,left top,right bottom,from(#9f9),to(white));background-image:"+
 a.join("linear-gradient(left top,#9f9, white);background-image:")).slice(0,-17);return-1<c.style.backgroundImage.indexOf("gradient")},test:function(b){var d=b.charAt(0).toUpperCase()+b.substr(1);b=(a.join(d+" ")+d+" "+b).split(" ");for(d=b.length;d--;)if(""===c.style[b[d]])return!0;return!1},testTransform3d:function(){var a=!1;p.matchMedia&&(a=p.matchMedia("(-webkit-transform-3d)").matches);return a}}}(),G=la.className,pa=/(^| )a-mobile( |$)/.test(G),ya=/(^| )a-tablet( |$)/.test(G),ka={audio:function(){return!!t.createElement("audio").canPlayType},
 video:function(){return!!t.createElement("video").canPlayType},canvas:function(){return!!t.createElement("canvas").getContext},svg:function(){return!!t.createElementNS&&!!t.createElementNS("http://www.w3.org/2000/svg","svg").createSVGRect},offline:function(){return navigator.hasOwnProperty&&navigator.hasOwnProperty("onLine")&&navigator.onLine},dragDrop:function(){return"draggable"in t.createElement("span")},geolocation:function(){return!!navigator.geolocation},history:function(){return!(!p.history||
 !p.history.pushState)},webworker:function(){return!!p.Worker},autofocus:function(){return"autofocus"in t.createElement("input")},inputPlaceholder:function(){return"placeholder"in t.createElement("input")},textareaPlaceholder:function(){return"placeholder"in t.createElement("textarea")},localStorage:function(){return"localStorage"in p&&null!==p.localStorage},orientation:function(){return"orientation"in p},touch:function(){return"ontouchend"in t},gradients:function(){return na.testGradients()},hires:function(){var a=
 p.devicePixelRatio&&1.5<=p.devicePixelRatio||p.matchMedia&&p.matchMedia("(min-resolution:144dpi)").matches;m("hiRes"+(pa?"Mobile":ya?"Tablet":"Desktop"),a?1:0);return a},transform3d:function(){return na.testTransform3d()},touchScrolling:function(){return l(/Windowshop|android.([3-9]|[L-Z])|OS ([5-9]|[1-9][0-9]+)(_[0-9]{1,2})+ like Mac OS X|Chrome|Silk|Firefox|Trident.+?; Touch/i)},ios:function(){return l(/OS [1-9][0-9]*(_[0-9]*)+ like Mac OS X/i)},android:function(){return l(/android.([1-9]|[L-Z])/i)&&
 !l(/trident/i)},mobile:function(){return pa},tablet:function(){return ya}},O;for(O in ka)ka.hasOwnProperty(O)&&(ka[O]=A(ka[O]));for(var Z="textShadow textStroke boxShadow borderRadius borderImage opacity transform transition".split(" "),Y=0;Y<Z.length;Y++)ka[Z[Y]]=A(function(){return na.test(Z[Y])});var ba=!0,Da=0,ua={w:0,h:0},qa=4;D();k(p,"resize",function(){clearTimeout(Da);qa=4;D()});z(la,"a-no-js");y(la,"a-js");!l(/OS [1-8](_[0-9]*)+ like Mac OS X/i)||p.navigator.standalone||l(/safari/i)||y(la,
-"a-ember");ka.localStorage&&y(la,localStorage.getItem("a-skin-font-class"));G=[];for(O in ka)ka.hasOwnProperty(O)&&ka[O]&&G.push("a-"+O.replace(/([A-Z])/g,function(a){return"-"+a.toLowerCase()}));y(la,G.join(" "));la.setAttribute("data-aui-build-date","3.16.8.10-2016-08-23");ga.register("p-detect",function(){return{capabilities:ka,toggleResponsiveGrid:E,responsiveGridEnabled:C}});ga.declare("a-event-revised-handling",!1)})(window,document,Date);
-(window.AmazonUIPageJS ? AmazonUIPageJS : P).when('af').execute(function() {
+"a-ember");ka.localStorage&&y(la,localStorage.getItem("a-skin-font-class"));G=[];for(O in ka)ka.hasOwnProperty(O)&&ka[O]&&G.push("a-"+O.replace(/([A-Z])/g,function(a){return"-"+a.toLowerCase()}));y(la,G.join(" "));la.setAttribute("data-aui-build-date","3.16.8.10-2016-08-28");ga.register("p-detect",function(){return{capabilities:ka,toggleResponsiveGrid:E,responsiveGridEnabled:C}});ga.declare("a-event-revised-handling",!1)})(window,document,Date);
+(window.AmazonUIPageJS ? AmazonUIPageJS : P).when('bb').execute(function() {
   (window.AmazonUIPageJS ? AmazonUIPageJS : P).load.js('https://images-na.ssl-images-amazon.com/images/G/01/AUIClients/AmazonUI-0aaa6cf468ffb5e25d46b2c14421a99e9e6efefa._V2_.js#AUIClients/AmazonUI.rendering_engine-not-trident.secure.min');
 });
-(function(b){var a=window.AmazonUIPageJS||window.P,c=a._namespace||a.attributeErrors,d=c?c("ShoppingPortalInlineAssets"):a;d.guardFatal?d.guardFatal(b)(d,window):d.execute(function(){b(d,window)})})(function(b,a,c){b.when("sp.load.js").execute(function(){a.uet&&"function"===typeof a.uet&&a.uet("bb","portalAui:A",{wb:1})});b.when("A").execute(function(){a.uet&&"function"===typeof a.uet&&a.uex&&"function"===typeof a.uex&&(a.uet("cf","portalAui:A",{wb:1}),a.uex("ld","portalAui:A",{wb:1}))})});
+(function(b){var a=window.AmazonUIPageJS||window.P,d=a._namespace||a.attributeErrors,c=d?d("ShoppingPortalInlineAssets"):a;c.guardFatal?c.guardFatal(b)(c,window):c.execute(function(){b(c,window)})})(function(b,a,d){b.when("sp.load.js").execute(function(){a.uet&&"function"===typeof a.uet&&a.uet("bb","portalAui:A",{wb:1})});b.when("A").execute(function(){a.uet&&"function"===typeof a.uet&&a.uex&&"function"===typeof a.uex&&(a.uet("cf","portalAui:A",{wb:1}),a.uex("ld","portalAui:A",{wb:1}))});a.performance&&
+"function"===typeof a.performance.getEntriesByType&&"undefined"!==typeof a.performance.getEntriesByType("resource")&&"undefined"!==typeof a.ue&&a.ue.tag&&"function"===typeof a.ue.tag&&a.ue.tag("restiming")});
 (window.AmazonUIPageJS ? AmazonUIPageJS : P).when('sp.load.js').execute(function() {
-  (window.AmazonUIPageJS ? AmazonUIPageJS : P).load.js('https://images-na.ssl-images-amazon.com/images/G/01/AUIClients/ShoppingPortalAssets-64431cec015f630560c30c890bdecab82ce68d40._V2_.js#AUIClients/ShoppingPortalAssets.secure.min');
+  (window.AmazonUIPageJS ? AmazonUIPageJS : P).load.js('https://images-na.ssl-images-amazon.com/images/G/01/AUIClients/ShoppingPortalAssets-56d45f6a88ad0bac4d5e34b22d738d1925cd3168._V2_.js#AUIClients/ShoppingPortalAssets.secure.min');
 });
 </script>
 <!-- sp:feature:host-assets -->
@@ -80,7 +81,7 @@ g&&d&&(g.innerHTML=d.innerHTML,d.innerHTML="");P.register("gwLayoutReady")});win
 		
 			
 		
-			[{'type':'image','src':'https://images-na.ssl-images-amazon.com/images/G/01/kindle/merch/2016/FTV/April/FTV_AV_GW/FTV-AV-GW_1500x300._CB275301433_.jpg'}]
+			[{'type':'image','src':'https://images-na.ssl-images-amazon.com/images/G/01/T/kindle/merch/2016/FTV/May/gen8-montoya-voice-GW-1500x300-unrec._CB271681597_.jpg'}]
 		
 	
 		
@@ -273,6 +274,8 @@ $Nav.declare('img.pixel', 'https://images-na.ssl-images-amazon.com/images/G/01/x
 
 
 <!-- sp:feature:head-close -->
+<script>window.P && P.register('bb');
+</script>
 </head><!-- sp:feature:start-body -->
 <body class="a-auix_ux_74905-c a-aui_51744-c a-aui_57326-c a-aui_58736-c a-aui_75278-c a-aui_accessibility_49860-c a-aui_attr_validations_1_51371-c a-aui_bolt_62845-c a-aui_ux_49594-c a-aui_ux_56217-c a-aui_ux_59374-c a-aui_ux_60000-c"><div id="a-page"><script type="a-state" data-a-state="{&quot;key&quot;:&quot;a-wlab-states&quot;}">{"AUIX_UX_74905":null,"AUI_51744":null,"AUI_57326":"C","AUI_58736":null,"AUI_75278":null,"AUI_ACCESSIBILITY_49860":null,"AUI_ATTR_VALIDATIONS_1_51371":null,"AUI_BOLT_62845":"C","AUI_UX_49594":null,"AUI_UX_56217":"C","AUI_UX_59374":null,"AUI_UX_60000":null}</script><!-- sp:feature:navbar -->
 
@@ -343,7 +346,7 @@ try {
 </script>
 
 
-<!-- navp-NGiOP/blD5KPLGKJ2cKbkYwT0X4mHWNnxtvJeV707szKSpmPrQ6HrUE+e+TJ6bxlBBpPCcYNXGw= rid-BNF30B6WNQ6EY8X8AFYS (Wed Aug 31 21:02:37 2016) -->
+<!-- navp-tW4MkjBKtDh3Pvox8iOiUcduVwfjwLvD8egUGI2d9tu5XlxsGy2CxI85GEDyzjD6yh7/B7FPcrU= rid-KVF68YFXVM4NZEJ1HGVV (Thu Sep  1 07:19:02 2016) -->
 
 
 
@@ -421,7 +424,7 @@ try {
             
 
   <div id='nav-swmslot'>
-    <div id="navSwmHoliday" style="background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/digital/video/merch/display/SWM/SWM_Evergreen_NoButton_400x39._CB282178532_.jpg); width: 440px; height: 39px; overflow: hidden;position: relative;"><a href="https://www.amazon.com:443/gp/redirect.html?location=https://www.amazon.com/dp/B012PJVQ7Y/ref=dvm_us_aw_cs_swm_ntp30_mirn&token=661ABEA050EC7ED103349320C53489637F654274&source=standards" class="nav-imageHref" alt='Stream Mission Impossible: Rogue Nation on Prime Video'></a></div>
+    <div id="navSwmHoliday" style="background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/img15/events/1001829_us_events_off_to_college_400x39._V281097478_.jpg); width: 400px; height: 39px; overflow: hidden;position: relative;"><a href="http://www.amazon.com/b/?_encoding=UTF8&node=6361272011" class="nav-imageHref" alt='Off to College'></a></div>
   </div>
 
           </div>
@@ -562,128 +565,128 @@ try {
 
 
 <map name="nav_imgmap_nav-sa-android" id="nav_imgmap_nav-sa-android">
-<area shape="rect" coords="10,10,519,522" href="/b?ie=UTF8&node=12919929011&pf_rd_p=40a05a53-1bce-4698-99b0-eb2dabe1f385&pf_rd_s=nav-sa-android&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=REYSA1P69SM9DKZVGBF3" alt=""/>
+<area shape="rect" coords="10,10,519,522" href="/dp/B0159F675W?pf_rd_p=aaa4ce26-5fc3-4f84-a6b7-e7437182d3ab&pf_rd_s=nav-sa-android&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=D04W66KKWJVS91CX0XAC" alt=""/>
 </map>
 
 
 
 <map name="nav_imgmap_nav-sa-automotive-industrial" id="nav_imgmap_nav-sa-automotive-industrial">
-<area shape="poly" coords="0,235,223,232,225,0,492,0,492,470,0,470," href="/b?_encoding=UTF8&node=10677469011&pf_rd_p=5d3e647c-dab2-4f6e-b9ef-6a4e845fa0eb&pf_rd_s=nav-sa-automotive-industrial&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=REYSA1P69SM9DKZVGBF3" alt="Amazon Vehicles"/>
+<area shape="poly" coords="0,235,223,232,225,0,492,0,492,470,0,470," href="/b?_encoding=UTF8&node=10677469011&pf_rd_p=5d3e647c-dab2-4f6e-b9ef-6a4e845fa0eb&pf_rd_s=nav-sa-automotive-industrial&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=D04W66KKWJVS91CX0XAC" alt="Amazon Vehicles"/>
 </map>
 
 
 
 <map name="nav_imgmap_nav-sa-books" id="nav_imgmap_nav-sa-books">
-<area shape="rect" coords="0,0,519,545" href="/b/?_encoding=UTF8&node=465600&pf_rd_p=75a9d6cd-3e26-4ab0-a450-54e1e675f857&pf_rd_s=nav-sa-books&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=REYSA1P69SM9DKZVGBF3" alt="Up to 80 Percent Off Textbooks"/>
+<area shape="rect" coords="0,0,519,545" href="/b/?_encoding=UTF8&node=465600&pf_rd_p=75a9d6cd-3e26-4ab0-a450-54e1e675f857&pf_rd_s=nav-sa-books&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=D04W66KKWJVS91CX0XAC" alt="Up to 80 Percent Off Textbooks"/>
 </map>
 
 
 
 <map name="nav_imgmap_nav-sa-clothing-shoes-jewelry" id="nav_imgmap_nav-sa-clothing-shoes-jewelry">
-<area shape="poly" coords="513,5,506,517,7,519,9,345,245,344,250,5" href="/b?ie=UTF8&node=14774918011&pf_rd_p=daf3a1a3-50d5-4798-9ab4-1cb2a1297799&pf_rd_s=nav-sa-clothing-shoes-jewelry&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=REYSA1P69SM9DKZVGBF3" alt="Amazon Fashion"/>
+<area shape="poly" coords="513,5,506,517,7,519,9,345,245,344,250,5" href="/b?ie=UTF8&node=14774918011&pf_rd_p=daf3a1a3-50d5-4798-9ab4-1cb2a1297799&pf_rd_s=nav-sa-clothing-shoes-jewelry&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=D04W66KKWJVS91CX0XAC" alt="Amazon Fashion"/>
 </map>
 
 
 
 <map name="nav_imgmap_nav-sa-cloud-drive" id="nav_imgmap_nav-sa-cloud-drive">
-<area shape="rect" coords="0,0,590,456" href="/b?_encoding=UTF8&node=11257142011&ref=CD_PRP_GNO_Q1E&pf_rd_p=0644f3a4-ddc6-4ecf-b393-8b590492ba28&pf_rd_s=nav-sa-cloud-drive&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=REYSA1P69SM9DKZVGBF3" alt="Learn more"/>
+<area shape="rect" coords="0,0,590,456" href="/b?_encoding=UTF8&node=11257142011&ref=CD_PRP_GNO_Q1E&pf_rd_p=0644f3a4-ddc6-4ecf-b393-8b590492ba28&pf_rd_s=nav-sa-cloud-drive&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=D04W66KKWJVS91CX0XAC" alt="Learn more"/>
 </map>
 
 
 
 <map name="nav_imgmap_nav-sa-credit" id="nav_imgmap_nav-sa-credit">
-<area shape="rect" coords="310,465,438,504" href="/iss/credit/storecardmember/ref=nav_sap_plcc_ascpsc?_encoding=UTF8&plattr=PLFLYGRAPH&pf_rd_p=9d54eaab-1fd3-400b-b76e-53b4f1215f3b&pf_rd_s=nav-sa-credit&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=REYSA1P69SM9DKZVGBF3" alt="nav_sap_plcc_ascpsc"/>
+<area shape="rect" coords="0,0,499,456" href="/gp/cobrandcard/marketing.html?ie=UTF8&inc=discovit&pr=discovit&pf_rd_p=ca74cdbc-89f3-4386-8d42-4b9c85ac28f8&pf_rd_s=nav-sa-credit&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=D04W66KKWJVS91CX0XAC" alt="Discover it"/>
 </map>
 
 
 
 <map name="nav_imgmap_nav-sa-digital-music" id="nav_imgmap_nav-sa-digital-music">
-<area shape="poly" coords="238,2,226,233,154,258,115,281,2,281,1,500,497,500,497,1" href="/b/?_encoding=UTF8&node=2384464011&pf_rd_p=0522843a-815a-4860-85c0-e42205355f70&pf_rd_s=nav-sa-digital-music&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=REYSA1P69SM9DKZVGBF3" alt="$5 Albums"/>
+<area shape="poly" coords="238,2,226,233,154,258,115,281,2,281,1,500,497,500,497,1" href="/dp/B01GR6KFJQ?pf_rd_p=c056f910-fab2-496e-820c-e049ae1081ee&pf_rd_s=nav-sa-digital-music&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=D04W66KKWJVS91CX0XAC" alt="Barbra Streisand"/>
 </map>
 
 
 
 <map name="nav_imgmap_nav-sa-electronics-computers" id="nav_imgmap_nav-sa-electronics-computers">
-<area shape="rect" coords="4,308,508,488" href="/b?_encoding=UTF8&node=2226766011&pf_rd_p=1899643a-2000-4202-82a1-cb0aeae56ce0&pf_rd_s=nav-sa-electronics-computers&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=REYSA1P69SM9DKZVGBF3" alt=""/>
+<area shape="rect" coords="4,308,508,488" href="/b?_encoding=UTF8&node=2226766011&pf_rd_p=1899643a-2000-4202-82a1-cb0aeae56ce0&pf_rd_s=nav-sa-electronics-computers&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=D04W66KKWJVS91CX0XAC" alt=""/>
 </map>
 
 
 
 <map name="nav_imgmap_nav-sa-fire-tv" id="nav_imgmap_nav-sa-fire-tv">
-<area shape="rect" coords="4,127,498,499" href="/dp/B00GDQ0RMG?pf_rd_p=ec112909-802e-492e-a440-e3e513636c44&pf_rd_s=nav-sa-fire-tv&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=REYSA1P69SM9DKZVGBF3" alt="Fire TV Stick"/>
+<area shape="rect" coords="4,127,498,499" href="/dp/B00GDQ0RMG?pf_rd_p=ec112909-802e-492e-a440-e3e513636c44&pf_rd_s=nav-sa-fire-tv&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=D04W66KKWJVS91CX0XAC" alt="Fire TV Stick"/>
 </map>
 
 
 
 <map name="nav_imgmap_nav-sa-grocery-health-beauty" id="nav_imgmap_nav-sa-grocery-health-beauty">
-<area shape="poly" coords="217,0,217,457,472,457,457,2" href="/b?ie=UTF8&node=14803328011&pf_rd_p=239b75e9-5715-494f-9217-2f9db4a7c591&pf_rd_s=nav-sa-grocery-health-beauty&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=REYSA1P69SM9DKZVGBF3" alt="Happy Belly Coffee"/>
+<area shape="poly" coords="217,0,217,457,472,457,457,2" href="/b?ie=UTF8&node=15019966011&pf_rd_p=0e460320-b648-4d2d-a22e-3b23896fcaa8&pf_rd_s=nav-sa-grocery-health-beauty&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=D04W66KKWJVS91CX0XAC" alt="Happy Belly Snacks"/>
 </map>
 
 
 
 <map name="nav_imgmap_nav-sa-handmade" id="nav_imgmap_nav-sa-handmade">
-<area shape="poly" coords="0,230,0,519,499,519,499,0,380,0,380,100,240,100,240,230" href="/s?_encoding=UTF8&bbn=14344548011&hidden-keywords=-fireman%2F%20-knit%2F%20-mesh%2F%20-Labyrinth%2F%20-teacher%2F%20-tutu%2F%20-nurse&rh=i%3Ahandmade%2Cn%3A11260432011%2Cn%3A!11260433011%2Cn%3A11403468011%2Cn%3A14344548011%2Cn%3A14344558011&pf_rd_p=2403e465-5a59-4ebc-a955-46e90266f553&pf_rd_s=nav-sa-handmade&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=REYSA1P69SM9DKZVGBF3" alt="Totes"/>
+<area shape="poly" coords="0,230,0,519,499,519,499,0,380,0,380,100,240,100,240,230" href="/s?_encoding=UTF8&bbn=14344548011&hidden-keywords=-fireman%2F%20-knit%2F%20-mesh%2F%20-Labyrinth%2F%20-teacher%2F%20-tutu%2F%20-nurse&rh=i%3Ahandmade%2Cn%3A11260432011%2Cn%3A!11260433011%2Cn%3A11403468011%2Cn%3A14344548011%2Cn%3A14344558011&pf_rd_p=2403e465-5a59-4ebc-a955-46e90266f553&pf_rd_s=nav-sa-handmade&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=D04W66KKWJVS91CX0XAC" alt="Totes"/>
 </map>
 
 
 
 <map name="nav_imgmap_nav-sa-home-garden-tools" id="nav_imgmap_nav-sa-home-garden-tools">
-<area shape="rect" coords="0,0,508,492" href="/dp/B01HMPM68Y?pf_rd_p=6cbfaa83-cbe2-4759-b8b5-3fd05d197b36&pf_rd_s=nav-sa-home-garden-tools&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=REYSA1P69SM9DKZVGBF3" alt="Shop now"/>
+<area shape="rect" coords="0,0,508,492" href="/dp/B01HMPM68Y?pf_rd_p=6cbfaa83-cbe2-4759-b8b5-3fd05d197b36&pf_rd_s=nav-sa-home-garden-tools&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=D04W66KKWJVS91CX0XAC" alt="Shop now"/>
 </map>
 
 
 
 <map name="nav_imgmap_nav-sa-home-services" id="nav_imgmap_nav-sa-home-services">
-<area shape="poly" coords="498,8,498,510,2,512,0,321,195,317,189,17" href="/b?ie=UTF8&node=12643064011&pf_rd_p=6ae92916-7691-4865-98fa-eb1d041671c0&pf_rd_s=nav-sa-home-services&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=REYSA1P69SM9DKZVGBF3" alt="Amazon Cash Back Offer"/>
+<area shape="poly" coords="498,8,498,510,2,512,0,321,195,317,189,17" href="/b?ie=UTF8&node=12643064011&pf_rd_p=6ae92916-7691-4865-98fa-eb1d041671c0&pf_rd_s=nav-sa-home-services&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=D04W66KKWJVS91CX0XAC" alt="Amazon Cash Back Offer"/>
 </map>
 
 
 
 <map name="nav_imgmap_nav-sa-instant-video" id="nav_imgmap_nav-sa-instant-video">
-<area shape="rect" coords="223,0,495,490" href="/dp/B01GSUVRHA?pf_rd_p=c6a21a29-2173-4a88-9dc0-e9ebad8a64cb&pf_rd_s=nav-sa-instant-video&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=REYSA1P69SM9DKZVGBF3" alt="conj2"/>
-<area shape="rect" coords="124,274,225,490" href="/dp/B01GSUVRHA?pf_rd_p=c6a21a29-2173-4a88-9dc0-e9ebad8a64cb&pf_rd_s=nav-sa-instant-video&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=REYSA1P69SM9DKZVGBF3" alt="conj2"/>
-<area shape="rect" coords="0,333,126,490" href="/dp/B01GSUVRHA?pf_rd_p=c6a21a29-2173-4a88-9dc0-e9ebad8a64cb&pf_rd_s=nav-sa-instant-video&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=REYSA1P69SM9DKZVGBF3" alt="conj2"/>
+<area shape="rect" coords="223,0,495,490" href="/dp/B01GU87FNA?pf_rd_p=5214f75c-65fa-47ed-b4b0-3271e6a3b0ae&pf_rd_s=nav-sa-instant-video&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=D04W66KKWJVS91CX0XAC" alt="WienerDog"/>
+<area shape="rect" coords="124,274,225,490" href="/dp/B01GU87FNA?pf_rd_p=5214f75c-65fa-47ed-b4b0-3271e6a3b0ae&pf_rd_s=nav-sa-instant-video&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=D04W66KKWJVS91CX0XAC" alt="WienerDog"/>
+<area shape="rect" coords="0,333,126,490" href="/dp/B01GU87FNA?pf_rd_p=5214f75c-65fa-47ed-b4b0-3271e6a3b0ae&pf_rd_s=nav-sa-instant-video&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=D04W66KKWJVS91CX0XAC" alt="WienerDog"/>
 </map>
 
 
 
 <map name="nav_imgmap_nav-sa-kindle-amazon-echo" id="nav_imgmap_nav-sa-kindle-amazon-echo">
-<area shape="rect" coords="11,442,123,513" href="/dp/B00X4WHP5E?pf_rd_p=31953c3d-765a-4ce7-9499-bd90aff18076&pf_rd_s=nav-sa-kindle-amazon-echo&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=REYSA1P69SM9DKZVGBF3" alt=" Amazon Echo"/>
-<area shape="rect" coords="126,441,304,513" href="/b/?_encoding=UTF8&node=14047587011&pf_rd_p=31953c3d-765a-4ce7-9499-bd90aff18076&pf_rd_s=nav-sa-kindle-amazon-echo&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=REYSA1P69SM9DKZVGBF3" alt=" Echo Dot"/>
-<area shape="rect" coords="309,441,487,513" href="/dp/B01BH83OOM?pf_rd_p=31953c3d-765a-4ce7-9499-bd90aff18076&pf_rd_s=nav-sa-kindle-amazon-echo&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=REYSA1P69SM9DKZVGBF3" alt=" Amazon Tap"/>
-<area shape="poly" coords="245,397,259,406,274,409,292,410,309,408,323,404,332,396,332,358,324,348,309,345,298,340,292,328,247,327" href="/b/?_encoding=UTF8&node=14047587011&pf_rd_p=31953c3d-765a-4ce7-9499-bd90aff18076&pf_rd_s=nav-sa-kindle-amazon-echo&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=REYSA1P69SM9DKZVGBF3" alt=" Echo Dot"/>
-<area shape="poly" coords="415,210,414,403,442,409,461,409,473,406,486,397,485,208" href="/dp/B01BH83OOM?pf_rd_p=31953c3d-765a-4ce7-9499-bd90aff18076&pf_rd_s=nav-sa-kindle-amazon-echo&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=REYSA1P69SM9DKZVGBF3" alt=" Amazon Tap"/>
-<area shape="poly" coords="262,200,263,157,391,154,387,390,379,394,361,397,337,399,335,357,328,346,313,341,305,336,299,329,298,254,266,249" href="/dp/B00X4WHP5E?pf_rd_p=31953c3d-765a-4ce7-9499-bd90aff18076&pf_rd_s=nav-sa-kindle-amazon-echo&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=REYSA1P69SM9DKZVGBF3" alt=" Amazon Echo"/>
+<area shape="rect" coords="11,442,123,513" href="/dp/B00X4WHP5E?pf_rd_p=31953c3d-765a-4ce7-9499-bd90aff18076&pf_rd_s=nav-sa-kindle-amazon-echo&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=D04W66KKWJVS91CX0XAC" alt=" Amazon Echo"/>
+<area shape="rect" coords="126,441,304,513" href="/b/?_encoding=UTF8&node=14047587011&pf_rd_p=31953c3d-765a-4ce7-9499-bd90aff18076&pf_rd_s=nav-sa-kindle-amazon-echo&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=D04W66KKWJVS91CX0XAC" alt=" Echo Dot"/>
+<area shape="rect" coords="309,441,487,513" href="/dp/B01BH83OOM?pf_rd_p=31953c3d-765a-4ce7-9499-bd90aff18076&pf_rd_s=nav-sa-kindle-amazon-echo&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=D04W66KKWJVS91CX0XAC" alt=" Amazon Tap"/>
+<area shape="poly" coords="245,397,259,406,274,409,292,410,309,408,323,404,332,396,332,358,324,348,309,345,298,340,292,328,247,327" href="/b/?_encoding=UTF8&node=14047587011&pf_rd_p=31953c3d-765a-4ce7-9499-bd90aff18076&pf_rd_s=nav-sa-kindle-amazon-echo&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=D04W66KKWJVS91CX0XAC" alt=" Echo Dot"/>
+<area shape="poly" coords="415,210,414,403,442,409,461,409,473,406,486,397,485,208" href="/dp/B01BH83OOM?pf_rd_p=31953c3d-765a-4ce7-9499-bd90aff18076&pf_rd_s=nav-sa-kindle-amazon-echo&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=D04W66KKWJVS91CX0XAC" alt=" Amazon Tap"/>
+<area shape="poly" coords="262,200,263,157,391,154,387,390,379,394,361,397,337,399,335,357,328,346,313,341,305,336,299,329,298,254,266,249" href="/dp/B00X4WHP5E?pf_rd_p=31953c3d-765a-4ce7-9499-bd90aff18076&pf_rd_s=nav-sa-kindle-amazon-echo&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=D04W66KKWJVS91CX0XAC" alt=" Amazon Echo"/>
 </map>
 
 
 
 <map name="nav_imgmap_nav-sa-kindle-fire-tablet" id="nav_imgmap_nav-sa-kindle-fire-tablet">
-<area shape="rect" coords="2,2,500,499" href="/dp/B00TSUGXKE?pf_rd_p=6768383b-a436-482c-9c8b-fc00bf0439df&pf_rd_s=nav-sa-kindle-fire-tablet&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=REYSA1P69SM9DKZVGBF3" alt="Starting at $49.99"/>
+<area shape="rect" coords="2,2,500,499" href="/dp/B00TSUGXKE?pf_rd_p=6768383b-a436-482c-9c8b-fc00bf0439df&pf_rd_s=nav-sa-kindle-fire-tablet&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=D04W66KKWJVS91CX0XAC" alt="Starting at $49.99"/>
 </map>
 
 
 
 <map name="nav_imgmap_nav-sa-kindle-reader" id="nav_imgmap_nav-sa-kindle-reader">
-<area shape="rect" coords="4,127,500,490" href="/dp/B00REQKWGA?pf_rd_p=d3b60bfe-5ee8-49cb-9f17-a3406e1bba6b&pf_rd_s=nav-sa-kindle-reader&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=REYSA1P69SM9DKZVGBF3" alt="All-New Kindle Oasis"/>
+<area shape="rect" coords="4,127,500,490" href="/dp/B00REQKWGA?pf_rd_p=d3b60bfe-5ee8-49cb-9f17-a3406e1bba6b&pf_rd_s=nav-sa-kindle-reader&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=D04W66KKWJVS91CX0XAC" alt="All-New Kindle Oasis"/>
 </map>
 
 
 
 <map name="nav_imgmap_nav-sa-movies-music-games" id="nav_imgmap_nav-sa-movies-music-games">
-<area shape="poly" coords="497,31,498,511,0,512,0,316,192,299,201,32" href="/todaysdeals-dvd-bluray/b?ie=UTF8&node=2921749011&pf_rd_p=3c4a7a32-3065-4c22-8077-39acd2abb7fe&pf_rd_s=nav-sa-movies-music-games&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=REYSA1P69SM9DKZVGBF3" alt="GNO"/>
+<area shape="poly" coords="480,39,297,226,192,356,172,510,172,551,497,547,494,61" href="/arcade?pf_rd_p=30664b69-d10c-492c-9249-f652708bf7c6&pf_rd_s=nav-sa-movies-music-games&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=D04W66KKWJVS91CX0XAC" alt="Amazon Arcade"/>
 </map>
 
 
 
 <map name="nav_imgmap_nav-sa-sports-outdoors-t1" id="nav_imgmap_nav-sa-sports-outdoors-t1">
-<area shape="rect" coords="0,274,519,522" href="/b?_encoding=UTF8&node=14545750011&pf_rd_p=e758581d-59b5-4647-8147-bbe7fa41652a&pf_rd_s=nav-sa-sports-outdoors-t1&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=REYSA1P69SM9DKZVGBF3" alt="Shop Now"/>
+<area shape="rect" coords="0,274,519,522" href="/b?_encoding=UTF8&node=14545750011&pf_rd_p=e758581d-59b5-4647-8147-bbe7fa41652a&pf_rd_s=nav-sa-sports-outdoors-t1&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=D04W66KKWJVS91CX0XAC" alt="Shop Now"/>
 </map>
 
 
 
 <map name="nav_imgmap_nav-sa-toys-kids-baby" id="nav_imgmap_nav-sa-toys-kids-baby">
-<area shape="poly" coords="18,519,125,397,189,262,291,186,312,117,492,104,493,521" href="/dp/B01EARLU16?pf_rd_p=f04bb039-9b61-4a5c-b133-273105153d05&pf_rd_s=nav-sa-toys-kids-baby&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=REYSA1P69SM9DKZVGBF3" alt=""/>
+<area shape="poly" coords="518,578,2,577,3,428,119,400,167,378,206,370,203,325,234,297,257,256,253,199,244,12,500,10" href="/b?_encoding=UTF8&node=15245646011&suppress-ve=1&pf_rd_p=8ea44b99-5e15-432f-8412-154680c853b8&pf_rd_s=nav-sa-toys-kids-baby&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=D04W66KKWJVS91CX0XAC" alt="Britax Deal of the Day"/>
 </map>
 
 
@@ -736,7 +739,7 @@ window.$Nav && $Nav.declare('config.subnavFlyoutUrl',
 window.$Nav && $Nav.declare('config.readyOnATF', true);
 
 window.$Nav && $Nav.declare('config.dynamicMenuArgs',
-  {"rid":"BNF30B6WNQ6EY8X8AFYS","isFullWidthPrime":0,"isPrime":0,"weblabs":"","customerId":0,"sessionId":"000-0000000-0000000","marketplaceId":"ATVPDKIKX0DER","dynamicRequest":1,"primeMenuWidth":310,"isFreshRegionAndCustomer":""});
+  {"rid":"KVF68YFXVM4NZEJ1HGVV","isFullWidthPrime":0,"isPrime":0,"weblabs":"","customerId":0,"sessionId":"000-0000000-0000000","marketplaceId":"ATVPDKIKX0DER","dynamicRequest":1,"primeMenuWidth":310,"isFreshRegionAndCustomer":""});
 
 window.$Nav && $Nav.declare('config.signOutText',
   null);
@@ -784,7 +787,7 @@ window.$Nav && $Nav.declare('config.searchBackState',
     , filterAliases: []
     , isDoCtw: 0
     , pageType: "Gateway"
-    , requestId: "BNF30B6WNQ6EY8X8AFYS"
+    , requestId: "KVF68YFXVM4NZEJ1HGVV"
     , sessionId: "000-0000000-0000000"
     , language: "en_US"
     , keydownTriggeredWeblabs: []
@@ -1052,26 +1055,26 @@ window.$Nav && $Nav.declare('config.timelineDeleteEnabled',false);
     window._navbar = window._navbar || {};
     window._navbar.browsepromos = window._navbar.browsepromos || {};
     
- _navbar.browsepromos['nav-sa-android'] = {"width":519,"promoType":"wide","vertOffset":"-10","tabletAltText":null,"horizOffset":"-20","height":522,"image":"https://images-na.ssl-images-amazon.com/images/G/01/temp/bb/Underground/weeklyFTR/UG_Flyout_2016_WEEK35._CB281451905_.png","tabletDestination":null,"tabletImage":null}; 
+ _navbar.browsepromos['nav-sa-android'] = {"width":519,"promoType":"wide","vertOffset":"-10","tabletAltText":null,"horizOffset":"-20","height":522,"image":"https://images-na.ssl-images-amazon.com/images/G/01/temp/promo/Vainglory/US_FLYOUT_499x502_VAINGLORY_SUMMER_SEASON._CB281072624_.png","tabletDestination":null,"tabletImage":null}; 
  _navbar.browsepromos['nav-sa-automotive-industrial'] = {"width":519,"promoType":"wide","vertOffset":"-10","tabletAltText":null,"horizOffset":"-20","height":492,"image":"https://images-na.ssl-images-amazon.com/images/G/01/img16/automotive/flyout/1003868_us_Vehicles_GNO_flyout_519x492_1._CB281663765_.png","tabletDestination":null,"tabletImage":null}; 
  _navbar.browsepromos['nav-sa-books'] = {"width":519,"promoType":"wide","vertOffset":"-10","tabletAltText":null,"horizOffset":"-20","height":545,"image":"https://images-na.ssl-images-amazon.com/images/G/01/img16/books/flyout/995022_us_books_gno_519x545._CB268501951_.png","tabletDestination":null,"tabletImage":null}; 
  _navbar.browsepromos['nav-sa-clothing-shoes-jewelry'] = {"width":519,"promoType":"wide","vertOffset":"0","tabletAltText":null,"horizOffset":"-20","height":525,"image":"https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2016/EDITORIAL/BTS_2/GATEWAY/FLYOUTS/FO_GNO3_accessories._CB283381436_.png","tabletDestination":null,"tabletImage":null}; 
  _navbar.browsepromos['nav-sa-cloud-drive'] = {"width":518,"promoType":"wide","vertOffset":"-10","tabletAltText":null,"horizOffset":"-21","height":531,"image":"https://images-na.ssl-images-amazon.com/images/G/01/digital/adrive/images/gno/25826_A-Drive_Prime-Photos_flyout_Sept_ca-en._CB268682185_.png","tabletDestination":null,"tabletImage":null}; 
- _navbar.browsepromos['nav-sa-credit'] = {"width":519,"promoType":"wide","vertOffset":"0","tabletAltText":null,"horizOffset":"-20","height":522,"image":"https://images-na.ssl-images-amazon.com/images/G/01/credit/PLCC/GNO/plcc-both_flyout._CB294368850_.png","tabletDestination":null,"tabletImage":null}; 
- _navbar.browsepromos['nav-sa-digital-music'] = {"width":519,"promoType":"wide","vertOffset":"-10","tabletAltText":null,"horizOffset":"-20","height":517,"image":"https://images-na.ssl-images-amazon.com/images/G/01/digital/music/merch/2016/Deals/5DollarAlbums/081216_5Dollar_FLYOUT_Blackbelt._CB283389278_.png","tabletDestination":null,"tabletImage":null}; 
+ _navbar.browsepromos['nav-sa-credit'] = {"width":519,"promoType":"wide","vertOffset":"-10","tabletAltText":null,"horizOffset":"-20","height":522,"image":"https://images-na.ssl-images-amazon.com/images/G/01/credit/img15/CCMP/Discover/CCMP-discover-6_flyout._CB300882462_.png","tabletDestination":null,"tabletImage":null}; 
+ _navbar.browsepromos['nav-sa-digital-music'] = {"width":519,"promoType":"wide","vertOffset":"-10","tabletAltText":null,"horizOffset":"-20","height":517,"image":"https://images-na.ssl-images-amazon.com/images/G/01/digital/music/merch/2016/NewReleases/Takeover/082616/BarbaraStreisand_TO_082616_Flyout_Blackbelt._CB281991371_.png","tabletDestination":null,"tabletImage":null}; 
  _navbar.browsepromos['nav-sa-electronics-computers'] = {"width":495,"promoType":"wide","vertOffset":"0","tabletAltText":null,"horizOffset":"-18","height":472,"image":"https://images-na.ssl-images-amazon.com/images/G/01/img14/ce-accessories/flyout/electronics_tradein_flyout._CB364719417_.png","tabletDestination":null,"tabletImage":null}; 
  _navbar.browsepromos['nav-sa-fire-tv'] = {"width":519,"promoType":"wide","vertOffset":"-10","tabletAltText":null,"horizOffset":"-20","height":499,"image":"https://images-na.ssl-images-amazon.com/images/G/01/kindle/merch/2015/campaign/7483990/gno/montoya_flyout_us._CB287738814_.png","tabletDestination":null,"tabletImage":null}; 
- _navbar.browsepromos['nav-sa-grocery-health-beauty'] = {"width":519,"promoType":"wide","vertOffset":"-10","tabletAltText":null,"horizOffset":"-20","height":545,"image":"https://images-na.ssl-images-amazon.com/images/G/01/img16/grocery/gateway/990144_elements_privatelabel_happybellycoffee2_v4_flyout_us_519x545._CB283291527_.png","tabletDestination":null,"tabletImage":null}; 
+ _navbar.browsepromos['nav-sa-grocery-health-beauty'] = {"width":519,"promoType":"wide","vertOffset":"-10","tabletAltText":null,"horizOffset":"-20","height":545,"image":"https://images-na.ssl-images-amazon.com/images/G/01/img16/private-label-consumables/flyout/1003806_hb_snacks_gno_flyout_us_v2_519x545._CB281988134_.png","tabletDestination":null,"tabletImage":null}; 
  _navbar.browsepromos['nav-sa-handmade'] = {"width":519,"promoType":"wide","vertOffset":"-10","tabletAltText":null,"horizOffset":"-20","height":545,"image":"https://images-na.ssl-images-amazon.com/images/G/01/handmade/2016/Q3/flyout/1002290_hm_tote_bags_flyout_us_519x545._CB281420181_.png","tabletDestination":null,"tabletImage":null}; 
  _navbar.browsepromos['nav-sa-home-garden-tools'] = {"width":519,"promoType":"wide","vertOffset":"-10","tabletAltText":null,"horizOffset":"-20","height":580,"image":"https://images-na.ssl-images-amazon.com/images/G/01/img16/furniture/flyout/1004816_furniture_aug23_519x580._CB280454853_.png","tabletDestination":null,"tabletImage":null}; 
  _navbar.browsepromos['nav-sa-home-services'] = {"width":519,"promoType":"wide","vertOffset":"-10","tabletAltText":null,"horizOffset":"-20","height":522,"image":"https://images-na.ssl-images-amazon.com/images/G/01/vas/promos/cb/fto/evergreen_GNO_flyout._CB273628845_.png","tabletDestination":null,"tabletImage":null}; 
- _navbar.browsepromos['nav-sa-instant-video'] = {"width":519,"promoType":"wide","vertOffset":"-10","tabletAltText":null,"horizOffset":"-20","height":580,"image":"https://images-na.ssl-images-amazon.com/images/G/01/digital/video/merch/GNOflyout/519x522/AVD_1516_Conjuring2_flyout_us_519x580._CB280374541_.png","tabletDestination":null,"tabletImage":null}; 
+ _navbar.browsepromos['nav-sa-instant-video'] = {"width":519,"promoType":"wide","vertOffset":"-10","tabletAltText":null,"horizOffset":"-20","height":545,"image":"https://images-na.ssl-images-amazon.com/images/G/01/digital/video/merch/GNOflyout/519x522/Flyout_us_WeinerDog-Theatrical_519x545._CB281885299_.png","tabletDestination":null,"tabletImage":null}; 
  _navbar.browsepromos['nav-sa-kindle-amazon-echo'] = {"width":489,"promoType":"wide","vertOffset":"0","tabletAltText":null,"horizOffset":"0","height":515,"image":"https://images-na.ssl-images-amazon.com/images/G/01/kindle/merch/2016/F/alexa-devices-GNO._CB296032162_.jpg","tabletDestination":null,"tabletImage":null}; 
  _navbar.browsepromos['nav-sa-kindle-fire-tablet'] = {"width":519,"promoType":"wide","vertOffset":"-10","tabletAltText":null,"horizOffset":"-20","height":517,"image":"https://images-na.ssl-images-amazon.com/images/G/01/kindle/merch/2016/Tab/April/NewGW/GNO/GNO_Tablet_us-499x502-fire._CB294592725_.png","tabletDestination":null,"tabletImage":null}; 
  _navbar.browsepromos['nav-sa-kindle-reader'] = {"width":519,"promoType":"wide","vertOffset":"-10","tabletAltText":null,"horizOffset":"-20","height":545,"image":"https://images-na.ssl-images-amazon.com/images/G/01/kindle/merch/2016/10566252/KW/xsite/kw_intro_beach_flyout_us._CB276405968_.png","tabletDestination":null,"tabletImage":null}; 
- _navbar.browsepromos['nav-sa-movies-music-games'] = {"width":519,"promoType":"wide","vertOffset":"-10","tabletAltText":null,"horizOffset":"-20","height":522,"image":"https://images-na.ssl-images-amazon.com/images/G/01/img15/dvd/flyout/dvd_retro-deals_flyout._CB305878470_.png","tabletDestination":null,"tabletImage":null}; 
+ _navbar.browsepromos['nav-sa-movies-music-games'] = {"width":499,"promoType":"wide","vertOffset":"0","tabletAltText":null,"horizOffset":"0","height":560,"image":"https://images-na.ssl-images-amazon.com/images/G/01/img16/video-games/arcade/amazonArcade_flyout._CB280312638_.png","tabletDestination":null,"tabletImage":null}; 
  _navbar.browsepromos['nav-sa-sports-outdoors-t1'] = {"width":519,"promoType":"wide","vertOffset":"-10","tabletAltText":null,"horizOffset":"-20","height":522,"image":"https://images-na.ssl-images-amazon.com/images/G/01/img16/sports/flyout/999962_us_sports_fantasyfball_flyout_us._CB284574476_.png","tabletDestination":null,"tabletImage":null}; 
- _navbar.browsepromos['nav-sa-toys-kids-baby'] = {"width":499,"promoType":"wide","vertOffset":"-0","tabletAltText":null,"horizOffset":"0","height":525,"image":"https://images-na.ssl-images-amazon.com/images/G/01/img16/toys/flyout/985687_us_toys_furby-app-connect_flyout_us_519x545._CB269258079_.png","tabletDestination":null,"tabletImage":null}; 
+ _navbar.browsepromos['nav-sa-toys-kids-baby'] = {"width":519,"promoType":"wide","vertOffset":"-10","tabletAltText":null,"horizOffset":"-20","height":580,"image":"https://images-na.ssl-images-amazon.com/images/G/01/img16/baby/flyout/1004486_us_baby_britax_flyout_us_519x580_final._CB280333991_.png","tabletDestination":null,"tabletImage":null}; 
 
 
     window.$Nav && $Nav.declare('config.browsePromos', window._navbar.browsepromos);
@@ -1111,18 +1114,18 @@ window.$Nav && $Nav.declare('configComplete');
   </div>
 
   
-    <div class="gw-critical-content" style="width:100%"><div class="cropped-image-link image-map shogun-widget" id="ecaZ2oSeKep98DDDlh8Z3w">
+    <div class="gw-critical-content" style="width:100%"><div class="cropped-image-link image-map shogun-widget" id="y2qyOgcJLdp21Hn1rLjV2A">
     <script>//<![CDATA[
   window.P && P.when('billboard-widget').execute(function billWidget(BW) {
-	var img = 'https://images-na.ssl-images-amazon.com/images/G/01/kindle/merch/2016/FTV/April/FTV_AV_GW/FTV-AV-GW_1500x300._CB275301433_.jpg';
-	new BW('ecaZ2oSeKep98DDDlh8Z3w', [img]);
+	var img = 'https://images-na.ssl-images-amazon.com/images/G/01/T/kindle/merch/2016/FTV/May/gen8-montoya-voice-GW-1500x300-unrec._CB271681597_.jpg';
+	new BW('y2qyOgcJLdp21Hn1rLjV2A', [img]);
   });
 //]]></script>
     <div class="cropped-image-map-size" style="height: 300px">
       <div class="cropped-image-map-center-alignment">
         <span style="display: inline-block">
-          <a class="a-link-normal a-inline-block" href="/dp/B00GDQ0RMG/ref=ods_gw_d_h1_smp_ma_avdp?pf_rd_r=BNF30B6WNQ6EY8X8AFYS&pf_rd_p=5430ccbd-6c76-4462-a209-b2b666627ed9">
-            <img alt="Fire TV Stick, starting at $39.99" src="https://images-na.ssl-images-amazon.com/images/G/01/kindle/merch/2016/FTV/April/FTV_AV_GW/FTV-AV-GW_1500x300._CB275301433_.jpg" height="300px" width="1500px" data-a-hires="https://images-na.ssl-images-amazon.com/images/G/01/kindle/merch/2016/FTV/April/FTV_AV_GW/FTV-AV-GW_3000X600._CB275301434_.jpg">
+          <a class="a-link-normal a-inline-block" href="/dp/B00ZVJAF9G/ref=ods_gw_d_h1_tv_mv?pf_rd_r=KVF68YFXVM4NZEJ1HGVV&pf_rd_p=519949f0-c2e7-4d0f-b44b-86cb7e48f494">
+            <img alt="Fire TV Stick with Voice Remote, Only $49.99" src="https://images-na.ssl-images-amazon.com/images/G/01/T/kindle/merch/2016/FTV/May/gen8-montoya-voice-GW-1500x300-unrec._CB271681597_.jpg" height="300px" width="1500px" data-a-hires="https://images-na.ssl-images-amazon.com/images/G/01/T/kindle/merch/2016/FTV/May/gen8-montoya-voice-GW-3000x600-unrec._CB271681596_.jpg">
           </a>
         </span>
       </div>
@@ -1289,7 +1292,7 @@ window.$Nav && $Nav.declare('configComplete');
 <script>
   window.GWI && window.GWI.instrumentImages('popular-departments', "https://images-na.ssl-images-amazon.com/images/G/01/gateway/yiyiz/Kindle._CB300901238_.png https://images-na.ssl-images-amazon.com/images/G/01/gateway/yiyiz/AV._CB299522610_.png https://images-na.ssl-images-amazon.com/images/G/01/gateway/yiyiz/Music._CB299479121_.png https://images-na.ssl-images-amazon.com/images/G/01/gateway/yiyiz/Grocery._CB299522610_.png");
 </script>
-<div id="popular-departments-ns_MHP3GDC54450HB87TSN0_2793_" class="a-section a-spacing-none shogun-widget popular-departments aui-desktop">
+<div id="popular-departments-ns_S8SHX06DZDMCJT089K63_314_" class="a-section a-spacing-none shogun-widget popular-departments aui-desktop">
 
   <h3 class="a-size-large a-text-normal">
     Popular&nbsp;departments
@@ -1305,7 +1308,7 @@ window.$Nav && $Nav.declare('configComplete');
     <div class="a-column a-span6 leftCol">
       
 <div class="imageWithText">
-  <a class="a-link-normal" href="/b/ref=br_pdt_mgUpt?_encoding=UTF8&node=6669702011&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=&pf_rd_r=BNF30B6WNQ6EY8X8AFYS&pf_rd_t=36701&pf_rd_p=49511f3e-0977-46c1-af5c-53c4bdfe71e0&pf_rd_i=desktop"><img alt="Kindle" src="https://images-na.ssl-images-amazon.com/images/G/01/gateway/yiyiz/Kindle._CB300901238_.png" height="292px" width="292px"></a>
+  <a class="a-link-normal" href="/b/ref=br_pdt_mgUpt?_encoding=UTF8&node=6669702011&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=&pf_rd_r=KVF68YFXVM4NZEJ1HGVV&pf_rd_t=36701&pf_rd_p=49511f3e-0977-46c1-af5c-53c4bdfe71e0&pf_rd_i=desktop"><img alt="Kindle" src="https://images-na.ssl-images-amazon.com/images/G/01/gateway/yiyiz/Kindle._CB300901238_.png" height="292px" width="292px"></a>
   <div class="departmentTitle">
     <span class="a-size-base">
       Kindle
@@ -1317,7 +1320,7 @@ window.$Nav && $Nav.declare('configComplete');
     <div class="a-column a-span6 rightCol a-span-last">
       
 <div class="imageWithText">
-  <a class="a-link-normal" href="/b/ref=br_pdt_mgUpt?_encoding=UTF8&node=2858778011&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=&pf_rd_r=BNF30B6WNQ6EY8X8AFYS&pf_rd_t=36701&pf_rd_p=49511f3e-0977-46c1-af5c-53c4bdfe71e0&pf_rd_i=desktop"><img alt="Amazon Video" src="https://images-na.ssl-images-amazon.com/images/G/01/gateway/yiyiz/AV._CB299522610_.png" height="292px" width="292px"></a>
+  <a class="a-link-normal" href="/b/ref=br_pdt_mgUpt?_encoding=UTF8&node=2858778011&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=&pf_rd_r=KVF68YFXVM4NZEJ1HGVV&pf_rd_t=36701&pf_rd_p=49511f3e-0977-46c1-af5c-53c4bdfe71e0&pf_rd_i=desktop"><img alt="Amazon Video" src="https://images-na.ssl-images-amazon.com/images/G/01/gateway/yiyiz/AV._CB299522610_.png" height="292px" width="292px"></a>
   <div class="departmentTitle">
     <span class="a-size-base">
       Amazon Video
@@ -1333,7 +1336,7 @@ window.$Nav && $Nav.declare('configComplete');
     <div class="a-column a-span6 leftCol">
       
 <div class="imageWithText">
-  <a class="a-link-normal" href="/b/ref=br_pdt_mgLwt?_encoding=UTF8&node=163856011&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=&pf_rd_r=BNF30B6WNQ6EY8X8AFYS&pf_rd_t=36701&pf_rd_p=49511f3e-0977-46c1-af5c-53c4bdfe71e0&pf_rd_i=desktop"><img alt="Music" src="https://images-na.ssl-images-amazon.com/images/G/01/gateway/yiyiz/Music._CB299479121_.png" height="292px" width="292px"></a>
+  <a class="a-link-normal" href="/b/ref=br_pdt_mgLwt?_encoding=UTF8&node=163856011&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=&pf_rd_r=KVF68YFXVM4NZEJ1HGVV&pf_rd_t=36701&pf_rd_p=49511f3e-0977-46c1-af5c-53c4bdfe71e0&pf_rd_i=desktop"><img alt="Music" src="https://images-na.ssl-images-amazon.com/images/G/01/gateway/yiyiz/Music._CB299479121_.png" height="292px" width="292px"></a>
   <div class="departmentTitle">
     <span class="a-size-base">
       Music
@@ -1345,7 +1348,7 @@ window.$Nav && $Nav.declare('configComplete');
     <div class="a-column a-span6 rightCol a-span-last">
       
 <div class="imageWithText">
-  <a class="a-link-normal" href="/b/ref=br_pdt_mgLwt?_encoding=UTF8&node=16310101&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=&pf_rd_r=BNF30B6WNQ6EY8X8AFYS&pf_rd_t=36701&pf_rd_p=49511f3e-0977-46c1-af5c-53c4bdfe71e0&pf_rd_i=desktop"><img alt="Grocery" src="https://images-na.ssl-images-amazon.com/images/G/01/gateway/yiyiz/Grocery._CB299522610_.png" height="292px" width="292px"></a>
+  <a class="a-link-normal" href="/b/ref=br_pdt_mgLwt?_encoding=UTF8&node=16310101&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=&pf_rd_r=KVF68YFXVM4NZEJ1HGVV&pf_rd_t=36701&pf_rd_p=49511f3e-0977-46c1-af5c-53c4bdfe71e0&pf_rd_i=desktop"><img alt="Grocery" src="https://images-na.ssl-images-amazon.com/images/G/01/gateway/yiyiz/Grocery._CB299522610_.png" height="292px" width="292px"></a>
   <div class="departmentTitle">
     <span class="a-size-base">
       Grocery
@@ -1366,7 +1369,7 @@ window.$Nav && $Nav.declare('configComplete');
     <hr class="a-divider-normal">
 
     <div class='seemore'>
-      <a class="a-size-base a-link-normal" href="/gp/site-directory/ref=br_pdt_smr?pf_rd_m=ATVPDKIKX0DER&pf_rd_s=&pf_rd_r=BNF30B6WNQ6EY8X8AFYS&pf_rd_t=36701&pf_rd_p=49511f3e-0977-46c1-af5c-53c4bdfe71e0&pf_rd_i=desktop">
+      <a class="a-size-base a-link-normal" href="/gp/site-directory/ref=br_pdt_smr?pf_rd_m=ATVPDKIKX0DER&pf_rd_s=&pf_rd_r=KVF68YFXVM4NZEJ1HGVV&pf_rd_t=36701&pf_rd_p=49511f3e-0977-46c1-af5c-53c4bdfe71e0&pf_rd_i=desktop">
   
   Shop all departments
 
@@ -1723,14 +1726,14 @@ window.$Nav && $Nav.declare('configComplete');
         return BaseState({});
       }
     };
-    var $viewport = $("#airy-gw-resizeable-inline-video-ns_85ARJXX1F3W62NN24BYJ_1588_ .airy-video-viewport");
-    var airyConfig = {"installFlashButtonText":"Install Flash Player","contentTitle":null,"flashParams":{"wmode":"transparent"},"autoplayCutOffTimeSeconds":null,"ageGate":{"monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"deniedPrompt":"We're sorry. You are not old enough to watch this video.","submitText":"Submit","prompt":"This video is not intended for all audiences. What date were you born?"},"videoAds":null,"isVideoUnsupportedDialogDisabled":1,"videoUnsupportedPrompt":"Sorry, this video is unsupported on this browser.","desiredMode":"html","disabledViewIds":["adsPlayToggleHintStage","adsControlsContainer","ageGate","autoplayHintStage","controlsContainer","loadingSpinnerStage","replayHintStage"],"swfUrl":"https://images-na.ssl-images-amazon.com/images/G/01/vap/video/airy2/prod/2.0.1421.1/flash/AiryBasicRenderer._CB272296652_.swf","isAutoplayEnabled":"1","installFlashPrompt":"Adobe Flash Player is required to watch this video.","isLiveStream":null,"regionCode":"NA","contentId":null,"playbackErrorPrompt":"Sorry, an error has occurred while attempting video playback. Please try again later.","contentMinAge":null,"chromeless":{"endedAnimationDurationMillis":1000,"isSupportEnabled":1,"endedAnimationStartMillisFromEnd":0},"isShowFirstFrameWhenReadyEnabled":1,"isInstallFlashDialogDisabled":1,"isForesterTrackingDisabled":null,"streamingUrls":["https://images-na.ssl-images-amazon.com/images/G/01/gateway/yiyiz/B014MGIN42_video._CB297030377_.mp4"],"parentId":"airy-gw-resizeable-inline-video-ns_85ARJXX1F3W62NN24BYJ_1588_-airy-container-in","foresterMetadataParams":null,"backgroundColor":"#FFFFFF"};
+    var $viewport = $("#airy-gw-resizeable-inline-video-ns_VFZ9RD8RKSDE1KWXB0F4_2743_ .airy-video-viewport");
+    var airyConfig = {"installFlashButtonText":"Install Flash Player","contentTitle":null,"flashParams":{"wmode":"transparent"},"autoplayCutOffTimeSeconds":null,"ageGate":{"monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"deniedPrompt":"We're sorry. You are not old enough to watch this video.","submitText":"Submit","prompt":"This video is not intended for all audiences. What date were you born?"},"videoAds":null,"isVideoUnsupportedDialogDisabled":1,"videoUnsupportedPrompt":"Sorry, this video is unsupported on this browser.","desiredMode":"html","disabledViewIds":["adsPlayToggleHintStage","adsControlsContainer","ageGate","autoplayHintStage","controlsContainer","loadingSpinnerStage","replayHintStage"],"swfUrl":"https://images-na.ssl-images-amazon.com/images/G/01/vap/video/airy2/prod/2.0.1421.1/flash/AiryBasicRenderer._CB272296652_.swf","isAutoplayEnabled":"1","installFlashPrompt":"Adobe Flash Player is required to watch this video.","isLiveStream":null,"regionCode":"NA","contentId":null,"playbackErrorPrompt":"Sorry, an error has occurred while attempting video playback. Please try again later.","contentMinAge":null,"chromeless":{"endedAnimationDurationMillis":1000,"isSupportEnabled":1,"endedAnimationStartMillisFromEnd":0},"isShowFirstFrameWhenReadyEnabled":1,"isInstallFlashDialogDisabled":1,"isForesterTrackingDisabled":null,"streamingUrls":["https://images-na.ssl-images-amazon.com/images/G/01/gateway/yiyiz/B014MGIN42_video._CB297030377_.mp4"],"parentId":"airy-gw-resizeable-inline-video-ns_VFZ9RD8RKSDE1KWXB0F4_2743_-airy-container-in","foresterMetadataParams":null,"backgroundColor":"#FFFFFF"};
     return VideoPlayer($viewport, airyConfig, config);
   });
 </script>
 
 
-<div id="airy-gw-resizeable-inline-video-ns_85ARJXX1F3W62NN24BYJ_1588_" class="shogun-widget airy-gw-resizeable-inline-video aui-desktop">
+<div id="airy-gw-resizeable-inline-video-ns_VFZ9RD8RKSDE1KWXB0F4_2743_" class="shogun-widget airy-gw-resizeable-inline-video aui-desktop">
   <h3 class="a-size-large a-text-normal">
     The dress shop
   </h3>
@@ -1747,14 +1750,14 @@ window.$Nav && $Nav.declare('configComplete');
        
 
       <div class="image-map-before">
-    <a class="a-link-normal  image-map-before a-inline-block" href="/s/ref=gw_in_av_ntlIg_ara-1?_encoding=UTF8&bbn=10445813011&rh=n%3A7141123011%2Cn%3A10445813011%2Cn%3A7147440011%2Cn%3A1040660%2Cn%3A1045024&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=&pf_rd_r=BNF30B6WNQ6EY8X8AFYS&pf_rd_t=36701&pf_rd_p=4301bdc7-c526-4439-9945-c3d07b830d38&pf_rd_i=desktop">
-    <img alt="Before the video Slate Image alt text" src="https://images-na.ssl-images-amazon.com/images/G/01/gateway/yiyiz/B014MGIN42_image._UX984_SX984_CB297030379_.jpg" height="1279px" width="984px" data-a-hires="https://images-na.ssl-images-amazon.com/images/G/01/gateway/yiyiz/B014MGIN42_image._CB297030379_.jpg" usemap="#map_0_airy-gw-resizeable-inline-video-ns_85ARJXX1F3W62NN24BYJ_1588_">
+    <a class="a-link-normal  image-map-before a-inline-block" href="/s/ref=gw_in_av_ntlIg_ara-1?_encoding=UTF8&bbn=10445813011&rh=n%3A7141123011%2Cn%3A10445813011%2Cn%3A7147440011%2Cn%3A1040660%2Cn%3A1045024&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=&pf_rd_r=KVF68YFXVM4NZEJ1HGVV&pf_rd_t=36701&pf_rd_p=4301bdc7-c526-4439-9945-c3d07b830d38&pf_rd_i=desktop">
+    <img alt="Before the video Slate Image alt text" src="https://images-na.ssl-images-amazon.com/images/G/01/gateway/yiyiz/B014MGIN42_image._UX984_SX984_CB297030379_.jpg" height="1279px" width="984px" data-a-hires="https://images-na.ssl-images-amazon.com/images/G/01/gateway/yiyiz/B014MGIN42_image._CB297030379_.jpg" usemap="#map_0_airy-gw-resizeable-inline-video-ns_VFZ9RD8RKSDE1KWXB0F4_2743_">
 </a>
    </div>
 
       </div>
-	<a class="click-through" aria-hidden="true" href="/s/ref=gw_in_av_vd?_encoding=UTF8&bbn=10445813011&rh=n%3A7141123011%2Cn%3A10445813011%2Cn%3A7147440011%2Cn%3A1040660%2Cn%3A1045024&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=&pf_rd_r=BNF30B6WNQ6EY8X8AFYS&pf_rd_t=36701&pf_rd_p=4301bdc7-c526-4439-9945-c3d07b830d38&pf_rd_i=desktop" >
-         <div id="airy-gw-resizeable-inline-video-ns_85ARJXX1F3W62NN24BYJ_1588_-airy-container-in" class="airy-video-container">
+	<a class="click-through" aria-hidden="true" href="/s/ref=gw_in_av_vd?_encoding=UTF8&bbn=10445813011&rh=n%3A7141123011%2Cn%3A10445813011%2Cn%3A7147440011%2Cn%3A1040660%2Cn%3A1045024&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=&pf_rd_r=KVF68YFXVM4NZEJ1HGVV&pf_rd_t=36701&pf_rd_p=4301bdc7-c526-4439-9945-c3d07b830d38&pf_rd_i=desktop" >
+         <div id="airy-gw-resizeable-inline-video-ns_VFZ9RD8RKSDE1KWXB0F4_2743_-airy-container-in" class="airy-video-container">
            <div class="airy-video-container-in"></div>
          </div>
         </a>
@@ -1765,14 +1768,14 @@ window.$Nav && $Nav.declare('configComplete');
       </div>
     </div>
   </div>
-  <a class="a-link-normal  image-map-hidden a-inline-block" href="/s/ref=gw_in_av_ntlIg?_encoding=UTF8&bbn=10445813011&rh=n%3A7141123011%2Cn%3A10445813011%2Cn%3A7147440011%2Cn%3A1040660%2Cn%3A1045024&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=&pf_rd_r=BNF30B6WNQ6EY8X8AFYS&pf_rd_t=36701&pf_rd_p=4301bdc7-c526-4439-9945-c3d07b830d38&pf_rd_i=desktop">
-    <img alt="Before the video Slate Image alt text" src="https://images-na.ssl-images-amazon.com/images/G/01/gateway/yiyiz/B014MGIN42_image._UX984_SX984_CB297030379_.jpg" height="1279px" width="984px" title="Before the video Slate Image alt text" data-a-hires="https://images-na.ssl-images-amazon.com/images/G/01/gateway/yiyiz/B014MGIN42_image._CB297030379_.jpg" usemap="#map_0_airy-gw-resizeable-inline-video-ns_85ARJXX1F3W62NN24BYJ_1588_">
+  <a class="a-link-normal  image-map-hidden a-inline-block" href="/s/ref=gw_in_av_ntlIg?_encoding=UTF8&bbn=10445813011&rh=n%3A7141123011%2Cn%3A10445813011%2Cn%3A7147440011%2Cn%3A1040660%2Cn%3A1045024&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=&pf_rd_r=KVF68YFXVM4NZEJ1HGVV&pf_rd_t=36701&pf_rd_p=4301bdc7-c526-4439-9945-c3d07b830d38&pf_rd_i=desktop">
+    <img alt="Before the video Slate Image alt text" src="https://images-na.ssl-images-amazon.com/images/G/01/gateway/yiyiz/B014MGIN42_image._UX984_SX984_CB297030379_.jpg" height="1279px" width="984px" title="Before the video Slate Image alt text" data-a-hires="https://images-na.ssl-images-amazon.com/images/G/01/gateway/yiyiz/B014MGIN42_image._CB297030379_.jpg" usemap="#map_0_airy-gw-resizeable-inline-video-ns_VFZ9RD8RKSDE1KWXB0F4_2743_">
 </a>
 
   <div class="bottom-section">
     <hr class="a-divider-normal">
     <div class='seemore'>
-      <a class="a-size-base a-link-normal" href="/s/ref=gw_in_av_smr?_encoding=UTF8&bbn=10445813011&rh=n%3A7141123011%2Cn%3A10445813011%2Cn%3A7147440011%2Cn%3A1040660%2Cn%3A1045024&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=&pf_rd_r=BNF30B6WNQ6EY8X8AFYS&pf_rd_t=36701&pf_rd_p=4301bdc7-c526-4439-9945-c3d07b830d38&pf_rd_i=desktop">
+      <a class="a-size-base a-link-normal" href="/s/ref=gw_in_av_smr?_encoding=UTF8&bbn=10445813011&rh=n%3A7141123011%2Cn%3A10445813011%2Cn%3A7147440011%2Cn%3A1040660%2Cn%3A1045024&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=&pf_rd_r=KVF68YFXVM4NZEJ1HGVV&pf_rd_t=36701&pf_rd_p=4301bdc7-c526-4439-9945-c3d07b830d38&pf_rd_i=desktop">
   
   Shop women's dresses
 
@@ -1924,10 +1927,10 @@ window.$Nav && $Nav.declare('configComplete');
 
 
 <script>
-  window.GWI && window.GWI.instrumentImages('deals-image', "https://images-na.ssl-images-amazon.com/images/I/41WzHu5BvbL._AC_UY600_SR600,600_SY200_.jpg");
+  window.GWI && window.GWI.instrumentImages('deals-image', "https://images-na.ssl-images-amazon.com/images/I/51WP8HDLHzL._AC_UY600_SR600,600_SY200_.jpg");
 </script>
 
-<div id="deals-image_deals-image-ns_ZQYXYX53ATRC8TGR6N12_1263_" class="a-section a-spacing-base a-text-center shogun-widget deals-image aui-desktop deals-image-small">
+<div id="deals-image_deals-image-ns_H6YXXBWYS7EK44D5W8JV_1646_" class="a-section a-spacing-base a-text-center shogun-widget deals-image aui-desktop deals-image-small">
   <div class="deals-inner"> 
     
   <h3 class="a-size-large a-spacing-medium a-text-normal">
@@ -1946,12 +1949,12 @@ window.$Nav && $Nav.declare('configComplete');
 <div class="productPrice">
   <div class="priceBlock">
     <span class="a-size-extra-large productBuyPrice">
-        <span class="a-color-price">$59.99</span>
+        <span class="a-color-price">$149.99</span>
     </span>
   </div>
   <div class="priceBlock">
     <span class="a-size-small savePrice">
-      List: <span class="a-text-strike"><span class="price single-price price">$99.99</span></span>  (40% off)
+      List: <span class="a-text-strike"><span class="price single-price price">$249.99</span></span>  (40% off)
 
     </span>
   </div>
@@ -1965,7 +1968,7 @@ window.$Nav && $Nav.declare('configComplete');
     <hr class="a-divider-normal">
 
     <div class='seemore'>
-      <a class="a-link-normal" href="/gp/goldbox/ref=br_dig_smr?pf_rd_m=ATVPDKIKX0DER&pf_rd_s=&pf_rd_r=BNF30B6WNQ6EY8X8AFYS&pf_rd_t=36701&pf_rd_p=83dc7404-b4a7-4852-9787-5348b3f9cf05&pf_rd_i=desktop">
+      <a class="a-link-normal" href="/gp/goldbox/ref=br_dig_smr?pf_rd_m=ATVPDKIKX0DER&pf_rd_s=&pf_rd_r=KVF68YFXVM4NZEJ1HGVV&pf_rd_t=36701&pf_rd_p=83dc7404-b4a7-4852-9787-5348b3f9cf05&pf_rd_i=desktop">
   
   Shop all deals
 
@@ -1978,8 +1981,8 @@ window.$Nav && $Nav.declare('configComplete');
           
   <div class="image-section">
     <div class="image-section-inner">
-        <a class="a-link-normal  a-inline-block" href="/gp/product/B016OFYGXQ/ref=br_dig_pdt-1?pf_rd_m=ATVPDKIKX0DER&pf_rd_s=&pf_rd_r=BNF30B6WNQ6EY8X8AFYS&pf_rd_t=36701&pf_rd_p=83dc7404-b4a7-4852-9787-5348b3f9cf05&pf_rd_i=desktop">
-    <img alt="Samsung Gear VR - Virtual Reality Headset (US Version with Warranty)" src="https://images-na.ssl-images-amazon.com/images/I/41WzHu5BvbL._AC_UY600_SR600,600_SY200_.jpg" class="product-image" height="200px" width="300px" title="Samsung Gear VR - Virtual Reality Headset (US Version with Warranty)" data-a-hires="https://images-na.ssl-images-amazon.com/images/I/41WzHu5BvbL._AC_UY600_SR600,600_SY400_.jpg">
+        <a class="a-link-normal  a-inline-block" href="/gp/product/B018BKFWDK/ref=br_dig_pdt-1?pf_rd_m=ATVPDKIKX0DER&pf_rd_s=&pf_rd_r=KVF68YFXVM4NZEJ1HGVV&pf_rd_t=36701&pf_rd_p=83dc7404-b4a7-4852-9787-5348b3f9cf05&pf_rd_i=desktop">
+    <img alt="Britax B-Safe 35 Elite Infant Car Seat, Prescott" src="https://images-na.ssl-images-amazon.com/images/I/51WP8HDLHzL._AC_UY600_SR600,600_SY200_.jpg" class="product-image" height="200px" width="177px" title="Britax B-Safe 35 Elite Infant Car Seat, Prescott" data-a-hires="https://images-na.ssl-images-amazon.com/images/I/51WP8HDLHzL._AC_UY600_SR600,600_SY400_.jpg">
 </a>
     </div>
   </div>
@@ -1992,7 +1995,7 @@ window.$Nav && $Nav.declare('configComplete');
 </div>
 
 <noscript type="text/fullsize-content">
-  <div id="deals-image_fullsize_deals-image-ns_ZQYXYX53ATRC8TGR6N12_1263_" class="a-section a-text-center shogun-widget deals-image aui-desktop deals-image-large">
+  <div id="deals-image_fullsize_deals-image-ns_H6YXXBWYS7EK44D5W8JV_1646_" class="a-section a-text-center shogun-widget deals-image aui-desktop deals-image-large">
     <div class="deals-inner"> 
       
   <h3 class="a-size-large a-spacing-medium a-text-normal">
@@ -2004,8 +2007,8 @@ window.$Nav && $Nav.declare('configComplete');
           
   <div class="image-section">
     <div class="image-section-inner">
-        <a class="a-link-normal  a-inline-block" href="/gp/product/B016OFYGXQ/ref=br_dig_pdt-1?pf_rd_m=ATVPDKIKX0DER&pf_rd_s=&pf_rd_r=BNF30B6WNQ6EY8X8AFYS&pf_rd_t=36701&pf_rd_p=83dc7404-b4a7-4852-9787-5348b3f9cf05&pf_rd_i=desktop">
-    <img alt="Samsung Gear VR - Virtual Reality Headset (US Version with Warranty)" src="https://images-na.ssl-images-amazon.com/images/I/41WzHu5BvbL._AC_UY600_SR600,600_SY200_.jpg" class="product-image" height="200px" width="300px" title="Samsung Gear VR - Virtual Reality Headset (US Version with Warranty)" data-a-hires="https://images-na.ssl-images-amazon.com/images/I/41WzHu5BvbL._AC_UY600_SR600,600_SY400_.jpg">
+        <a class="a-link-normal  a-inline-block" href="/gp/product/B018BKFWDK/ref=br_dig_pdt-1?pf_rd_m=ATVPDKIKX0DER&pf_rd_s=&pf_rd_r=KVF68YFXVM4NZEJ1HGVV&pf_rd_t=36701&pf_rd_p=83dc7404-b4a7-4852-9787-5348b3f9cf05&pf_rd_i=desktop">
+    <img alt="Britax B-Safe 35 Elite Infant Car Seat, Prescott" src="https://images-na.ssl-images-amazon.com/images/I/51WP8HDLHzL._AC_UY600_SR600,600_SY200_.jpg" class="product-image" height="200px" width="177px" title="Britax B-Safe 35 Elite Infant Car Seat, Prescott" data-a-hires="https://images-na.ssl-images-amazon.com/images/I/51WP8HDLHzL._AC_UY600_SR600,600_SY400_.jpg">
 </a>
     </div>
   </div>
@@ -2020,12 +2023,12 @@ window.$Nav && $Nav.declare('configComplete');
 <div class="productPrice">
   <div class="priceBlock">
     <span class="a-size-extra-large productBuyPrice">
-        <span class="a-color-price">$59.99</span>
+        <span class="a-color-price">$149.99</span>
     </span>
   </div>
   <div class="priceBlock">
     <span class="a-size-small savePrice">
-      List: <span class="a-text-strike"><span class="price single-price price">$99.99</span></span>  (40% off)
+      List: <span class="a-text-strike"><span class="price single-price price">$249.99</span></span>  (40% off)
 
     </span>
   </div>
@@ -2039,7 +2042,7 @@ window.$Nav && $Nav.declare('configComplete');
     <hr class="a-divider-normal">
 
     <div class='seemore'>
-      <a class="a-link-normal" href="/gp/goldbox/ref=br_dig_smr?pf_rd_m=ATVPDKIKX0DER&pf_rd_s=&pf_rd_r=BNF30B6WNQ6EY8X8AFYS&pf_rd_t=36701&pf_rd_p=83dc7404-b4a7-4852-9787-5348b3f9cf05&pf_rd_i=desktop">
+      <a class="a-link-normal" href="/gp/goldbox/ref=br_dig_smr?pf_rd_m=ATVPDKIKX0DER&pf_rd_s=&pf_rd_r=KVF68YFXVM4NZEJ1HGVV&pf_rd_t=36701&pf_rd_p=83dc7404-b4a7-4852-9787-5348b3f9cf05&pf_rd_i=desktop">
   
   Shop all deals
 
@@ -3156,8 +3159,8 @@ window.$Nav && $Nav.declare('config.prefetch',function() {
 
 <div class="navFooterLine navFooterLinkLine navFooterPadItemLine navFooterCopyright"><ul><li class='nav_first'><a href='/gp/help/customer/display.html?ie=UTF8&amp;nodeId=508088' class='nav_a'>Conditions of Use</a></li><li><a href='/gp/help/customer/display.html?ie=UTF8&amp;nodeId=468496' class='nav_a'>Privacy Notice</a></li><li><a href='/interestbasedads' class='nav_a'>Interest-Based Ads</a></li><li class='nav_last'>© 1996-2016, Amazon.com, Inc. or its affiliates</li></ul></div>
 </div>
-<!-- whfh-qFI0gpNIxPOyxqyDCqtPhZvIEd+EoMKzwp/SoR9xw4XsTzKBE7UTN2d71bDA5NHzdc8zAEP/Q8A= rid-BNF30B6WNQ6EY8X8AFYS -->
-<div id="sis_pixel_r2" aria-hidden="true" style="height:1px; position: absolute; left: -1000000px; top: -1000000px;"></div><script>(function(a,b){a.attachEvent?a.attachEvent("onload",b):a.addEventListener&&a.addEventListener("load",b,!1)})(window,function(){setTimeout(function(){var el=document.getElementById("sis_pixel_r2");el&&(el.innerHTML='<iframe id="DAsis" src="//s.amazon-adsystem.com/iu3?d=amazon.com&slot=navFooter&a2=0101a1823ca3d5d46ce03d4502edf28f095b20f780c29eddcddebefb2933fa9c1e98&old_oo=0&cb=1472702557084" width="1" height="1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>')},300)});</script><!-- footer tilu -->
+<!-- whfh-aEI2TgrBEkD240BhHFjAo1cQZ6wRQS97qsD1OWaw6JBcX8rPIPu3hTfM38s71X17 rid-KVF68YFXVM4NZEJ1HGVV -->
+<div id="sis_pixel_r2" aria-hidden="true" style="height:1px; position: absolute; left: -1000000px; top: -1000000px;"></div><script>(function(a,b){a.attachEvent?a.attachEvent("onload",b):a.addEventListener&&a.addEventListener("load",b,!1)})(window,function(){setTimeout(function(){var el=document.getElementById("sis_pixel_r2");el&&(el.innerHTML='<iframe id="DAsis" src="//s.amazon-adsystem.com/iu3?d=amazon.com&slot=navFooter&a2=0101a1823ca3d5d46ce03d4502edf28f095b20f780c29eddcddebefb2933fa9c1e98&old_oo=0&cb=1472739542220" width="1" height="1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>')},300)});</script><!-- footer tilu -->
 
 
 </div></body></html>
