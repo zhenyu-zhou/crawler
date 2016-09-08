@@ -39,7 +39,7 @@
  #page {} 
 </style> </head>
 <body><script>
-with(document)with(body)with(insertBefore(createElement("script"),firstChild))setAttribute("exparams","category=&userid=&aplus&yunid=&&asid=AQAAAAALhdFXIlbKMAAAAADFDO3gXJlFpA==",id="tb-beacon-aplus",src=(location>"https"?"//g":"//g")+".alicdn.com/alilog/mlog/aplus_v2.js")
+with(document)with(body)with(insertBefore(createElement("script"),firstChild))setAttribute("exparams","category=&userid=&aplus&yunid=&&asid=AQAAAAB449FXoXGydQAAAACQ9gT2xFgW4g==",id="tb-beacon-aplus",src=(location>"https"?"//g":"//g")+".alicdn.com/alilog/mlog/aplus_v2.js")
 </script>
 <div id="J_SiteNav" class="site-nav">
 <div id="J_SiteNavBd" class="site-nav-bd">
@@ -1623,21 +1623,21 @@ div.search-hp-panel button.btn-search-hover,div.search-hp-panel button.btn-searc
 <img src="//img.alicdn.com/tps/i4/TB1yp0zIXXXXXcPXpXXwu0bFXXX.png" width="200" height="150" alt="Ğ¡Ïã·çÃûæÂĞİÏĞ°ëÉíÈ¹" />
 </a>
 <span class="group-title">Ğ¡Ïã·çÃûæÂĞİÏĞ°ëÉíÈ¹</span>
-<div class="cd cd-large cd-slide" data-config="{'leftTime':-39915335,'effect':'slide'}"><span class="clock">${h}:${m}:${s}</span></div>
+<div class="cd cd-large cd-slide" data-config="{'leftTime':-39939508,'effect':'slide'}"><span class="clock">${h}:${m}:${s}</span></div>
 </li>
 <li>
 <a class="group-pic" href="//item.taobao.com/item.htm?id=44132654430" target="_blank">
 <img data-ks-lazyload-custom="//img.alicdn.com/tps/i1/TB1fjpDIXXXXXazXpXXwu0bFXXX.png" width="200" height="150" alt="ÁÁÆ¬ÀÙË¿òùòğïÎ¿ÕÕÖÉÀ" />
 </a>
 <span class="group-title">ÁÁÆ¬ÀÙË¿òùòğïÎ¿ÕÕÖÉÀ</span>
-<div class="cd cd-large cd-slide" data-config="{'leftTime':-39915335,'effect':'slide'}"><span class="clock">${h}:${m}:${s}</span></div>
+<div class="cd cd-large cd-slide" data-config="{'leftTime':-39939508,'effect':'slide'}"><span class="clock">${h}:${m}:${s}</span></div>
 </li>
 <li>
 <a class="group-pic" href="//item.taobao.com/item.htm?id=45016786180" target="_blank">
 <img data-ks-lazyload-custom="//img.alicdn.com/tps/i2/TB1BstyIXXXXXcQXpXXwu0bFXXX.png" width="200" height="150" alt="°×É«ºÉÒ¶ĞäÑ©·ÄÁ¬ÒÂÈ¹" />
 </a>
 <span class="group-title">°×É«ºÉÒ¶ĞäÑ©·ÄÁ¬ÒÂÈ¹</span>
-<div class="cd cd-large cd-slide" data-config="{'leftTime':-39915335,'effect':'slide'}"><span class="clock">${h}:${m}:${s}</span></div>
+<div class="cd cd-large cd-slide" data-config="{'leftTime':-39939508,'effect':'slide'}"><span class="clock">${h}:${m}:${s}</span></div>
 </li>
 </ul>
 <ul class="group-slide-triggers">
