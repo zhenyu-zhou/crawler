@@ -39,7 +39,7 @@
  #page {} 
 </style> </head>
 <body><script>
-with(document)with(body)with(insertBefore(createElement("script"),firstChild))setAttribute("exparams","category=&userid=&aplus&yunid=&&asid=AQAAAABdPbFaqFu5NAAAAADGY0dNHqIC8w==&sidx=hs0pVesWPe8jxTNZ9u3Vtenl6KxtvVXNvWSE1nDRcVmS3+EhO9PaDFa9icq8lVO38i5yY5b6KdafnIYMMcFdP4z81o0XvINauogghDl03YxgghP4W3mbnG4MlQjmsKQ+ZzlqQFUDW8sFXCpBm6u6dz8dboDTigxMiUxBRRhhLUY=",id="tb-beacon-aplus",src=(location>"https"?"//g":"//g")+".alicdn.com/alilog/mlog/aplus_v2.js")
+with(document)with(body)with(insertBefore(createElement("script"),firstChild))setAttribute("exparams","category=&userid=&aplus&yunid=&&asid=AQAAAADxTbFafGO7LgAAAAAQAvN4oGnYkg==&sidx=HyR2+92BsqbJJd7IoG/BVZO1qJ+1JRYHNHFYsAQViFX6Jxi45gQLPt21PnQgWA8hcxIRpeJLdc2Q2gR0eHvhGDkOEcVpb31FIl5HHYNXvrdt8wGFS7qiPzozjVP3UusJoB4Jix2n8aDx/SxAr57clEF1e/AIRABJkAZza9kPX3g=",id="tb-beacon-aplus",src=(location>"https"?"//g":"//g")+".alicdn.com/alilog/mlog/aplus_v2.js")
 </script>
 <div id="J_SiteNav" class="site-nav">
 <div id="J_SiteNavBd" class="site-nav-bd">
@@ -1623,21 +1623,21 @@ div.search-hp-panel button.btn-search-hover,div.search-hp-panel button.btn-searc
 <img src="//img.alicdn.com/tps/i4/TB1yp0zIXXXXXcPXpXXwu0bFXXX.png" width="200" height="150" alt="Ğ¡Ïã·çÃûæÂĞİÏĞ°ëÉíÈ¹" />
 </a>
 <span class="group-title">Ğ¡Ïã·çÃûæÂĞİÏĞ°ëÉíÈ¹</span>
-<div class="cd cd-large cd-slide" data-config="{'leftTime':-88131481,'effect':'slide'}"><span class="clock">${h}:${m}:${s}</span></div>
+<div class="cd cd-large cd-slide" data-config="{'leftTime':-88135725,'effect':'slide'}"><span class="clock">${h}:${m}:${s}</span></div>
 </li>
 <li>
 <a class="group-pic" href="//item.taobao.com/item.htm?id=44132654430" target="_blank">
 <img data-ks-lazyload-custom="//img.alicdn.com/tps/i1/TB1fjpDIXXXXXazXpXXwu0bFXXX.png" width="200" height="150" alt="ÁÁÆ¬ÀÙË¿òùòğïÎ¿ÕÕÖÉÀ" />
 </a>
 <span class="group-title">ÁÁÆ¬ÀÙË¿òùòğïÎ¿ÕÕÖÉÀ</span>
-<div class="cd cd-large cd-slide" data-config="{'leftTime':-88131481,'effect':'slide'}"><span class="clock">${h}:${m}:${s}</span></div>
+<div class="cd cd-large cd-slide" data-config="{'leftTime':-88135725,'effect':'slide'}"><span class="clock">${h}:${m}:${s}</span></div>
 </li>
 <li>
 <a class="group-pic" href="//item.taobao.com/item.htm?id=45016786180" target="_blank">
 <img data-ks-lazyload-custom="//img.alicdn.com/tps/i2/TB1BstyIXXXXXcQXpXXwu0bFXXX.png" width="200" height="150" alt="°×É«ºÉÒ¶ĞäÑ©·ÄÁ¬ÒÂÈ¹" />
 </a>
 <span class="group-title">°×É«ºÉÒ¶ĞäÑ©·ÄÁ¬ÒÂÈ¹</span>
-<div class="cd cd-large cd-slide" data-config="{'leftTime':-88131481,'effect':'slide'}"><span class="clock">${h}:${m}:${s}</span></div>
+<div class="cd cd-large cd-slide" data-config="{'leftTime':-88135725,'effect':'slide'}"><span class="clock">${h}:${m}:${s}</span></div>
 </li>
 </ul>
 <ul class="group-slide-triggers">
