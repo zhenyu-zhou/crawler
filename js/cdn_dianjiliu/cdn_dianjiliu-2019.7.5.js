@@ -8,5 +8,5 @@ function APC_r_err(i,st,t){var data=new Date();var tm=data.getTime()-st.getTime(
 APC_st(i+1,0);else
 {APC_Rpt(APC_r_url);}}
 function APC_Rpt(s){var p=new Image();p.src=s;}
-try{apc_CallBack({"rCount":5,'3474':'http://p1.pstatp.com/list/300x196/1232000ffe467b3a88c7.webp','1895':'https://imgcache.qq.com/zljk/bz.gif','3502':'http://akamai-v2.ping.dnsv1.com/30KB_5163091ba87da4af80917c702a83de37.gif','3619':'https://mmbiz.qpic.cn/mmbiz/dx4Y70y9XcsOic7ECZlicOU4ic2sQKBq29y/0','1757':'http://img6.douban.com/icon/u2640844-41.jpg'});}catch(e){}})();
+try{apc_CallBack({"rCount":5,'1757':'http://img6.douban.com/icon/u2640844-41.jpg','1750':'http://downloadapk.manimal.happyelements.cn/do_not_delete/noc.gif','49751':'http://edgecast.ping.dnsv1.com/cache/30KB_5163091ba87da4af80917c702a83de37.gif','3619':'https://mmbiz.qpic.cn/mmbiz/dx4Y70y9XcsOic7ECZlicOU4ic2sQKBq29y/0','1299':'http://dd.myapp.com/16891/bz.gif'});}catch(e){}})();
 
