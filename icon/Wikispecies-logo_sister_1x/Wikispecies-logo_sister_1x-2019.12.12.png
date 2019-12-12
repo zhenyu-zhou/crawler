@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<title>Browser Connection Security Issues</title>
+<style>
+* { margin: 0; padding: 0; }
+body { background: #fff; font: 15px/1.6 sans-serif; color: #333; }
+.content { margin: 7% auto 0; padding: 2em 1em 1em; max-width: 640px; }
+.footer { clear: both; margin-top: 14%; border-top: 1px solid #e5e5e5; background: #f9f9f9; padding: 2em 0; font-size: 0.8em; text-align: center; }
+img { float: left; margin: 0 2em 2em 0; }
+a img { border: 0; }
+h1 { margin-top: 1em; font-size: 1.2em; }
+.content-text { overflow: hidden; overflow-wrap: break-word; word-wrap: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; -ms-hyphens: auto; hyphens: auto; }
+p { margin: 0.7em 0 1em 0; }
+a { color: #0645ad; text-decoration: none; }
+a:hover { text-decoration: underline; }
+code { font-family: sans-serif; }
+.text-muted { color: #777; }
+</style>
+<div class="content" role="main">
+<a href="https://www.wikimedia.org"><img src="https://www.wikimedia.org/static/images/wmf-logo.png" srcset="https://www.wikimedia.org/static/images/wmf-logo-2x.png 2x" alt="Wikimedia" width="135" height="101">
+</a>
+<h1>Your Browser's Connection Security is Outdated</h1>
+<div class="content-text">
+
+<hr>
+<p lang="en" dir="ltr"><strong>English:</strong> Wikipedia is making the site more secure. You are using an old web browser that will not be able to connect to Wikipedia in the future. Please update your device or contact your IT administrator.</p>
+<p lang="zh" dir="ltr"><strong>中文:</strong> 维基百科正在使网站更加安全。您正在使用旧的浏览器，这在将来无法连接维基百科。请更新您的设备或联络您的IT管理员。以下提供更长，更具技术性的更新（仅英语）。</p>
+<p lang="es" dir="ltr"><strong>Español:</strong> Wikipedia está haciendo el sitio más seguro. Usted está utilizando un navegador web viejo que no será capaz de conectarse a Wikipedia en el futuro. Actualice su dispositivo o contacte a su administrador informático. Más abajo hay una actualización más larga y más técnica en inglés.</p>
+<p lang="ar" dir="rtl"><strong>ﺎﻠﻋﺮﺒﻳﺓ:</strong> ويكيبيديا تسعى لتأمين الموقع أكثر من ذي قبل. أنت تستخدم متصفح وب قديم لن يتمكن من الاتصال بموقع ويكيبيديا في المستقبل. يرجى تحديث جهازك أو الاتصال بغداري تقنية المعلومات الخاص بك. يوجد تحديث فني أطول ومغرق في التقنية باللغة الإنجليزية تاليا.</p>
+<p lang="fr" dir="ltr"><strong>Français:</strong> Wikipédia va bientôt augmenter la sécurité de son site. Vous utilisez actuellement un navigateur web ancien, qui ne pourra plus se connecter à Wikipédia lorsque ce sera fait. Merci de mettre à jour votre appareil ou de contacter votre administrateur informatique à cette fin. Des informations supplémentaires plus techniques et en anglais sont disponibles ci-dessous.</p>
+<p lang="ja" dir="ltr"><strong>日本語:</strong> ウィキペディアではサイトのセキュリティを高めています。ご利用のブラウザはバージョンが古く、今後、ウィキペディアに接続できなくなる可能性があります。デバイスを更新するか、IT管理者にご相談ください。技術面の詳しい更新情報は以下に英語で提供しています。</p>
+<p lang="de" dir="ltr"><strong>Deutsch:</strong> Wikipedia erhöht die Sicherheit der Webseite. Du benutzt einen alten Webbrowser, der in Zukunft nicht mehr auf Wikipedia zugreifen können wird. Bitte aktualisiere dein Gerät oder sprich deinen IT-Administrator an. Ausführlichere (und technisch detailliertere) Hinweise findest Du unten in englischer Sprache.</p>
+<p lang="it" dir="ltr"><strong>Italiano:</strong> Wikipedia sta rendendo il sito più sicuro. Stai usando un browser web che non sarà in grado di connettersi a Wikipedia in futuro. Per favore, aggiorna il tuo dispositivo o contatta il tuo amministratore informatico. Più in basso è disponibile un aggiornamento più dettagliato e tecnico in inglese.</p>
+<p lang="hu" dir="ltr"><strong>Magyar:</strong> Biztonságosabb lesz a Wikipédia. A böngésző, amit használsz, nem lesz képes kapcsolódni a jövőben. Használj modernebb szoftvert vagy jelezd a problémát a rendszergazdádnak. Alább olvashatod a részletesebb magyarázatot (angolul).</p>
+<p lang="sv" dir="ltr"><strong>Svenska:</strong> Wikipedia gör sidan mer säker. Du använder en äldre webbläsare som inte kommer att kunna läsa Wikipedia i framtiden. Uppdatera din enhet eller kontakta din IT-administratör. Det finns en längre och mer teknisk förklaring på engelska längre ned.</p>
+<p lang="hi" dir="ltr"><strong>हिन्दी:</strong> विकिपीडिया साइट को और अधिक सुरक्षित बना रहा है। आप एक पुराने वेब ब्राउज़र का उपयोग कर रहे हैं जो भविष्य में विकिपीडिया से कनेक्ट नहीं हो पाएगा। कृपया अपना डिवाइस अपडेट करें या अपने आईटी व्यवस्थापक से संपर्क करें। नीचे अंग्रेजी में एक लंबा और अधिक तकनीकी अद्यतन है।</p>
+<hr>
+<p>We are removing support for insecure TLS protocol versions, specifically TLSv1.0 and TLSv1.1, which your browser software relies on to connect to our sites. This is usually caused by using some ancient browser or user agents like old Android smartphones. Also it could be interference from corporate or personal "Web Security" software which actually downgrades connection security.</p>
+<p>You must upgrade your browser or otherwise fix this issue to access our sites. This message will remain until Jan 1, 2020. After that date, your browser will not be able to establish a connection to our servers at all.</p>
+<p>See also the <a href="https://wikitech.wikimedia.org/wiki/HTTPS/Browser_Recommendations">HTTPS Browser Recommendations</a> page on Wikitech for more-detailed information.</p>
+
+</div>
+</div>
+</html>
