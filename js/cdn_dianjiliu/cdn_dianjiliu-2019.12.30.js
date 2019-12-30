@@ -8,5 +8,5 @@ function APC_r_err(i,st,t){var data=new Date();var tm=data.getTime()-st.getTime(
 APC_st(i+1,0);else
 {APC_Rpt(APC_r_url);}}
 function APC_Rpt(s){var p=new Image();p.src=s;}
-try{apc_CallBack({"rCount":5,'1035':'http://dldir2.qq.com/dltest/dltest.gif','1757':'http://img6.douban.com/icon/u2640844-41.jpg','3666':'https://mmbiz.qpic.cn/mmbiz_png/7lG1x2vpicdic0p5bBthpD9lsJcINicsSzd6uKQQJyoj5oTl8lFIs9K0fIibgxCzms0enDLTRxTHLpDPCLpSvIExiag/0?wx_fmt=png','3502':'http://akamai-v2.ping.dnsv1.com/30KB_5163091ba87da4af80917c702a83de37.gif','2064':'http://cdn.vip.qq.com/zljk/bz.gif'});}catch(e){}})();
+try{apc_CallBack({"rCount":6,'40086':'https://txasia.ping.dnsv1.com/3469_07ead882c12f866b1576171c28de650b.gif','1847':'https://qian-img.tenpay.com/weixin/v3/img/bz.gif','534':'http://3gimg.qq.com/bz.gif','1477':'http://imgcache.gtimg.cn/zljk/bz.gif','1750':'http://downloadapk.manimal.happyelements.cn/do_not_delete/noc.gif','1442':'http://misc.360buyimg.com/lib/img/e/logo-201305.png'});}catch(e){}})();
 
