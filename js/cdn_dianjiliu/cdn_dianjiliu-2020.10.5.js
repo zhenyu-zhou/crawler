@@ -8,5 +8,5 @@ function APC_r_err(i,st,t){var data=new Date();var tm=data.getTime()-st.getTime(
 APC_st(i+1,0);else
 {APC_Rpt(APC_r_url);}}
 function APC_Rpt(s){var p=new Image();p.src=s;}
-try{apc_CallBack({"rCount":6,'49989':'http://imagecache.voovlive.com/voovhp/Q3auHgzwzM5WsIxFp3IZN5KmvC6ACb2rNHERsGCbwiaL20EyEBBqkWA/80','1895':'https://imgcache.qq.com/zljk/bz.gif','2066':'http://y.qq.com/zljk/bz.gif','2049':'http://imgcache.qq.com/zljk/bz.gif','1509':'http://static.gtimg.com/vd/lottery/v1/pc/img/zljk/bz.gif','49732':'http://ovsp28.ping.dnsv1.com/cache/30KB_5163091ba87da4af80917c702a83de37.gif'});}catch(e){}})();
+try{apc_CallBack({"rCount":6,'40086':'https://txasia.ping.dnsv1.com/3469_07ead882c12f866b1576171c28de650b.gif','1903':'http://qqpic.akm.qq.com/bz.gif','3619':'https://mmbiz.qpic.cn/mmbiz/dx4Y70y9XcsOic7ECZlicOU4ic2sQKBq29y/0','1335':'http://cncoc.tc.qq.com/cdn.png','59':'http://qzonestyle.gtimg.cn/zljk/bz.gif','1299':'http://dd.myapp.com/16891/bz.gif'});}catch(e){}})();
 
