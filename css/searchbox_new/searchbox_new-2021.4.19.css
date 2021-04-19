@@ -1,0 +1,56 @@
+/* demo的样式 */
+#J_Search{
+    position: absolute;
+}
+
+body {
+    font: 12px/1.5 tahoma, arial, "宋体b8b\4f53";
+    padding: 0;
+    margin: 0;
+}
+
+.search {
+    padding: 10px;
+}
+
+a {
+    color: #3e3e3e;
+    font-size: 12px;
+    text-decoration: none;
+}
+a:hover{
+    color: #f60;
+    text-decoration: underline;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* demo样式结束  */
+
+/*
+combined files : 
+
+*/
+
+/* 背景拼图 */
+
+/* 搜本店 坐标 100 76, 100 120 */
+.search-panel button.btn-searchshop,
+.search-panel button.btn-searchshop:hover,
+.search-panel button.btn-searchshop-hover,
+/* 搜索框的背景阴影 坐标 0 40  */
+.search-panel-focused .search-panel-fields input,
+.search-list-panel-focused .search-panel-fields input,
+/* 搜索框的focused背景 坐标 0 0 */
+.search-srp-panel .search-panel-focused .search-panel-fields input,
+/* 搜全站 坐标 260 76,260 120 */
+.search-panel button.btn-searchall,
+.search-panel button.btn-searchall:hover,
+.search-panel button.btn-searchall-h
