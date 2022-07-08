@@ -1,0 +1,24 @@
+/* css overrides for the auth portal sign in page */
+/* this file is uploaded via Content Symphony */
+
+#amazon_checkout_us .ap_table > .ap_row   { padding-top: 6px; vertical-align: auto; }
+#amazon_checkout_us #signin-slot .ap_col1  { width: 220px; float:left; }
+#amazon_checkout_us #ap_signin1a_pagelet #ap_signin1a_pagelet_title {height: auto; margin-bottom: 2px; text-indent:26px;}
+#amazon_checkout_us .ap_table > .ap_section_title { height: 0px; margin-bottom: 0px; padding: 0px;}
+
+#amazon_checkout_us #signin-slot .ap_pagelet { width: 750px; margin-left: auto; margin-right: auto; margin-bottom: 25px; } 
+
+#amazon_checkout_us #ap_signin1a_forgot_password_row { 
+  display:inline-block; 
+  padding-top: 15px !important;  
+}
+
+#amazon_checkout_us #ap_remember_me_checkbox_row { 
+  display:inline-block; 
+  padding-top: 15px !important; 
+  padding-bottom: 14px !important;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+#footer-1 { display: none; }
