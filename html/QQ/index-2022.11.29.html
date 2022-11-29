@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-CN" dir="ltr">
+  <head>
+    <title>腾讯搜索_腾讯网</title>
+    <meta content="资讯,新闻,财经,房产,视频,NBA,科技,腾讯网,腾讯,QQ,Tencent" name="Keywords">
+    <meta name="description"
+        content="腾讯网从2003年创立至今，已经成为集新闻信息，区域垂直生活服务、社会化媒体资讯和产品为一体的互联网媒体平台。腾讯网下设新闻、科技、财经、娱乐、体育、汽车、时尚等多个频道，充分满足用户对不同类型资讯的需求。同时专注不同领域内容，打造精品栏目，并顺应技术发展趋势，推出网络直播等创新形式，改变了用户获取资讯的方式和习惯。" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <link rel="shortcut icon" href="//mat1.gtimg.com/qqcdn/qqindex2021/favicon.ico"><meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <link rel="stylesheet" href="//mat1.gtimg.com/qqcdn/qqindex2021/qqsearch/search2022.css" />
+    <!--[if lte IE 8]><meta http-equiv="refresh" content="0; url=/upgrade.htm"><![endif]-->
+    <link rel="shortcut icon" href="//mat1.gtimg.com/www/icon/favicon2.ico" />
+
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <script src="//mat1.gtimg.com/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="//mat1.gtimg.com/pingjs/ext2020/dc2017/publicjs/m/ping.js" charset="gbk"></script>
+
+    <script>
+      if(typeof(pgvMain) == 'function'){pgvMain();}
+      </script>
+      <script type="text/javascript" src="//imgcache.qq.com/qzone/biz/comm/js/qbs.js"></script>
+      <script type="text/javascript">
+      var TIME_BEFORE_LOAD_CRYSTAL = (new Date).getTime();
+    </script>
+    <script src="//ra.gtimg.com/web/crystal/v4.7Beta05Build050/crystal-min.js" id="l_qq_com" arguments="{'extension_js_src':'//ra.gtimg.com/web/crystal/v4.7Beta05Build050/crystal_ext-min.js', 'jsProfileOpen':'false', 'mo_page_ratio':'0.01', 'mo_ping_ratio':'0.01', 'mo_ping_script':'//ra.gtimg.com/sc/mo_ping-min.js'}"></script>
+    <script type="text/javascript">
+    if(typeof crystal === 'undefined' && Math.random() <= 1) {
+      (function() {
+        var TIME_AFTER_LOAD_CRYSTAL = (new Date).getTime();
+        var img = new Image(1,1);
+        img.src = "//dp3.qq.com/qqcom/?adb=1&dm=new&err=1002&blockjs="+(TIME_AFTER_LOAD_CRYSTAL-TIME_BEFORE_LOAD_CRYSTAL);
+      })();
+    }
+    </script>
+    <style>.absolute{position:absolute;}</style>
+    <!--[if !IE]>|xGv00|bfa6be71716f6329ed6738978b6c1e2d<![endif]-->
+
+    <script>
+      var _mtac = {};
+      (function() {
+          var mta = document.createElement("script");
+          mta.src = "//pingjs.qq.com/h5/stats.js?v2.0.2";
+          mta.setAttribute("name", "MTAH5");
+          mta.setAttribute("sid", "500651042");
+          var s = document.getElementsByTagName("script")[0];
+          s.parentNode.insertBefore(mta, s);
+      })();
+    </script>
+
+    <script>
+      const parameter = {
+          "page": 0, 
+          "is_pc": 1, 
+          "query": '十三邀',
+          "hippy_custom_version": 10,
+          "search_type": 'all',
+          "devid": 'zcFIg5x6',
+          "search_count_limit": 10
+      };
+      
+        $.ajax({
+            url: 'https://r.inews.qq.com/gw/pc_search/result',
+            type: 'POST',
+            contentType: 'application/x-www-form-urlencoded',
+            data: JSON.stringify(parameter),
+            success: (res) => {
+                console.log(res, 7777722277777)
+            },
+            error: (err) => {
+                console.log(err);
+            }
+        })
+
+    </script>
+  </body>
+</html>
