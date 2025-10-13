@@ -1,0 +1,15 @@
+    @charset "UTF-8";
+    a.redir-a-button {
+      margin-left: 35px;
+    }
+    #redir-overlay a.redir-a-button {
+      margin-left: 10px;
+    }
+
+    #redir-overlay a img {
+      border: none;
+    }
+
+    #redir-overlay img {
+      border: none;
+    }
