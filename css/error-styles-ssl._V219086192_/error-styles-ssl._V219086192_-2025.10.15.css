@@ -1,0 +1,72 @@
+/* message container styles */
+.message {
+	margin:10px 0 10px 0;
+	padding:10px;
+	color:black;
+	font-size:12px;
+	border:1px #0071B5 solid;
+	background:#ffffdd;
+}
+.message span {
+	background: url('https://images-na.ssl-images-amazon.com/images/G/01/x-locale/common/errors-alerts/error-sprite.gif') no-repeat 0 0;
+	float:left;
+	width:25px;
+	height:25px;
+	display:block;
+}
+
+.message h6 {
+	font-size:13px;
+	margin:0 0 .25em 35px;
+	padding:0;
+}
+
+.message p {
+	margin:0 0 .25em 35px;
+	padding:0;
+}
+/* mixture of padding + margin here to get FF and IE to positon UL consistently */
+.message ul {padding-left:0; margin-left:10px;}
+.message li {margin-left:35px; list-style-type:disc;}
+.message a { color: #004B91;}
+
+
+
+.success {
+	color:#006633;
+	border:1px solid #447F00;
+}
+.success h6 {color:#006633}
+.success span {background-position: 0 -25px;}
+.success span.mini {background-position: 0px -17px !important;}
+
+
+.warning {border:1px solid #E47911;}
+.warning h6 {}
+.warning span {background-position: 0 -50px;}
+.warning span.mini {background-position: 0px -34px !important;}
+
+
+.error {
+	color:#A31919;
+	border:1px solid #A31919;
+}
+.error h6 {}
+.error span {background-position: 0 -75px}
+.error span.mini {background-position: 0px -51px !important;}
+
+
+.mini {
+	font-size:10px; 
+	padding:7px; 
+	border:1px #DDDAC0 solid;
+}
+.mini h6 {font-size:11px; margin-left:25px;}
+.mini p {margin-left:25px;}
+
+.mini span.mini {
+	background: url('https://images-na.ssl-images-amazon.com/images/G/01/x-locale/common/errors-alerts/error-sprite-mini.gif') no-repeat 0 0;
+	width:3px;
+	height:3px;
+	border:0;
+}
