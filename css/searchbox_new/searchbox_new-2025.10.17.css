@@ -1,0 +1,606 @@
+/* demo的样式 */
+#J_Search{
+    position: absolute;
+}
+
+body {
+    font: 12px/1.5 tahoma, arial, "宋体b8b\4f53";
+    padding: 0;
+    margin: 0;
+}
+
+.search {
+    padding: 10px;
+}
+
+a {
+    color: #3e3e3e;
+    font-size: 12px;
+    text-decoration: none;
+}
+a:hover{
+    color: #f60;
+    text-decoration: underline;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* demo样式结束  */
+
+/*
+combined files : 
+
+*/
+
+/* 背景拼图 */
+
+/* 搜本店 坐标 100 76, 100 120 */
+.search-panel button.btn-searchshop,
+.search-panel button.btn-searchshop:hover,
+.search-panel button.btn-searchshop-hover,
+/* 搜索框的背景阴影 坐标 0 40  */
+.search-panel-focused .search-panel-fields input,
+.search-list-panel-focused .search-panel-fields input,
+/* 搜索框的focused背景 坐标 0 0 */
+.search-srp-panel .search-panel-focused .search-panel-fields input,
+/* 搜全站 坐标 260 76,260 120 */
+.search-panel button.btn-searchall,
+.search-panel button.btn-searchall:hover,
+.search-panel button.btn-searchall-hover,
+/* 搜list 坐标 420 76*/
+.search-panel button.btn-list,
+/* 通用搜索按钮 坐标 180 76,180 120 */
+.search-panel button.btn-search,
+.search-panel button.btn-search:hover,
+.search-panel button.btn-search-hover,
+/* srp按钮 坐标 0 76,0 120 */
+.search-srp-panel button.btn-search,
+.search-srp-panel button.btn-search:hover,
+.search-srp-panel button.btn-search-hover,
+/* 详情页的按钮 坐标 340 76, 340 120 */
+.search-item-panel button.btn-search,
+.search-item-panel button.btn-search:hover,
+.search-item-panel button.btn-search-hover{
+    background-image: url("http://img01.taobaocdn.com/tps/i1/T1HM4.FalcXXbMnNTw-919-175.png");
+    background-repeat: no-repeat;
+}
+
+.search-panel {
+    position: relative;
+    zoom: 1;
+}
+
+.search-panel-fields {
+    height: 33px;
+    position: relative;
+    zoom: 1;
+    background: #e6e6e6;
+    overflow: hidden;
+}
+
+
+.search-panel-fields label {
+    position: absolute;
+    left: 15px;
+    top: 8px;
+    z-index: 1;
+    color: #999;
+    cursor: text;
+}
+
+.search-panel-fields input {
+    font-size: 14px;
+    position: absolute;
+    left: 3px;
+    top: 3px;
+    height: 18px;
+    line-height: 18px;
+    padding: 4px 0;
+    background: #fff;
+    vertical-align: middle;
+    border: 0 none;
+    border-top: 1px solid #f5f5f5;
+}
+.search-panel .search-button{
+    position: relative;
+    z-index: 1;
+    float: right;
+    background: white;
+    _left: -3px;
+}
+.search-panel button{
+    cursor: pointer;
+    border: 0;
+    font-size: 18px;
+    text-indent: -999em;
+    float: left;
+    width: 73px;
+    height: 33px;
+}
+
+.search-status-focus label, .search-status-focus .search-panel-fields s {
+    display: none
+}
+
+.search-combobox {
+    margin-left: 3px;
+    margin-right: 0;
+}
+
+.search-panel-fields .search-combobox input {
+    left: 0;
+    /*padding-right: 3px; */
+}
+
+.search-panel-fields label {
+}
+
+.search-panel-fields input{
+    left: -3px;
+    width: 100%;
+    outline: none;
+    padding-right: 3px;
+    text-indent: 5px;
+    margin-left: 6px;
+}
+.search-combobox-input-wrap{
+    position: relative;
+    overflow: hidden;
+}
+.search-panel-fields .search-combobox-input-wrap input{
+    margin-left: 0;
+}
+/* 搜本店 */
+.search-panel-two-buttons .search-panel-fields{
+    margin-right: 0;
+}
+.search-panel button.btn-searchshop{
+    background-position: -100px -76px;
+    margin-left: 3px;
+}
+.search-panel button.btn-searchshop:hover{
+    background-position: -100px -120px;
+}
+/* list的样式 */
+.search-type{
+    position: relative;
+    float: left;
+    border: 3px solid #e6e6e6;
+    width: 54px;
+    background: white;
+}
+.search-type ul{
+    text-indent: 10px;
+    line-height: 25px;
+    height: 27px;
+    overflow: hidden;
+}
+.search-type ul a{
+    display: block;
+    border-top: 1px solid white;
+    color: #666;
+    margin-bottom: 1px;
+}
+.search-type ul a:hover{
+    color: #f60;
+    text-decoration: underline;
+}
+.search-type ul li.selected a{
+    margin-bottom: 1px;
+    border-top-color: #f5f5f5;
+
+}
+.search-type b{
+    position: absolute;
+    right: 7px;
+    top: 11px;
+    width: 0;
+    height: 0;
+    border-width: 4px 4px;
+    border-style: solid;
+    border-color: #666 transparent transparent;
+    _border-color: #666 #f7f7f7 #f7f7f7 #f7f7f7;
+    font-size: 0;
+    line-height: 0;
+    -webkit-transition: -webkit-transform .2s ease-in;
+    -moz-transition: -moz-transform .2s ease-in 0s;
+    -o-transition: -o-transform .2s ease-in;
+    transition: transform .2s ease-in;
+}
+.search-type .hover b{
+    -moz-transform: rotate(180deg);
+    -moz-transform-origin: 50% 30%;
+    -webkit-transform: rotate(180deg);
+    -webkit-transform-origin: 50% 30%;
+    -o-transform: rotate(180deg);
+    -o-transform-origin: 50% 30%;
+    transform: rotate(180deg);
+    transform-origin: 50% 30%;
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+
+}
+.search-list-panel .search-combobox{
+    margin-left: -3px;
+    margin-right: 0;
+}
+.search-list-panel .search-panel-fields{
+    margin-left: 0;
+    margin-right: 0;
+}
+.search-list-panel .search-panel-fields label{
+    left: 10px;
+}
+.search-list-panel .search-panel-fields label q{
+    display: none;
+}
+
+.search-list-panel-hover .search-type,
+.search-list-panel-focused .search-type{
+    border-color: #e4445c;
+}
+.search-list-panel-hover .search-panel-fields,
+.search-list-panel-focused .search-panel-fields{
+    background: #e4445c;
+}
+.search-panel-hover .search-panel-fields{
+    background: #f50;
+}
+.search-panel-focused .search-panel-fields input{
+
+}
+.search-panel-focused .search-panel-fields input,
+.search-list-panel-focused .search-panel-fields input{
+    border-top: 0;
+    padding-top: 5px;
+    background-position: 0 -40px;
+    background-color: white;
+}
+
+.search-panel button.btn-searchall{
+    background-position: -260px -76px;
+    margin-left: 3px;
+}
+.search-panel button.btn-searchall-hover,
+.search-panel button.btn-searchall:hover{
+    background-position: -260px -120px;
+}
+.search-panel button.btn-list{
+    background-position: -420px -76px;
+}
+/* 通用的专有样式 */
+.search-triggers ul {
+    overflow: hidden;
+    zoom: 1
+}
+
+.search-triggers li {
+    position: relative;
+    zoom: 1;
+    float: left
+}
+
+.search-triggers li a {
+    float: left;
+    height: 23px;
+    line-height: 23px;
+    padding: 0 12px;
+    color: #333;
+}
+
+.search-triggers li a:hover {
+    color: #F60 !important;
+    text-decoration: underline;
+}
+
+.search-triggers li.selected a {
+    background: #ff5700;
+    font-weight: bold;
+    padding: 0 15px;
+    color: #fff;
+    border-radius: 1px 1px 0 0
+}
+
+.search-triggers li.selected a span {
+    color: #fff !important
+}
+
+.search-triggers li.selected a:hover span {
+    color: #fff !important
+}
+
+.search-triggers li.selected a:hover {
+    color: #fff !important;
+    text-decoration: none
+}
+
+.search-triggers .search-fix {
+    display: none
+}
+
+.search-triggers li.selected .search-fix {
+    display: block
+}
+.search-panel button.btn-search{
+    background-position: -180px -76px;
+}
+.search-panel button.btn-search-hover,
+.search-panel button.btn-search:hover{
+    background-position: -180px -120px;
+}
+.search-panel-focused .search-panel-fields,
+.search-common-panel{
+    background: #ff5500;
+}
+/* sns */
+.search-sns-panel-field input{
+    top: 0;
+}
+.search-sns-panel-field .search-combobox{
+    margin-left: 0;
+}
+.search-sns-panel-field{
+    width: 322px;
+    float: right;
+    background: white;
+    height: 27px;
+    margin-top: 4px;
+    margin-right: 4px;
+}
+.search-sns-panel-field .search-panel-fields{
+    margin-right: 0;
+}
+.search-sns-panel-field label{
+    top: 5px;
+}
+.search-sns-panel-field button.btn-search{
+    text-indent: 0;
+    font-size: 12px;
+    color: #666;
+    background: #f5f5f5;
+    height: 27px;
+    width: 72px;
+    border-left: 1px solid #d9d9d9;
+}
+.search-sns-panel-field .search-panel-fields{
+    height: 27px;
+}
+.search-sns-panel-field .search-combobox{
+    margin-left: 0;
+}
+.search-sns-panel-field .search-combobox-input-wrap{
+    height: 27px;
+}
+.search-sns-panel-field .search-combobox-input{
+    top: 0;
+    background: white;
+}
+.search-sns-panel-field button.btn-search:hover{
+    background: #f5f5f5;
+    color: #333;
+}
+/* srp & shopsearch */
+.search-srp-panel-fields{
+    height: 37px;
+    margin-right: 0;
+}
+.search-srp-panel-fields label{
+    top: 10px;
+}
+.search-srp-panel-fields input{
+    height: 22px;
+    line-height: 22px;
+}
+.search-srp-panel-fields .search-combobox-input-wrap{
+    height: 34px;
+}
+.search-srp-panel button.btn-search{
+    width: 93px;
+    height: 37px;
+    background-position: 0 -76px;
+}
+.search-srp-panel button.btn-search-hover,
+.search-srp-panel button.btn-search:hover{
+    background-position: 0 -120px;
+}
+.search-srp-panel .search-panel-focused .search-panel-fields input{
+    background-position: 0 0;
+}
+/* item页面 */
+.search-item-panel button.btn-search{
+    background-position: -340px -76px;
+}
+.search-item-panel button.btn-search:hover{
+    background-position: -340px -120px;
+}
+
+.search-faxian-panel .search-combobox{
+    margin-left: 3px;
+}
+
+ #J_Search{
+            left: 323px;
+            top: 18px;
+            background: white;
+        }
+        .search{
+            padding: 0;
+        }
+        .search-panel{
+            width: 667px;
+        }
+        /*  这里的按钮图片需要合并
+            搜索按钮和hover时的背景图片
+        */
+        .search-panel-focused .search-hp-fields input,
+        div.search-hp-panel button.btn-search,
+        div.search-hp-panel button.btn-search-hover,
+        div.search-hp-panel button.btn-search:hover{
+            background-image: url("http://gtms04.alicdn.com/tps/i4/T1uqayFoleXXacpxYw-919-209.png");
+        }
+        /* 搜索框focus时候的背景图 */
+        .search-panel-focused .search-hp-fields input{
+            background-position: 0 -170px;
+        }
+        /* 搜索按钮的样式 */
+        .search-hp-panel button.btn-search{
+            background-position: -553px -76px;
+            height: 45px;
+            width: 93px;
+        }
+            /* 这里需要根据那个图片调整按钮的背景图片 */
+        div.search-hp-panel button.btn-search-hover,
+        div.search-hp-panel button.btn-search:hover{
+            background-position: -553px -76px;
+        }
+        /* 放大镜的背景图片 */
+        .search-panel .search-common-panel i{
+            background-position: -380px -20px;
+            background-image: url(http://gtms04.alicdn.com/tps/i4/T1OdGtFaxfXXXa78nI-400-200.png);
+            background-repeat: no-repeat;
+        }
+
+        /* 以上是demo的样式 */
+
+
+        .search-hp-fields{
+            height: 45px;
+        }
+        .search-hp-fields label,
+        .search-hp-fields input{
+            margin-left: 76px;
+        }
+
+        .search-hp-fields .search-combobox{
+            margin-left: 79px;
+        }
+        .search-hp-fields .search-combobox input{
+            margin-left: 0;
+            text-indent: 10px;
+        }
+        .search-hp-fields label{
+            top: 13px;
+            left: 25px;
+        }
+        .search-hp-fields .search-combobox-input-wrap{
+            height: 42px;
+        }
+        .search-hp-fields input{
+            padding: 10px 0;
+        }
+        .search-panel-focused .search-hp-fields input{
+            padding: 11px 0 10px;
+        }
+        .search-triggers .ks-switchable-nav{
+            width: 74px;
+            position: absolute;
+            z-index: 9999;
+            left: 3px;
+            top: 3px;
+            height: 39px;
+            border-right: 1px solid #e5e5e5;
+            border-left: 1px solid #f5f5f5;
+        }
+        .triggers-hover .ks-switchable-nav{
+            border-bottom: 1px solid #e5e5e5;
+            border-left: 1px solid #e5e5e5;
+            overflow: visible;
+            height: auto;
+        }
+        .search-triggers li{
+            display: none;
+            width: 100%;
+        }
+        .triggers-hover li{
+            display: block;
+        }
+        .search-triggers li a{
+            height: 100%;
+            width: 100%;
+            padding: 0;
+            text-align: left;
+            text-indent: 15px;
+            line-height: 39px;
+            color: #6b6b6b;
+            background: white;
+            font-weight: normal;
+            font-size: 14px;
+        }
+        .search-triggers{
+            position: relative;
+        }
+        .search-triggers li.selected{
+            display: block;
+        }
+        .search-triggers li.selected a{
+            padding: 0;
+            background: #f5f5f5;
+            border-radius: 0;
+            border: 0 none;
+            color: #6b6b6b;
+            font-weight: normal;
+            font-size: 14px;
+        }
+        .search-triggers li a:hover,
+        .search-triggers li.selected a:hover{
+            color: #6b6b6b !important;
+        }
+        /* 箭头的样式 start */
+        .search-triggers s{
+            line-height: 0;
+            border-width: 4px;
+            border-color: #666 transparent transparent;
+            border-style: solid;
+            height: 0;
+            position: absolute;
+            top: 19px;
+            font-size: 0;
+            left: 60px;
+            z-index: 10;
+        }
+        .search-triggers s s{
+            border-width: 3px;
+            border-color: #f6f6f6 transparent transparent;
+            top: -4px;
+            left: -3px;
+            position: absolute;
+        }
+        /* 箭头的样式 end */
+
+        /* 放大镜的样式 */
+        .search-panel .search-common-panel i {
+            z-index: 2;
+            position: absolute;
+            top: 17px;
+            left: 86px;
+            width: 12px;
+            height: 12px;
+            /* 由于首页的焦点默认在搜索框上,所以放大镜一开始不显示 */
+            display: none;
+        }
+		
+		
+		
+	.search-hots {
+        clear: both;
+        font: 12px/1.5 arial;
+        padding: 10px 5px 5px;
+        color: #3e3e3e;
+        + padding-top : 5 px;
+    }
+
+    .search-hots a {
+        color: #3e3e3e;
+        margin-right: 6px;
+    }
+
+    .search-hots .more {
+        margin-left: 6px;
+        _padding-top: 2px;
+    }
